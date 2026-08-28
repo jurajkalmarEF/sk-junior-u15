@@ -1,15 +1,33 @@
 /**
  * Scraper pre appku ŠK Junior Ivanka pri Nitre — U15.
  *
- * DÔLEŽITÉ: Selektory nižšie sú najlepší odhad, nie overené proti živému
- * renderovanému DOM-u (Sportnet dáta dorenderuje cez JS, ja som ho v sandboxe
- * nevidel spustený v prehliadači). Pri prvom behu skript zapíše do
- * data/debug/*.txt surový extrahovaný text z každej stránky — ak scraper
- * nenájde hráčov/zápasy, pozri sa tam a uprav selektory podľa toho, čo tam
- * reálne je.
+ * Sportnet stránky renderujú súpisku aj výsledky ako čistý, predvídateľný
+ * text (žiadne užitočné CSS triedy), takže namiesto krehkých selektorov
+ * parsujeme document.body.innerText podľa známych vzorov:
  *
- * Beží cez Playwright (headless Chromium) — vidí presne to, čo bežný
- * návštevník v prehliadači, vrátane JS-dorenderovaného obsahu.
+ * SÚPISKA (.../hraci/):
+ *   Hráči
+ *   Brankári
+ *   Jakub Kalmár
+ *   Obrancovia
+ *   Miroslav Bakša
+ *   ...
+ *   Organizačný tím
+ *   Tréner
+ *   Jakub Blaži
+ *   ...
+ *   Správy z Futbalnetu   <- koniec užitočného obsahu
+ *
+ * VÝSLEDKY (.../vysledky/):
+ *   <súťaž a skupina> - N. kolo
+ *   DD.MM. HH:MM
+ *   Koniec
+ *   Domáci tím
+ *   Hosťujúci tím
+ *   <skóre domáci>
+ *   <skóre hostia>
+ *   ... (opakuje sa)
+ *   Správy z Futbalnetu   <- koniec užitočného obsahu
  */
 const { chromium } = require('playwright');
 const fs = require('fs');
@@ -36,6 +54,18 @@ const TEAMS = [
 const BASE = (slug) => `https://sportnet.sme.sk/futbalnet/k/${slug}/tim/u15-m-a`;
 const OUT_DIR = path.join(__dirname, '..', 'data');
 const DEBUG_DIR = path.join(OUT_DIR, 'debug');
+const STOP_MARKER = 'Správy z Futbalnetu';
+
+const POSITION_HEADINGS = {
+  'Brankári': 'Brankár',
+  'Obrancovia': 'Obranca',
+  'Záložníci': 'Záložník',
+  'Útočníci': 'Útočník'
+};
+
+const NAME_RE = /^\p{Lu}\p{Ll}+(\s\p{Lu}\p{Ll}+)+$/u;
+const ROUND_RE = /(\d+)\.\s*kolo\s*$/;
+const DATETIME_RE = /^(\d{2}\.\d{2})\.\s*(\d{2}:\d{2})$/;
 
 function ensureDirs() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
@@ -46,117 +76,131 @@ function writeDebug(name, text) {
   fs.writeFileSync(path.join(DEBUG_DIR, name), text || '', 'utf8');
 }
 
-// Try a list of selector strategies in order; return the first that yields rows.
-async function firstMatchingRows(page, strategies) {
-  for (const strat of strategies) {
-    try {
-      const rows = await page.$$eval(strat.selector, (els, extractorSrc) => {
-        // eslint-disable-next-line no-eval
-        const extractor = eval(extractorSrc);
-        return els.map(extractor).filter(Boolean);
-      }, strat.extractorSrc);
-      if (rows && rows.length > 0) {
-        return { rows, usedSelector: strat.selector };
+function usefulLines(fullText) {
+  const cut = fullText.indexOf(STOP_MARKER);
+  const trimmed = cut >= 0 ? fullText.slice(0, cut) : fullText;
+  return trimmed.split('\n').map((l) => l.trim()).filter((l) => l.length > 0);
+}
+
+function parseSquad(lines) {
+  const startIdx = lines.indexOf('Hráči');
+  if (startIdx === -1) return { squad: [], staff: [] };
+
+  const squad = [];
+  const staff = [];
+  let currentPos = null;
+  let inStaff = false;
+  let pendingRole = null;
+
+  for (let i = startIdx + 1; i < lines.length; i++) {
+    const line = lines[i];
+
+    if (line === 'Organizačný tím') {
+      inStaff = true;
+      currentPos = null;
+      continue;
+    }
+
+    if (!inStaff) {
+      if (POSITION_HEADINGS[line]) {
+        currentPos = POSITION_HEADINGS[line];
+        continue;
       }
-    } catch (e) {
-      // selector not present on this page — try next strategy
+      if (currentPos && NAME_RE.test(line)) {
+        squad.push({ name: line, position: currentPos });
+      }
+    } else {
+      // alternating role-label / person-name lines
+      if (!pendingRole) {
+        pendingRole = line;
+      } else {
+        staff.push({ role: pendingRole, name: line });
+        pendingRole = null;
+      }
     }
   }
-  return { rows: [], usedSelector: null };
+
+  return { squad, staff };
 }
 
-async function scrapeSquad(page, team) {
-  const url = `${BASE(team.slug)}/hraci/`;
-  await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 }).catch(() => {});
-  await page.waitForTimeout(1500); // let client-side hydration settle
+function parseResults(lines) {
+  const results = [];
+  for (let i = 0; i < lines.length; i++) {
+    const roundMatch = lines[i].match(ROUND_RE);
+    if (!roundMatch) continue;
 
-  const strategies = [
-    // Strategy 1: table rows with jersey number + name cells
-    {
-      selector: 'table tr',
-      extractorSrc: `(el) => {
-        const cells = Array.from(el.querySelectorAll('td')).map(td => td.textContent.trim());
-        if (cells.length < 2) return null;
-        const numberLike = cells.find(c => /^\\d{1,2}$/.test(c));
-        const nameLike = cells.find(c => /[A-Za-zÀ-ž]{2,}\\s+[A-Za-zÀ-ž]{2,}/.test(c));
-        if (!nameLike) return null;
-        return { number: numberLike || null, name: nameLike };
-      }`
-    },
-    // Strategy 2: card/list items with a name-like class
-    {
-      selector: '[class*="player"], [class*="hrac"]',
-      extractorSrc: `(el) => {
-        const text = el.textContent.trim().replace(/\\s+/g, ' ');
-        if (!/[A-Za-zÀ-ž]{2,}\\s+[A-Za-zÀ-ž]{2,}/.test(text)) return null;
-        if (text.length > 80) return null;
-        return { number: null, name: text };
-      }`
-    }
-  ];
+    const dt = lines[i + 1] ? lines[i + 1].match(DATETIME_RE) : null;
+    if (!dt) continue; // false positive, keep scanning
 
-  const { rows, usedSelector } = await firstMatchingRows(page, strategies);
-  const bodyText = await page.evaluate(() => document.body.innerText).catch(() => '');
-  writeDebug(`${team.slug}-hraci.txt`, `URL: ${url}\nUsed selector: ${usedSelector}\nRows found: ${rows.length}\n\n--- RAW PAGE TEXT (first 4000 chars) ---\n${bodyText.slice(0, 4000)}`);
+    const status = lines[i + 2] || '';
+    const home = lines[i + 3] || '';
+    const away = lines[i + 4] || '';
+    const scoreHomeRaw = lines[i + 5] || '';
+    const scoreAwayRaw = lines[i + 6] || '';
+    const scoreHome = /^\d+$/.test(scoreHomeRaw) ? parseInt(scoreHomeRaw, 10) : null;
+    const scoreAway = /^\d+$/.test(scoreAwayRaw) ? parseInt(scoreAwayRaw, 10) : null;
 
-  return rows;
+    results.push({
+      round: roundMatch[1] + '. kolo',
+      competition: lines[i],
+      date: dt[1],
+      time: dt[2],
+      status,
+      home,
+      away,
+      scoreHome,
+      scoreAway
+    });
+
+    i += 6; // skip the consumed lines
+  }
+  return results;
 }
 
-async function scrapeResults(page, team) {
-  const url = `${BASE(team.slug)}/vysledky/`;
+async function getBodyText(page, url) {
   await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 }).catch(() => {});
-  await page.waitForTimeout(1500);
+  await page.waitForTimeout(1200); // nech sa dorenderuje klientský obsah
+  return page.evaluate(() => document.body.innerText).catch(() => '');
+}
 
-  const strategies = [
-    {
-      selector: '[class*="match"], [class*="zapas"], [class*="result"]',
-      extractorSrc: `(el) => {
-        const text = el.textContent.trim().replace(/\\s+/g, ' ');
-        if (!/\\d+\\s*[:\\-]\\s*\\d+/.test(text)) return null;
-        if (text.length > 200) return null;
-        return { raw: text };
-      }`
-    },
-    {
-      selector: 'table tr',
-      extractorSrc: `(el) => {
-        const text = el.textContent.trim().replace(/\\s+/g, ' ');
-        if (!/\\d+\\s*[:\\-]\\s*\\d+/.test(text)) return null;
-        return { raw: text };
-      }`
-    }
-  ];
+async function scrapeTeam(page, team) {
+  const squadUrl = `${BASE(team.slug)}/hraci/`;
+  const squadText = await getBodyText(page, squadUrl);
+  writeDebug(`${team.slug}-hraci.txt`, `URL: ${squadUrl}\n\n${squadText}`);
+  const { squad, staff } = parseSquad(usefulLines(squadText));
 
-  const { rows, usedSelector } = await firstMatchingRows(page, strategies);
-  const bodyText = await page.evaluate(() => document.body.innerText).catch(() => '');
-  writeDebug(`${team.slug}-vysledky.txt`, `URL: ${url}\nUsed selector: ${usedSelector}\nRows found: ${rows.length}\n\n--- RAW PAGE TEXT (first 4000 chars) ---\n${bodyText.slice(0, 4000)}`);
+  const resultsUrl = `${BASE(team.slug)}/vysledky/`;
+  const resultsText = await getBodyText(page, resultsUrl);
+  writeDebug(`${team.slug}-vysledky.txt`, `URL: ${resultsUrl}\n\n${resultsText}`);
+  const results = parseResults(usefulLines(resultsText));
 
-  return rows;
+  return { squad, staff, results };
 }
 
 async function main() {
   ensureDirs();
   const browser = await chromium.launch();
-  const page = await browser.newPage({ userAgent: 'Mozilla/5.0 (compatible; IvankaU15Bot/1.0; +informational, non-commercial fan app)' });
+  const page = await browser.newPage({
+    userAgent: 'Mozilla/5.0 (compatible; IvankaU15Bot/1.0; +informational, non-commercial fan app)'
+  });
 
   const output = { generatedAt: new Date().toISOString(), teams: {} };
 
   for (const team of TEAMS) {
     console.log(`Scraping ${team.name} (${team.slug})...`);
     let squad = [];
+    let staff = [];
     let results = [];
     try {
-      squad = await scrapeSquad(page, team);
+      const data = await scrapeTeam(page, team);
+      squad = data.squad;
+      staff = data.staff;
+      results = data.results;
     } catch (e) {
-      console.error(`  squad failed for ${team.slug}:`, e.message);
+      console.error(`  failed for ${team.slug}:`, e.message);
     }
-    try {
-      results = await scrapeResults(page, team);
-    } catch (e) {
-      console.error(`  results failed for ${team.slug}:`, e.message);
-    }
-    console.log(`  -> ${squad.length} hráčov, ${results.length} zápasov`);
-    output.teams[team.slug] = { name: team.name, squad, results };
+    console.log(`  -> ${squad.length} hráčov, ${staff.length} členov tímu, ${results.length} zápasov`);
+    output.teams[team.slug] = { name: team.name, squad, staff, results };
     await page.waitForTimeout(800); // buď slušný, neposielaj requesty na trhačku
   }
 
