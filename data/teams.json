@@ -1,14 +1,80 @@
 {
-  "generatedAt": null,
+  "generatedAt": "2026-08-28T12:27:05.823Z",
   "teams": {
     "sk-junior-ivanka-pri-nitre": {
       "name": "ŠK Junior Ivanka pri Nitre",
       "squad": [],
-      "results": [
-        { "raw": "1. kolo 08.08. ŠK Junior Ivanka pri Nitre 6:3 TJ Dynamo Nová Stráž" },
-        { "raw": "2. kolo 15.08. Malodvornícky FK Malé Dvorníky 0:1 ŠK Junior Ivanka pri Nitre" },
-        { "raw": "3. kolo 22.08. ŠK Junior Ivanka pri Nitre 3:0 FC Slovan Hlohovec" }
-      ]
+      "results": []
+    },
+    "fk-kolarovo": {
+      "name": "FK Kolárovo",
+      "squad": [],
+      "results": []
+    },
+    "ssc-fenix-nove-zamky": {
+      "name": "SSC FÉNIX Nové Zámky",
+      "squad": [],
+      "results": []
+    },
+    "futbalovy-klub-slovan-sahy": {
+      "name": "Futbalový klub Slovan Šahy",
+      "squad": [],
+      "results": []
+    },
+    "sk-surany": {
+      "name": "ŠK Šurany",
+      "squad": [],
+      "results": []
+    },
+    "futbalovy-klub-holice": {
+      "name": "Futbalový klub Holice",
+      "squad": [],
+      "results": []
+    },
+    "fc-slovan-galanta": {
+      "name": "FC Slovan Galanta",
+      "squad": [],
+      "results": []
+    },
+    "fc-slovan-hlohovec": {
+      "name": "FC Slovan Hlohovec",
+      "squad": [],
+      "results": []
+    },
+    "fk-veca": {
+      "name": "FK Veča",
+      "squad": [],
+      "results": []
+    },
+    "candp-stars-academy-zm": {
+      "name": "C&P Stars Academy - ZM",
+      "squad": [],
+      "results": []
+    },
+    "mso-sturovo": {
+      "name": "MŠO Štúrovo",
+      "squad": [],
+      "results": []
+    },
+    "fk-slovan-duslo-sala": {
+      "name": "FK Slovan Duslo Šaľa",
+      "squad": [],
+      "results": []
+    },
+    "malodvornicky-fk-male-dvorniky": {
+      "name": "Malodvornícky FK Malé Dvorníky",
+      "squad": [],
+      "results": []
+    },
+    "tj-dynamo-nova-straz": {
+      "name": "TJ Dynamo Nová Stráž",
+      "squad": [],
+      "results": []
+    },
+    "msk-zeliezovce": {
+      "name": "MŠK Želiezovce",
+      "squad": [],
+      "results": []
     }
   }
 }
