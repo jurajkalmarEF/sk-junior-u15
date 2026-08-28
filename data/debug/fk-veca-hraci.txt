@@ -1,8 +1,5 @@
 URL: https://sportnet.sme.sk/futbalnet/k/fk-veca/tim/u15-m-a/hraci/
-Used selector: null
-Rows found: 0
 
---- RAW PAGE TEXT (first 4000 chars) ---
 Predplatiť
 Prihlásenie
 FUTBAL
@@ -233,4 +230,16 @@ Pokračovať s nevyhnutnými cookies →
 Cookies a obdobné nástroje
 
 Aby ste mali rovnaký zážitok z čítania nášho webu ako doteraz, podľa zákona potrebujeme váš súhlas na:
-Personalizovaná reklama a obsah, meranie reklamy a obs
+Personalizovaná reklama a obsah, meranie reklamy a obsahu, prieskum cieľových skupín a vývoj služieb
+Uchovávanie alebo prístup k informáciám na zariadení
+Ďalšie informácie
+
+Osobné údaje ako súbory cookie, jedinečné identifikátory a ďalšie údaje zariadenia budú spracúvané v prípade, ak sú nevyhnutné pre fungovanie našej stránky, alebo ak ste nám na ich spracúvanie udelili súhlas.
+
+Kliknutím na PRIJAŤ VŠETKO akceptujete spracúvanie údajov na vyššie uvedené účely a vyjadrujete súhlas s používaním údajov, ktoré možno spracúvať len s vaším súhlasom (kedykoľvek odvolateľným). Kliknutím na NASTAVENIA môžete zmeniť preferencie spracúvania údajov. Po kliknutí na Pokračovať s nevyhnutnými cookies budeme spracúvať iba cookies nevyhnutné pre fungovanie stránky.
+
+Váš výber budeme rešpektovať. Svoje rozhodnutie môžete kedykoľvek zmeniť v dolnej časti tejto stránky alebo v našich pravidláchlaunch  alebo v pravidlách používania cookieslaunch.
+
+Súhlasím
+
+Nastavenia

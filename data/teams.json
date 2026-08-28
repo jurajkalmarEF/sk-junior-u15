@@ -1,80 +1,1641 @@
 {
-  "generatedAt": "2026-08-28T12:27:05.823Z",
+  "generatedAt": "2026-08-28T12:45:33.510Z",
   "teams": {
     "sk-junior-ivanka-pri-nitre": {
       "name": "ŠK Junior Ivanka pri Nitre",
-      "squad": [],
-      "results": []
+      "squad": [
+        {
+          "name": "Jakub Kalmár",
+          "position": "Brankár"
+        },
+        {
+          "name": "Miroslav Bakša",
+          "position": "Obranca"
+        },
+        {
+          "name": "Michal Hladký",
+          "position": "Obranca"
+        },
+        {
+          "name": "Maroš Buchala",
+          "position": "Obranca"
+        },
+        {
+          "name": "Matúš Nagy",
+          "position": "Obranca"
+        },
+        {
+          "name": "Marko Ježík",
+          "position": "Obranca"
+        },
+        {
+          "name": "Alexej Molnár",
+          "position": "Obranca"
+        },
+        {
+          "name": "Lukáš Raučina",
+          "position": "Záložník"
+        },
+        {
+          "name": "Erik Viskup",
+          "position": "Záložník"
+        },
+        {
+          "name": "Matúš Lacina",
+          "position": "Záložník"
+        },
+        {
+          "name": "Juraj Bašťovanský",
+          "position": "Záložník"
+        },
+        {
+          "name": "Vadim Pasichnik",
+          "position": "Záložník"
+        },
+        {
+          "name": "Tomáš Raučina",
+          "position": "Útočník"
+        },
+        {
+          "name": "Tomáš Gabaš",
+          "position": "Útočník"
+        },
+        {
+          "name": "Tobias Mokráš",
+          "position": "Útočník"
+        },
+        {
+          "name": "Milan Deglovič",
+          "position": "Útočník"
+        },
+        {
+          "name": "Leon Stepurko",
+          "position": "Útočník"
+        },
+        {
+          "name": "Matej Morvai",
+          "position": "Útočník"
+        }
+      ],
+      "staff": [
+        {
+          "role": "Tréner",
+          "name": "Jakub Blaži"
+        },
+        {
+          "role": "Technický vedúci",
+          "name": "Robert Machálik"
+        },
+        {
+          "role": "Fyzioterapeut",
+          "name": "Pavol Blaži"
+        }
+      ],
+      "results": [
+        {
+          "round": "3. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo",
+          "date": "22.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "ŠK Junior Ivanka pri Nitre",
+          "away": "FC Slovan Hlohovec",
+          "scoreHome": 3,
+          "scoreAway": 0
+        },
+        {
+          "round": "2. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo",
+          "date": "15.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "Malodvornícky FK Malé Dvorníky",
+          "away": "ŠK Junior Ivanka pri Nitre",
+          "scoreHome": 0,
+          "scoreAway": 1
+        },
+        {
+          "round": "1. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 1. kolo",
+          "date": "08.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "ŠK Junior Ivanka pri Nitre",
+          "away": "TJ Dynamo Nová Stráž",
+          "scoreHome": 6,
+          "scoreAway": 3
+        }
+      ]
     },
     "fk-kolarovo": {
       "name": "FK Kolárovo",
-      "squad": [],
-      "results": []
+      "squad": [
+        {
+          "name": "Imrich Vajlik",
+          "position": "Brankár"
+        },
+        {
+          "name": "Gabriel Ollé",
+          "position": "Brankár"
+        },
+        {
+          "name": "Miklós Molnár",
+          "position": "Obranca"
+        },
+        {
+          "name": "Áron Bagita",
+          "position": "Obranca"
+        },
+        {
+          "name": "Damian Jordanov",
+          "position": "Obranca"
+        },
+        {
+          "name": "Hunor Samu",
+          "position": "Obranca"
+        },
+        {
+          "name": "Adrián Seregül",
+          "position": "Obranca"
+        },
+        {
+          "name": "Áron Richard Kiss",
+          "position": "Záložník"
+        },
+        {
+          "name": "Dávid Jancsó",
+          "position": "Záložník"
+        },
+        {
+          "name": "András Kovács",
+          "position": "Záložník"
+        },
+        {
+          "name": "Áron Illés",
+          "position": "Záložník"
+        },
+        {
+          "name": "Štefan Döme",
+          "position": "Útočník"
+        },
+        {
+          "name": "Rudolf Leczko",
+          "position": "Útočník"
+        },
+        {
+          "name": "Brandon Rafael",
+          "position": "Útočník"
+        },
+        {
+          "name": "Dominik Kliment",
+          "position": "Útočník"
+        }
+      ],
+      "staff": [
+        {
+          "role": "Tréner",
+          "name": "Zsolt Máté"
+        },
+        {
+          "role": "Asistent trénera",
+          "name": "Benjamín Nagy"
+        },
+        {
+          "role": "Technický vedúci",
+          "name": "Zsolt Hrotko"
+        },
+        {
+          "role": "Masér",
+          "name": "Tomáš Ollé"
+        }
+      ],
+      "results": [
+        {
+          "round": "3. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo",
+          "date": "22.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "FK Kolárovo",
+          "away": "MŠK Želiezovce",
+          "scoreHome": 8,
+          "scoreAway": 0
+        },
+        {
+          "round": "2. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo",
+          "date": "16.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "FK Kolárovo",
+          "away": "C&P Stars Academy - ZM",
+          "scoreHome": 4,
+          "scoreAway": 0
+        }
+      ]
     },
     "ssc-fenix-nove-zamky": {
       "name": "SSC FÉNIX Nové Zámky",
-      "squad": [],
-      "results": []
+      "squad": [
+        {
+          "name": "Patrik Borovica",
+          "position": "Brankár"
+        },
+        {
+          "name": "Jakub Malík",
+          "position": "Obranca"
+        },
+        {
+          "name": "Jakub Samuhel",
+          "position": "Obranca"
+        },
+        {
+          "name": "Lukáš Duša",
+          "position": "Obranca"
+        },
+        {
+          "name": "Jakub Ruženský",
+          "position": "Záložník"
+        },
+        {
+          "name": "Lukáš Letko",
+          "position": "Záložník"
+        },
+        {
+          "name": "Hugo Kollár",
+          "position": "Záložník"
+        },
+        {
+          "name": "Tomáš Oliver Mészáros",
+          "position": "Záložník"
+        },
+        {
+          "name": "Jakub Rybár",
+          "position": "Záložník"
+        },
+        {
+          "name": "Michal Kaszáš",
+          "position": "Útočník"
+        },
+        {
+          "name": "Martin Veselka",
+          "position": "Útočník"
+        }
+      ],
+      "staff": [
+        {
+          "role": "Tréner",
+          "name": "Tomáš Árpáš"
+        },
+        {
+          "role": "Technický vedúci",
+          "name": "Branislav Ruženský"
+        },
+        {
+          "role": "Lekár",
+          "name": "Klaudia Samuhelová"
+        }
+      ],
+      "results": [
+        {
+          "round": "2. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo",
+          "date": "27.08",
+          "time": "15:00",
+          "status": "Koniec",
+          "home": "TJ Dynamo Nová Stráž",
+          "away": "SSC FÉNIX Nové Zámky",
+          "scoreHome": 1,
+          "scoreAway": 7
+        },
+        {
+          "round": "3. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo",
+          "date": "23.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "SSC FÉNIX Nové Zámky",
+          "away": "Malodvornícky FK Malé Dvorníky",
+          "scoreHome": 3,
+          "scoreAway": 0
+        }
+      ]
     },
     "futbalovy-klub-slovan-sahy": {
       "name": "Futbalový klub Slovan Šahy",
-      "squad": [],
-      "results": []
+      "squad": [
+        {
+          "name": "Márk Antalic",
+          "position": "Brankár"
+        },
+        {
+          "name": "Markus Maczkó",
+          "position": "Obranca"
+        },
+        {
+          "name": "Samuel Maslík",
+          "position": "Obranca"
+        },
+        {
+          "name": "Filip Maczkó",
+          "position": "Obranca"
+        },
+        {
+          "name": "Markus Kaločao",
+          "position": "Záložník"
+        },
+        {
+          "name": "Alex Nemčok",
+          "position": "Záložník"
+        },
+        {
+          "name": "Ronald Galo",
+          "position": "Záložník"
+        },
+        {
+          "name": "Máté Velebný",
+          "position": "Záložník"
+        },
+        {
+          "name": "Ronald Zobek",
+          "position": "Záložník"
+        },
+        {
+          "name": "Tomáš Elek",
+          "position": "Záložník"
+        },
+        {
+          "name": "Alex Kováčik",
+          "position": "Záložník"
+        },
+        {
+          "name": "Noé Csáky",
+          "position": "Útočník"
+        },
+        {
+          "name": "Oliver Melišek",
+          "position": "Útočník"
+        },
+        {
+          "name": "Adrián Ozank",
+          "position": "Útočník"
+        },
+        {
+          "name": "Peter Klukon",
+          "position": "Útočník"
+        },
+        {
+          "name": "Sebastián Velebný",
+          "position": "Útočník"
+        }
+      ],
+      "staff": [
+        {
+          "role": "Tréner",
+          "name": "Norbert Urblík"
+        },
+        {
+          "role": "Technický vedúci",
+          "name": "Jozef Varga"
+        },
+        {
+          "role": "Lekár",
+          "name": "Alexander Kapa"
+        }
+      ],
+      "results": [
+        {
+          "round": "3. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo",
+          "date": "23.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "FC Slovan Galanta",
+          "away": "Futbalový klub Slovan Šahy",
+          "scoreHome": 4,
+          "scoreAway": 2
+        },
+        {
+          "round": "2. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo",
+          "date": "15.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "Futbalový klub Slovan Šahy",
+          "away": "MŠK Želiezovce",
+          "scoreHome": 1,
+          "scoreAway": 0
+        },
+        {
+          "round": "1. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 1. kolo",
+          "date": "08.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "C&P Stars Academy - ZM",
+          "away": "Futbalový klub Slovan Šahy",
+          "scoreHome": 0,
+          "scoreAway": 2
+        }
+      ]
     },
     "sk-surany": {
       "name": "ŠK Šurany",
-      "squad": [],
-      "results": []
+      "squad": [
+        {
+          "name": "Erik Bezdeda",
+          "position": "Brankár"
+        },
+        {
+          "name": "Jaroslav Jašík",
+          "position": "Brankár"
+        },
+        {
+          "name": "Marek Košík",
+          "position": "Obranca"
+        },
+        {
+          "name": "Nikolas Čongrády",
+          "position": "Obranca"
+        },
+        {
+          "name": "Matej Švajda",
+          "position": "Obranca"
+        },
+        {
+          "name": "Damian Hajtinger",
+          "position": "Obranca"
+        },
+        {
+          "name": "Sebastián Jahnátek",
+          "position": "Obranca"
+        },
+        {
+          "name": "Dominik Mechura",
+          "position": "Záložník"
+        },
+        {
+          "name": "Teo Trungel",
+          "position": "Záložník"
+        },
+        {
+          "name": "Dušan Pisár",
+          "position": "Záložník"
+        },
+        {
+          "name": "Fabián Farkaš",
+          "position": "Záložník"
+        },
+        {
+          "name": "Juraj Hozlár",
+          "position": "Záložník"
+        },
+        {
+          "name": "Samuel Špacír",
+          "position": "Záložník"
+        },
+        {
+          "name": "Jakub Lariš",
+          "position": "Záložník"
+        },
+        {
+          "name": "Peter Hyka",
+          "position": "Záložník"
+        },
+        {
+          "name": "Róbert Fűri",
+          "position": "Útočník"
+        },
+        {
+          "name": "Kristián Hatala",
+          "position": "Útočník"
+        },
+        {
+          "name": "Matej Sochovič",
+          "position": "Útočník"
+        }
+      ],
+      "staff": [
+        {
+          "role": "Tréner",
+          "name": "Richard Kostolný"
+        },
+        {
+          "role": "Technický vedúci",
+          "name": "Jakub Kostolný"
+        },
+        {
+          "role": "Lekár",
+          "name": "Jozef Mechura"
+        }
+      ],
+      "results": [
+        {
+          "round": "3. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo",
+          "date": "22.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "Futbalový klub Holice",
+          "away": "ŠK Šurany",
+          "scoreHome": 6,
+          "scoreAway": 0
+        },
+        {
+          "round": "1. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 1. kolo",
+          "date": "20.08",
+          "time": "14:30",
+          "status": "Koniec",
+          "home": "MŠK Želiezovce",
+          "away": "ŠK Šurany",
+          "scoreHome": 0,
+          "scoreAway": 2
+        },
+        {
+          "round": "2. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo",
+          "date": "16.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "ŠK Šurany",
+          "away": "FC Slovan Galanta",
+          "scoreHome": 3,
+          "scoreAway": 1
+        }
+      ]
     },
     "futbalovy-klub-holice": {
       "name": "Futbalový klub Holice",
-      "squad": [],
-      "results": []
+      "squad": [
+        {
+          "name": "Dániel Hodosi",
+          "position": "Brankár"
+        },
+        {
+          "name": "Brandon Jakóczi",
+          "position": "Brankár"
+        },
+        {
+          "name": "Nimród Magyarics",
+          "position": "Brankár"
+        },
+        {
+          "name": "Zalán Bíró",
+          "position": "Obranca"
+        },
+        {
+          "name": "Benedek Pecsuk",
+          "position": "Obranca"
+        },
+        {
+          "name": "Ádám Szabó",
+          "position": "Obranca"
+        },
+        {
+          "name": "Tamás Kováč",
+          "position": "Obranca"
+        },
+        {
+          "name": "Viktor Koszorús",
+          "position": "Obranca"
+        },
+        {
+          "name": "Félix Szűcs",
+          "position": "Záložník"
+        },
+        {
+          "name": "Arnold Dániel",
+          "position": "Záložník"
+        },
+        {
+          "name": "Oliver Sido",
+          "position": "Záložník"
+        },
+        {
+          "name": "Ondrej Nagy",
+          "position": "Záložník"
+        },
+        {
+          "name": "Tamás Horváth",
+          "position": "Záložník"
+        },
+        {
+          "name": "Oliver Bíró",
+          "position": "Záložník"
+        },
+        {
+          "name": "Márk Levente Németh",
+          "position": "Záložník"
+        },
+        {
+          "name": "Leo Koreň",
+          "position": "Záložník"
+        },
+        {
+          "name": "Dominik Katona",
+          "position": "Záložník"
+        },
+        {
+          "name": "Marián Mészáros",
+          "position": "Záložník"
+        },
+        {
+          "name": "Kristóf Igari",
+          "position": "Útočník"
+        },
+        {
+          "name": "Alex Varga",
+          "position": "Útočník"
+        },
+        {
+          "name": "Filip Bíró",
+          "position": "Útočník"
+        }
+      ],
+      "staff": [
+        {
+          "role": "Tréner",
+          "name": "Michal Póda"
+        },
+        {
+          "role": "Technický vedúci",
+          "name": "Marian Lampert"
+        },
+        {
+          "role": "Fyzioterapeut",
+          "name": "Ábel Cséfalvay"
+        }
+      ],
+      "results": [
+        {
+          "round": "3. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo",
+          "date": "22.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "Futbalový klub Holice",
+          "away": "ŠK Šurany",
+          "scoreHome": 6,
+          "scoreAway": 0
+        },
+        {
+          "round": "1. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 1. kolo",
+          "date": "09.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "FC Slovan Galanta",
+          "away": "Futbalový klub Holice",
+          "scoreHome": 1,
+          "scoreAway": 1
+        }
+      ]
     },
     "fc-slovan-galanta": {
       "name": "FC Slovan Galanta",
-      "squad": [],
-      "results": []
+      "squad": [
+        {
+          "name": "Damian Jeskó",
+          "position": "Brankár"
+        },
+        {
+          "name": "Robert Pudmerický",
+          "position": "Obranca"
+        },
+        {
+          "name": "Tomáš Adamkó",
+          "position": "Obranca"
+        },
+        {
+          "name": "Filip Dubnička",
+          "position": "Obranca"
+        },
+        {
+          "name": "Kristián Kubačka",
+          "position": "Obranca"
+        },
+        {
+          "name": "Andrij Rehejda",
+          "position": "Obranca"
+        },
+        {
+          "name": "Ivan Nikolas Bílý",
+          "position": "Obranca"
+        },
+        {
+          "name": "Jakub Kečkár",
+          "position": "Záložník"
+        },
+        {
+          "name": "Tomáš Józsa",
+          "position": "Záložník"
+        },
+        {
+          "name": "Andrej Lóczi",
+          "position": "Záložník"
+        },
+        {
+          "name": "Dominik Rybár",
+          "position": "Záložník"
+        },
+        {
+          "name": "Viktor Laczkó",
+          "position": "Záložník"
+        },
+        {
+          "name": "Brian Pomšahár",
+          "position": "Záložník"
+        },
+        {
+          "name": "Norbert Horváth",
+          "position": "Záložník"
+        },
+        {
+          "name": "Timotej Szolga",
+          "position": "Záložník"
+        },
+        {
+          "name": "Alex Guldan",
+          "position": "Záložník"
+        },
+        {
+          "name": "Filip Józsa",
+          "position": "Záložník"
+        },
+        {
+          "name": "Štefan Bergendi",
+          "position": "Záložník"
+        },
+        {
+          "name": "Benjamín Daniel",
+          "position": "Záložník"
+        },
+        {
+          "name": "Timotej Valent",
+          "position": "Útočník"
+        }
+      ],
+      "staff": [
+        {
+          "role": "Tréner",
+          "name": "Adam Géc"
+        },
+        {
+          "role": "Technický vedúci",
+          "name": "Ladislav Kokeš"
+        },
+        {
+          "role": "Lekár",
+          "name": "Dominik Gašparík"
+        }
+      ],
+      "results": [
+        {
+          "round": "3. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo",
+          "date": "23.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "FC Slovan Galanta",
+          "away": "Futbalový klub Slovan Šahy",
+          "scoreHome": 4,
+          "scoreAway": 2
+        },
+        {
+          "round": "2. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo",
+          "date": "16.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "ŠK Šurany",
+          "away": "FC Slovan Galanta",
+          "scoreHome": 3,
+          "scoreAway": 1
+        },
+        {
+          "round": "1. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 1. kolo",
+          "date": "09.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "FC Slovan Galanta",
+          "away": "Futbalový klub Holice",
+          "scoreHome": 1,
+          "scoreAway": 1
+        }
+      ]
     },
     "fc-slovan-hlohovec": {
       "name": "FC Slovan Hlohovec",
-      "squad": [],
-      "results": []
+      "squad": [
+        {
+          "name": "Matej Divilek",
+          "position": "Brankár"
+        },
+        {
+          "name": "Dušan Dolinský",
+          "position": "Brankár"
+        },
+        {
+          "name": "Nikolaj Bartovič",
+          "position": "Obranca"
+        },
+        {
+          "name": "Matúš Chovanec",
+          "position": "Obranca"
+        },
+        {
+          "name": "Filip Pos",
+          "position": "Obranca"
+        },
+        {
+          "name": "Tobias Riegel",
+          "position": "Obranca"
+        },
+        {
+          "name": "Filip Pažitný",
+          "position": "Obranca"
+        },
+        {
+          "name": "Alex Cvecho",
+          "position": "Obranca"
+        },
+        {
+          "name": "Lukáš Daniška",
+          "position": "Obranca"
+        },
+        {
+          "name": "Matúš Kosík",
+          "position": "Obranca"
+        },
+        {
+          "name": "Tomáš Malec",
+          "position": "Záložník"
+        },
+        {
+          "name": "Róbert Dlhoš",
+          "position": "Záložník"
+        },
+        {
+          "name": "Jakub Adrián Kmetty",
+          "position": "Záložník"
+        },
+        {
+          "name": "Samuel Kalivoda",
+          "position": "Záložník"
+        },
+        {
+          "name": "Marcel Rýdzi",
+          "position": "Útočník"
+        },
+        {
+          "name": "Loris Simon Ščasný",
+          "position": "Útočník"
+        },
+        {
+          "name": "Timotej Poláčik",
+          "position": "Útočník"
+        },
+        {
+          "name": "Alec Hauliš",
+          "position": "Útočník"
+        },
+        {
+          "name": "Šimon Marcinka",
+          "position": "Útočník"
+        },
+        {
+          "name": "Nikolas Kuzma",
+          "position": "Útočník"
+        },
+        {
+          "name": "Timotej Heriban",
+          "position": "Útočník"
+        },
+        {
+          "name": "Samuel Kralič",
+          "position": "Útočník"
+        }
+      ],
+      "staff": [
+        {
+          "role": "Tréner",
+          "name": "Adam Kucharík"
+        },
+        {
+          "role": "Asistent trénera",
+          "name": "Henrieta Poláčiková"
+        },
+        {
+          "role": "Tréner brankárov",
+          "name": "Michal Práznovský"
+        },
+        {
+          "role": "Technický vedúci",
+          "name": "Matúš Loskot"
+        },
+        {
+          "role": "Fyzioterapeut",
+          "name": "Rastislav Vavrík"
+        }
+      ],
+      "results": [
+        {
+          "round": "3. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo",
+          "date": "22.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "ŠK Junior Ivanka pri Nitre",
+          "away": "FC Slovan Hlohovec",
+          "scoreHome": 3,
+          "scoreAway": 0
+        },
+        {
+          "round": "2. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo",
+          "date": "16.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "FC Slovan Hlohovec",
+          "away": "FK Slovan Duslo Šaľa",
+          "scoreHome": 4,
+          "scoreAway": 1
+        }
+      ]
     },
     "fk-veca": {
       "name": "FK Veča",
-      "squad": [],
-      "results": []
+      "squad": [
+        {
+          "name": "Oliver Šimčík",
+          "position": "Brankár"
+        },
+        {
+          "name": "Adrián Péter",
+          "position": "Brankár"
+        },
+        {
+          "name": "Marko Miškovič",
+          "position": "Obranca"
+        },
+        {
+          "name": "Róbert Polgár",
+          "position": "Obranca"
+        },
+        {
+          "name": "Samuel Kondrot",
+          "position": "Obranca"
+        },
+        {
+          "name": "Tomáš Hunka",
+          "position": "Obranca"
+        },
+        {
+          "name": "Peter Hamar",
+          "position": "Záložník"
+        },
+        {
+          "name": "Andrej Gubiš",
+          "position": "Záložník"
+        },
+        {
+          "name": "Peter Toriška",
+          "position": "Záložník"
+        },
+        {
+          "name": "Thomas Vágai",
+          "position": "Záložník"
+        },
+        {
+          "name": "Daniel Žáček",
+          "position": "Záložník"
+        },
+        {
+          "name": "Miroslav Vicena",
+          "position": "Záložník"
+        },
+        {
+          "name": "Juraj Hudec",
+          "position": "Útočník"
+        }
+      ],
+      "staff": [
+        {
+          "role": "Tréner",
+          "name": "Rudolf Blaško"
+        },
+        {
+          "role": "Technický vedúci",
+          "name": "Ronald Ferencei"
+        }
+      ],
+      "results": [
+        {
+          "round": "3. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo",
+          "date": "22.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "C&P Stars Academy - ZM",
+          "away": "FK Veča",
+          "scoreHome": 1,
+          "scoreAway": 1
+        }
+      ]
     },
     "candp-stars-academy-zm": {
       "name": "C&P Stars Academy - ZM",
-      "squad": [],
-      "results": []
+      "squad": [
+        {
+          "name": "Matej Ďurček",
+          "position": "Brankár"
+        },
+        {
+          "name": "Šimon Beniak",
+          "position": "Obranca"
+        },
+        {
+          "name": "Matúš Malý",
+          "position": "Obranca"
+        },
+        {
+          "name": "Norbert Šabo",
+          "position": "Obranca"
+        },
+        {
+          "name": "Markus Benko",
+          "position": "Obranca"
+        },
+        {
+          "name": "Martin Firický",
+          "position": "Obranca"
+        },
+        {
+          "name": "Sebastián Lukáč",
+          "position": "Obranca"
+        },
+        {
+          "name": "Jakub Potocký",
+          "position": "Obranca"
+        },
+        {
+          "name": "Richard Furka",
+          "position": "Obranca"
+        },
+        {
+          "name": "Michael Minár",
+          "position": "Obranca"
+        },
+        {
+          "name": "Tomáš Gálik",
+          "position": "Obranca"
+        },
+        {
+          "name": "Michal Mihálik",
+          "position": "Obranca"
+        },
+        {
+          "name": "Tobias Bennár",
+          "position": "Záložník"
+        },
+        {
+          "name": "Sebastián Dukai",
+          "position": "Záložník"
+        },
+        {
+          "name": "Samuel Pivarči",
+          "position": "Záložník"
+        },
+        {
+          "name": "Róbert Kotlár",
+          "position": "Záložník"
+        },
+        {
+          "name": "Sebastián Varga",
+          "position": "Záložník"
+        },
+        {
+          "name": "Jakub Fides",
+          "position": "Záložník"
+        },
+        {
+          "name": "Jakub Rajčan",
+          "position": "Útočník"
+        }
+      ],
+      "staff": [
+        {
+          "role": "Tréner",
+          "name": "Zdenko Ďurček"
+        },
+        {
+          "role": "Fyzioterapeut",
+          "name": "Martin Studený"
+        }
+      ],
+      "results": [
+        {
+          "round": "3. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo",
+          "date": "22.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "C&P Stars Academy - ZM",
+          "away": "FK Veča",
+          "scoreHome": 1,
+          "scoreAway": 1
+        },
+        {
+          "round": "2. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo",
+          "date": "16.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "FK Kolárovo",
+          "away": "C&P Stars Academy - ZM",
+          "scoreHome": 4,
+          "scoreAway": 0
+        },
+        {
+          "round": "1. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 1. kolo",
+          "date": "08.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "C&P Stars Academy - ZM",
+          "away": "Futbalový klub Slovan Šahy",
+          "scoreHome": 0,
+          "scoreAway": 2
+        }
+      ]
     },
     "mso-sturovo": {
       "name": "MŠO Štúrovo",
       "squad": [],
+      "staff": [],
       "results": []
     },
     "fk-slovan-duslo-sala": {
       "name": "FK Slovan Duslo Šaľa",
-      "squad": [],
-      "results": []
+      "squad": [
+        {
+          "name": "Peter Kvasnovský",
+          "position": "Brankár"
+        },
+        {
+          "name": "Christopher Chrupka",
+          "position": "Brankár"
+        },
+        {
+          "name": "Kristián Szarka",
+          "position": "Obranca"
+        },
+        {
+          "name": "Samuel Lacko",
+          "position": "Obranca"
+        },
+        {
+          "name": "Sebastian Gubov",
+          "position": "Obranca"
+        },
+        {
+          "name": "František Krajčík",
+          "position": "Obranca"
+        },
+        {
+          "name": "Martin Slamka",
+          "position": "Obranca"
+        },
+        {
+          "name": "Zoltán Tóth",
+          "position": "Obranca"
+        },
+        {
+          "name": "Sebastián Július Petro",
+          "position": "Obranca"
+        },
+        {
+          "name": "Maxím Mitrík",
+          "position": "Záložník"
+        },
+        {
+          "name": "Viktor Szarka",
+          "position": "Záložník"
+        },
+        {
+          "name": "Markus Rigo",
+          "position": "Záložník"
+        },
+        {
+          "name": "Oliver Palubjak",
+          "position": "Záložník"
+        },
+        {
+          "name": "Filip Siládi",
+          "position": "Záložník"
+        },
+        {
+          "name": "Matúš Puskás",
+          "position": "Záložník"
+        },
+        {
+          "name": "Oliver Borkovič",
+          "position": "Útočník"
+        },
+        {
+          "name": "Theo Vími",
+          "position": "Útočník"
+        }
+      ],
+      "staff": [
+        {
+          "role": "Tréner",
+          "name": "Jozef Porubský"
+        },
+        {
+          "role": "Technický vedúci",
+          "name": "Laura Nagyová"
+        },
+        {
+          "role": "Lekár",
+          "name": "Fabián Tóth"
+        },
+        {
+          "role": "Masér",
+          "name": "Matej Chrenko"
+        }
+      ],
+      "results": [
+        {
+          "round": "2. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo",
+          "date": "16.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "FC Slovan Hlohovec",
+          "away": "FK Slovan Duslo Šaľa",
+          "scoreHome": 4,
+          "scoreAway": 1
+        }
+      ]
     },
     "malodvornicky-fk-male-dvorniky": {
       "name": "Malodvornícky FK Malé Dvorníky",
-      "squad": [],
-      "results": []
+      "squad": [
+        {
+          "name": "Gergő Fehér",
+          "position": "Brankár"
+        },
+        {
+          "name": "Filip Szekács",
+          "position": "Brankár"
+        },
+        {
+          "name": "Lucas Helmke",
+          "position": "Obranca"
+        },
+        {
+          "name": "Márk Molnosi",
+          "position": "Obranca"
+        },
+        {
+          "name": "Áron András Rostás",
+          "position": "Obranca"
+        },
+        {
+          "name": "Erik Bognár",
+          "position": "Obranca"
+        },
+        {
+          "name": "Zalán Somogyi",
+          "position": "Obranca"
+        },
+        {
+          "name": "Alex Bognár",
+          "position": "Obranca"
+        },
+        {
+          "name": "Alan Kovács",
+          "position": "Záložník"
+        },
+        {
+          "name": "Tibor Kocsis",
+          "position": "Záložník"
+        },
+        {
+          "name": "Attila Kürthy",
+          "position": "Záložník"
+        },
+        {
+          "name": "Krisztián Klempa",
+          "position": "Záložník"
+        },
+        {
+          "name": "Máté Zsemlye",
+          "position": "Záložník"
+        },
+        {
+          "name": "László Péter Orbán",
+          "position": "Záložník"
+        },
+        {
+          "name": "Simon Lády",
+          "position": "Záložník"
+        },
+        {
+          "name": "Dominik Kántor",
+          "position": "Útočník"
+        },
+        {
+          "name": "Dominik Csiba",
+          "position": "Útočník"
+        }
+      ],
+      "staff": [
+        {
+          "role": "Tréner",
+          "name": "Tibor Gerezdes"
+        },
+        {
+          "role": "Technický vedúci",
+          "name": "Tibor Kocsis"
+        },
+        {
+          "role": "Lekár",
+          "name": "Tímea Bazsóová"
+        }
+      ],
+      "results": [
+        {
+          "round": "3. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo",
+          "date": "23.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "SSC FÉNIX Nové Zámky",
+          "away": "Malodvornícky FK Malé Dvorníky",
+          "scoreHome": 3,
+          "scoreAway": 0
+        },
+        {
+          "round": "2. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo",
+          "date": "15.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "Malodvornícky FK Malé Dvorníky",
+          "away": "ŠK Junior Ivanka pri Nitre",
+          "scoreHome": 0,
+          "scoreAway": 1
+        }
+      ]
     },
     "tj-dynamo-nova-straz": {
       "name": "TJ Dynamo Nová Stráž",
-      "squad": [],
-      "results": []
+      "squad": [
+        {
+          "name": "Botond Lisz",
+          "position": "Brankár"
+        },
+        {
+          "name": "Márk Czanik",
+          "position": "Obranca"
+        },
+        {
+          "name": "Dávid Fazekas",
+          "position": "Obranca"
+        },
+        {
+          "name": "Andor Bekesi",
+          "position": "Obranca"
+        },
+        {
+          "name": "Adrián Dohnanec",
+          "position": "Obranca"
+        },
+        {
+          "name": "Márk Takács",
+          "position": "Obranca"
+        },
+        {
+          "name": "Péter Pohlmüllner",
+          "position": "Záložník"
+        },
+        {
+          "name": "Milo Kovač",
+          "position": "Záložník"
+        },
+        {
+          "name": "Erik Milán Tavaszi",
+          "position": "Záložník"
+        },
+        {
+          "name": "Máté Czanik",
+          "position": "Záložník"
+        },
+        {
+          "name": "Timothy Sebastián Tóth",
+          "position": "Záložník"
+        },
+        {
+          "name": "Máté Molnár",
+          "position": "Záložník"
+        },
+        {
+          "name": "Gabriel Šmíd",
+          "position": "Záložník"
+        },
+        {
+          "name": "Peter Dohnanec",
+          "position": "Útočník"
+        },
+        {
+          "name": "Patrik Cseresna",
+          "position": "Útočník"
+        },
+        {
+          "name": "Koloman Téglás",
+          "position": "Útočník"
+        },
+        {
+          "name": "Ladislav Szuri",
+          "position": "Útočník"
+        }
+      ],
+      "staff": [
+        {
+          "role": "Tréner",
+          "name": "Attila Gaál"
+        },
+        {
+          "role": "Asistent trénera",
+          "name": "Alfréd Sándor"
+        },
+        {
+          "role": "Technický vedúci",
+          "name": "Peter Dohnanec"
+        }
+      ],
+      "results": [
+        {
+          "round": "2. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo",
+          "date": "27.08",
+          "time": "15:00",
+          "status": "Koniec",
+          "home": "TJ Dynamo Nová Stráž",
+          "away": "SSC FÉNIX Nové Zámky",
+          "scoreHome": 1,
+          "scoreAway": 7
+        },
+        {
+          "round": "1. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 1. kolo",
+          "date": "08.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "ŠK Junior Ivanka pri Nitre",
+          "away": "TJ Dynamo Nová Stráž",
+          "scoreHome": 6,
+          "scoreAway": 3
+        }
+      ]
     },
     "msk-zeliezovce": {
       "name": "MŠK Želiezovce",
-      "squad": [],
-      "results": []
+      "squad": [
+        {
+          "name": "Oliver Zovčák",
+          "position": "Brankár"
+        },
+        {
+          "name": "Samuel Dulai",
+          "position": "Brankár"
+        },
+        {
+          "name": "Simon Fábry",
+          "position": "Brankár"
+        },
+        {
+          "name": "Sebastián Balaj",
+          "position": "Brankár"
+        },
+        {
+          "name": "Martin Opavský",
+          "position": "Brankár"
+        },
+        {
+          "name": "Tomáš Brocký",
+          "position": "Brankár"
+        },
+        {
+          "name": "Adam Magyar",
+          "position": "Brankár"
+        },
+        {
+          "name": "Marcel Hlisník",
+          "position": "Brankár"
+        },
+        {
+          "name": "Michal Hollý",
+          "position": "Brankár"
+        },
+        {
+          "name": "Róbert Gálik",
+          "position": "Brankár"
+        },
+        {
+          "name": "Jaroslav Michal Szalai",
+          "position": "Brankár"
+        },
+        {
+          "name": "Michal Brtka",
+          "position": "Brankár"
+        },
+        {
+          "name": "Tobias Filyó",
+          "position": "Brankár"
+        },
+        {
+          "name": "Nándor Kotasz",
+          "position": "Brankár"
+        },
+        {
+          "name": "Nikolas Medveď",
+          "position": "Brankár"
+        },
+        {
+          "name": "Samuel Turček",
+          "position": "Brankár"
+        },
+        {
+          "name": "Sebastián Furugláš",
+          "position": "Brankár"
+        },
+        {
+          "name": "Patrik Čunka",
+          "position": "Brankár"
+        },
+        {
+          "name": "Maxim Kmeťo",
+          "position": "Brankár"
+        }
+      ],
+      "staff": [
+        {
+          "role": "Tréner",
+          "name": "Peter Tóth"
+        },
+        {
+          "role": "Asistent trénera",
+          "name": "Peter Rosenberg"
+        },
+        {
+          "role": "Technický vedúci",
+          "name": "Nikolas Bogdáň"
+        },
+        {
+          "role": "Fyzioterapeut",
+          "name": "Gyorgy Vystrčil"
+        }
+      ],
+      "results": [
+        {
+          "round": "3. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo",
+          "date": "22.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "FK Kolárovo",
+          "away": "MŠK Želiezovce",
+          "scoreHome": 8,
+          "scoreAway": 0
+        },
+        {
+          "round": "1. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 1. kolo",
+          "date": "20.08",
+          "time": "14:30",
+          "status": "Koniec",
+          "home": "MŠK Želiezovce",
+          "away": "ŠK Šurany",
+          "scoreHome": 0,
+          "scoreAway": 2
+        },
+        {
+          "round": "2. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo",
+          "date": "15.08",
+          "time": "08:00",
+          "status": "Koniec",
+          "home": "Futbalový klub Slovan Šahy",
+          "away": "MŠK Želiezovce",
+          "scoreHome": 1,
+          "scoreAway": 0
+        }
+      ]
     }
   }
 }
