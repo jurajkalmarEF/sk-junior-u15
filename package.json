@@ -1,0 +1,12 @@
+{
+  "name": "ivanka-u15-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scrapuje tabuľku, súpisky a výsledky U15 skupiny zo Sportnetu pre appku ŠK Junior Ivanka pri Nitre.",
+  "scripts": {
+    "scrape": "node scraper/scrape.js"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "ŠK Junior Ivanka pri Nitre — U15",
+  "short_name": "Ivanka U15",
+  "description": "Prehľad tabuľky, výsledkov a formy U15 tímu ŠK Junior Ivanka pri Nitre.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#141114",
+  "theme_color": "#141114",
+  "lang": "sk",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
