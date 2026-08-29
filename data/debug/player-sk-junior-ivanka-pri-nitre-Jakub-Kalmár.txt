@@ -37,9 +37,9 @@ Muž
 Pohlavie
 13 rokov (2012)
 Vek
-49
+50
 Zápasy
-2355
+2425
 Minúty
 0
 Góly
@@ -72,10 +72,10 @@ P
 	
 	
 
-2026/2027	3	210	0	0	0	0
+2026/2027	4	280	0	0	0	0
 2025/2026	24	825	0	0	0	0
 2024/2025	22	1320	0	0	0	0
-Celkovo	49	2355	0	0	0	0
+Celkovo	50	2425	0	0	0	0
 Správy z Futbalnetu
 
 Sledujte ONLINE prenos zo zápasu 6. kola Niké ligy: AS Trenčín - MFK Ružomberok.
@@ -112,6 +112,12 @@ Miroslav Kováčik
 
 št 17:20
 
+Okrem dediny je bez prehry už len Petržalka.
+
+Baník je veľkým prekvapením II. ligy. Stále drží neporaziteľnosť a prediera sa dopredu
+
+teraz
+
 Sledujte ONLINE prenos zo zápasu 6. kola Niké ligy: MFK Dukla Banská Bystrica - KFC Komárno.
 
 ONLINE: MFK Dukla Banská Bystrica - KFC Komárno dnes, Niké liga LIVE (6. kolo)
@@ -139,16 +145,6 @@ Podpísal dvojročnú zmluvu s ročnou opciou.
 Michalovce získali slovenského reprezentanta. Obranca sa vracia po ôsmich rokoch
 
 št 19:18
-
-Divina prehrala so Žilinou 0:8.
-
-Lepšieho súpera mať nemohli. Hráči z dediny rozdávali podpisy, zažili nezabudnuteľný zápas
-
-Titanilla Bőd
-
-∙
-
-št 00:15
 
 Načítať ďalšie
 Späť na vrch
