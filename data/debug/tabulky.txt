@@ -1,4 +1,4 @@
-URL: https://sportnet.sme.sk/futbalnet/k/fc-slovan-galanta/tim/u15-m-a/vysledky/
+URL: https://sportnet.sme.sk/futbalnet/k/sk-junior-ivanka-pri-nitre/tim/u15-m-a/tabulky/
 
 Predplatiť
 Prihlásenie
@@ -27,12 +27,12 @@ Opory reprezentácie, brankár z lavičky a slovanisti. Koľko Slovákov hrá Li
 Petra odišla žiť do Japonska: Také dvojizbáky, aké máme na Slovensku, by tu považovali za luxus
 Kluby
 /
-FC Slovan Galanta
+ŠK Junior Ivanka pri Nitre
 /
-FC Slovan Galanta - U15 - Starší žiaci
+ŠK Junior Ivanka pri Nitre - U15 - Starší žiaci
 /
-Výsledky
-FC Slovan Galanta - U15 - Starší žiaci
+Tabuľky
+ŠK Junior Ivanka pri Nitre - U15 - Starší žiaci
 2026/2027
 2025/2026
 2024/2025
@@ -54,49 +54,638 @@ Program
 Tabuľky
 Súpiska
 Štatistika hráčov
-Výsledky
+III. liga U15 Macron | yoursport ZsFZ
+Celkom
+Doma
+Vonku
+Tabuľka
+Klub		
+Z
+	
+V
+	
+R
+	
+P
+	Skóre	
+B
+	
+K
+	
++/-
+	Forma
 
-III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo
 
-23.08. 10:00
+1
 
-Koniec
-
-FC Slovan Galanta
-
-Futbalový klub Slovan Šahy
+	ŠK Junior Ivanka pri Nitre	
 
 4
 
-2
-
-III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo
-
-16.08. 10:00
-
-Koniec
-
-ŠK Šurany
-
-FC Slovan Galanta
+	
 
 3
 
-1
+	
 
-III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 1. kolo
+0
 
-09.08. 10:00
-
-Koniec
-
-FC Slovan Galanta
-
-Futbalový klub Holice
+	
 
 1
 
+	
+
+11:7
+
+	
+
+9
+
+	
+
+15
+
+	
+
+3
+
+	
+P
+V
+V
+V
+
+
+
+2
+
+	Futbalový klub Holice	
+
+3
+
+	
+
+2
+
+	
+
 1
+
+	
+
+0
+
+	
+
+11:2
+
+	
+
+7
+
+	
+
+14
+
+	
+
+4
+
+	
+V
+V
+R
+
+
+
+3
+
+	FK Kolárovo	
+
+2
+
+	
+
+2
+
+	
+
+0
+
+	
+
+0
+
+	
+
+12:0
+
+	
+
+6
+
+	
+
+13
+
+	
+
+	
+V
+V
+
+
+
+4
+
+	SSC FÉNIX Nové Zámky	
+
+2
+
+	
+
+2
+
+	
+
+0
+
+	
+
+0
+
+	
+
+10:1
+
+	
+
+6
+
+	
+
+12
+
+	
+
+3
+
+	
+V
+V
+
+
+
+5
+
+	Futbalový klub Slovan Šahy	
+
+4
+
+	
+
+2
+
+	
+
+0
+
+	
+
+2
+
+	
+
+6:8
+
+	
+
+6
+
+	
+
+11
+
+	
+
+	
+P
+P
+V
+V
+
+
+
+6
+
+	ŠK Šurany	
+
+3
+
+	
+
+2
+
+	
+
+0
+
+	
+
+1
+
+	
+
+5:7
+
+	
+
+6
+
+	
+
+10
+
+	
+
+3
+
+	
+P
+V
+V
+
+
+
+7
+
+	FC Slovan Galanta	
+
+3
+
+	
+
+1
+
+	
+
+1
+
+	
+
+1
+
+	
+
+6:6
+
+	
+
+4
+
+	
+
+9
+
+	
+
+-2
+
+	
+V
+P
+R
+
+
+
+8
+
+	FC Slovan Hlohovec	
+
+2
+
+	
+
+1
+
+	
+
+0
+
+	
+
+1
+
+	
+
+4:4
+
+	
+
+3
+
+	
+
+8
+
+	
+
+	
+P
+V
+
+
+
+9
+
+	TJ Dynamo Nová Stráž	
+
+3
+
+	
+
+1
+
+	
+
+0
+
+	
+
+2
+
+	
+
+10:13
+
+	
+
+3
+
+	
+
+6
+
+	
+
+-3
+
+	
+V
+P
+P
+
+
+
+10
+
+	FK Slovan Duslo Šaľa	
+
+2
+
+	
+
+1
+
+	
+
+0
+
+	
+
+1
+
+	
+
+5:5
+
+	
+
+3
+
+	
+
+7
+
+	
+
+	
+V
+P
+
+
+
+11
+
+	FK Veča	
+
+1
+
+	
+
+0
+
+	
+
+1
+
+	
+
+0
+
+	
+
+1:1
+
+	
+
+1
+
+	
+
+4
+
+	
+
+1
+
+	
+R
+
+
+
+12
+
+	MŠO Štúrovo	
+
+1
+
+	
+
+0
+
+	
+
+1
+
+	
+
+0
+
+	
+
+1:1
+
+	
+
+1
+
+	
+
+5
+
+	
+
+1
+
+	
+R
+
+
+
+13
+
+	Malodvornícky FK Malé Dvorníky	
+
+3
+
+	
+
+0
+
+	
+
+1
+
+	
+
+2
+
+	
+
+1:5
+
+	
+
+1
+
+	
+
+3
+
+	
+
+-5
+
+	
+R
+P
+P
+
+
+
+14
+
+	C&P Stars Academy - ZM	
+
+4
+
+	
+
+0
+
+	
+
+1
+
+	
+
+3
+
+	
+
+1:13
+
+	
+
+1
+
+	
+
+2
+
+	
+
+-5
+
+	
+P
+R
+P
+P
+
+
+
+15
+
+	MŠK Želiezovce	
+
+3
+
+	
+
+0
+
+	
+
+0
+
+	
+
+3
+
+	
+
+0:11
+
+	
+
+0
+
+	
+
+1
+
+	
+
+-3
+
+	
+P
+P
+P
+V
+
+Výhra
+
+R
+
+Remíza
+
+P
+
+Prehra
 
 Správy z Futbalnetu
 
@@ -200,11 +789,11 @@ Vuelta a Espaňa 2026: Pogačar musel odstúpiť, z výhry sa tešil Francúz
 
 6
 
-ONLINE: FK Železiarne Podbrezová - FC Košice dnes, Niké liga LIVE (6. kolo)
+Nový slovanista očaril svet. Otvára sa mu cesta, ktorá sa doteraz zdala nemožná
 
 7
 
-Nový slovanista očaril svet. Otvára sa mu cesta, ktorá sa doteraz zdala nemožná
+Futbalové prestupy ONLINE: Portugalská hviezda sa s plačom lúči s AC Miláno (29. august)
 
 Späť na vrch
 Redakcia a kontakty
