@@ -233,7 +233,9 @@ async function main() {
   ensureDirs();
   const browser = await chromium.launch();
   const page = await browser.newPage({
-    userAgent: 'Mozilla/5.0 (compatible; IvankaU15Bot/1.0; +informational, non-commercial fan app)'
+    userAgent: 'Mozilla/5.0 (compatible; IvankaU15Bot/1.0; +informational, non-commercial fan app)',
+    timezoneId: 'Europe/Bratislava',
+    locale: 'sk-SK'
   });
 
   const output = { generatedAt: new Date().toISOString(), standings: [], teams: {} };
