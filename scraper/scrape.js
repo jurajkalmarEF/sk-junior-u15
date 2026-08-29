@@ -69,13 +69,6 @@ const NAME_RE = /^\p{Lu}\p{Ll}+(\s\p{Lu}\p{Ll}+)+$/u;
 const ROUND_RE = /(\d+)\.\s*kolo\s*$/;
 const DATETIME_RE = /^(\d{2}\.\d{2})\.\s*(\d{2}:\d{2})$/;
 
-// Tím, pre ktorý ideme naviac scrapovať aj detail každého hráča (fotka, veková
-// kategória, zápasy/minúty/góly/karty). Pre ostatné tímy len odkaz na profil,
-// aby sme nezaťažovali Sportnet stovkami requestov na cudzích hráčov denne.
-const DETAIL_SQUAD_SLUG = 'sk-junior-ivanka-pri-nitre';
-
-const PLAYER_PROFILE_FIELDS = ['Krajina', 'Pohlavie', 'Vek', 'Zápasy', 'Minúty', 'Góly', 'Žltá karta', 'Druhá ŽK', 'Karty'];
-
 function parseStandings(lines) {
   const teamNames = TEAMS.map((t) => t.name);
   const standings = [];
@@ -211,89 +204,6 @@ function parseMatches(lines) {
   return matches;
 }
 
-async function extractProfileLinks(page) {
-  // Mená hráčov na súpiske sú (predpokladáme) odkazy na ich Sportnet profil
-  // (.../futbalnet/clen/{id}/{meno}/). Vyťiahneme aj prípadnú fotku vedľa mena.
-  try {
-    return await page.$$eval('a[href*="/futbalnet/clen/"]', (els) =>
-      els.map((el) => {
-        const img = el.querySelector('img') || el.closest('li, tr, div')?.querySelector('img');
-        return {
-          name: el.textContent.trim().replace(/\s+/g, ' '),
-          href: el.href,
-          photo: img ? img.src : null
-        };
-      })
-    );
-  } catch (e) {
-    return [];
-  }
-}
-
-function mergeSquadWithLinks(squad, links) {
-  const byName = {};
-  links.forEach((l) => { byName[l.name] = l; });
-  return squad.map((p) => {
-    const match = byName[p.name];
-    return match ? Object.assign({}, p, { href: match.href, photo: match.photo || null }) : p;
-  });
-}
-
-function parsePlayerProfile(lines) {
-  const data = {};
-  PLAYER_PROFILE_FIELDS.forEach((field) => {
-    const idx = lines.indexOf(field);
-    if (idx > 0) data[field] = lines[idx - 1];
-  });
-  return {
-    country: data['Krajina'] || null,
-    gender: data['Pohlavie'] || null,
-    age: data['Vek'] || null,
-    matches: data['Zápasy'] ? parseInt(data['Zápasy'], 10) : null,
-    minutes: data['Minúty'] ? parseInt(data['Minúty'], 10) : null,
-    goals: data['Góly'] ? parseInt(data['Góly'], 10) : null,
-    yellowCards: data['Žltá karta'] ? parseInt(data['Žltá karta'], 10) : null,
-    secondYellow: data['Druhá ŽK'] ? parseInt(data['Druhá ŽK'], 10) : null,
-    redCards: data['Karty'] ? parseInt(data['Karty'], 10) : null
-  };
-}
-
-async function scrapePlayerDetail(page, player, teamSlug) {
-  if (!player.href) return player;
-  const text = await getBodyText(page, player.href);
-  writeDebug(`player-${teamSlug}-${player.name.replace(/\s+/g, '-')}.txt`, `URL: ${player.href}\n\n${text}`);
-  const lines = text.split('\n').map((l) => l.trim()).filter((l) => l.length > 0);
-  const profile = parsePlayerProfile(lines);
-
-  let photo = player.photo || null;
-  if (!photo) {
-    photo = await page.$eval('img[src*="/data/"]', (el) => el.src).catch(() => null);
-  }
-
-  return Object.assign({}, player, { photo, profile });
-}
-
-async function extractProfileLinksAndDetail(page, squad, teamSlug) {
-  const links = await extractProfileLinks(page);
-  let merged = mergeSquadWithLinks(squad, links);
-
-  if (teamSlug === DETAIL_SQUAD_SLUG) {
-    const withDetail = [];
-    for (const player of merged) {
-      try {
-        withDetail.push(await scrapePlayerDetail(page, player, teamSlug));
-      } catch (e) {
-        console.error(`    detail failed for ${player.name}:`, e.message);
-        withDetail.push(player);
-      }
-      await page.waitForTimeout(400);
-    }
-    merged = withDetail;
-  }
-
-  return merged;
-}
-
 async function getBodyText(page, url) {
   await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 }).catch(() => {});
   await page.waitForTimeout(1200); // nech sa dorenderuje klientský obsah
@@ -304,9 +214,7 @@ async function scrapeTeam(page, team) {
   const squadUrl = `${BASE(team.slug)}/hraci/`;
   const squadText = await getBodyText(page, squadUrl);
   writeDebug(`${team.slug}-hraci.txt`, `URL: ${squadUrl}\n\n${squadText}`);
-  const { squad: squadBase, staff } = parseSquad(usefulLines(squadText));
-  // stránka /hraci/ je stále otvorená v `page`, takže tu vieme čítať DOM (odkazy, fotky)
-  const squad = await extractProfileLinksAndDetail(page, squadBase, team.slug);
+  const { squad, staff } = parseSquad(usefulLines(squadText));
 
   const resultsUrl = `${BASE(team.slug)}/vysledky/`;
   const resultsText = await getBodyText(page, resultsUrl);
