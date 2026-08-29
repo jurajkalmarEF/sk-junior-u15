@@ -18,14 +18,15 @@
  *   ...
  *   Správy z Futbalnetu   <- koniec užitočného obsahu
  *
- * VÝSLEDKY (.../vysledky/):
+ * VÝSLEDKY (.../vysledky/) aj PROGRAM (.../program/) majú rovnaký vzor,
+ * program len niekedy vynecháva stav zápasu a skóre (ešte sa nehralo):
  *   <súťaž a skupina> - N. kolo
  *   DD.MM. HH:MM
- *   Koniec
+ *   [Koniec / Nezačalo / ...]   <- voliteľné
  *   Domáci tím
  *   Hosťujúci tím
- *   <skóre domáci>
- *   <skóre hostia>
+ *   [<skóre domáci>]            <- voliteľné
+ *   [<skóre hostia>]            <- voliteľné
  *   ... (opakuje sa)
  *   Správy z Futbalnetu   <- koniec užitočného obsahu
  */
@@ -63,6 +64,7 @@ const POSITION_HEADINGS = {
   'Útočníci': 'Útočník'
 };
 
+const KNOWN_STATUS = ['Koniec', 'Nezačalo', 'Prebieha', 'Naživo', 'Odložené', 'Zrušené', 'Kontumácia', 'Neuskutočnené'];
 const NAME_RE = /^\p{Lu}\p{Ll}+(\s\p{Lu}\p{Ll}+)+$/u;
 const ROUND_RE = /(\d+)\.\s*kolo\s*$/;
 const DATETIME_RE = /^(\d{2}\.\d{2})\.\s*(\d{2}:\d{2})$/;
@@ -123,8 +125,8 @@ function parseSquad(lines) {
   return { squad, staff };
 }
 
-function parseResults(lines) {
-  const results = [];
+function parseMatches(lines) {
+  const matches = [];
   for (let i = 0; i < lines.length; i++) {
     const roundMatch = lines[i].match(ROUND_RE);
     if (!roundMatch) continue;
@@ -132,15 +134,25 @@ function parseResults(lines) {
     const dt = lines[i + 1] ? lines[i + 1].match(DATETIME_RE) : null;
     if (!dt) continue; // false positive, keep scanning
 
-    const status = lines[i + 2] || '';
-    const home = lines[i + 3] || '';
-    const away = lines[i + 4] || '';
-    const scoreHomeRaw = lines[i + 5] || '';
-    const scoreAwayRaw = lines[i + 6] || '';
-    const scoreHome = /^\d+$/.test(scoreHomeRaw) ? parseInt(scoreHomeRaw, 10) : null;
-    const scoreAway = /^\d+$/.test(scoreAwayRaw) ? parseInt(scoreAwayRaw, 10) : null;
+    let cursor = i + 2;
+    let status = '';
+    if (lines[cursor] && KNOWN_STATUS.indexOf(lines[cursor]) !== -1) {
+      status = lines[cursor];
+      cursor++;
+    }
 
-    results.push({
+    const home = lines[cursor] || ''; cursor++;
+    const away = lines[cursor] || ''; cursor++;
+
+    let scoreHome = null;
+    let scoreAway = null;
+    if (lines[cursor] && /^\d+$/.test(lines[cursor]) && lines[cursor + 1] && /^\d+$/.test(lines[cursor + 1])) {
+      scoreHome = parseInt(lines[cursor], 10);
+      scoreAway = parseInt(lines[cursor + 1], 10);
+      cursor += 2;
+    }
+
+    matches.push({
       round: roundMatch[1] + '. kolo',
       competition: lines[i],
       date: dt[1],
@@ -149,12 +161,13 @@ function parseResults(lines) {
       home,
       away,
       scoreHome,
-      scoreAway
+      scoreAway,
+      played: scoreHome !== null
     });
 
-    i += 6; // skip the consumed lines
+    i = cursor - 1; // pokračuj skenovanie od miesta, kde sme skončili
   }
-  return results;
+  return matches;
 }
 
 async function getBodyText(page, url) {
@@ -172,9 +185,14 @@ async function scrapeTeam(page, team) {
   const resultsUrl = `${BASE(team.slug)}/vysledky/`;
   const resultsText = await getBodyText(page, resultsUrl);
   writeDebug(`${team.slug}-vysledky.txt`, `URL: ${resultsUrl}\n\n${resultsText}`);
-  const results = parseResults(usefulLines(resultsText));
+  const results = parseMatches(usefulLines(resultsText));
 
-  return { squad, staff, results };
+  const programUrl = `${BASE(team.slug)}/program/`;
+  const programText = await getBodyText(page, programUrl);
+  writeDebug(`${team.slug}-program.txt`, `URL: ${programUrl}\n\n${programText}`);
+  const fixtures = parseMatches(usefulLines(programText));
+
+  return { squad, staff, results, fixtures };
 }
 
 async function main() {
@@ -191,16 +209,18 @@ async function main() {
     let squad = [];
     let staff = [];
     let results = [];
+    let fixtures = [];
     try {
       const data = await scrapeTeam(page, team);
       squad = data.squad;
       staff = data.staff;
       results = data.results;
+      fixtures = data.fixtures;
     } catch (e) {
       console.error(`  failed for ${team.slug}:`, e.message);
     }
-    console.log(`  -> ${squad.length} hráčov, ${staff.length} členov tímu, ${results.length} zápasov`);
-    output.teams[team.slug] = { name: team.name, squad, staff, results };
+    console.log(`  -> ${squad.length} hráčov, ${staff.length} členov tímu, ${results.length} výsledkov, ${fixtures.length} zápasov v programe`);
+    output.teams[team.slug] = { name: team.name, squad, staff, results, fixtures };
     await page.waitForTimeout(800); // buď slušný, neposielaj requesty na trhačku
   }
 
