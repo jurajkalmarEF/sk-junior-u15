@@ -69,6 +69,40 @@ const NAME_RE = /^\p{Lu}\p{Ll}+(\s\p{Lu}\p{Ll}+)+$/u;
 const ROUND_RE = /(\d+)\.\s*kolo\s*$/;
 const DATETIME_RE = /^(\d{2}\.\d{2})\.\s*(\d{2}:\d{2})$/;
 
+function parseStandings(lines) {
+  const teamNames = TEAMS.map((t) => t.name);
+  const standings = [];
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const known = TEAMS.find((t) => t.name === line);
+    if (!known) continue;
+
+    let pos = null;
+    if (lines[i - 1] && /^\d{1,2}$/.test(lines[i - 1])) pos = parseInt(lines[i - 1], 10);
+
+    const nums = [];
+    let score = null;
+    let forma = [];
+    for (let j = i + 1; j < Math.min(i + 12, lines.length); j++) {
+      const l = lines[j];
+      if (teamNames.indexOf(l) !== -1) break; // narazili sme na ďalší tím, koniec tohto riadku
+      if (/^\d+\s*:\s*\d+$/.test(l)) {
+        score = l.replace(/\s/g, '');
+      } else if (/^[VRP](\s*[VRP])*$/.test(l)) {
+        forma = l.split(/\s+/);
+      } else if (/^\d{1,3}$/.test(l)) {
+        nums.push(parseInt(l, 10));
+      }
+    }
+
+    const [z, v, r, p, pts] = nums;
+    standings.push({ slug: known.slug, name: known.name, pos, z, v, r, p, score, pts, forma });
+  }
+
+  return standings;
+}
+
 function ensureDirs() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.mkdirSync(DEBUG_DIR, { recursive: true });
@@ -202,7 +236,18 @@ async function main() {
     userAgent: 'Mozilla/5.0 (compatible; IvankaU15Bot/1.0; +informational, non-commercial fan app)'
   });
 
-  const output = { generatedAt: new Date().toISOString(), teams: {} };
+  const output = { generatedAt: new Date().toISOString(), standings: [], teams: {} };
+
+  console.log('Scraping tabuľka skupiny...');
+  try {
+    const tableUrl = `${BASE(TEAMS[0].slug)}/tabulky/`;
+    const tableText = await getBodyText(page, tableUrl);
+    writeDebug('tabulky.txt', `URL: ${tableUrl}\n\n${tableText}`);
+    output.standings = parseStandings(usefulLines(tableText));
+    console.log(`  -> ${output.standings.length} tímov v tabuľke`);
+  } catch (e) {
+    console.error('  tabuľka failed:', e.message);
+  }
 
   for (const team of TEAMS) {
     console.log(`Scraping ${team.name} (${team.slug})...`);
