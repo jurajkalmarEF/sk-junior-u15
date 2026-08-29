@@ -2,7 +2,12 @@ name: Sync Sportnet data
 
 on:
   schedule:
+    # každý deň o 5:00 UTC (7:00 SELČ) — po večerných zápasoch, pred ránom
     - cron: '0 5 * * *'
+    # sobota 14:00 miestneho času — dva UTC varianty kvôli letnému/zimnému času,
+    # strážny krok nižšie pustí ďalej len ten, ktorý naozaj zodpovedá 14:00 v Bratislave
+    - cron: '0 12 * * 6'
+    - cron: '0 13 * * 6'
   workflow_dispatch: {}
 
 permissions:
@@ -14,20 +19,36 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Guard pre sobotňajšie duplicitné spustenie (DST)
+        run: |
+          if [ "${{ github.event.schedule }}" = "0 12 * * 6" ] || [ "${{ github.event.schedule }}" = "0 13 * * 6" ]; then
+            HOUR=$(TZ='Europe/Bratislava' date +%H)
+            echo "Aktuálna hodina v Bratislave: $HOUR"
+            if [ "$HOUR" != "14" ]; then
+              echo "Nie je presne 14:00 v Bratislave (toto je ten druhý DST variant), preskakujem."
+              echo "SKIP=true" >> "$GITHUB_ENV"
+            fi
+          fi
+
       - uses: actions/setup-node@v4
+        if: env.SKIP != 'true'
         with:
           node-version: '20'
 
       - name: Install dependencies
+        if: env.SKIP != 'true'
         run: npm install
 
       - name: Install Playwright browser
+        if: env.SKIP != 'true'
         run: npx playwright install --with-deps chromium
 
       - name: Run scraper
+        if: env.SKIP != 'true'
         run: npm run scrape
 
       - name: Commit updated data
+        if: env.SKIP != 'true'
         run: |
           git config user.name "ivanka-u15-bot"
           git config user.email "actions@users.noreply.github.com"
