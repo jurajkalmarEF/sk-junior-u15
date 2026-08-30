@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T17:14:56.438Z",
+  "generatedAt": "2026-08-30T05:06:30.814Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -340,8 +340,8 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "13 rokov (2013)",
-            "matches": 156,
-            "minutes": 8656,
+            "matches": 157,
+            "minutes": 8726,
             "goals": 20,
             "yellowCards": 1,
             "secondYellow": 0,
@@ -1597,18 +1597,6 @@
       ],
       "fixtures": [
         {
-          "round": "4. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 4. kolo",
-          "date": "29.08",
-          "time": "10:00",
-          "status": "",
-          "home": "Nez. družstvo",
-          "away": "ŠK Šurany",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
-        {
           "round": "5. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
           "date": "05.09",
@@ -1688,6 +1676,18 @@
           "status": "",
           "home": "ŠK Šurany",
           "away": "FK Slovan Duslo Šaľa",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "12. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
+          "date": "24.10",
+          "time": "10:00",
+          "status": "",
+          "home": "ŠK Junior Ivanka pri Nitre",
+          "away": "ŠK Šurany",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
@@ -3303,7 +3303,7 @@
           "name": "Maxím Mitrík",
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5f4395d5c996a45b399f4085/maxim-mitrik/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f4395d5c996a45b399f4085/formal-photo/fc25005f-b6fc-4919-8439-b69a171686a6"
+          "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
         },
         {
           "name": "Viktor Szarka",
