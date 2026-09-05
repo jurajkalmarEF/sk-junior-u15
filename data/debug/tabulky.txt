@@ -113,48 +113,6 @@ V
 
 2
 
-	SSC FÉNIX Nové Zámky	
-
-4
-
-	
-
-3
-
-	
-
-0
-
-	
-
-1
-
-	
-
-20:4
-
-	
-
-9
-
-	
-
-14
-
-	
-
-3
-
-	
-V
-P
-V
-V
-
-
-
-3
-
 	ŠK Junior Ivanka pri Nitre	
 
 4
@@ -181,7 +139,7 @@ V
 
 	
 
-13
+14
 
 	
 
@@ -195,7 +153,133 @@ V
 
 
 
+3
+
+	FC Slovan Hlohovec	
+
 4
+
+	
+
+3
+
+	
+
+0
+
+	
+
+1
+
+	
+
+9:5
+
+	
+
+9
+
+	
+
+13
+
+	
+
+3
+
+	
+V
+V
+P
+V
+
+
+
+4
+
+	ŠK Šurany	
+
+4
+
+	
+
+3
+
+	
+
+0
+
+	
+
+1
+
+	
+
+6:7
+
+	
+
+9
+
+	
+
+11
+
+	
+
+3
+
+	
+V
+P
+V
+V
+
+
+
+5
+
+	SSC FÉNIX Nové Zámky	
+
+4
+
+	
+
+3
+
+	
+
+0
+
+	
+
+1
+
+	
+
+20:4
+
+	
+
+9
+
+	
+
+12
+
+	
+
+3
+
+	
+V
+P
+V
+V
+
+
+
+6
 
 	Futbalový klub Holice	
 
@@ -223,7 +307,7 @@ V
 
 	
 
-12
+10
 
 	
 
@@ -236,50 +320,11 @@ R
 
 
 
-5
-
-	FC Slovan Hlohovec	
-
-3
-
-	
-
-2
-
-	
-
-0
-
-	
-
-1
-
-	
-
-6:5
-
-	
-
-6
-
-	
-
-11
-
-	
-
-	
-V
-P
-V
-
-
-
-6
+7
 
 	Futbalový klub Slovan Šahy	
 
-4
+5
 
 	
 
@@ -290,52 +335,12 @@ V
 0
 
 	
-
-2
-
-	
-
-6:8
-
-	
-
-6
-
-	
-
-10
-
-	
-
-	
-P
-P
-V
-V
-
-
-
-7
-
-	ŠK Šurany	
 
 3
 
 	
 
-2
-
-	
-
-0
-
-	
-
-1
-
-	
-
-5:7
+6:9
 
 	
 
@@ -347,9 +352,9 @@ V
 
 	
 
-3
-
 	
+P
+P
 P
 V
 V
@@ -357,6 +362,48 @@ V
 
 
 8
+
+	Malodvornícky FK Malé Dvorníky	
+
+4
+
+	
+
+1
+
+	
+
+1
+
+	
+
+2
+
+	
+
+2:5
+
+	
+
+4
+
+	
+
+8
+
+	
+
+-2
+
+	
+V
+R
+P
+P
+
+
+
+9
 
 	FC Slovan Galanta	
 
@@ -384,7 +431,7 @@ V
 
 	
 
-8
+7
 
 	
 
@@ -398,7 +445,7 @@ R
 
 
 
-9
+10
 
 	FK Veča	
 
@@ -426,7 +473,7 @@ R
 
 	
 
-7
+6
 
 	
 
@@ -439,7 +486,7 @@ R
 
 
 
-10
+11
 
 	FK Slovan Duslo Šaľa	
 
@@ -467,7 +514,7 @@ R
 
 	
 
-6
+5
 
 	
 
@@ -477,7 +524,7 @@ P
 
 
 
-11
+12
 
 	TJ Dynamo Nová Stráž	
 
@@ -505,7 +552,7 @@ P
 
 	
 
-5
+4
 
 	
 
@@ -518,50 +565,10 @@ P
 
 
 
-12
+13
 
 	MŠO Štúrovo	
 
-2
-
-	
-
-0
-
-	
-
-2
-
-	
-
-0
-
-	
-
-3:3
-
-	
-
-2
-
-	
-
-4
-
-	
-
--1
-
-	
-R
-R
-
-
-
-13
-
-	Malodvornícky FK Malé Dvorníky	
-
 3
 
 	
@@ -570,7 +577,15 @@ R
 
 	
 
+2
+
+	
+
 1
+
+	
+
+3:6
 
 	
 
@@ -578,24 +593,16 @@ R
 
 	
 
-1:5
-
-	
-
-1
-
-	
-
 3
 
 	
 
--5
+-4
 
 	
+P
 R
-P
-P
+R
 
 
 
@@ -603,7 +610,7 @@ P
 
 	C&P Stars Academy - ZM	
 
-4
+5
 
 	
 
@@ -615,11 +622,11 @@ P
 
 	
 
-3
+4
 
 	
 
-1:13
+1:14
 
 	
 
@@ -631,9 +638,10 @@ P
 
 	
 
--5
+-8
 
 	
+P
 P
 R
 P
@@ -694,6 +702,15 @@ Prehra
 
 Správy z Futbalnetu
 
+V Portugalsku sa stretne aj s bývalým spoluhráčom Galčíkom.
+
+Z Podbrezovej do Portugalska. Druhý najlepší strelec Niké ligy podpísal s Rio Ave päťročnú zmluvu
+
+dnes 08:15
+
+∙
+1
+
 Dva góly za domácich strelil Richard Bartoš.
 
 Duel v Liptovskom Mikuláši priniesol v prvom polčase gólovú prestrelku. Každý získal bod
@@ -732,6 +749,18 @@ Svjatoslav Dohovič
 
 št 08:10
 
+Sledujte s nami ONLINE prenos zo zápasu 7. kola MONACObet ligy: FK Humenné - FC Petržalka.
+
+ONLINE: FK Humenné - FC Petržalka dnes, MONACObet liga LIVE (II. liga, 7. kolo)
+
+dnes 13:00
+
+Sledujte s nami ONLINE prenos zo zápasu 7. kola MONACObet ligy: MŠK Považská Bystrica - OFK Baník Lehota pod Vtáčnikom.
+
+ONLINE: MŠK Považská Bystrica - OFK Baník Lehota pod Vtáčnikom dnes, MONACObet liga LIVE (II. liga, 7. kolo)
+
+dnes 13:00
+
 Sledujte s nami ONLINE prenos zo zápasu 7. kola MONACObet ligy: MFK Tatran Liptovský Mikuláš - FK Inter Bratislava.
 
 ONLINE: MFK Tatran Liptovský Mikuláš - FK Inter Bratislava dnes, MONACObet liga LIVE (II. liga, 7. kolo)
@@ -744,35 +773,6 @@ Výmena trávnika či osvetlenia. Slovan či DAC musia odohrať svoje zápasy vo
 
 št 10:05
 
-Banská Bystrica zvíťazila vo Fiľakove 2:0.
-
-Treťoligový tím na pol hodinu zmazal rozdiel medzi súťažami. Na zápas prišiel aj odvolaný kouč
-
-Titanilla Bőd
-
-∙
-
-st 23:30
-
-Guinejský reprezentant prichádza na hosťovanie.
-
-Posila na poslednú chvíľu. Slovan získal pred Ligou majstrov obrancu Slavie
-
-st 21:40
-
-∙
-24
-
-V stredu sa hralo 20 zápasov.
-
-Líder druhej ligy končí, Slovan bol suverénny, postúpili aj piatoligisti (Slovnaft Cup, výsledky)
-
-Titanilla Bőd
-
-∙
-
-st 19:10
-
 Načítať ďalšie
 Najčítanejšie
 Najnovšie
@@ -781,31 +781,31 @@ Najnovšie
 7 dní
 1
 
-VIDEO: Sabalenková prerušila svoj zápas na US Open: Niekto fajčí marihuanu, je to silné
+Vypískali ho, ohadzovali. Najlepší tréner sveta zažil najväčšiu blamáž proti Slovanu
 
 2
 
-Brzdenie z úvodu ju pripravilo o výhru. Zapletalová je s druhým miestom nespokojná
+Zapletalová už berie druhé miesto ako prehru. Neuveriteľne sa zlepšila, vraví jej tréner
 
 3
 
-VIDEO: Prvá prehra Realu pod Mourinhom. Na pôde súpera nedokázal favorit skórovať ani z penalty
+VIDEO: Sabalenková prerušila svoj zápas na US Open: Niekto fajčí marihuanu, je to silné
 
 4
 
-Duplantis prehral preteky s časom a musel odstúpiť: Je to naozaj hrozný pocit
+Z Podbrezovej do Portugalska. Druhý najlepší strelec Niké ligy podpísal s Rio Ave päťročnú zmluvu
 
 5
 
-VIDEO: Zapletalová sa doťahovala na vedúcu Američanku. Pozrite si jej beh v Bruseli
+Ukázal Slovanu recept, dostal desiatku. Bratislavčan vychytal svetové hviezdy
 
 6
 
-Paríž prehral v generálke na zápas so Slovanom. Greif vychytal víťazstvo svojho tímu
+Trest od UEFA za oslavu vojnového zločinca. Klub dostal pokutu, trpieť budú aj fanúšikovia
 
 7
 
-Zapletalová skvele finišovala, prestížne víťazstvo jej však veľmi tesne uniklo
+Stacha dal gól s rozrezanou nohou. Nitra prehrala s európskou elitou a fanúšikovia ostali stáť
 
 Späť na vrch
 Redakcia a kontakty
