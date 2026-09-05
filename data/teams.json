@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T05:18:18.712Z",
+  "generatedAt": "2026-09-05T05:10:34.988Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -358,7 +358,7 @@
           "name": "Marko Ježík",
           "position": "Obranca",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5f63282e66c847774bb6210d/marko-jezik/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f63282e66c847774bb6210d/formal-photo/34c25da8-792a-4aaa-bee8-522e827a9a80",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f63282e66c847774bb6210d/formal-photo/a4d153c7-8a83-4a99-84f4-47305419f2da",
           "profile": {
             "country": "Slovensko",
             "gender": "Muž",
@@ -1851,7 +1851,7 @@
           "name": "Oliver Bíró",
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5f438489c996a45b399f3624/oliver-biro/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f438489c996a45b399f3624/formal-photo/9bf0aab8-d5bf-4fb1-89b0-3af47dbcaa33"
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f438489c996a45b399f3624/formal-photo/589f355c-f3cf-45df-bfb7-1d78994636f1"
         },
         {
           "name": "Márk Levente Németh",
@@ -1899,7 +1899,7 @@
           "name": "Filip Bíró",
           "position": "Útočník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5f43851ac996a45b399f3654/filip-biro/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f43851ac996a45b399f3654/formal-photo/3325e451-62ab-4f45-8fcb-b7f3bb4265ee"
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f43851ac996a45b399f3654/formal-photo/9b972d4c-2503-40b3-91d3-411b327b8639"
         }
       ],
       "staff": [
