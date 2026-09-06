@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T12:13:07.937Z",
+  "generatedAt": "2026-09-06T05:10:30.338Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -431,7 +431,7 @@
           "profile": {
             "country": "Slovensko",
             "gender": "Muž",
-            "age": "13 rokov (2012)",
+            "age": "14 rokov (2012)",
             "matches": 150,
             "minutes": 8372,
             "goals": 144,
@@ -626,18 +626,6 @@
       ],
       "fixtures": [
         {
-          "round": "5. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
-          "date": "05.09",
-          "time": "10:00",
-          "status": "",
-          "home": "Nez. družstvo",
-          "away": "ŠK Junior Ivanka pri Nitre",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
-        {
           "round": "6. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 6. kolo",
           "date": "12.09",
@@ -717,6 +705,18 @@
           "status": "",
           "home": "ŠK Junior Ivanka pri Nitre",
           "away": "ŠK Šurany",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "13. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
+          "date": "31.10",
+          "time": "10:00",
+          "status": "",
+          "home": "Futbalový klub Slovan Šahy",
+          "away": "ŠK Junior Ivanka pri Nitre",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
