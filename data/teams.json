@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T05:10:30.338Z",
+  "generatedAt": "2026-09-07T05:11:35.345Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -9,25 +9,57 @@
       "forma": []
     },
     {
-      "slug": "fk-kolarovo",
-      "name": "FK Kolárovo",
+      "slug": "futbalovy-klub-holice",
+      "name": "Futbalový klub Holice",
       "pos": 1,
       "z": 4,
       "v": 3,
       "r": 1,
       "p": 0,
-      "score": "20:4",
+      "score": "18:3",
+      "pts": 10,
+      "forma": [
+        "V",
+        "V",
+        "V"
+      ]
+    },
+    {
+      "slug": "ssc-fenix-nove-zamky",
+      "name": "SSC FÉNIX Nové Zámky",
+      "pos": 2,
+      "z": 5,
+      "v": 3,
+      "r": 1,
+      "p": 1,
+      "score": "22:6",
       "pts": 10,
       "forma": [
         "R",
         "V",
+        "P"
+      ]
+    },
+    {
+      "slug": "fk-kolarovo",
+      "name": "FK Kolárovo",
+      "pos": 3,
+      "z": 5,
+      "v": 3,
+      "r": 1,
+      "p": 1,
+      "score": "21:11",
+      "pts": 10,
+      "forma": [
+        "P",
+        "R",
         "V"
       ]
     },
     {
       "slug": "sk-junior-ivanka-pri-nitre",
       "name": "ŠK Junior Ivanka pri Nitre",
-      "pos": 2,
+      "pos": 4,
       "z": 4,
       "v": 3,
       "r": 0,
@@ -41,25 +73,9 @@
       ]
     },
     {
-      "slug": "fc-slovan-hlohovec",
-      "name": "FC Slovan Hlohovec",
-      "pos": 3,
-      "z": 4,
-      "v": 3,
-      "r": 0,
-      "p": 1,
-      "score": "9:5",
-      "pts": 9,
-      "forma": [
-        "V",
-        "V",
-        "P"
-      ]
-    },
-    {
       "slug": "sk-surany",
       "name": "ŠK Šurany",
-      "pos": 4,
+      "pos": 5,
       "z": 4,
       "v": 3,
       "r": 0,
@@ -73,15 +89,31 @@
       ]
     },
     {
-      "slug": "ssc-fenix-nove-zamky",
-      "name": "SSC FÉNIX Nové Zámky",
-      "pos": 5,
+      "slug": "fc-slovan-hlohovec",
+      "name": "FC Slovan Hlohovec",
+      "pos": 6,
       "z": 4,
       "v": 3,
       "r": 0,
       "p": 1,
-      "score": "20:4",
+      "score": "9:5",
       "pts": 9,
+      "forma": [
+        "V",
+        "V",
+        "P"
+      ]
+    },
+    {
+      "slug": "fk-veca",
+      "name": "FK Veča",
+      "pos": 7,
+      "z": 4,
+      "v": 2,
+      "r": 1,
+      "p": 1,
+      "score": "12:14",
+      "pts": 7,
       "forma": [
         "V",
         "P",
@@ -89,25 +121,26 @@
       ]
     },
     {
-      "slug": "futbalovy-klub-holice",
-      "name": "Futbalový klub Holice",
-      "pos": 6,
-      "z": 3,
+      "slug": "tj-dynamo-nova-straz",
+      "name": "TJ Dynamo Nová Stráž",
+      "pos": 8,
+      "z": 4,
       "v": 2,
-      "r": 1,
-      "p": 0,
-      "score": "11:2",
-      "pts": 7,
+      "r": 0,
+      "p": 2,
+      "score": "15:14",
+      "pts": 6,
       "forma": [
         "V",
         "V",
-        "R"
+        "P",
+        "P"
       ]
     },
     {
       "slug": "futbalovy-klub-slovan-sahy",
       "name": "Futbalový klub Slovan Šahy",
-      "pos": 7,
+      "pos": 9,
       "z": 5,
       "v": 2,
       "r": 0,
@@ -122,9 +155,25 @@
       ]
     },
     {
+      "slug": "fk-slovan-duslo-sala",
+      "name": "FK Slovan Duslo Šaľa",
+      "pos": 10,
+      "z": 3,
+      "v": 1,
+      "r": 1,
+      "p": 1,
+      "score": "7:7",
+      "pts": 4,
+      "forma": [
+        "R",
+        "V",
+        "P"
+      ]
+    },
+    {
       "slug": "malodvornicky-fk-male-dvorniky",
       "name": "Malodvornícky FK Malé Dvorníky",
-      "pos": 8,
+      "pos": 11,
       "z": 4,
       "v": 1,
       "r": 1,
@@ -140,64 +189,17 @@
     {
       "slug": "fc-slovan-galanta",
       "name": "FC Slovan Galanta",
-      "pos": 9,
-      "z": 4,
-      "v": 1,
-      "r": 1,
-      "p": 2,
-      "score": "8:12",
-      "pts": 4,
-      "forma": [
-        "P",
-        "V",
-        "P"
-      ]
-    },
-    {
-      "slug": "fk-veca",
-      "name": "FK Veča",
-      "pos": 10,
-      "z": 3,
-      "v": 1,
-      "r": 1,
-      "p": 1,
-      "score": "8:13",
-      "pts": 4,
-      "forma": [
-        "P",
-        "V",
-        "R"
-      ]
-    },
-    {
-      "slug": "fk-slovan-duslo-sala",
-      "name": "FK Slovan Duslo Šaľa",
-      "pos": 11,
-      "z": 2,
-      "v": 1,
-      "r": 0,
-      "p": 1,
-      "score": "5:5",
-      "pts": 3,
-      "forma": [
-        "V",
-        "P"
-      ]
-    },
-    {
-      "slug": "tj-dynamo-nova-straz",
-      "name": "TJ Dynamo Nová Stráž",
       "pos": 12,
-      "z": 3,
+      "z": 5,
       "v": 1,
-      "r": 0,
-      "p": 2,
-      "score": "10:13",
-      "pts": 3,
+      "r": 1,
+      "p": 3,
+      "score": "9:16",
+      "pts": 4,
       "forma": [
-        "V",
         "P",
-        "P"
+        "P",
+        "V"
       ]
     },
     {
@@ -236,11 +238,11 @@
       "slug": "msk-zeliezovce",
       "name": "MŠK Želiezovce",
       "pos": 15,
-      "z": 4,
+      "z": 5,
       "v": 0,
       "r": 0,
-      "p": 4,
-      "score": "3:17",
+      "p": 5,
+      "score": "4:22",
       "pts": 0,
       "forma": [
         "P",
@@ -769,6 +771,12 @@
           "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
         },
         {
+          "name": "Dominik Kliment",
+          "position": "Obranca",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/61261f7164def709d25c666a/dominik-kliment/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/61261f7164def709d25c666a/formal-photo/3de4807e-3ccd-4c77-8664-367912d6a9db"
+        },
+        {
           "name": "Áron Richard Kiss",
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/628491d3596aecfaf8571c6a/aronrichard-kiss/",
@@ -809,12 +817,6 @@
           "position": "Útočník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/6a7c1150db52af0a527a5c20/brandon-rafael/",
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/6a7c1150db52af0a527a5c20/formal-photo/2e1593b7-e4dc-4d5b-8a65-e5ff8c3ff1d3"
-        },
-        {
-          "name": "Dominik Kliment",
-          "position": "Útočník",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/61261f7164def709d25c666a/dominik-kliment/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/61261f7164def709d25c666a/formal-photo/3de4807e-3ccd-4c77-8664-367912d6a9db"
         }
       ],
       "staff": [
@@ -836,6 +838,18 @@
         }
       ],
       "results": [
+        {
+          "round": "5. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
+          "date": "06.09",
+          "time": "10:00",
+          "status": "Koniec",
+          "home": "Futbalový klub Holice",
+          "away": "FK Kolárovo",
+          "scoreHome": 7,
+          "scoreAway": 1,
+          "played": true
+        },
         {
           "round": "1. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 1. kolo",
@@ -886,18 +900,6 @@
         }
       ],
       "fixtures": [
-        {
-          "round": "5. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
-          "date": "06.09",
-          "time": "10:00",
-          "status": "",
-          "home": "Futbalový klub Holice",
-          "away": "FK Kolárovo",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "6. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 6. kolo",
@@ -978,6 +980,18 @@
           "status": "",
           "home": "FC Slovan Hlohovec",
           "away": "FK Kolárovo",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "13. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
+          "date": "01.11",
+          "time": "10:00",
+          "status": "",
+          "home": "FK Kolárovo",
+          "away": "FK Slovan Duslo Šaľa",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
@@ -1088,6 +1102,18 @@
       ],
       "results": [
         {
+          "round": "5. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
+          "date": "06.09",
+          "time": "10:00",
+          "status": "Koniec",
+          "home": "SSC FÉNIX Nové Zámky",
+          "away": "FK Slovan Duslo Šaľa",
+          "scoreHome": 2,
+          "scoreAway": 2,
+          "played": true
+        },
+        {
           "round": "1. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 1. kolo",
           "date": "02.09",
@@ -1137,18 +1163,6 @@
         }
       ],
       "fixtures": [
-        {
-          "round": "5. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
-          "date": "06.09",
-          "time": "10:00",
-          "status": "",
-          "home": "SSC FÉNIX Nové Zámky",
-          "away": "FK Slovan Duslo Šaľa",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "6. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 6. kolo",
@@ -1229,6 +1243,18 @@
           "status": "",
           "home": "SSC FÉNIX Nové Zámky",
           "away": "Futbalový klub Holice",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "13. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
+          "date": "01.11",
+          "time": "10:00",
+          "status": "",
+          "home": "ŠK Šurany",
+          "away": "SSC FÉNIX Nové Zámky",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
@@ -1955,6 +1981,18 @@
       ],
       "results": [
         {
+          "round": "5. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
+          "date": "06.09",
+          "time": "10:00",
+          "status": "Koniec",
+          "home": "Futbalový klub Holice",
+          "away": "FK Kolárovo",
+          "scoreHome": 7,
+          "scoreAway": 1,
+          "played": true
+        },
+        {
           "round": "4. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 4. kolo",
           "date": "29.08",
@@ -1992,18 +2030,6 @@
         }
       ],
       "fixtures": [
-        {
-          "round": "5. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
-          "date": "06.09",
-          "time": "10:00",
-          "status": "",
-          "home": "Futbalový klub Holice",
-          "away": "FK Kolárovo",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "6. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 6. kolo",
@@ -2087,6 +2113,18 @@
           "scoreHome": null,
           "scoreAway": null,
           "played": false
+        },
+        {
+          "round": "13. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
+          "date": "31.10",
+          "time": "10:00",
+          "status": "",
+          "home": "Futbalový klub Holice",
+          "away": "MŠO Štúrovo",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
         }
       ]
     },
@@ -2098,12 +2136,6 @@
           "position": "Brankár",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5f33a552eff9931745f13253/damian-jesko/",
           "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
-        },
-        {
-          "name": "Filip Dubnička",
-          "position": "Brankár",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/5f3cc72cf2140d7ecde642cf/filip-dubnicka/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f3cc72cf2140d7ecde642cf/formal-photo/0d9999b7-522f-47e9-9dbb-401ac29a4baa"
         },
         {
           "name": "Robert Pudmerický",
@@ -2134,6 +2166,12 @@
           "position": "Obranca",
           "href": "https://sportnet.sme.sk/futbalnet/clen/622213a15324cae380b83561/ivannikolas-bily/",
           "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
+        },
+        {
+          "name": "Filip Dubnička",
+          "position": "Záložník",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/5f3cc72cf2140d7ecde642cf/filip-dubnicka/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f3cc72cf2140d7ecde642cf/formal-photo/0d9999b7-522f-47e9-9dbb-401ac29a4baa"
         },
         {
           "name": "Jakub Kečkár",
@@ -2230,6 +2268,18 @@
       ],
       "results": [
         {
+          "round": "5. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
+          "date": "06.09",
+          "time": "10:00",
+          "status": "Koniec",
+          "home": "FC Slovan Galanta",
+          "away": "FK Veča",
+          "scoreHome": 1,
+          "scoreAway": 4,
+          "played": true
+        },
+        {
           "round": "4. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 4. kolo",
           "date": "30.08",
@@ -2279,18 +2329,6 @@
         }
       ],
       "fixtures": [
-        {
-          "round": "5. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
-          "date": "06.09",
-          "time": "10:00",
-          "status": "",
-          "home": "FC Slovan Galanta",
-          "away": "FK Veča",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "6. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 6. kolo",
@@ -2371,6 +2409,18 @@
           "status": "",
           "home": "MŠO Štúrovo",
           "away": "FC Slovan Galanta",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "13. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
+          "date": "01.11",
+          "time": "10:00",
+          "status": "",
+          "home": "FC Slovan Galanta",
+          "away": "C&P Stars Academy - ZM",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
@@ -2700,6 +2750,12 @@
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/6311dc2d677da94122aa33d1/formal-photo/3b19df29-e74e-4b7d-806f-47827a70cc91"
         },
         {
+          "name": "Matúš Bozsaky",
+          "position": "Brankár",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/670cebd9bc0899e8bcd70719/matus-bozsaky/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/670cebd9bc0899e8bcd70719/formal-photo/a818fe1c-8780-436d-a34e-5c21f3b48bd2"
+        },
+        {
           "name": "Marko Miškovič",
           "position": "Obranca",
           "href": "https://sportnet.sme.sk/futbalnet/clen/611287525051ae155268174a/marko-miskovic/",
@@ -2746,6 +2802,12 @@
           "position": "Obranca",
           "href": "https://sportnet.sme.sk/futbalnet/clen/68b738b194d10f7e9dd433d4/leonardo-lakatos/",
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/68b738b194d10f7e9dd433d4/formal-photo/57bce264-61ca-40fd-8d4f-1cd8f98659b1"
+        },
+        {
+          "name": "David Braník",
+          "position": "Obranca",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/64802e8e76d0d348cd096c45/david-branik/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/64802e8e76d0d348cd096c45/formal-photo/4dac135a-136a-4832-a491-2fefea7d0a32"
         },
         {
           "name": "Peter Hamar",
@@ -2812,6 +2874,18 @@
       ],
       "results": [
         {
+          "round": "5. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
+          "date": "06.09",
+          "time": "10:00",
+          "status": "Koniec",
+          "home": "FC Slovan Galanta",
+          "away": "FK Veča",
+          "scoreHome": 1,
+          "scoreAway": 4,
+          "played": true
+        },
+        {
           "round": "1. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 1. kolo",
           "date": "02.09",
@@ -2849,18 +2923,6 @@
         }
       ],
       "fixtures": [
-        {
-          "round": "5. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
-          "date": "06.09",
-          "time": "10:00",
-          "status": "",
-          "home": "FC Slovan Galanta",
-          "away": "FK Veča",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "6. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 6. kolo",
@@ -2941,6 +3003,18 @@
           "status": "",
           "home": "FK Veča",
           "away": "TJ Dynamo Nová Stráž",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "12. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
+          "date": "24.10",
+          "time": "10:00",
+          "status": "",
+          "home": "Malodvornícky FK Malé Dvorníky",
+          "away": "FK Veča",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
@@ -3533,10 +3607,10 @@
           "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
         },
         {
-          "name": "Christopher Chrupka",
+          "name": "Adam Rehorčík",
           "position": "Brankár",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/610303da6f3c9c916de21a15/christopher-chrupka/",
-          "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
+          "href": "https://sportnet.sme.sk/futbalnet/clen/61444cc4ebf3a384471affb3/adam-rehorcik/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/61444cc4ebf3a384471affb3/formal-photo/e81fbf29-7aa6-41fd-a090-4293408b5c3c"
         },
         {
           "name": "Kristián Szarka",
@@ -3611,6 +3685,12 @@
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5efee5ef1b04f230d150c565/formal-photo/8d0b4fcf-70ac-4309-ac35-664f3674dc25"
         },
         {
+          "name": "Christopher Chrupka",
+          "position": "Záložník",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/610303da6f3c9c916de21a15/christopher-chrupka/",
+          "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
+        },
+        {
           "name": "Filip Siládi",
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5f3cc682f2140d7ecde64131/filip-siladi/",
@@ -3667,6 +3747,18 @@
       ],
       "results": [
         {
+          "round": "5. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
+          "date": "06.09",
+          "time": "10:00",
+          "status": "Koniec",
+          "home": "SSC FÉNIX Nové Zámky",
+          "away": "FK Slovan Duslo Šaľa",
+          "scoreHome": 2,
+          "scoreAway": 2,
+          "played": true
+        },
+        {
           "round": "4. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 4. kolo",
           "date": "29.08",
@@ -3692,18 +3784,6 @@
         }
       ],
       "fixtures": [
-        {
-          "round": "5. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
-          "date": "06.09",
-          "time": "10:00",
-          "status": "",
-          "home": "SSC FÉNIX Nové Zámky",
-          "away": "FK Slovan Duslo Šaľa",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "6. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 6. kolo",
@@ -3784,6 +3864,18 @@
           "status": "",
           "home": "ŠK Šurany",
           "away": "FK Slovan Duslo Šaľa",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "12. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
+          "date": "24.10",
+          "time": "10:00",
+          "status": "",
+          "home": "FK Slovan Duslo Šaľa",
+          "away": "Futbalový klub Slovan Šahy",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
@@ -4217,6 +4309,18 @@
       ],
       "results": [
         {
+          "round": "5. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
+          "date": "06.09",
+          "time": "10:00",
+          "status": "Koniec",
+          "home": "MŠK Želiezovce",
+          "away": "TJ Dynamo Nová Stráž",
+          "scoreHome": 1,
+          "scoreAway": 5,
+          "played": true
+        },
+        {
           "round": "4. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 4. kolo",
           "date": "29.08",
@@ -4254,18 +4358,6 @@
         }
       ],
       "fixtures": [
-        {
-          "round": "5. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
-          "date": "06.09",
-          "time": "10:00",
-          "status": "",
-          "home": "MŠK Želiezovce",
-          "away": "TJ Dynamo Nová Stráž",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "3. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo",
@@ -4349,6 +4441,18 @@
           "scoreHome": null,
           "scoreAway": null,
           "played": false
+        },
+        {
+          "round": "12. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
+          "date": "24.10",
+          "time": "10:00",
+          "status": "",
+          "home": "Nez. družstvo",
+          "away": "TJ Dynamo Nová Stráž",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
         }
       ]
     },
@@ -4428,12 +4532,6 @@
           "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
         },
         {
-          "name": "Tobias Filyó",
-          "position": "Brankár",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/69fc3a2d271e6e9e6a53bcf2/tobias-filyo/",
-          "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
-        },
-        {
           "name": "Nándor Kotasz",
           "position": "Brankár",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5f4b7717d2e2d501b5287726/nandor-kotasz/",
@@ -4468,6 +4566,12 @@
           "position": "Brankár",
           "href": "https://sportnet.sme.sk/futbalnet/clen/66212b37ca6a08370a544d4f/maxim-kmeto/",
           "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
+        },
+        {
+          "name": "Tobias Filyó",
+          "position": "Obranca",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/69fc3a2d271e6e9e6a53bcf2/tobias-filyo/",
+          "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
         }
       ],
       "staff": [
@@ -4489,6 +4593,18 @@
         }
       ],
       "results": [
+        {
+          "round": "5. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
+          "date": "06.09",
+          "time": "10:00",
+          "status": "Koniec",
+          "home": "MŠK Želiezovce",
+          "away": "TJ Dynamo Nová Stráž",
+          "scoreHome": 1,
+          "scoreAway": 5,
+          "played": true
+        },
         {
           "round": "4. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 4. kolo",
@@ -4539,18 +4655,6 @@
         }
       ],
       "fixtures": [
-        {
-          "round": "5. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
-          "date": "06.09",
-          "time": "10:00",
-          "status": "",
-          "home": "MŠK Želiezovce",
-          "away": "TJ Dynamo Nová Stráž",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "6. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 6. kolo",
@@ -4630,6 +4734,18 @@
           "time": "10:00",
           "status": "",
           "home": "C&P Stars Academy - ZM",
+          "away": "MŠK Želiezovce",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "13. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
+          "date": "31.10",
+          "time": "10:00",
+          "status": "",
+          "home": "Nez. družstvo",
           "away": "MŠK Želiezovce",
           "scoreHome": null,
           "scoreAway": null,
