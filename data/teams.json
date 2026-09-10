@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T05:11:04.750Z",
+  "generatedAt": "2026-09-10T05:11:09.502Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -105,9 +105,25 @@
       ]
     },
     {
+      "slug": "tj-dynamo-nova-straz",
+      "name": "TJ Dynamo Nová Stráž",
+      "pos": 7,
+      "z": 5,
+      "v": 2,
+      "r": 1,
+      "p": 2,
+      "score": "17:16",
+      "pts": 7,
+      "forma": [
+        "R",
+        "V",
+        "V"
+      ]
+    },
+    {
       "slug": "fk-veca",
       "name": "FK Veča",
-      "pos": 7,
+      "pos": 8,
       "z": 4,
       "v": 2,
       "r": 1,
@@ -118,23 +134,6 @@
         "V",
         "P",
         "V"
-      ]
-    },
-    {
-      "slug": "tj-dynamo-nova-straz",
-      "name": "TJ Dynamo Nová Stráž",
-      "pos": 8,
-      "z": 4,
-      "v": 2,
-      "r": 0,
-      "p": 2,
-      "score": "15:14",
-      "pts": 6,
-      "forma": [
-        "V",
-        "V",
-        "P",
-        "P"
       ]
     },
     {
@@ -206,15 +205,15 @@
       "slug": "mso-sturovo",
       "name": "MŠO Štúrovo",
       "pos": 13,
-      "z": 3,
+      "z": 4,
       "v": 0,
-      "r": 2,
+      "r": 3,
       "p": 1,
-      "score": "3:6",
-      "pts": 2,
+      "score": "5:8",
+      "pts": 3,
       "forma": [
-        "P",
         "R",
+        "P",
         "R"
       ]
     },
@@ -2345,7 +2344,7 @@
           "round": "7. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 7. kolo",
           "date": "19.09",
-          "time": "10:00",
+          "time": "11:45",
           "status": "",
           "home": "FC Slovan Galanta",
           "away": "Malodvornícky FK Malé Dvorníky",
@@ -3344,12 +3343,6 @@
           "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
         },
         {
-          "name": "Botond Mikle",
-          "position": "Brankár",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/62559790c46e400a72844abd/botond-mikle/",
-          "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
-        },
-        {
           "name": "Botond Árendás",
           "position": "Brankár",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5ef083e71b04f230d146ee8f/botond-arendas/",
@@ -3359,6 +3352,12 @@
           "name": "Patrik Bábsky",
           "position": "Brankár",
           "href": "https://sportnet.sme.sk/futbalnet/clen/63076ec8677da94122a8f0a7/patrik-babsky/",
+          "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
+        },
+        {
+          "name": "Balázs Albán",
+          "position": "Brankár",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/60cb0312ea78a8f7da7a6e33/balazs-alban/",
           "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
         },
         {
@@ -3416,6 +3415,12 @@
           "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
         },
         {
+          "name": "Botond Mikle",
+          "position": "Záložník",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/62559790c46e400a72844abd/botond-mikle/",
+          "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
+        },
+        {
           "name": "Leon Nagy",
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5f52245de93845738cc1e54a/leon-nagy/",
@@ -3462,6 +3467,18 @@
       ],
       "results": [
         {
+          "round": "3. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo",
+          "date": "09.09",
+          "time": "16:30",
+          "status": "Koniec",
+          "home": "MŠO Štúrovo",
+          "away": "TJ Dynamo Nová Stráž",
+          "scoreHome": 2,
+          "scoreAway": 2,
+          "played": true
+        },
+        {
           "round": "5. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
           "date": "05.09",
@@ -3499,18 +3516,6 @@
         }
       ],
       "fixtures": [
-        {
-          "round": "3. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo",
-          "date": "09.09",
-          "time": "16:30",
-          "status": "",
-          "home": "MŠO Štúrovo",
-          "away": "TJ Dynamo Nová Stráž",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "6. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 6. kolo",
@@ -3591,6 +3596,18 @@
           "status": "",
           "home": "MŠK Želiezovce",
           "away": "MŠO Štúrovo",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "12. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
+          "date": "24.10",
+          "time": "10:00",
+          "status": "",
+          "home": "MŠO Štúrovo",
+          "away": "FC Slovan Galanta",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
@@ -4105,7 +4122,7 @@
           "round": "7. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 7. kolo",
           "date": "19.09",
-          "time": "10:00",
+          "time": "11:45",
           "status": "",
           "home": "FC Slovan Galanta",
           "away": "Malodvornícky FK Malé Dvorníky",
@@ -4269,6 +4286,12 @@
           "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
         },
         {
+          "name": "Samuel Peter Doležaj",
+          "position": "Záložník",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/5e14d9d27ad8b85a6baf3323/samuelpeter-dolezaj/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5e14d9d27ad8b85a6baf3323/formal-photo/8d21049e-04df-46b7-abfe-ec60440e6eda"
+        },
+        {
           "name": "Peter Dohnanec",
           "position": "Útočník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5d654a6486dc8b7238269c4e/peter-dohnanec/",
@@ -4303,11 +4326,23 @@
           "name": "Alfréd Sándor"
         },
         {
-          "role": "Technický vedúci",
+          "role": "Fyzioterapeut",
           "name": "Peter Dohnanec"
         }
       ],
       "results": [
+        {
+          "round": "3. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo",
+          "date": "09.09",
+          "time": "16:30",
+          "status": "Koniec",
+          "home": "MŠO Štúrovo",
+          "away": "TJ Dynamo Nová Stráž",
+          "scoreHome": 2,
+          "scoreAway": 2,
+          "played": true
+        },
         {
           "round": "5. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
@@ -4358,18 +4393,6 @@
         }
       ],
       "fixtures": [
-        {
-          "round": "3. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 3. kolo",
-          "date": "09.09",
-          "time": "16:30",
-          "status": "",
-          "home": "MŠO Štúrovo",
-          "away": "TJ Dynamo Nová Stráž",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "6. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 6. kolo",
@@ -4450,6 +4473,18 @@
           "status": "",
           "home": "Nez. družstvo",
           "away": "TJ Dynamo Nová Stráž",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "13. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
+          "date": "31.10",
+          "time": "10:00",
+          "status": "",
+          "home": "TJ Dynamo Nová Stráž",
+          "away": "Malodvornícky FK Malé Dvorníky",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
