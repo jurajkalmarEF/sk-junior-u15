@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T05:11:09.502Z",
+  "generatedAt": "2026-09-11T05:11:33.464Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -415,7 +415,7 @@
           "profile": {
             "country": "Slovensko",
             "gender": "Muž",
-            "age": "13 rokov (2012)",
+            "age": "14 rokov (2012)",
             "matches": 139,
             "minutes": 7759,
             "goals": 44,
@@ -1189,8 +1189,8 @@
         {
           "round": "8. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 8. kolo",
-          "date": "27.09",
-          "time": "10:00",
+          "date": "23.09",
+          "time": "15:30",
           "status": "",
           "home": "SSC FÉNIX Nové Zámky",
           "away": "MŠO Štúrovo",
@@ -3555,8 +3555,8 @@
         {
           "round": "8. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 8. kolo",
-          "date": "27.09",
-          "time": "10:00",
+          "date": "23.09",
+          "time": "15:30",
           "status": "",
           "home": "SSC FÉNIX Nové Zámky",
           "away": "MŠO Štúrovo",

@@ -100,35 +100,47 @@ NAP
 ARS
 1
 Detail zápasu
+10.09.
 PSV
-10.09. 18:45
+1
+1. kolo
 SHK
-1. kolo
+1
 Detail zápasu
+10.09.
 FEN
-10.09. 18:45
+1
+1. kolo
 ROM
-1. kolo
+1
 Detail zápasu
+10.09.
 FCB
-10.09. 21:00
+5
+1. kolo
 BOD
-1. kolo
+0
 Detail zápasu
+10.09.
 MUN
-10.09. 21:00
+4
+1. kolo
 SAB
-1. kolo
+0
 Detail zápasu
+10.09.
 SLA
-10.09. 21:00
+2
+1. kolo
 LEN
-1. kolo
+3
 Detail zápasu
+10.09.
 COM
-10.09. 21:00
-LEI
+4
 1. kolo
+LEI
+1
 Detail zápasu
 LEN
 13.10. 18:45
@@ -760,11 +772,11 @@ LSK
 POR
 8. kolo
 Detail zápasu
+Slávneho Slováka nazvali gorilou. Kanadu ohúril opravár chladničiek z Bratislavy
+Za facku z minulej sezóny sme radi, vraví manažér Žiliny. Cehlárik nastúpi už v prvom zápase
 Preteky, ktoré nám Česi závideli. Domáceho hrdinu volali Sahara, výhru hneď predal
 Tréner z Milionára, Buffalo Bill aj rakúsky zázrak. Kto sú nováčikovia Ligy majstrov?
-Vypískali ho, ohadzovali. Najlepší tréner sveta zažil najväčšiu blamáž proti Slovanu
-Dúfal, že si ho vyberie Calgary. Slovensko je pre ostatných stále outsider, vraví Nemec
-Boli spojenci, teraz sa Šimkovičová Machalu zbavila. Dozvedel sa to na dovolenke
+Prieskum NMS: Republika výrazne stúpla, nárast súvisí so situáciou v koalícii aj župnými voľbami
 Kluby
 /
 ŠK Junior Ivanka pri Nitre
@@ -1461,6 +1473,32 @@ Prehra
 
 Správy z Futbalnetu
 
+Vavrečka prehrala so Žilinou 0:5.
+
+Prišlo viac ľudí, ako má obec obyvateľov. Šiestoligista zažil nezabudnuteľný zápas
+
+Titanilla Bőd
+
+∙
+
+št 19:50
+
+V tejto fáze už neplatí územné rozdelenie na východ a západ.
+
+Piatoligista z dediny privíta obhajcu trofeje. Vyžrebovali šestnásťfinále Slovnaft Cupu
+
+Titanilla Bőd
+
+∙
+
+št 15:45
+
+Zväz prinesie na stretnutie aj právnych zástupcov.
+
+Kováčik a Huliak si sadnú za jeden stôl. SFZ potvrdil rokovanie s ministerstvom
+
+št 16:35
+
 V stredajších zápasoch tretieho kola zvíťazili všetci favoriti.
 
 Žilina v pohári nemala problém so šiestoligistom z Oravy, Zlaté Moravce sa trápili
@@ -1473,20 +1511,15 @@ Košice opúšťa poľský brankár. Využil lákavú ponuku, vracia sa do domá
 
 st 21:57
 
-Čisté konto si udržali hráči Komárna aj Michaloviec.
+Ešte pred dvoma mesiacmi nebolo jasné, ako a či vôbec bude klub fungovať.
 
-Favoriti šetrili tímy z nižších súťaží. Ani jeden však nezaváhal
+Turbulentné obdobie vyvrcholilo zostupom. Chceme, aby nás opäť rešpektovali, hovorí opora tímu
 
-ut 19:35
-
-Dominik Takáč zostáva v Bratislave do roku 2030.
-
-Mal ponuky zo zahraničia, no zostáva v Slovane. Dominik Takáč podpisom ukončil špekulácie
-
-po 20:54
+Peter Cingel
 
 ∙
-4
+
+št 13:00
 
 V tretej lige patria už roky k najlepším.
 
@@ -1498,43 +1531,17 @@ Peter Cingel
 
 st 10:15
 
-Slovan viacej držal loptu, ale na vyrovnanie nedosiahol.
-
-Žilinské béčko vyhralo aj vďaka kontroverznému gólu. Slovanu B nedalo šancu a stúpa tabuľkou
-
-po 18:52
-
-Stopercentný vicemajster, neporaziteľný majster je druhý.
-
-Anomália výbornej súťaže. Viacerí chcú titul, postup však nie
-
-Marián Dragúň
-
-∙
-
-po 11:30
-
-∙
-1
-
-Košičania dosiahli prvé domáce víťazstvo v sezóne.
-
-Nový Angličan zapadol, Kira sa dočkal nuly. Košice nepustili Bystricu k ničomu
-
-Svjatoslav Dohovič
-
-∙
-
-po 08:19
-
-∙
-2
-
 Sledujte spolu s nami online prenos z tretieho kola Slovnaft Cupu: TJ Slovan Magura Vavrečka - MŠK Žilina.
 
 ONLINE: TJ Slovan Magura Vavrečka - MŠK Žilina dnes, Slovnaft Cup LIVE (3. kolo)
 
 st 13:30
+
+Čisté konto si udržali hráči Komárna aj Michaloviec.
+
+Favoriti šetrili tímy z nižších súťaží. Ani jeden však nezaváhal
+
+ut 19:35
 
 Sledovali ste spolu s nami online prenos z tretieho kola Slovnaft Cupu: MFK Spartak Medzev - MFK Zemplín Michalovce.
 
@@ -1550,31 +1557,31 @@ Najnovšie
 7 dní
 1
 
-PSG valcoval, kapitán bol úprimný: Nič si neužil. Jeden slovanista mal svetový okamih
+VIDEO: Trpký večer pre Slaviu, výhru stratila v nadstavení. Bayern aj United excelovali
 
 2
 
-Slovan na úvod Ligy majstrov neprekročil svoj tieň. V Paríži utrpel drvivú prehru
+Favoriti nezaváhali, prekvapil taliansky klub. Pozrite si tabuľku Ligy majstrov
 
 3
 
-VIDEO: Pozrite si góly zo zápasu Paríž St. Germain - Slovan Bratislava v Lige majstrov
+Slováci na výhru čakali sedem rokov. Chceme byť ako švédsky majster, vraví šéf Nitry
 
 4
 
-Lajdácky Blackman, behavý a bojovný Camara. V čom zlyhal Slovan proti PSG?
+Ultimátne MS v atletike 2026: Kedy ide Emma Zapletalová? Pozrite si program a výsledky
 
 5
 
-Liga majstrov: Slovan sa o senzáciu v Paríži nepostaral. PSG diktovalo hru od úvodu duelu
+Český hokej sa búri proti šéfovi Pardubíc. Poškodzuje meno extraligy, tvrdia kluby
 
 6
 
-Môže zarobiť viac ako za celú kariéru. Zapletalová pobeží v Budapešti o rekordnú prémiu
+Dopingový trest mení výsledky maratónu. Keňanka prišla o triumf aj rekord
 
 7
 
-Slovanisti nechceli v Paríži provokovať. Camara ich potešil gólovým sólom
+VIDEO: Vyrovnaná bitka v Istanbule. Škriniarov tím delilo od skalpu AS Rím len brvno
 
 Späť na vrch
 Redakcia a kontakty
