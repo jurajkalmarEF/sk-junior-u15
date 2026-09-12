@@ -15,9 +15,9 @@ PRESTUPY
 PIKOŠKY
 Slávneho Slováka nazvali gorilou. Kanadu ohúril opravár chladničiek z Bratislavy
 Za facku z minulej sezóny sme radi, vraví manažér Žiliny. Cehlárik nastúpi už v prvom zápase
-Preteky, ktoré nám Česi závideli. Domáceho hrdinu volali Sahara, výhru hneď predal
+Stal sa legendou. Jeho víťazstvu sa prizeral chorý otec, ako tréner neposlúchol príkaz
 Tréner z Milionára, Buffalo Bill aj rakúsky zázrak. Kto sú nováčikovia Ligy majstrov?
-Skoro odpadol, keď zistil, čo má v zásuvke. Hviezdny drahokam prekvapil aj odborníkov
+Do praskliny vopcháte nohu či koleso bicykla. Cyklochodník nevydržal ani rok, roztrhlo ho napoly
 Kluby
 /
 ŠK Junior Ivanka pri Nitre
@@ -71,6 +71,92 @@ K
 
 1
 
+	ŠK Junior Ivanka pri Nitre	
+
+5
+
+	
+
+4
+
+	
+
+0
+
+	
+
+1
+
+	
+
+13:8
+
+	
+
+12
+
+	
+
+15
+
+	
+
+3
+
+	
+V
+P
+V
+V
+V
+
+
+
+2
+
+	SSC FÉNIX Nové Zámky	
+
+6
+
+	
+
+3
+
+	
+
+1
+
+	
+
+2
+
+	
+
+23:8
+
+	
+
+10
+
+	
+
+14
+
+	
+
+1
+
+	
+P
+R
+V
+P
+V
+
+
+
+3
+
 	Futbalový klub Holice	
 
 4
@@ -97,7 +183,7 @@ K
 
 	
 
-14
+13
 
 	
 
@@ -111,50 +197,7 @@ R
 
 
 
-2
-
-	SSC FÉNIX Nové Zámky	
-
-5
-
-	
-
-3
-
-	
-
-1
-
-	
-
-1
-
-	
-
-22:6
-
-	
-
-10
-
-	
-
-15
-
-	
-
-1
-
-	
-R
-V
-P
-V
-V
-
-
-
-3
+4
 
 	FK Kolárovo	
 
@@ -182,7 +225,7 @@ V
 
 	
 
-13
+12
 
 	
 
@@ -197,53 +240,11 @@ V
 
 
 
-4
-
-	ŠK Junior Ivanka pri Nitre	
-
-4
-
-	
-
-3
-
-	
-
-0
-
-	
-
-1
-
-	
-
-11:7
-
-	
-
-9
-
-	
-
-12
-
-	
-
-3
-
-	
-P
-V
-V
-V
-
-
-
 5
 
-	ŠK Šurany	
+	TJ Dynamo Nová Stráž	
 
-4
+6
 
 	
 
@@ -251,19 +252,15 @@ V
 
 	
 
-0
-
-	
-
 1
 
 	
 
-6:7
+2
 
 	
 
-9
+19:17
 
 	
 
@@ -271,13 +268,18 @@ V
 
 	
 
-3
+11
+
+	
+
+1
 
 	
 V
+R
+V
+V
 P
-V
-V
 
 
 
@@ -309,7 +311,7 @@ V
 
 	
 
-11
+10
 
 	
 
@@ -325,13 +327,17 @@ V
 
 7
 
-	TJ Dynamo Nová Stráž	
+	ŠK Šurany	
 
-5
+4
 
 	
 
-2
+3
+
+	
+
+0
 
 	
 
@@ -339,15 +345,7 @@ V
 
 	
 
-2
-
-	
-
-17:16
-
-	
-
-7
+6:7
 
 	
 
@@ -355,14 +353,17 @@ V
 
 	
 
-1
+9
 
 	
-R
-V
+
+3
+
+	
 V
 P
-P
+V
+V
 
 
 
@@ -451,6 +452,49 @@ V
 
 10
 
+	Malodvornícky FK Malé Dvorníky	
+
+5
+
+	
+
+1
+
+	
+
+2
+
+	
+
+2
+
+	
+
+4:7
+
+	
+
+5
+
+	
+
+6
+
+	
+
+-4
+
+	
+R
+V
+R
+P
+P
+
+
+
+11
+
 	FK Slovan Duslo Šaľa	
 
 3
@@ -477,57 +521,15 @@ V
 
 	
 
-6
-
-	
-
-1
-
-	
-R
-V
-P
-
-
-
-11
-
-	Malodvornícky FK Malé Dvorníky	
-
-4
-
-	
-
-1
-
-	
-
-1
-
-	
-
-2
-
-	
-
-2:5
-
-	
-
-4
-
-	
-
 5
 
 	
 
--2
+1
 
 	
-V
 R
-P
+V
 P
 
 
@@ -536,7 +538,7 @@ P
 
 	FC Slovan Galanta	
 
-5
+6
 
 	
 
@@ -548,11 +550,11 @@ P
 
 	
 
-3
+4
 
 	
 
-9:16
+10:18
 
 	
 
@@ -569,9 +571,9 @@ P
 	
 P
 P
+P
 V
 P
-R
 
 
 
@@ -664,23 +666,7 @@ P
 
 	MŠK Želiezovce	
 
-5
-
-	
-
-0
-
-	
-
-0
-
-	
-
-5
-
-	
-
-4:22
+6
 
 	
 
@@ -692,10 +678,26 @@ P
 
 	
 
--6
+5
 
 	
-P
+
+6:24
+
+	
+
+1
+
+	
+
+1
+
+	
+
+-5
+
+	
+R
 P
 P
 P
@@ -713,6 +715,32 @@ P
 Prehra
 
 Správy z Futbalnetu
+
+Fanúšikovia otočili, tlieskali rezerve.
+
+Béčko Slovana vyradilo áčko. Hrdina musel čakať vonku, nikdy šancu nedostal
+
+Pavol Spál
+
+∙
+
+dnes 07:00
+
+Odchovancovi Trenčína pribrzdili kariéru zranenia.
+
+Nový začiatok v Česku. Demitra pokračuje vo futbalovej kariére v hokejovom meste
+
+dnes 08:20
+
+Chýba mi ľudskosť a empatia u niektorých rozhodcov pri posudzovaní situácií, vyjadril sa tréner aj k rozhodcom.
+
+Štyri zápasy, štyri výhry a skóre 16:1. Nesmieme zaspať, lebo nás to dobehne, varuje tréner
+
+Peter Cingel
+
+∙
+
+dnes 08:00
 
 Disciplinárna komisia SFZ sa zaoberala správaním fanúšikov oboch táborov.
 
@@ -755,39 +783,17 @@ Titanilla Bőd
 
 št 15:45
 
-Fanúšikovia otočili, tlieskali rezerve.
+Sledujte s nami ONLINE prenos zo zápasu 8. kola MONACObet ligy: FK Inter Bratislava - FC Petržalka.
 
-Béčko Slovana vyradilo áčko. Hrdina musel čakať vonku, nikdy šancu nedostal
+ONLINE: FK Inter Bratislava - FC Petržalka dnes, MONACObet liga LIVE (II. liga, 8. kolo)
 
-Pavol Spál
+dnes 13:00
 
-∙
+Sledujte s nami ONLINE prenos zo zápasu 8. kola MONACObet ligy: OFK Baník Lehota pod Vtáčnikom - MŠK Žilina B.
 
-dnes 07:00
+ONLINE: OFK Baník Lehota pod Vtáčnikom - MŠK Žilina B dnes, MONACObet liga LIVE (II. liga, 8. kolo)
 
-Liptáci sa z výhry netešili už šesť zápasov.
-
-Pohronie kráča stále po boku najlepších. Od Liptákov neinkasovali ani gól
-
-pi 19:43
-
-Prilákala ho aj zvedavosť na špeciálne odvetvie CP futbal.
-
-Hamšík o znevýhodnených mladých športovcoch: Naozaj cítiť tú pozitívnu energiu
-
-pi 15:03
-
-Sledujte s nami ONLINE prenos zo zápasu 8. kola MONACObet ligy: FK Pohronie - MFK Tatran Liptovský Mikuláš.
-
-ONLINE: FK Pohronie - MFK Tatran Liptovský Mikuláš dnes, MONACObet liga LIVE (II. liga, 8. kolo)
-
-pi 14:00
-
-Zväz prinesie na stretnutie aj právnych zástupcov.
-
-Kováčik a Huliak si sadnú za jeden stôl. SFZ potvrdil rokovanie s ministerstvom
-
-št 16:35
+dnes 13:00
 
 Načítať ďalšie
 Najčítanejšie
@@ -797,15 +803,15 @@ Najnovšie
 7 dní
 1
 
-VIDEO: Duplantisa delili od svetového rekordu milimetre. Svetový líder odchádza bez platného pokusu
+Béčko Slovana vyradilo áčko. Hrdina musel čakať vonku, nikdy šancu nedostal
 
 2
 
-Slovenskí hokejisti si nemajú z čoho našetriť, tvrdí Havlíček. Limit pre legionárov by zmenil
+Zapletalová bojuje o finále či Nitra v Lige majstrov. Športový program na dnes (12. september)
 
 3
 
-Zapletalová bojuje o finále či Nitra v Lige majstrov. Športový program na dnes (12. september)
+Štyri zápasy, štyri výhry a skóre 16:1. Nesmieme zaspať, lebo nás to dobehne, varuje tréner
 
 4
 
@@ -813,7 +819,7 @@ Veľká zmena sa dotkla aj Zapletalovej. V semifinále bude jasnou favoritkou na
 
 5
 
-Slováci mali aj setbaly, napokon padli. Proti favoritovi však viac nepredviedli
+Slovenskí hokejisti si nemajú z čoho našetriť, tvrdí Havlíček. Limit pre legionárov by zmenil
 
 6
 
@@ -821,7 +827,7 @@ Ultimátne MS v atletike 2026: Kedy ide Emma Zapletalová? Pozrite si program a 
 
 7
 
-Siniaková vylepšila neuveriteľnú bilanciu. Na US Open oslavuje ďalší titul
+Nový začiatok v Česku. Demitra pokračuje vo futbalovej kariére v hokejovom meste
 
 Späť na vrch
 Redakcia a kontakty
