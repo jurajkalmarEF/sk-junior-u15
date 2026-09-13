@@ -13,11 +13,11 @@ KLUBY
 ČLENOVIA
 PRESTUPY
 PIKOŠKY
-Slávneho Slováka nazvali gorilou. Kanadu ohúril opravár chladničiek z Bratislavy
-Za facku z minulej sezóny sme radi, vraví manažér Žiliny. Cehlárik nastúpi už v prvom zápase
+Béčko Slovana vyradilo áčko. Hrdina musel čakať vonku, nikdy šancu nedostal
+Nový Šimon Nemec či známe mená z reprezentácie. Mladíci v extralige, ktorých sa oplatí sledovať
 Stal sa legendou. Jeho víťazstvu sa prizeral chorý otec, ako tréner neposlúchol príkaz
-Tréner z Milionára, Buffalo Bill aj rakúsky zázrak. Kto sú nováčikovia Ligy majstrov?
-Do praskliny vopcháte nohu či koleso bicykla. Cyklochodník nevydržal ani rok, roztrhlo ho napoly
+Slávneho Slováka nazvali gorilou. Kanadu ohúril opravár chladničiek z Bratislavy
+Ako dieťa ju poznalo celé Slovensko. Dnes terchovská muzikantka hľadá svoje miesto vo svete filmu
 Kluby
 /
 ŠK Junior Ivanka pri Nitre
@@ -71,6 +71,49 @@ K
 
 1
 
+	Futbalový klub Holice	
+
+5
+
+	
+
+4
+
+	
+
+1
+
+	
+
+0
+
+	
+
+20:3
+
+	
+
+13
+
+	
+
+15
+
+	
+
+7
+
+	
+V
+V
+V
+V
+R
+
+
+
+2
+
 	ŠK Junior Ivanka pri Nitre	
 
 5
@@ -97,7 +140,7 @@ K
 
 	
 
-15
+14
 
 	
 
@@ -112,7 +155,93 @@ V
 
 
 
-2
+3
+
+	ŠK Šurany	
+
+5
+
+	
+
+4
+
+	
+
+0
+
+	
+
+1
+
+	
+
+12:10
+
+	
+
+12
+
+	
+
+12
+
+	
+
+6
+
+	
+V
+V
+P
+V
+V
+
+
+
+4
+
+	FC Slovan Hlohovec	
+
+5
+
+	
+
+4
+
+	
+
+0
+
+	
+
+1
+
+	
+
+12:5
+
+	
+
+12
+
+	
+
+13
+
+	
+
+3
+
+	
+V
+V
+V
+P
+V
+
+
+
+5
 
 	SSC FÉNIX Nové Zámky	
 
@@ -140,7 +269,7 @@ V
 
 	
 
-14
+11
 
 	
 
@@ -155,53 +284,11 @@ V
 
 
 
-3
-
-	Futbalový klub Holice	
-
-4
-
-	
-
-3
-
-	
-
-1
-
-	
-
-0
-
-	
-
-18:3
-
-	
-
-10
-
-	
-
-13
-
-	
-
-4
-
-	
-V
-V
-V
-R
-
-
-
-4
+6
 
 	FK Kolárovo	
 
-5
+6
 
 	
 
@@ -213,11 +300,11 @@ R
 
 	
 
-1
+2
 
 	
 
-21:11
+24:17
 
 	
 
@@ -225,22 +312,22 @@ R
 
 	
 
-12
+10
 
 	
 
-1
+-2
 
 	
+P
 P
 R
 V
 V
-V
 
 
 
-5
+7
 
 	TJ Dynamo Nová Stráž	
 
@@ -268,7 +355,7 @@ V
 
 	
 
-11
+9
 
 	
 
@@ -283,95 +370,11 @@ P
 
 
 
-6
-
-	FC Slovan Hlohovec	
-
-4
-
-	
-
-3
-
-	
-
-0
-
-	
-
-1
-
-	
-
-9:5
-
-	
-
-9
-
-	
-
-10
-
-	
-
-3
-
-	
-V
-V
-P
-V
-
-
-
-7
-
-	ŠK Šurany	
-
-4
-
-	
-
-3
-
-	
-
-0
-
-	
-
-1
-
-	
-
-6:7
-
-	
-
-9
-
-	
-
-9
-
-	
-
-3
-
-	
-V
-P
-V
-V
-
-
-
 8
 
 	FK Veča	
 
-4
+5
 
 	
 
@@ -383,11 +386,11 @@ V
 
 	
 
-1
+2
 
 	
 
-12:14
+12:16
 
 	
 
@@ -399,9 +402,10 @@ V
 
 	
 
-4
+1
 
 	
+P
 V
 P
 V
@@ -410,6 +414,49 @@ R
 
 
 9
+
+	MŠO Štúrovo	
+
+5
+
+	
+
+1
+
+	
+
+3
+
+	
+
+1
+
+	
+
+7:8
+
+	
+
+6
+
+	
+
+7
+
+	
+
+-3
+
+	
+V
+R
+P
+R
+R
+
+
+
+10
 
 	Futbalový klub Slovan Šahy	
 
@@ -437,7 +484,7 @@ R
 
 	
 
-7
+6
 
 	
 
@@ -450,7 +497,7 @@ V
 
 
 
-10
+11
 
 	Malodvornícky FK Malé Dvorníky	
 
@@ -478,7 +525,7 @@ V
 
 	
 
-6
+5
 
 	
 
@@ -493,11 +540,11 @@ P
 
 
 
-11
+12
 
 	FK Slovan Duslo Šaľa	
 
-3
+4
 
 	
 
@@ -509,11 +556,11 @@ P
 
 	
 
-1
+2
 
 	
 
-7:7
+7:9
 
 	
 
@@ -521,20 +568,21 @@ P
 
 	
 
-5
+4
 
 	
 
-1
+-2
 
 	
+P
 R
 V
 P
 
 
 
-12
+13
 
 	FC Slovan Galanta	
 
@@ -562,7 +610,7 @@ P
 
 	
 
-4
+3
 
 	
 
@@ -577,11 +625,11 @@ P
 
 
 
-13
+14
 
-	MŠO Štúrovo	
+	C&P Stars Academy - ZM	
 
-4
+6
 
 	
 
@@ -589,57 +637,15 @@ P
 
 	
 
-3
-
-	
-
 1
 
 	
-
-5:8
-
-	
-
-3
-
-	
-
-3
-
-	
-
--6
-
-	
-R
-P
-R
-R
-
-
-
-14
-
-	C&P Stars Academy - ZM	
 
 5
 
 	
 
-0
-
-	
-
-1
-
-	
-
-4
-
-	
-
-1:14
+1:17
 
 	
 
@@ -656,8 +662,8 @@ R
 	
 P
 P
-R
 P
+R
 P
 
 
@@ -716,84 +722,78 @@ Prehra
 
 Správy z Futbalnetu
 
-Fanúšikovia otočili, tlieskali rezerve.
+Sledujte s nami ONLINE prenos zo zápasu 8. kola MONACObet ligy: OFK Malženice - FC Tatran Prešov.
 
-Béčko Slovana vyradilo áčko. Hrdina musel čakať vonku, nikdy šancu nedostal
+ONLINE: OFK Malženice - FC Tatran Prešov dnes, MONACObet liga LIVE (II. liga, 8. kolo)
 
-Pavol Spál
+dnes 07:30
 
-∙
+Rimavská Sobota zdolala Kysucké Nové Mesto 4:1.
 
-dnes 07:00
+Nová posila treťoligistu sa osvedčila, kapitán bude dva týždne chodiť so slúchadlami
 
-Odchovancovi Trenčína pribrzdili kariéru zranenia.
-
-Nový začiatok v Česku. Demitra pokračuje vo futbalovej kariére v hokejovom meste
-
-dnes 08:20
-
-Chýba mi ľudskosť a empatia u niektorých rozhodcov pri posudzovaní situácií, vyjadril sa tréner aj k rozhodcom.
-
-Štyri zápasy, štyri výhry a skóre 16:1. Nesmieme zaspať, lebo nás to dobehne, varuje tréner
-
-Peter Cingel
+Titanilla Bőd
 
 ∙
 
-dnes 08:00
+dnes 07:30
 
-Disciplinárna komisia SFZ sa zaoberala správaním fanúšikov oboch táborov.
+Bývalý hráč Spartaka sa na zápas veľmi tešil.
 
-Slovan dostal za zápas v Dunajskej Strede pokutu. Oproti domácim zaplatí dvojnásobok
+Kóša odchádzal z Trnavy sklamaný. Vedel som, že si dá vlastný gól, smial sa Koštrna
 
-pi 14:18
+dnes 08:37
 
 ∙
 3
 
-Podpísal krátkodobú zmluvu na pol roka.
+V zápase na pôde Trnavy padlo celkovo 7 gólov.
 
-Trnava našla náhradu za zraneného kapitána. Škrtel: Má skúsenosti a pozná ligu
+Gólové hody v Trnave. Košice išli do vedenia, no domáci odpovedali piatimi presnými zásahmi
 
-pi 14:30
-
-S Brnom sa dohodla aj na možnosti predĺženia spolupráce do konca sezóny.
-
-Dukla hlási novú posilu na hosťovanie. Stredopoliar: Môžem pomôcť tímu dosiahnuť ciele
-
-pi 13:52
-
-Vavrečka prehrala so Žilinou 0:5.
-
-Prišlo viac ľudí, ako má obec obyvateľov. Šiestoligista zažil nezabudnuteľný zápas
-
-Titanilla Bőd
+so 22:22
 
 ∙
+1
 
-št 19:50
+Futbalisti DAC sú na čele tabuľky Niké ligy.
 
-V tejto fáze už neplatí územné rozdelenie na východ a západ.
+Víťazná forma Dunajskej Stredy neutícha. Na ihrisku Trenčína uspela rozdielom triedy
 
-Piatoligista z dediny privíta obhajcu trofeje. Vyžrebovali šestnásťfinále Slovnaft Cupu
+so 19:51
 
-Titanilla Bőd
+Inter Bratislava svojmu mestskému rivalovi pripravil prvú prehru v sezóne.
+
+Bratislavské derby rozhodla efektivita. Ihrisko bolo v hroznom stave, hneval sa tréner Petržalky
+
+so 21:13
 
 ∙
+2
 
-št 15:45
+V nadstavenom čase padli dva góly.
 
-Sledujte s nami ONLINE prenos zo zápasu 8. kola MONACObet ligy: FK Inter Bratislava - FC Petržalka.
+Prvé góly Ďuriša, prvá domáca radosť. Bystrica zdolala Skalicu po divokom závere
 
-ONLINE: FK Inter Bratislava - FC Petržalka dnes, MONACObet liga LIVE (II. liga, 8. kolo)
+so 20:02
 
-dnes 13:00
+Ružomberok sa dočkal triumfu na ôsmy pokus.
 
-Sledujte s nami ONLINE prenos zo zápasu 8. kola MONACObet ligy: OFK Baník Lehota pod Vtáčnikom - MŠK Žilina B.
+Ružomberok sa konečne prebudil. Proti Michalovciam slávi prvú výhru v sezóne
 
-ONLINE: OFK Baník Lehota pod Vtáčnikom - MŠK Žilina B dnes, MONACObet liga LIVE (II. liga, 8. kolo)
+so 19:48
 
-dnes 13:00
+Prehru v ôsmom kole zaznamenalo aj béčko Žiliny.
+
+Petržalka prvýkrát v sezóne tvrdo narazila. Derby s Interom nezvládla a utrpela debakel
+
+so 18:08
+
+Sledovali ste s nami ONLINE prenos zo zápasu 8. kola Niké ligy: FC Spartak Trnava - FC Košice.
+
+Niké liga: Spartak Trnava zdolal v gólovej prestrelke futbalistov Košíc
+
+so 17:30
 
 Načítať ďalšie
 Najčítanejšie
@@ -803,31 +803,31 @@ Najnovšie
 7 dní
 1
 
-Béčko Slovana vyradilo áčko. Hrdina musel čakať vonku, nikdy šancu nedostal
+Zapletalovú čaká vrchol sezóny. Proti komu pobeží finále v Budapešti? (TV program)
 
 2
 
-Zapletalová bojuje o finále či Nitra v Lige majstrov. Športový program na dnes (12. september)
+Slávneho Slováka nazvali gorilou. Kanadu ohúril opravár chladničiek z Bratislavy
 
 3
 
-Štyri zápasy, štyri výhry a skóre 16:1. Nesmieme zaspať, lebo nás to dobehne, varuje tréner
+Rybakinová ukázala, prečo bude nová svetová jednotka. Vo finále US Open pokorila Sabalenkovú
 
 4
 
-Veľká zmena sa dotkla aj Zapletalovej. V semifinále bude jasnou favoritkou na postup
+ONLINE: OFK Malženice - FC Tatran Prešov dnes, MONACObet liga LIVE (II. liga, 8. kolo)
 
 5
 
-Slovenskí hokejisti si nemajú z čoho našetriť, tvrdí Havlíček. Limit pre legionárov by zmenil
+Z nevydareného experimentu je zabijak obrov. Neskutočné, kričal komentátor
 
 6
 
-Ultimátne MS v atletike 2026: Kedy ide Emma Zapletalová? Pozrite si program a výsledky
+Zapletalová vo finále, šláger na Slovane či derby v Manchestri. Športový program na dnes (13. september)
 
 7
 
-Nový začiatok v Česku. Demitra pokračuje vo futbalovej kariére v hokejovom meste
+Zapletalová nemala najmenší problém. Súperky v semifinále nechala ďaleko za sebou
 
 Späť na vrch
 Redakcia a kontakty
