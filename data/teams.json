@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T10:01:52.726Z",
+  "generatedAt": "2026-09-14T10:21:43.459Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -2108,18 +2108,6 @@
       ],
       "fixtures": [
         {
-          "round": "6. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 6. kolo",
-          "date": "13.09",
-          "time": "10:00",
-          "status": "",
-          "home": "FK Veča",
-          "away": "Futbalový klub Holice",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
-        {
           "round": "7. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 7. kolo",
           "date": "20.09",
@@ -2199,6 +2187,18 @@
           "status": "",
           "home": "Futbalový klub Holice",
           "away": "MŠO Štúrovo",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "14. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 14. kolo",
+          "date": "07.11",
+          "time": "10:00",
+          "status": "",
+          "home": "C&P Stars Academy - ZM",
+          "away": "Futbalový klub Holice",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
@@ -2290,7 +2290,7 @@
           "name": "Norbert Horváth",
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/6319bb63677da94122aafeae/norbert-horvath/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/6319bb63677da94122aafeae/formal-photo/8afe5d24-0464-4a78-81bf-7284d7f51135"
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/6319bb63677da94122aafeae/formal-photo/55b98be6-c976-44f2-a9c8-5028a0c6e9b9"
         },
         {
           "name": "Timotej Szolga",
@@ -2981,6 +2981,18 @@
       ],
       "results": [
         {
+          "round": "6. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 6. kolo",
+          "date": "13.09",
+          "time": "10:00",
+          "status": "Koniec",
+          "home": "FK Veča",
+          "away": "Futbalový klub Holice",
+          "scoreHome": 0,
+          "scoreAway": 2,
+          "played": true
+        },
+        {
           "round": "5. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
           "date": "06.09",
@@ -3156,6 +3168,12 @@
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f3b9406f2140d7ecde3d48c/formal-photo/2b987a20-8900-42d2-bbb7-0b9763a87db2"
         },
         {
+          "name": "Samuel Pivarči",
+          "position": "Obranca",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/64e3293af17aea9db5201f95/samuel-pivarci/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/64e3293af17aea9db5201f95/formal-photo/de6f1fbb-61c7-489f-a879-c67fc28d1a3f"
+        },
+        {
           "name": "Markus Benko",
           "position": "Obranca",
           "href": "https://sportnet.sme.sk/futbalnet/clen/630668b6677da94122a8ca18/markus-benko/",
@@ -3208,12 +3226,6 @@
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/68a61280b0d708955bbbd84a/sebastian-varga/",
           "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
-        },
-        {
-          "name": "Samuel Pivarči",
-          "position": "Útočník",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/64e3293af17aea9db5201f95/samuel-pivarci/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/64e3293af17aea9db5201f95/formal-photo/de6f1fbb-61c7-489f-a879-c67fc28d1a3f"
         },
         {
           "name": "Jakub Rajčan",
