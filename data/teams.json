@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T09:51:49.411Z",
+  "generatedAt": "2026-09-18T09:25:00.761Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -121,9 +121,25 @@
       ]
     },
     {
+      "slug": "fk-veca",
+      "name": "FK Veča",
+      "pos": 8,
+      "z": 7,
+      "v": 3,
+      "r": 1,
+      "p": 3,
+      "score": "18:23",
+      "pts": 10,
+      "forma": [
+        "V",
+        "P",
+        "P"
+      ]
+    },
+    {
       "slug": "fk-slovan-duslo-sala",
       "name": "FK Slovan Duslo Šaľa",
-      "pos": 8,
+      "pos": 9,
       "z": 5,
       "v": 2,
       "r": 1,
@@ -137,41 +153,9 @@
       ]
     },
     {
-      "slug": "fk-veca",
-      "name": "FK Veča",
-      "pos": 9,
-      "z": 6,
-      "v": 2,
-      "r": 1,
-      "p": 3,
-      "score": "12:21",
-      "pts": 7,
-      "forma": [
-        "P",
-        "P",
-        "V"
-      ]
-    },
-    {
-      "slug": "mso-sturovo",
-      "name": "MŠO Štúrovo",
-      "pos": 10,
-      "z": 5,
-      "v": 1,
-      "r": 3,
-      "p": 1,
-      "score": "7:8",
-      "pts": 6,
-      "forma": [
-        "V",
-        "R",
-        "P"
-      ]
-    },
-    {
       "slug": "futbalovy-klub-slovan-sahy",
       "name": "Futbalový klub Slovan Šahy",
-      "pos": 11,
+      "pos": 10,
       "z": 5,
       "v": 2,
       "r": 0,
@@ -183,6 +167,22 @@
         "P",
         "P",
         "V"
+      ]
+    },
+    {
+      "slug": "mso-sturovo",
+      "name": "MŠO Štúrovo",
+      "pos": 11,
+      "z": 6,
+      "v": 1,
+      "r": 3,
+      "p": 2,
+      "score": "9:14",
+      "pts": 6,
+      "forma": [
+        "P",
+        "V",
+        "R"
       ]
     },
     {
@@ -1315,7 +1315,7 @@
           "name": "Márk Antalic",
           "position": "Brankár",
           "href": "https://sportnet.sme.sk/futbalnet/clen/66e7dcd55375b54b6fbc9a26/mark-antalic/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/66e7dcd55375b54b6fbc9a26/formal-photo/42911bc4-f8be-4bd8-a965-c2ac96ecb97e"
+          "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
         },
         {
           "name": "Markus Maczkó",
@@ -2314,7 +2314,7 @@
           "name": "Alex Guldan",
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/632d62f86fc1c28efa56d6e6/alex-guldan/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/632d62f86fc1c28efa56d6e6/formal-photo/a34e6e09-48cc-4994-8f76-c0e01410bb5d"
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/632d62f86fc1c28efa56d6e6/formal-photo/323535a1-2ad8-4e16-abc3-e42f51aad484"
         },
         {
           "name": "Filip Józsa",
@@ -2993,6 +2993,18 @@
       ],
       "results": [
         {
+          "round": "2. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo",
+          "date": "17.09",
+          "time": "15:30",
+          "status": "Koniec",
+          "home": "FK Veča",
+          "away": "MŠO Štúrovo",
+          "scoreHome": 6,
+          "scoreAway": 2,
+          "played": true
+        },
+        {
           "round": "7. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 7. kolo",
           "date": "15.09",
@@ -3066,18 +3078,6 @@
         }
       ],
       "fixtures": [
-        {
-          "round": "2. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo",
-          "date": "17.09",
-          "time": "15:30",
-          "status": "",
-          "home": "FK Veča",
-          "away": "MŠO Štúrovo",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "8. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 8. kolo",
@@ -3158,6 +3158,18 @@
           "status": "",
           "home": "FK Slovan Duslo Šaľa",
           "away": "FK Veča",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "15. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 15. kolo",
+          "date": "15.11",
+          "time": "10:00",
+          "status": "",
+          "home": "FK Veča",
+          "away": "ŠK Junior Ivanka pri Nitre",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
@@ -3430,7 +3442,7 @@
         {
           "round": "10. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 10. kolo",
-          "date": "10.10",
+          "date": "11.10",
           "time": "10:00",
           "status": "",
           "home": "MŠO Štúrovo",
@@ -3535,12 +3547,6 @@
           "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
         },
         {
-          "name": "Patrik Balla",
-          "position": "Obranca",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/6336aa303b9a3390f84f36c8/patrik-balla/",
-          "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
-        },
-        {
           "name": "Darian Tamáš",
           "position": "Obranca",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5f5a034ee93845738cc399e7/darian-tamas/",
@@ -3605,6 +3611,12 @@
           "position": "Útočník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/62ca7f5df24822c684af3b01/donat-smidt/",
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/62ca7f5df24822c684af3b01/formal-photo/55659d33-2086-446b-8e0c-e6927adc7dfb"
+        },
+        {
+          "name": "Patrik Balla",
+          "position": "Útočník",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/6336aa303b9a3390f84f36c8/patrik-balla/",
+          "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
         }
       ],
       "staff": [
@@ -3622,6 +3634,18 @@
         }
       ],
       "results": [
+        {
+          "round": "2. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo",
+          "date": "17.09",
+          "time": "15:30",
+          "status": "Koniec",
+          "home": "FK Veča",
+          "away": "MŠO Štúrovo",
+          "scoreHome": 6,
+          "scoreAway": 2,
+          "played": true
+        },
         {
           "round": "6. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 6. kolo",
@@ -3685,18 +3709,6 @@
       ],
       "fixtures": [
         {
-          "round": "2. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo",
-          "date": "17.09",
-          "time": "15:30",
-          "status": "",
-          "home": "FK Veča",
-          "away": "MŠO Štúrovo",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
-        {
           "round": "7. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 7. kolo",
           "date": "19.09",
@@ -3735,7 +3747,7 @@
         {
           "round": "10. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 10. kolo",
-          "date": "10.10",
+          "date": "11.10",
           "time": "10:00",
           "status": "",
           "home": "MŠO Štúrovo",
@@ -3776,6 +3788,18 @@
           "status": "",
           "home": "Futbalový klub Holice",
           "away": "MŠO Štúrovo",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "14. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 14. kolo",
+          "date": "07.11",
+          "time": "10:00",
+          "status": "",
+          "home": "MŠO Štúrovo",
+          "away": "ŠK Šurany",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
