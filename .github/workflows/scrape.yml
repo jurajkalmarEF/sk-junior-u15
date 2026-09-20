@@ -2,12 +2,17 @@ name: Sync Sportnet data
 
 on:
   schedule:
-    # každý deň o 5:00 UTC (7:00 SELČ) — po večerných zápasoch, pred ránom
+    # každý deň o 6:00 miestneho času (Bratislava) — dva UTC varianty kvôli letnému/zimnému času,
+    # strážny krok nižšie pustí ďalej len ten, ktorý naozaj zodpovedá 6:00 v Bratislave
+    - cron: '0 4 * * *'
     - cron: '0 5 * * *'
-    # sobota 14:00 miestneho času — dva UTC varianty kvôli letnému/zimnému času,
-    # strážny krok nižšie pustí ďalej len ten, ktorý naozaj zodpovedá 14:00 v Bratislave
+    # sobota navyše o 12:00, 14:00 a 17:00 miestneho času — opäť po dvoch UTC variantoch kvôli DST
+    - cron: '0 10 * * 6'
+    - cron: '0 11 * * 6'
     - cron: '0 12 * * 6'
     - cron: '0 13 * * 6'
+    - cron: '0 15 * * 6'
+    - cron: '0 16 * * 6'
   workflow_dispatch: {}
 
 permissions:
@@ -19,13 +24,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Guard pre sobotňajšie duplicitné spustenie (DST)
+      - name: Guard pre duplicitné DST spustenia
         run: |
-          if [ "${{ github.event.schedule }}" = "0 12 * * 6" ] || [ "${{ github.event.schedule }}" = "0 13 * * 6" ]; then
+          SCHEDULE="${{ github.event.schedule }}"
+          EXPECTED=""
+          case "$SCHEDULE" in
+            "0 4 * * *"|"0 5 * * *") EXPECTED="06" ;;
+            "0 10 * * 6"|"0 11 * * 6") EXPECTED="12" ;;
+            "0 12 * * 6"|"0 13 * * 6") EXPECTED="14" ;;
+            "0 15 * * 6"|"0 16 * * 6") EXPECTED="17" ;;
+          esac
+
+          if [ -n "$EXPECTED" ]; then
             HOUR=$(TZ='Europe/Bratislava' date +%H)
-            echo "Aktuálna hodina v Bratislave: $HOUR"
-            if [ "$HOUR" != "14" ]; then
-              echo "Nie je presne 14:00 v Bratislave (toto je ten druhý DST variant), preskakujem."
+            echo "Aktuálna hodina v Bratislave: $HOUR (očakávané: $EXPECTED)"
+            if [ "$HOUR" != "$EXPECTED" ]; then
+              echo "Toto je ten druhý DST variant, preskakujem."
               echo "SKIP=true" >> "$GITHUB_ENV"
             fi
           fi
