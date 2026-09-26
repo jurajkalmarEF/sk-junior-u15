@@ -333,6 +333,23 @@
   .gallery-lightbox-close{
     position:absolute;top:18px;right:20px;color:var(--chalk);font-size:28px;background:none;border:none;cursor:pointer;
   }
+  .gallery-admin-toggle{
+    flex-shrink:0;background:none;border:1px solid var(--pitch-line);border-radius:16px;
+    color:var(--sage-dim);font-family:'Barlow Condensed', sans-serif;font-size:12px;
+    padding:5px 12px;cursor:pointer;margin-left:auto;
+  }
+  .gallery-admin-toggle:hover{color:var(--sage);border-color:var(--sage-dim);}
+  .gallery-admin-toggle.on{color:var(--loss);border-color:var(--loss);}
+  .gallery-admin-form{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0;}
+  .gallery-item-delete{
+    position:absolute;top:8px;left:8px;width:24px;height:24px;border-radius:50%;
+    background:rgba(217,72,63,0.9);color:#fff;border:none;cursor:pointer;
+    display:flex;align-items:center;justify-content:center;font-size:14px;line-height:1;z-index:2;
+  }
+  .gallery-lightbox-delete{
+    position:absolute;top:18px;left:20px;color:#fff;background:var(--loss);border:none;border-radius:20px;
+    padding:8px 16px;font-family:'Barlow Condensed', sans-serif;font-weight:600;font-size:13px;cursor:pointer;
+  }
 </style>
 </head>
 <body>
@@ -420,7 +437,15 @@
         <p id="gallery-upload-status" class="gallery-upload-status"></p>
       </form>
 
-      <div class="section-head" style="margin-top:32px;"><h2 style="font-size:16px;">Fotky a videá fanúšikov</h2><div class="rule"></div></div>
+      <div class="section-head" style="margin-top:32px;">
+        <h2 style="font-size:16px;">Fotky a videá fanúšikov</h2><div class="rule"></div>
+        <button id="gallery-admin-toggle" class="gallery-admin-toggle" type="button" title="Správa galérie (mazanie)">🔒 Admin</button>
+      </div>
+      <form id="gallery-admin-form" class="gallery-admin-form" style="display:none;">
+        <input type="password" id="gallery-admin-password" class="gallery-input" placeholder="Admin heslo (na mazanie)" autocomplete="current-password">
+        <button type="submit" class="btn-external gallery-gate-btn">Odomknúť mazanie</button>
+      </form>
+      <p id="gallery-admin-status" class="gallery-upload-status"></p>
       <div id="gallery-grid" class="gallery-grid">
         <p class="empty-state">Načítavam galériu…</p>
       </div>
@@ -801,6 +826,10 @@ var GALLERY_TABLE = 'gallery_items';
 // dostupný komukoľvek, kto heslo pozná — zdieľajte ho len v tíme/rodičom).
 var GALLERY_PASSWORD = 'Ivanka95112';
 var GALLERY_UNLOCK_KEY = 'ivanka-gallery-unlocked';
+// Admin heslo — chráni mazanie fotiek/videí. Platí len na aktuálnu reláciu prehliadača
+// (netreba ho zadávať pri každom kliknutí, ale po zatvorení prehliadača sa vyžiada znova).
+var ADMIN_PASSWORD = 'Sl0medic@l';
+var ADMIN_UNLOCK_KEY = 'ivanka-gallery-admin';
 
 var supabaseClient = null;
 function getSupabase(){
@@ -821,8 +850,26 @@ function galleryIsUnlocked(){
   try { return localStorage.getItem(GALLERY_UNLOCK_KEY) === '1'; } catch(e){ return false; }
 }
 
+function adminIsUnlocked(){
+  try { return sessionStorage.getItem(ADMIN_UNLOCK_KEY) === '1'; } catch(e){ return false; }
+}
+
+function setAdminUnlocked(on){
+  try {
+    if (on) sessionStorage.setItem(ADMIN_UNLOCK_KEY, '1');
+    else sessionStorage.removeItem(ADMIN_UNLOCK_KEY);
+  } catch(e){}
+  var toggleBtn = document.getElementById('gallery-admin-toggle');
+  var form = document.getElementById('gallery-admin-form');
+  toggleBtn.classList.toggle('on', on);
+  toggleBtn.textContent = on ? '🔓 Admin (zapnuté)' : '🔒 Admin';
+  form.style.display = 'none';
+  loadGalleryItems();
+}
+
 function initGallery(){
   if (galleryIsUnlocked()) galleryUnlock();
+  if (adminIsUnlocked()) setAdminUnlocked(true);
 
   document.getElementById('gallery-gate-form').addEventListener('submit', function(e){
     e.preventDefault();
@@ -841,11 +888,70 @@ function initGallery(){
     uploadGalleryItem();
   });
 
+  document.getElementById('gallery-admin-toggle').addEventListener('click', function(){
+    if (adminIsUnlocked()){
+      setAdminUnlocked(false);
+      return;
+    }
+    var form = document.getElementById('gallery-admin-form');
+    form.style.display = form.style.display === 'none' ? 'flex' : 'none';
+  });
+
+  document.getElementById('gallery-admin-form').addEventListener('submit', function(e){
+    e.preventDefault();
+    var val = document.getElementById('gallery-admin-password').value;
+    var statusEl = document.getElementById('gallery-admin-status');
+    if (val === ADMIN_PASSWORD){
+      statusEl.textContent = '';
+      document.getElementById('gallery-admin-password').value = '';
+      setAdminUnlocked(true);
+    } else {
+      statusEl.textContent = 'Nesprávne admin heslo.';
+    }
+  });
+
   document.getElementById('gallery-grid').addEventListener('click', function(e){
+    var delBtn = e.target.closest('.gallery-item-delete');
+    if (delBtn){
+      e.stopPropagation();
+      var parent = delBtn.closest('.gallery-item');
+      deleteGalleryItem(parent.dataset.id, parent.dataset.path);
+      return;
+    }
     var item = e.target.closest('.gallery-item');
     if (!item) return;
-    openLightbox(item.dataset.url, item.dataset.type);
+    openLightbox(item.dataset.id, item.dataset.url, item.dataset.type, item.dataset.path);
   });
+}
+
+function getStoragePathFromUrl(url){
+  var marker = '/storage/v1/object/public/' + GALLERY_BUCKET + '/';
+  var idx = (url || '').indexOf(marker);
+  if (idx === -1) return null;
+  return decodeURIComponent(url.slice(idx + marker.length));
+}
+
+function deleteGalleryItem(id, path){
+  if (!confirm('Naozaj chceš túto fotku/video natrvalo vymazať?')) return;
+  var client = getSupabase();
+  if (!client) return;
+  var doDelete = path
+    ? client.storage.from(GALLERY_BUCKET).remove([path])
+    : Promise.resolve({});
+  doDelete
+    .then(function(){ return client.from(GALLERY_TABLE).delete().eq('id', id); })
+    .then(function(res){
+      if (res && res.error){
+        alert('Mazanie zlyhalo: ' + res.error.message);
+        return;
+      }
+      var lightbox = document.querySelector('.gallery-lightbox');
+      if (lightbox) lightbox.remove();
+      loadGalleryItems();
+    })
+    .catch(function(err){
+      alert('Nastala chyba pri mazaní: ' + (err && err.message ? err.message : err));
+    });
 }
 
 function escapeHtml(s){
@@ -880,10 +986,13 @@ function loadGalleryItems(){
         grid.innerHTML = '<p class="empty-state">Zatiaľ tu nie sú žiadne fotky ani videá. Buď prvý!</p>';
         return;
       }
+      var isAdmin = adminIsUnlocked();
       grid.innerHTML = items.map(function(item){
         var cap = item.caption ? '<div class="gallery-item-caption">' + escapeHtml(item.caption) + '</div>' : '';
-        return '<div class="gallery-item" data-url="' + item.file_url + '" data-type="' + item.file_type + '">' +
-          galleryMediaHtml(item) + cap + '</div>';
+        var path = getStoragePathFromUrl(item.file_url) || '';
+        var delBtn = isAdmin ? '<button class="gallery-item-delete" title="Vymazať" type="button">✕</button>' : '';
+        return '<div class="gallery-item" data-id="' + item.id + '" data-path="' + escapeHtml(path) + '" data-url="' + item.file_url + '" data-type="' + item.file_type + '">' +
+          delBtn + galleryMediaHtml(item) + cap + '</div>';
       }).join('');
     });
 }
@@ -949,15 +1058,18 @@ function uploadGalleryItem(){
     });
 }
 
-function openLightbox(url, type){
+function openLightbox(id, url, type, path){
   var box = document.createElement('div');
   box.className = 'gallery-lightbox';
+  var delBtn = adminIsUnlocked() ? '<button class="gallery-lightbox-delete" type="button">Vymazať</button>' : '';
   box.innerHTML = (type === 'video'
       ? '<video src="' + url + '" controls autoplay playsinline></video>'
       : '<img src="' + url + '" alt="">') +
+    delBtn +
     '<button class="gallery-lightbox-close" aria-label="Zavrieť">×</button>';
   box.addEventListener('click', function(e){
     if (e.target === box || e.target.classList.contains('gallery-lightbox-close')) box.remove();
+    if (e.target.classList.contains('gallery-lightbox-delete')) deleteGalleryItem(id, path);
   });
   document.body.appendChild(box);
 }

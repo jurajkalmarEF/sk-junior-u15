@@ -21,6 +21,9 @@ alter table gallery_items enable row level security;
 -- ktokoľvek s odkazom na appku (a heslom do galérie) môže čítať aj pridávať záznamy
 create policy "public read" on gallery_items for select using (true);
 create policy "public insert" on gallery_items for insert with check (true);
+-- mazanie je v appke chránené samostatným admin heslom, ale na úrovni databázy
+-- to treba tiež povoliť, inak appka nemá právo záznam vymazať
+create policy "public delete" on gallery_items for delete using (true);
 ```
 
 ## 3. Vytvor Storage bucket pre súbory
@@ -35,6 +38,9 @@ create policy "public upload" on storage.objects for insert
   with check (bucket_id = 'gallery');
 
 create policy "public read files" on storage.objects for select
+  using (bucket_id = 'gallery');
+
+create policy "public delete files" on storage.objects for delete
   using (bucket_id = 'gallery');
 ```
 (Dá sa spustiť aj cez SQL Editor.)
@@ -62,6 +68,7 @@ Rovnako ako doteraz — **Add file → Upload files** (nie copy-paste), nahraď 
 - Po odomknutí môže ktokoľvek nahrať fotku/video (voliteľne s popisom a menom) — ide priamo do Supabase Storage, appka si to sama ukáže v mriežke.
 - Klik na fotku/video otvorí zväčšený náhľad.
 - Galéria je spoločná pre celý klub (nezávisí od vybraného tímu hore).
+- Tlačidlo **🔒 Admin** (vpravo nad mriežkou) odomkne mazanie po zadaní admin hesla — platí len na aktuálnu reláciu prehliadača (po zatvorení prehliadača treba zadať znova). V odomknutom stave sa pri každej fotke/videu zobrazí ✕ na vymazanie, aj v zväčšenom náhľade.
 
 ## Poznámka k bezpečnosti
 Toto nie je skutočné prihlasovanie — heslo je len v kóde appky a dá sa ľahko obísť (kto vie čítať zdrojový kód stránky). Je to zámerne jednoduché riešenie na odradenie náhodných návštevníkov, nie ochrana pred niekým, kto sa tam naozaj chce dostať. Ak by si chcel silnejšiu ochranu (napr. skutočné prihlasovanie cez Supabase Auth), vieme to neskôr dorobiť.
