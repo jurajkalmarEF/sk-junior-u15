@@ -466,7 +466,7 @@
   </section>
 
   <footer>
-    Zdroj dát: <a href="https://sportnet.sme.sk/futbalnet/k/sk-junior-ivanka-pri-nitre/tim/u15-m-a/tabulky/">Sportnet Futbalnet</a> · tabuľka k 28. 8. 2026 · súpisky a výsledky ostatných tímov sa synchronizujú automaticky každý deň
+    Zdroj dát: <a href="https://sportnet.sme.sk/futbalnet/k/sk-junior-ivanka-pri-nitre/tim/u15-m-a/tabulky/">Sportnet Futbalnet</a> · <span id="footer-sync-note">tabuľka a súpisky sa synchronizujú automaticky</span>
   </footer>
 
 </div>
@@ -803,6 +803,7 @@ fetchSyncData().then(function(){
   renderSelect();
   document.getElementById('team-select').value = currentSlug;
   selectTeam(currentSlug);
+  document.getElementById('footer-sync-note').textContent = syncFooterNote();
 });
 // render immediately with fallback data too, so UI isn't blank while fetch is in flight
 selectTeam(currentSlug);
