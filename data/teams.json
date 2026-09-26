@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T14:16:28.192Z",
+  "generatedAt": "2026-09-26T15:52:54.189Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -279,8 +279,8 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "13 rokov (2013)",
-            "matches": 59,
-            "minutes": 3210,
+            "matches": 60,
+            "minutes": 3244,
             "goals": 2,
             "yellowCards": 0,
             "secondYellow": 0,
@@ -432,8 +432,8 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "14 rokov (2012)",
-            "matches": 152,
-            "minutes": 8512,
+            "matches": 153,
+            "minutes": 8582,
             "goals": 145,
             "yellowCards": 0,
             "secondYellow": 0,
@@ -1694,6 +1694,12 @@
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5d6596d986dc8b7238352cda/formal-photo/a8b64ce9-cf59-496e-bc5e-acbddb078484"
         },
         {
+          "name": "Dušan Pisár",
+          "position": "Obranca",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/5d658fe086dc8b72383435ea/dusan-pisar/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5d658fe086dc8b72383435ea/formal-photo/a39ad1b2-1ef0-4907-a3d9-76969006e29c"
+        },
+        {
           "name": "Sebastián Jahnátek",
           "position": "Obranca",
           "href": "https://sportnet.sme.sk/futbalnet/clen/65376d52ce98c35fd28a1b30/sebastian-jahnatek/",
@@ -1710,12 +1716,6 @@
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5ef2f8221b04f230d146f85a/teo-trungel/",
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5ef2f8221b04f230d146f85a/formal-photo/b525ba64-6722-456e-83e9-e38d7e20abee"
-        },
-        {
-          "name": "Dušan Pisár",
-          "position": "Záložník",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/5d658fe086dc8b72383435ea/dusan-pisar/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5d658fe086dc8b72383435ea/formal-photo/a39ad1b2-1ef0-4907-a3d9-76969006e29c"
         },
         {
           "name": "Róbert Fűri",
