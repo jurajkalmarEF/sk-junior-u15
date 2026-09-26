@@ -333,6 +333,19 @@
   .gallery-lightbox-close{
     position:absolute;top:18px;right:20px;color:var(--chalk);font-size:28px;background:none;border:none;cursor:pointer;
   }
+  .gallery-lightbox-nav{
+    position:absolute;top:50%;transform:translateY(-50%);
+    width:44px;height:44px;border-radius:50%;border:none;cursor:pointer;
+    background:rgba(0,0,0,0.5);color:var(--chalk);font-size:28px;line-height:1;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .gallery-lightbox-nav:hover{background:rgba(0,0,0,0.75);}
+  .gallery-lightbox-prev{left:12px;}
+  .gallery-lightbox-next{right:12px;}
+  .gallery-lightbox-caption{
+    position:absolute;bottom:18px;left:0;right:0;text-align:center;
+    color:var(--sage);font-size:13px;padding:0 60px;
+  }
   .gallery-admin-toggle{
     flex-shrink:0;background:none;border:1px solid var(--pitch-line);border-radius:16px;
     color:var(--sage-dim);font-family:'Barlow Condensed', sans-serif;font-size:12px;
@@ -371,9 +384,9 @@
     <button class="tab-btn" data-tab="tabulka" role="tab" aria-selected="false">Tabuľka</button>
     <button class="tab-btn" data-tab="zapasy" role="tab" aria-selected="false">Zápasy</button>
     <button class="tab-btn" data-tab="program" role="tab" aria-selected="false">Program</button>
+    <button class="tab-btn" data-tab="galeria" role="tab" aria-selected="false">Galéria</button>
     <button class="tab-btn" data-tab="supiska" role="tab" aria-selected="false">Súpiska</button>
     <button class="tab-btn" data-tab="klub" role="tab" aria-selected="false">Klub</button>
-    <button class="tab-btn" data-tab="galeria" role="tab" aria-selected="false">Galéria</button>
   </nav>
 
   <section id="tab-prehlad" class="tab-panel active">
@@ -403,16 +416,6 @@
   <section id="tab-program" class="tab-panel">
     <div class="section-head"><h2 id="program-heading">Program</h2><div class="rule"></div></div>
     <div id="program-content"></div>
-  </section>
-
-  <section id="tab-supiska" class="tab-panel">
-    <div class="section-head"><h2 id="supiska-heading">Súpiska</h2><div class="rule"></div></div>
-    <div id="supiska-content"></div>
-  </section>
-
-  <section id="tab-klub" class="tab-panel">
-    <div class="section-head"><h2 id="klub-heading">O klube</h2><div class="rule"></div></div>
-    <div id="klub-content"></div>
   </section>
 
   <section id="tab-galeria" class="tab-panel">
@@ -450,6 +453,16 @@
         <p class="empty-state">Načítavam galériu…</p>
       </div>
     </div>
+  </section>
+
+  <section id="tab-supiska" class="tab-panel">
+    <div class="section-head"><h2 id="supiska-heading">Súpiska</h2><div class="rule"></div></div>
+    <div id="supiska-content"></div>
+  </section>
+
+  <section id="tab-klub" class="tab-panel">
+    <div class="section-head"><h2 id="klub-heading">O klube</h2><div class="rule"></div></div>
+    <div id="klub-content"></div>
   </section>
 
   <footer>
@@ -920,9 +933,11 @@ function initGallery(){
     }
     var item = e.target.closest('.gallery-item');
     if (!item) return;
-    openLightbox(item.dataset.id, item.dataset.url, item.dataset.type, item.dataset.path);
+    openLightbox(parseInt(item.dataset.index, 10));
   });
 }
+
+var GALLERY_ITEMS_CACHE = [];
 
 function getStoragePathFromUrl(url){
   var marker = '/storage/v1/object/public/' + GALLERY_BUCKET + '/';
@@ -982,16 +997,17 @@ function loadGalleryItems(){
         return;
       }
       var items = res.data || [];
+      GALLERY_ITEMS_CACHE = items;
       if (!items.length){
         grid.innerHTML = '<p class="empty-state">Zatiaľ tu nie sú žiadne fotky ani videá. Buď prvý!</p>';
         return;
       }
       var isAdmin = adminIsUnlocked();
-      grid.innerHTML = items.map(function(item){
+      grid.innerHTML = items.map(function(item, idx){
         var cap = item.caption ? '<div class="gallery-item-caption">' + escapeHtml(item.caption) + '</div>' : '';
         var path = getStoragePathFromUrl(item.file_url) || '';
         var delBtn = isAdmin ? '<button class="gallery-item-delete" title="Vymazať" type="button">✕</button>' : '';
-        return '<div class="gallery-item" data-id="' + item.id + '" data-path="' + escapeHtml(path) + '" data-url="' + item.file_url + '" data-type="' + item.file_type + '">' +
+        return '<div class="gallery-item" data-index="' + idx + '" data-id="' + item.id + '" data-path="' + escapeHtml(path) + '" data-url="' + item.file_url + '" data-type="' + item.file_type + '">' +
           delBtn + galleryMediaHtml(item) + cap + '</div>';
       }).join('');
     });
@@ -1058,19 +1074,67 @@ function uploadGalleryItem(){
     });
 }
 
-function openLightbox(id, url, type, path){
-  var box = document.createElement('div');
-  box.className = 'gallery-lightbox';
+function renderLightboxMedia(box, index){
+  var item = GALLERY_ITEMS_CACHE[index];
+  if (!item) return;
+  box.dataset.index = index;
+  var path = getStoragePathFromUrl(item.file_url) || '';
   var delBtn = adminIsUnlocked() ? '<button class="gallery-lightbox-delete" type="button">Vymazať</button>' : '';
-  box.innerHTML = (type === 'video'
-      ? '<video src="' + url + '" controls autoplay playsinline></video>'
-      : '<img src="' + url + '" alt="">') +
+  var hasPrev = index > 0;
+  var hasNext = index < GALLERY_ITEMS_CACHE.length - 1;
+  var cap = item.caption ? '<div class="gallery-lightbox-caption">' + escapeHtml(item.caption) + '</div>' : '';
+  box.innerHTML =
+    (hasPrev ? '<button class="gallery-lightbox-nav gallery-lightbox-prev" aria-label="Predchádzajúca" type="button">‹</button>' : '') +
+    (item.file_type === 'video'
+      ? '<video src="' + item.file_url + '" controls autoplay playsinline></video>'
+      : '<img src="' + item.file_url + '" alt="">') +
+    cap +
+    (hasNext ? '<button class="gallery-lightbox-nav gallery-lightbox-next" aria-label="Ďalšia" type="button">›</button>' : '') +
     delBtn +
     '<button class="gallery-lightbox-close" aria-label="Zavrieť">×</button>';
+  box.dataset.path = path;
+  box.dataset.id = item.id;
+}
+
+function openLightbox(index){
+  var box = document.createElement('div');
+  box.className = 'gallery-lightbox';
+  renderLightboxMedia(box, index);
+
   box.addEventListener('click', function(e){
-    if (e.target === box || e.target.classList.contains('gallery-lightbox-close')) box.remove();
-    if (e.target.classList.contains('gallery-lightbox-delete')) deleteGalleryItem(id, path);
+    if (e.target === box || e.target.classList.contains('gallery-lightbox-close')){
+      box.remove();
+      return;
+    }
+    if (e.target.classList.contains('gallery-lightbox-delete')){
+      deleteGalleryItem(box.dataset.id, box.dataset.path);
+      return;
+    }
+    if (e.target.classList.contains('gallery-lightbox-prev')){
+      renderLightboxMedia(box, parseInt(box.dataset.index, 10) - 1);
+      return;
+    }
+    if (e.target.classList.contains('gallery-lightbox-next')){
+      renderLightboxMedia(box, parseInt(box.dataset.index, 10) + 1);
+      return;
+    }
   });
+
+  function onKey(e){
+    if (!document.body.contains(box)){
+      document.removeEventListener('keydown', onKey);
+      return;
+    }
+    if (e.key === 'Escape') box.remove();
+    if (e.key === 'ArrowLeft' && parseInt(box.dataset.index, 10) > 0){
+      renderLightboxMedia(box, parseInt(box.dataset.index, 10) - 1);
+    }
+    if (e.key === 'ArrowRight' && parseInt(box.dataset.index, 10) < GALLERY_ITEMS_CACHE.length - 1){
+      renderLightboxMedia(box, parseInt(box.dataset.index, 10) + 1);
+    }
+  }
+  document.addEventListener('keydown', onKey);
+
   document.body.appendChild(box);
 }
 
