@@ -15,6 +15,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <style>
   :root{
     --pitch-dark:#141114;
@@ -283,6 +284,55 @@
     .ticket .match{order:3;width:100%;justify-content:space-between;}
     .team-name{max-width:120px;}
   }
+
+  /* GALLERY */
+  .gallery-gate{
+    background:var(--card);border:1px solid var(--pitch-line);border-radius:6px;
+    padding:24px;text-align:center;
+  }
+  .gallery-gate-text{font-size:14px;color:var(--sage);line-height:1.5;margin:0 0 16px;}
+  .gallery-gate-form{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;}
+  .gallery-input{
+    background:var(--pitch);color:var(--chalk);border:1px solid var(--pitch-line);border-radius:8px;
+    padding:11px 14px;font-family:'Barlow', sans-serif;font-size:14px;flex:1;min-width:160px;
+  }
+  .gallery-input:focus{outline:none;border-color:var(--gold);}
+  .gallery-gate-btn, .gallery-upload-btn{border:none;cursor:pointer;font-family:'Barlow Condensed', sans-serif;}
+  .gallery-gate-error{color:var(--loss);font-size:13px;margin:12px 0 0;}
+  .gallery-upload{
+    background:var(--card);border:1px solid var(--pitch-line);border-radius:6px;
+    padding:20px;display:flex;flex-direction:column;gap:10px;
+  }
+  .gallery-upload input[type="file"]{
+    color:var(--sage);font-size:13px;
+  }
+  .gallery-upload-status{font-size:13px;color:var(--sage-dim);margin:4px 0 0;min-height:16px;}
+  .gallery-grid{
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;margin-top:16px;
+  }
+  .gallery-item{
+    position:relative;border-radius:6px;overflow:hidden;background:var(--pitch);
+    border:1px solid var(--pitch-line);aspect-ratio:1/1;cursor:pointer;
+  }
+  .gallery-item img, .gallery-item video{width:100%;height:100%;object-fit:cover;display:block;}
+  .gallery-item .gallery-item-caption{
+    position:absolute;left:0;right:0;bottom:0;padding:6px 8px 5px;
+    background:linear-gradient(to top, rgba(0,0,0,0.75), transparent);
+    font-size:11px;color:var(--chalk);line-height:1.3;
+  }
+  .gallery-item .gallery-play{
+    position:absolute;top:8px;right:8px;width:22px;height:22px;border-radius:50%;
+    background:rgba(0,0,0,0.55);display:flex;align-items:center;justify-content:center;
+    color:var(--chalk);font-size:10px;
+  }
+  .gallery-lightbox{
+    position:fixed;inset:0;background:rgba(10,8,10,0.92);z-index:100;
+    display:flex;align-items:center;justify-content:center;padding:24px;
+  }
+  .gallery-lightbox img, .gallery-lightbox video{max-width:100%;max-height:85vh;border-radius:6px;}
+  .gallery-lightbox-close{
+    position:absolute;top:18px;right:20px;color:var(--chalk);font-size:28px;background:none;border:none;cursor:pointer;
+  }
 </style>
 </head>
 <body>
@@ -306,6 +356,7 @@
     <button class="tab-btn" data-tab="program" role="tab" aria-selected="false">Program</button>
     <button class="tab-btn" data-tab="supiska" role="tab" aria-selected="false">Súpiska</button>
     <button class="tab-btn" data-tab="klub" role="tab" aria-selected="false">Klub</button>
+    <button class="tab-btn" data-tab="galeria" role="tab" aria-selected="false">Galéria</button>
   </nav>
 
   <section id="tab-prehlad" class="tab-panel active">
@@ -345,6 +396,35 @@
   <section id="tab-klub" class="tab-panel">
     <div class="section-head"><h2 id="klub-heading">O klube</h2><div class="rule"></div></div>
     <div id="klub-content"></div>
+  </section>
+
+  <section id="tab-galeria" class="tab-panel">
+    <div class="section-head"><h2>Galéria</h2><div class="rule"></div></div>
+
+    <div id="gallery-gate" class="gallery-gate">
+      <p class="gallery-gate-text">Galéria fotiek a videí z zápasov je chránená heslom (zdieľané v tíme/rodičoch), aby fotky detí neboli voľne verejné.</p>
+      <form id="gallery-gate-form" class="gallery-gate-form">
+        <input type="password" id="gallery-password" class="gallery-input" placeholder="Zadaj heslo" autocomplete="current-password" required>
+        <button type="submit" class="btn-external gallery-gate-btn">Vstúpiť</button>
+      </form>
+      <p id="gallery-gate-error" class="gallery-gate-error" style="display:none;">Nesprávne heslo, skús znova.</p>
+    </div>
+
+    <div id="gallery-app" class="gallery-app" style="display:none;">
+      <form id="gallery-upload-form" class="gallery-upload">
+        <p class="team-switch-label">Nahrať fotku alebo video</p>
+        <input type="file" id="gallery-file" accept="image/*,video/*" required>
+        <input type="text" id="gallery-caption" class="gallery-input" placeholder="Popis (nepovinné) — napr. 3. kolo, gól Tomáša" maxlength="140">
+        <input type="text" id="gallery-uploader" class="gallery-input" placeholder="Tvoje meno (nepovinné)" maxlength="60">
+        <button type="submit" class="btn-external gallery-upload-btn">Nahrať</button>
+        <p id="gallery-upload-status" class="gallery-upload-status"></p>
+      </form>
+
+      <div class="section-head" style="margin-top:32px;"><h2 style="font-size:16px;">Fotky a videá fanúšikov</h2><div class="rule"></div></div>
+      <div id="gallery-grid" class="gallery-grid">
+        <p class="empty-state">Načítavam galériu…</p>
+      </div>
+    </div>
   </section>
 
   <footer>
@@ -710,6 +790,179 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js').catch(function(){});
   });
 }
+
+/* ===================== GALÉRIA ===================== */
+// Vlastné Supabase údaje — treba doplniť podľa svojho projektu (Project Settings → API).
+var SUPABASE_URL = 'https://TVOJ-PROJEKT.supabase.co';
+var SUPABASE_ANON_KEY = 'TVOJ-ANON-KEY';
+var GALLERY_BUCKET = 'gallery';
+var GALLERY_TABLE = 'gallery_items';
+// Zdieľané heslo — len jemná zábrana, nie skutočné zabezpečenie (obsah je verejne
+// dostupný komukoľvek, kto heslo pozná — zdieľajte ho len v tíme/rodičom).
+var GALLERY_PASSWORD = 'junior2026';
+var GALLERY_UNLOCK_KEY = 'ivanka-gallery-unlocked';
+
+var supabaseClient = null;
+function getSupabase(){
+  if (!supabaseClient && window.supabase && SUPABASE_URL.indexOf('TVOJ-PROJEKT') === -1){
+    supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  }
+  return supabaseClient;
+}
+
+function galleryUnlock(){
+  try { localStorage.setItem(GALLERY_UNLOCK_KEY, '1'); } catch(e){}
+  document.getElementById('gallery-gate').style.display = 'none';
+  document.getElementById('gallery-app').style.display = '';
+  loadGalleryItems();
+}
+
+function galleryIsUnlocked(){
+  try { return localStorage.getItem(GALLERY_UNLOCK_KEY) === '1'; } catch(e){ return false; }
+}
+
+function initGallery(){
+  if (galleryIsUnlocked()) galleryUnlock();
+
+  document.getElementById('gallery-gate-form').addEventListener('submit', function(e){
+    e.preventDefault();
+    var val = document.getElementById('gallery-password').value;
+    var errEl = document.getElementById('gallery-gate-error');
+    if (val === GALLERY_PASSWORD){
+      errEl.style.display = 'none';
+      galleryUnlock();
+    } else {
+      errEl.style.display = '';
+    }
+  });
+
+  document.getElementById('gallery-upload-form').addEventListener('submit', function(e){
+    e.preventDefault();
+    uploadGalleryItem();
+  });
+
+  document.getElementById('gallery-grid').addEventListener('click', function(e){
+    var item = e.target.closest('.gallery-item');
+    if (!item) return;
+    openLightbox(item.dataset.url, item.dataset.type);
+  });
+}
+
+function escapeHtml(s){
+  return String(s || '').replace(/[&<>"']/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+  });
+}
+
+function galleryMediaHtml(item){
+  if (item.file_type === 'video'){
+    return '<video src="' + item.file_url + '" muted playsinline preload="metadata"></video><span class="gallery-play">▶</span>';
+  }
+  return '<img src="' + item.file_url + '" alt="" loading="lazy">';
+}
+
+function loadGalleryItems(){
+  var grid = document.getElementById('gallery-grid');
+  var client = getSupabase();
+  if (!client){
+    grid.innerHTML = '<p class="empty-state">Galéria ešte nie je napojená na úložisko.<br><b>Nastavenie:</b> doplň SUPABASE_URL a SUPABASE_ANON_KEY v kóde stránky.</p>';
+    return;
+  }
+  grid.innerHTML = '<p class="empty-state">Načítavam galériu…</p>';
+  client.from(GALLERY_TABLE).select('*').order('created_at', {ascending:false}).limit(200)
+    .then(function(res){
+      if (res.error){
+        grid.innerHTML = '<p class="empty-state">Galériu sa nepodarilo načítať.</p>';
+        return;
+      }
+      var items = res.data || [];
+      if (!items.length){
+        grid.innerHTML = '<p class="empty-state">Zatiaľ tu nie sú žiadne fotky ani videá. Buď prvý!</p>';
+        return;
+      }
+      grid.innerHTML = items.map(function(item){
+        var cap = item.caption ? '<div class="gallery-item-caption">' + escapeHtml(item.caption) + '</div>' : '';
+        return '<div class="gallery-item" data-url="' + item.file_url + '" data-type="' + item.file_type + '">' +
+          galleryMediaHtml(item) + cap + '</div>';
+      }).join('');
+    });
+}
+
+function uploadGalleryItem(){
+  var client = getSupabase();
+  var statusEl = document.getElementById('gallery-upload-status');
+  var fileInput = document.getElementById('gallery-file');
+  var file = fileInput.files[0];
+  if (!client){
+    statusEl.textContent = 'Galéria nie je nastavená (chýba napojenie na Supabase).';
+    return;
+  }
+  if (!file){
+    statusEl.textContent = 'Vyber súbor.';
+    return;
+  }
+  var isVideo = file.type.indexOf('video') === 0;
+  var isImage = file.type.indexOf('image') === 0;
+  if (!isVideo && !isImage){
+    statusEl.textContent = 'Podporované sú len fotky a videá.';
+    return;
+  }
+  if (file.size > 80 * 1024 * 1024){
+    statusEl.textContent = 'Súbor je príliš veľký (max 80 MB).';
+    return;
+  }
+  statusEl.textContent = 'Nahrávam…';
+  var ext = (file.name.split('.').pop() || 'dat').toLowerCase();
+  var path = Date.now() + '-' + Math.random().toString(36).slice(2, 8) + '.' + ext;
+
+  client.storage.from(GALLERY_BUCKET).upload(path, file)
+    .then(function(uploadRes){
+      if (uploadRes.error){
+        statusEl.textContent = 'Nahrávanie zlyhalo: ' + uploadRes.error.message;
+        return null;
+      }
+      var pub = client.storage.from(GALLERY_BUCKET).getPublicUrl(path);
+      var publicUrl = pub && pub.data ? pub.data.publicUrl : null;
+      if (!publicUrl){
+        statusEl.textContent = 'Nahrávanie zlyhalo (chýba verejná URL).';
+        return null;
+      }
+      return client.from(GALLERY_TABLE).insert({
+        file_url: publicUrl,
+        file_type: isVideo ? 'video' : 'image',
+        caption: document.getElementById('gallery-caption').value.slice(0, 140) || null,
+        uploader_name: document.getElementById('gallery-uploader').value.slice(0, 60) || null
+      });
+    })
+    .then(function(insertRes){
+      if (!insertRes) return;
+      if (insertRes.error){
+        statusEl.textContent = 'Uložené do úložiska, ale záznam sa nepodarilo uložiť: ' + insertRes.error.message;
+        return;
+      }
+      statusEl.textContent = 'Hotovo, ďakujeme!';
+      document.getElementById('gallery-upload-form').reset();
+      loadGalleryItems();
+    })
+    .catch(function(err){
+      statusEl.textContent = 'Nastala chyba: ' + (err && err.message ? err.message : err);
+    });
+}
+
+function openLightbox(url, type){
+  var box = document.createElement('div');
+  box.className = 'gallery-lightbox';
+  box.innerHTML = (type === 'video'
+      ? '<video src="' + url + '" controls autoplay playsinline></video>'
+      : '<img src="' + url + '" alt="">') +
+    '<button class="gallery-lightbox-close" aria-label="Zavrieť">×</button>';
+  box.addEventListener('click', function(e){
+    if (e.target === box || e.target.classList.contains('gallery-lightbox-close')) box.remove();
+  });
+  document.body.appendChild(box);
+}
+
+initGallery();
 </script>
 </body>
 </html>
