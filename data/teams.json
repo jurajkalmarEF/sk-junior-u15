@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T11:29:39.910Z",
+  "generatedAt": "2026-09-29T11:10:11.809Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -376,7 +376,7 @@
           "name": "Alexej Molnár",
           "position": "Obranca",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5f7ad100d3c65d7b74850171/alexej-molnar/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f7ad100d3c65d7b74850171/formal-photo/fa4d608e-1e81-485c-89d7-c56efdc28eb7",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f7ad100d3c65d7b74850171/formal-photo/4f6f266e-786e-4bbc-9c78-9fb2c9d60c81",
           "profile": {
             "country": "Slovensko",
             "gender": "Muž",
@@ -2466,12 +2466,12 @@
           "name": "Adam Géc"
         },
         {
-          "role": "Technický vedúci",
-          "name": "Ladislav Kokeš"
+          "role": "Tibor Vigh",
+          "name": "Technický vedúci"
         },
         {
-          "role": "Lekár",
-          "name": "Dominik Gašparík"
+          "role": "Ladislav Kokeš",
+          "name": "Lekár"
         }
       ],
       "results": [
