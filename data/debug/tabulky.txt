@@ -17,7 +17,7 @@ Kde bol doteraz, pýtal sa tréner. Hlavaj v kempe zaujal, no v Toronte to nebud
 Bál sa, že bude vyzerať ako šašo. Brankár v čiapke s brmbolcom sa stal legendou
 Babcock? Zlý človek sa nezmení. Katastrofa Edmontonu, vráti sa Regenda do NHL? (Hokejový BOSS NHL)
 Mať či nemať dvadsaťtisíc je brutálny rozdiel. Spor ministerstva a SFZ škodí amatérskym klubom
-Pol roka makajú, potom majú voľno: Našetrili sme 44-tisíc eur, manuálna práca nám nevadí
+Po vystúpení z vlaku uviazli domýlení v noci na Kysuciach. ZSSK tvrdí, že chybu spravili iní
 Kluby
 /
 ŠK Junior Ivanka pri Nitre
@@ -73,11 +73,11 @@ K
 
 	Futbalový klub Holice	
 
-7
+8
 
 	
 
-6
+7
 
 	
 
@@ -89,11 +89,11 @@ K
 
 	
 
-28:4
+31:6
 
 	
 
-19
+22
 
 	
 
@@ -159,7 +159,7 @@ V
 
 	FC Slovan Hlohovec	
 
-7
+8
 
 	
 
@@ -171,11 +171,11 @@ V
 
 	
 
-2
+3
 
 	
 
-21:10
+23:13
 
 	
 
@@ -191,7 +191,7 @@ V
 
 	
 P
-V
+P
 V
 V
 V
@@ -243,6 +243,49 @@ P
 
 5
 
+	SSC FÉNIX Nové Zámky	
+
+8
+
+	
+
+4
+
+	
+
+1
+
+	
+
+3
+
+	
+
+30:13
+
+	
+
+13
+
+	
+
+11
+
+	
+
+1
+
+	
+V
+P
+P
+R
+V
+
+
+
+6
+
 	FK Kolárovo	
 
 7
@@ -269,7 +312,7 @@ P
 
 	
 
-11
+10
 
 	
 
@@ -284,11 +327,11 @@ V
 
 
 
-6
+7
 
 	TJ Dynamo Nová Stráž	
 
-8
+9
 
 	
 
@@ -300,11 +343,11 @@ V
 
 	
 
-3
+4
 
 	
 
-22:24
+24:31
 
 	
 
@@ -312,22 +355,22 @@ V
 
 	
 
-10
+8
 
 	
 
 1
 
 	
+P
 V
 P
 V
 R
-V
 
 
 
-7
+8
 
 	FK Veča	
 
@@ -367,49 +410,6 @@ V
 P
 P
 V
-
-
-
-8
-
-	SSC FÉNIX Nové Zámky	
-
-7
-
-	
-
-3
-
-	
-
-1
-
-	
-
-3
-
-	
-
-25:12
-
-	
-
-10
-
-	
-
-8
-
-	
-
--2
-
-	
-P
-P
-R
-V
-P
 
 
 
@@ -501,6 +501,49 @@ R
 
 11
 
+	Futbalový klub Slovan Šahy	
+
+8
+
+	
+
+3
+
+	
+
+0
+
+	
+
+5
+
+	
+
+17:22
+
+	
+
+9
+
+	
+
+5
+
+	
+
+-3
+
+	
+V
+P
+P
+P
+P
+
+
+
+12
+
 	FC Slovan Galanta	
 
 8
@@ -527,7 +570,7 @@ R
 
 	
 
-5
+4
 
 	
 
@@ -542,7 +585,7 @@ P
 
 
 
-12
+13
 
 	Malodvornícky FK Malé Dvorníky	
 
@@ -570,7 +613,7 @@ P
 
 	
 
-4
+3
 
 	
 
@@ -582,49 +625,6 @@ R
 P
 R
 V
-
-
-
-13
-
-	Futbalový klub Slovan Šahy	
-
-7
-
-	
-
-2
-
-	
-
-0
-
-	
-
-5
-
-	
-
-10:20
-
-	
-
-6
-
-	
-
-3
-
-	
-
--3
-
-	
-P
-P
-P
-P
-P
 
 
 
@@ -675,7 +675,7 @@ P
 
 	C&P Stars Academy - ZM	
 
-8
+9
 
 	
 
@@ -687,15 +687,11 @@ P
 
 	
 
-7
+8
 
 	
 
-1:23
-
-	
-
-1
+2:28
 
 	
 
@@ -703,7 +699,11 @@ P
 
 	
 
--11
+1
+
+	
+
+-14
 
 	
 P
@@ -725,11 +725,24 @@ Prehra
 
 Správy z Futbalnetu
 
+Rozhodovanie mi dalo veľmi veľa, hovorí mladý slovenský rozhodca.
+
+Čo tu prišiel šaškovať? Rozhodcu v 16 rokoch tribúny nešetrili, no napriek tomu si to zamiloval
+
+Peter Cingel
+
+∙
+
+dnes 08:00
+
+∙
+1
+
 V Niké lige si pripísal celkom 89 štartov.
 
 Bývalý hráč Trnavy trénuje s Ružomberkom. O angažmáne sa rozhodne čoskoro
 
-dnes 10:56
+pi 10:56
 
 Streleckú bilanciu by nový útočník tímu ešte rád vylepšil a zároveň odviedol čo najviac práce v prospech klubu.
 
@@ -773,6 +786,24 @@ Marián Dragúň
 
 st 09:35
 
+Sledujte s nami ONLINE prenos zo zápasu 11. kola MONACObet ligy: FK Humenné - FK Pohronie.
+
+ONLINE: FK Humenné - FK Pohronie dnes, MONACObet liga LIVE (II. liga, 11. kolo)
+
+dnes 12:00
+
+Sledujte s nami ONLINE prenos zo zápasu 11. kola MONACObet ligy: FK Inter Bratislava - FC ViOn Zlaté Moravce.
+
+ONLINE: FK Inter Bratislava - FC ViOn Zlaté Moravce dnes, MONACObet liga LIVE (II. liga, 11. kolo)
+
+dnes 12:00
+
+Každý vyraďovací súboj, vrátane májového finále, sa hrá na dva zápasy.
+
+Futbalistky Spartaka Myjava spoznali súpera v osemfinále Európskeho pohára
+
+pi 14:08
+
 Ktorého hráča zo slovenskej ligy mal na zozname tréner Górnik Zabrze Michal Gašparík?
 
 Gašparík: Slovenský pas v európskom futbale neláka. Keď dostaneme šancu, ukážeme kvalitu
@@ -784,38 +815,7 @@ Martin Kozinka
 st 15:30
 
 ∙
-2
-
-Podbrezová strelila po góle v každom polčase.
-
-Podbrezová sa s druholigistom nenatrápila. Poľahky postúpila do osemfinále
-
-ut 17:43
-
-Sledovali ste spolu s nami online prenos zo šestnásťfinále Slovnaft Cupu: Inter Bratislava - FK Železiarne Podbrezová.
-
-Slovnaft Cup: Podbrezová postúpila do osemfinále, zdolala Inter Bratislava
-
-ut 12:50
-
-Jednou z novou posíl klubu je aj útočník Jakub Škovran.
-
-Tabuľka nezodpovedá tomu, čo toto mužstvo dokáže. Situáciu ale môžeme zmeniť, hovorí útočník
-
-Peter Cingel
-
-∙
-
-ut 08:00
-
-Rezerva Žiliny sa drží v hornej časti tabuľky.
-
-Bezgólová dohrávka. Žilina si v domácej remíze rozdelila body s Humenným
-
-po 19:12
-
-∙
-1
+3
 Načítať ďalšie
 Najčítanejšie
 Najnovšie
@@ -824,31 +824,31 @@ Najnovšie
 7 dní
 1
 
-ME v cyklistike 2026: Chladoňová skončila v šprinte bronzová, titul získala Švajčiarka
+Weiss posadil svoje eso: Bol polomŕtvy a rozbitý. Čo sa stalo so Slovákmi?
 
 2
 
-Chladoňová mala na dosah aj titul majsterky Európy. Na krk jej zavesili ďalšiu medailu
+Slovákov zachránil a pobavil: Som svetový brankár. To bol umelý betón, tvrdil
 
 3
 
-Nemec ovládol štatistiky a komentátori ho chválili. Calgary však utrpelo najvyššiu prehru
+Slovensko od hanebnej prehry zachránil vlastný gól outsidera. Na ostrovoch stratilo prvé body
 
 4
 
-Maličký tím si trúfa na Slovákov ako nikdy. Atrakcia je preč, má unikátne zbrane
+Greif mal inkasovať minimálne dvakrát, iba jeden Slovák sa nebál útočiť cez súpera (hodnotenie)
 
 5
 
-Rovnako ako proti Kazachstanu. Kde sledovať zápas Faerské ostrovy - Slovensko? (TV program)
+Veľká cena Bahrajnu: V Kvalifikácii bol najrýchlejší Verstappen na Red Bulle
 
 6
 
-V Trnave bude po dlhšom čase plno, vďaka Ukrajincom. V Budapešti sa pred týždňom strhla mela
+Liga národov: Slovensko senzačne remizovalo s Faerskými ostrovmi
 
 7
 
-Český favorit neuspel, nový prezident IIHF je Nemec. Aký má postoj k Rusku?
+Mladí Slováci získali dôležitý bod. Na pôde úradujúcich majstrov Európy neinkasovali ani raz
 
 Späť na vrch
 Redakcia a kontakty
@@ -872,3 +872,20 @@ Akčný plán
 Licencie
 |
 Žiadosť o opravu
+
+Cookies a obdobné nástroje
+
+Aby ste mali rovnaký zážitok z čítania nášho webu ako doteraz, podľa zákona potrebujeme váš súhlas na:
+Personalizovaná reklama a obsah, meranie reklamy a obsahu, prieskum cieľových skupín a vývoj služieb
+Uchovávanie alebo prístup k informáciám na zariadení
+Ďalšie informácie
+
+Vaše osobné údaje budú spracúvané a informácie z vášho zariadenia (súbory cookie, jedinečné identifikátory a ďalšie údaje o zariadení) môžu byť ukladané a používané 533 partnermi a môžu s nimi byť zdieľané alebo môžu byť využívané konkrétne týmito webovými stránkami. My a naši partneri môžeme používať presné údaje o geolokácii. Pozrite si zoznam partnerov.
+
+Niektorí dodávatelia môžu spracúvať vaše osobné údaje na základe oprávneného záujmu, proti ktorému môžete vzniesť námietku pomocou možností nižšie. Dole na tejto stránke alebo v ponuke webu nájdite odkaz, pomocou ktorého môžete spravovať alebo odvolať súhlas v nastaveniach ochrany súkromia a súborov cookie.
+
+Súhlasím
+
+Pokračovať s nevyhnutnými cookies →
+
+Nastavenia
