@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T10:15:03.093Z",
+  "generatedAt": "2026-10-03T15:48:20.241Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -2965,18 +2965,6 @@
       ],
       "fixtures": [
         {
-          "round": "9. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 9. kolo",
-          "date": "03.10",
-          "time": "10:00",
-          "status": "Prebieha",
-          "home": "Futbalový klub Holice",
-          "away": "FC Slovan Hlohovec",
-          "scoreHome": 3,
-          "scoreAway": 2,
-          "played": true
-        },
-        {
           "round": "10. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 10. kolo",
           "date": "11.10",
@@ -3055,6 +3043,18 @@
           "time": "10:00",
           "status": "",
           "home": "Nez. družstvo",
+          "away": "FC Slovan Hlohovec",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "17. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 17. kolo",
+          "date": "13.03",
+          "time": "10:00",
+          "status": "",
+          "home": "FK Slovan Duslo Šaľa",
           "away": "FC Slovan Hlohovec",
           "scoreHome": null,
           "scoreAway": null,
@@ -3557,6 +3557,18 @@
       ],
       "results": [
         {
+          "round": "9. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 9. kolo",
+          "date": "03.10",
+          "time": "10:00",
+          "status": "Koniec",
+          "home": "C&P Stars Academy - ZM",
+          "away": "SSC FÉNIX Nové Zámky",
+          "scoreHome": 1,
+          "scoreAway": 5,
+          "played": true
+        },
+        {
           "round": "8. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 8. kolo",
           "date": "26.09",
@@ -3638,18 +3650,6 @@
           "away": "C&P Stars Academy - ZM",
           "scoreHome": 4,
           "scoreAway": 0,
-          "played": true
-        },
-        {
-          "round": "1. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 1. kolo",
-          "date": "08.08",
-          "time": "10:00",
-          "status": "Koniec",
-          "home": "C&P Stars Academy - ZM",
-          "away": "Futbalový klub Slovan Šahy",
-          "scoreHome": 0,
-          "scoreAway": 2,
           "played": true
         }
       ],
@@ -4865,6 +4865,12 @@
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5e14d9d27ad8b85a6baf3323/samuelpeter-dolezaj/",
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5e14d9d27ad8b85a6baf3323/formal-photo/8d21049e-04df-46b7-abfe-ec60440e6eda"
+        },
+        {
+          "name": "Patrik Sabo",
+          "position": "Záložník",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/66f7b16e20ce36d070915ff4/patrik-sabo/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/66f7b16e20ce36d070915ff4/formal-photo/181465be-e823-45cf-912f-398fddacd56d"
         },
         {
           "name": "Peter Dohnanec",
