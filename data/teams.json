@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T10:38:18.976Z",
+  "generatedAt": "2026-10-04T10:56:41.155Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -381,7 +381,7 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "13 rokov (2013)",
-            "matches": 205,
+            "matches": 206,
             "minutes": 11400,
             "goals": 117,
             "yellowCards": 1,
@@ -534,8 +534,8 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "13 rokov (2013)",
-            "matches": 161,
-            "minutes": 8832,
+            "matches": 162,
+            "minutes": 8902,
             "goals": 49,
             "yellowCards": 0,
             "secondYellow": 0,
@@ -3342,18 +3342,6 @@
       ],
       "fixtures": [
         {
-          "round": "9. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 9. kolo",
-          "date": "04.10",
-          "time": "10:00",
-          "status": "Prebieha",
-          "home": "FK Kolárovo",
-          "away": "FK Veča",
-          "scoreHome": 0,
-          "scoreAway": 0,
-          "played": true
-        },
-        {
           "round": "10. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 10. kolo",
           "date": "10.10",
@@ -3433,6 +3421,18 @@
           "status": "",
           "home": "FK Veča",
           "away": "SSC FÉNIX Nové Zámky",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "17. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 17. kolo",
+          "date": "13.03",
+          "time": "10:00",
+          "status": "",
+          "home": "MŠO Štúrovo",
+          "away": "FK Veča",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
