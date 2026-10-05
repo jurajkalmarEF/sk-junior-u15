@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T18:07:22.095Z",
+  "generatedAt": "2026-10-05T18:15:15.159Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -585,7 +585,58 @@
           "away": "ŠK Junior Ivanka pri Nitre",
           "scoreHome": 0,
           "scoreAway": 2,
-          "played": true
+          "played": true,
+          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd33f5b0f57d4f481a604/",
+          "detail": {
+            "events": [
+              {
+                "minute": "3'",
+                "type": "goal",
+                "player": "Michal Hladký",
+                "detail": "Gól z hry"
+              },
+              {
+                "minute": "23'",
+                "type": "goal",
+                "player": "Matúš Lacina",
+                "detail": "Pokutový kop"
+              },
+              {
+                "minute": "36'",
+                "type": "sub",
+                "playerOut": "Juraj Bašťovanský",
+                "playerIn": "Lukáš Raučina"
+              },
+              {
+                "minute": "36'",
+                "type": "sub",
+                "playerOut": "Marcel Hlisník",
+                "playerIn": "Sebastián Furugláš"
+              },
+              {
+                "minute": "36'",
+                "type": "sub",
+                "playerOut": "Maxim Kmeťo",
+                "playerIn": "Tomáš Brocký"
+              },
+              {
+                "minute": "41'",
+                "type": "sub",
+                "playerOut": "Nikolas Medveď",
+                "playerIn": "Viktor Sedlák"
+              },
+              {
+                "minute": "68'",
+                "type": "sub",
+                "playerOut": "Michal Hollý",
+                "playerIn": "Samuel Turček"
+              }
+            ],
+            "attendance": 102,
+            "referee": "Peter Bojda",
+            "stadiumName": "Mestský športový štadión Želiezovce",
+            "stadiumAddress": "Scubertova, 937 01 Želiezovce"
+          }
         },
         {
           "round": "8. kolo",
@@ -597,7 +648,46 @@
           "away": "C&P Stars Academy - ZM",
           "scoreHome": 3,
           "scoreAway": 0,
-          "played": true
+          "played": true,
+          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd33f5b0f57d4f481a638/",
+          "detail": {
+            "events": [
+              {
+                "minute": "3'",
+                "type": "sub",
+                "playerOut": "Adam Karvay",
+                "playerIn": "Jakub Fides"
+              },
+              {
+                "minute": "24'",
+                "type": "goal",
+                "player": "Tobias Mokráš",
+                "detail": "Gól z hry"
+              },
+              {
+                "minute": "35'",
+                "type": "sub",
+                "playerOut": "Jakub Kalmár",
+                "playerIn": "Matej Morvai"
+              },
+              {
+                "minute": "36'",
+                "type": "goal",
+                "player": "Tomáš Raučina",
+                "detail": "Gól z hry"
+              },
+              {
+                "minute": "57'",
+                "type": "sub",
+                "playerOut": "Milan Deglovič",
+                "playerIn": "Alexej Molnár"
+              }
+            ],
+            "attendance": 40,
+            "referee": "Jozef Debnár",
+            "stadiumName": "TJ Družstevník Ivanka pri Nitre",
+            "stadiumAddress": "Novozámocká, 95112 Ivanka pri Nitre"
+          }
         },
         {
           "round": "7. kolo",
@@ -609,7 +699,46 @@
           "away": "ŠK Junior Ivanka pri Nitre",
           "scoreHome": 1,
           "scoreAway": 2,
-          "played": true
+          "played": true,
+          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd33f5b0f57d4f481a3b7/",
+          "detail": {
+            "events": [
+              {
+                "minute": "22'",
+                "type": "goal",
+                "player": "Matúš Lacina",
+                "detail": "Gól z hry"
+              },
+              {
+                "minute": "36'",
+                "type": "sub",
+                "playerOut": "Maroš Buchala",
+                "playerIn": "Vadim Pasichnik"
+              },
+              {
+                "minute": "36'",
+                "type": "sub",
+                "playerOut": "Oliver Pásztor",
+                "playerIn": "Leon Nagy"
+              },
+              {
+                "minute": "40'",
+                "type": "goal",
+                "player": "Tomáš Raučina",
+                "detail": "Gól z hry"
+              },
+              {
+                "minute": "40'",
+                "type": "sub",
+                "playerOut": "Matej Matuška",
+                "playerIn": "Patrik Balla"
+              }
+            ],
+            "attendance": 60,
+            "referee": "Gergely Ferenc",
+            "stadiumName": "štadión TJ Salka",
+            "stadiumAddress": "Cintorínska, 943 61 Salka"
+          }
         },
         {
           "round": "6. kolo",
@@ -621,7 +750,46 @@
           "away": "SSC FÉNIX Nové Zámky",
           "scoreHome": 2,
           "scoreAway": 1,
-          "played": true
+          "played": true,
+          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd33f5b0f57d4f481a481/",
+          "detail": {
+            "events": [
+              {
+                "minute": "6'",
+                "type": "goal",
+                "player": "Lukáš Letko",
+                "detail": "Gól z hry"
+              },
+              {
+                "minute": "6'",
+                "type": "sub",
+                "playerOut": "Matúš Nagy",
+                "playerIn": "Marko Ježík"
+              },
+              {
+                "minute": "17'",
+                "type": "sub",
+                "playerOut": "Juraj Bašťovanský",
+                "playerIn": "Lukáš Raučina"
+              },
+              {
+                "minute": "36'",
+                "type": "goal",
+                "player": "Tomáš Raučina",
+                "detail": "Gól z hry"
+              },
+              {
+                "minute": "59'",
+                "type": "sub",
+                "playerOut": "Dominik Tóth",
+                "playerIn": "Andrej Pintér"
+              }
+            ],
+            "attendance": 30,
+            "referee": "Jaroslav Kotrec",
+            "stadiumName": "TJ Družstevník Ivanka pri Nitre",
+            "stadiumAddress": "Novozámocká, 95112 Ivanka pri Nitre"
+          }
         },
         {
           "round": "4. kolo",
@@ -633,7 +801,82 @@
           "away": "ŠK Junior Ivanka pri Nitre",
           "scoreHome": 4,
           "scoreAway": 1,
-          "played": true
+          "played": true,
+          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd3405b0f57d4f481a89d/",
+          "detail": {
+            "events": [
+              {
+                "minute": "3'",
+                "type": "goal",
+                "player": "Martin Slamka",
+                "detail": "Gól z hry"
+              },
+              {
+                "minute": "16'",
+                "type": "goal",
+                "player": "Martin Slamka",
+                "detail": "Gól z hry"
+              },
+              {
+                "minute": "28'",
+                "type": "sub",
+                "playerOut": "Tomáš Gabaš",
+                "playerIn": "Milan Deglovič"
+              },
+              {
+                "minute": "28'",
+                "type": "sub",
+                "playerOut": "Oliver Palubjak",
+                "playerIn": "Marek Péter"
+              },
+              {
+                "minute": "36'",
+                "type": "sub",
+                "playerOut": "Lukáš Raučina",
+                "playerIn": "Juraj Bašťovanský"
+              },
+              {
+                "minute": "36'",
+                "type": "sub",
+                "playerOut": "Marko Ježík",
+                "playerIn": "Alexej Molnár"
+              },
+              {
+                "minute": "49'",
+                "type": "sub",
+                "playerOut": "Zoltán Tóth",
+                "playerIn": "Filip Siládi"
+              },
+              {
+                "minute": "51'",
+                "type": "sub",
+                "playerOut": "Theo Vími",
+                "playerIn": "Samuel Lacko"
+              },
+              {
+                "minute": "51'",
+                "type": "sub",
+                "playerOut": "Oliver Borkovič",
+                "playerIn": "Ján Likó"
+              },
+              {
+                "minute": "57'",
+                "type": "sub",
+                "playerOut": "Maxím Mitrík",
+                "playerIn": "Matúš Puskás"
+              },
+              {
+                "minute": "70'",
+                "type": "goal",
+                "player": "Milan Deglovič",
+                "detail": "Gól z hry"
+              }
+            ],
+            "attendance": 50,
+            "referee": "Jozef Krigovský",
+            "stadiumName": "FK Slovan Duslo Šaľa, PT plocha č.1",
+            "stadiumAddress": "Nitrianska, 92705 Šaľa"
+          }
         },
         {
           "round": "3. kolo",
@@ -645,7 +888,76 @@
           "away": "FC Slovan Hlohovec",
           "scoreHome": 3,
           "scoreAway": 0,
-          "played": true
+          "played": true,
+          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd33f5b0f57d4f481a176/",
+          "detail": {
+            "events": [
+              {
+                "minute": "23'",
+                "type": "goal",
+                "player": "Milan Deglovič",
+                "detail": "Gól z hry"
+              },
+              {
+                "minute": "36'",
+                "type": "sub",
+                "playerOut": "Timotej Heriban",
+                "playerIn": "Samuel Kralič"
+              },
+              {
+                "minute": "36'",
+                "type": "sub",
+                "playerOut": "Milan Deglovič",
+                "playerIn": "Alexej Molnár"
+              },
+              {
+                "minute": "36'",
+                "type": "sub",
+                "playerOut": "Matúš Nagy",
+                "playerIn": "Juraj Bašťovanský"
+              },
+              {
+                "minute": "36'",
+                "type": "goal",
+                "player": "Tobias Mokráš",
+                "detail": "Gól z hry"
+              },
+              {
+                "minute": "42'",
+                "type": "sub",
+                "playerOut": "Róbert Dlhoš",
+                "playerIn": "Samuel Kalivoda"
+              },
+              {
+                "minute": "61'",
+                "type": "sub",
+                "playerOut": "Nikolaj Bartovič",
+                "playerIn": "Alex Cvecho"
+              },
+              {
+                "minute": "61'",
+                "type": "sub",
+                "playerOut": "Tobias Mokráš",
+                "playerIn": "Tomáš Gabaš"
+              },
+              {
+                "minute": "65'",
+                "type": "goal",
+                "player": "Tomáš Gabaš",
+                "detail": "Gól z hry"
+              },
+              {
+                "minute": "66'",
+                "type": "sub",
+                "playerOut": "Lukáš Raučina",
+                "playerIn": "Vadim Pasichnik"
+              }
+            ],
+            "attendance": 67,
+            "referee": "Róbert Berec",
+            "stadiumName": "TJ Družstevník Ivanka pri Nitre",
+            "stadiumAddress": "Novozámocká, 95112 Ivanka pri Nitre"
+          }
         },
         {
           "round": "2. kolo",
@@ -657,7 +969,46 @@
           "away": "ŠK Junior Ivanka pri Nitre",
           "scoreHome": 0,
           "scoreAway": 1,
-          "played": true
+          "played": true,
+          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd33f5b0f57d4f481a3e0/",
+          "detail": {
+            "events": [
+              {
+                "minute": "34'",
+                "type": "sub",
+                "playerOut": "Tibor Kocsis",
+                "playerIn": "Zalán Somogyi"
+              },
+              {
+                "minute": "36'",
+                "type": "sub",
+                "playerOut": "Milan Deglovič",
+                "playerIn": "Lukáš Raučina"
+              },
+              {
+                "minute": "50'",
+                "type": "goal",
+                "player": "Tomáš Gabaš",
+                "detail": "Gól z hry"
+              },
+              {
+                "minute": "50'",
+                "type": "sub",
+                "playerOut": "Dominik Kántor",
+                "playerIn": "Dominik Csiba"
+              },
+              {
+                "minute": "53'",
+                "type": "sub",
+                "playerOut": "Attila Kürthy",
+                "playerIn": "László Péter Orbán"
+              }
+            ],
+            "attendance": 80,
+            "referee": "Dávid Hepner",
+            "stadiumName": "Štadión MFK M. Dvorníky",
+            "stadiumAddress": "Športová, 929 01 Malé Dvorníky"
+          }
         },
         {
           "round": "1. kolo",
@@ -669,7 +1020,46 @@
           "away": "TJ Dynamo Nová Stráž",
           "scoreHome": 6,
           "scoreAway": 3,
-          "played": true
+          "played": true,
+          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd33e5b0f57d4f4819cc5/",
+          "detail": {
+            "events": [
+              {
+                "minute": "5'",
+                "type": "goal",
+                "player": "Tomáš Raučina",
+                "detail": "Gól z hry"
+              },
+              {
+                "minute": "11'",
+                "type": "goal",
+                "player": "Koloman Téglás",
+                "detail": "Gól z hry"
+              },
+              {
+                "minute": "16'",
+                "type": "goal",
+                "player": "Patrik Cseresna",
+                "detail": "Gól z hry"
+              },
+              {
+                "minute": "19'",
+                "type": "goal",
+                "player": "Tobias Mokráš",
+                "detail": "Gól z hry"
+              },
+              {
+                "minute": "62'",
+                "type": "goal",
+                "player": "Peter Dohnanec",
+                "detail": "Gól z hry"
+              }
+            ],
+            "attendance": 50,
+            "referee": "Lukáš Hádek",
+            "stadiumName": "TJ Družstevník Ivanka pri Nitre",
+            "stadiumAddress": "Novozámocká, 95112 Ivanka pri Nitre"
+          }
         }
       ],
       "fixtures": [
@@ -4175,12 +4565,6 @@
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/659eedea4362c0dd3baeb8e4/formal-photo/e0e4a69e-13e1-4116-8808-93e8a690bf79"
         },
         {
-          "name": "Maxím Mitrík",
-          "position": "Záložník",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/5f4395d5c996a45b399f4085/maxim-mitrik/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f4395d5c996a45b399f4085/formal-photo/5d2f7938-00d1-4bc9-8c6e-f46b0ed8aa66"
-        },
-        {
           "name": "Viktor Szarka",
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5f057fdc608f152a521f374c/viktor-szarka/",
@@ -4239,6 +4623,12 @@
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/620f59d4974c639c967fcc0a/filip-hausner/",
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/620f59d4974c639c967fcc0a/formal-photo/262404df-5c17-492e-a8d0-b2d0166c231e"
+        },
+        {
+          "name": "Maxím Mitrík",
+          "position": "Útočník",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/5f4395d5c996a45b399f4085/maxim-mitrik/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f4395d5c996a45b399f4085/formal-photo/5d2f7938-00d1-4bc9-8c6e-f46b0ed8aa66"
         },
         {
           "name": "Oliver Borkovič",

@@ -65,7 +65,6 @@ Zoltán Tóth
 
 Záložníci
 
-Maxím Mitrík
 Viktor Szarka
 Markus Rigo
 Oliver Palubjak
@@ -79,6 +78,7 @@ Filip Hausner
 
 Útočníci
 
+Maxím Mitrík
 Oliver Borkovič
 Theo Vími
 Marek Péter
