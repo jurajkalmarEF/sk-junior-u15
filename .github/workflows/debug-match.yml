@@ -1,0 +1,26 @@
+name: Debug match UI (dočasné)
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - run: node scraper/debug-match.js
+      - name: Commit debug output
+        run: |
+          git config user.name "ivanka-u15-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/debug/match-ui
+          git diff --cached --quiet && echo "nič" || git commit -m "chore: debug vzhľadu zápasu [automaticky]"
+          git push
