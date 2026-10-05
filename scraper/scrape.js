@@ -313,17 +313,11 @@ async function scrapeTeam(page, team) {
   writeDebug(`${team.slug}-vysledky.txt`, `URL: ${resultsUrl}\n\n${resultsText}`);
   const results = parseMatches(usefulLines(resultsText));
 
-  // DOČASNÉ: zisťujeme formát odkazu na detail zápasu (priebeh/strelci), zapíšeme
-  // všetky odkazy na stránke výsledkov Ivanky do debug súboru na preskúmanie.
+  // DOČASNÉ: stiahni si obsah jednej stránky detailu zápasu, nech vidíme, čo tam je.
   if (team.slug === DETAIL_SQUAD_SLUG) {
-    try {
-      const allLinks = await page.$$eval('a[href]', (els) =>
-        els.map((el) => ({ text: el.textContent.trim().replace(/\s+/g, ' '), href: el.href })).filter((l) => l.text)
-      );
-      writeDebug(`${team.slug}-vysledky-links.txt`, JSON.stringify(allLinks, null, 2));
-    } catch (e) {
-      writeDebug(`${team.slug}-vysledky-links.txt`, `ERROR: ${e.message}`);
-    }
+    const sampleMatchUrl = 'https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd33f5b0f57d4f481a604/';
+    const sampleText = await getBodyText(page, sampleMatchUrl);
+    writeDebug('sample-match-detail.txt', `URL: ${sampleMatchUrl}\n\n${sampleText}`);
   }
 
   const programUrl = `${BASE(team.slug)}/program/`;
