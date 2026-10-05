@@ -671,6 +671,20 @@ function escHtml(s){
   return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
 
+function cardKindFromSig(sig){
+  var cols = String(sig || '').split('|')[1] || '';
+  var y = false, r = false;
+  cols.split(',').forEach(function(c){
+    var m = /^#([0-9a-f]{6})$/.exec(c) || /^#([0-9a-f]{3})$/.exec(c);
+    if (!m) return;
+    var h = m[1].length === 3 ? m[1].replace(/./g, function(x){ return x + x; }) : m[1];
+    var R = parseInt(h.substr(0,2),16), G = parseInt(h.substr(2,2),16), B = parseInt(h.substr(4,2),16);
+    if (R > 200 && G > 150 && B < 110) y = true;
+    else if (R > 170 && G < 100 && B < 100) r = true;
+  });
+  return y && r ? 'yellow2' : (r ? 'red' : 'yellow');
+}
+
 function timelineEventHtml(ev){
   if (ev.k === 'period'){
     return '<div class="tl-row tl-period"><div class="tl-period-box"><span class="tl-ico">' + TL_ICONS.clock + '</span><div><b>' +
@@ -682,7 +696,7 @@ function timelineEventHtml(ev){
     icon = '<span' + st + '>' + TL_ICONS.ball + '</span>';
     name = ev.player; subline = ev.text;
   } else if (ev.k === 'card'){
-    icon = '<span class="card-ico card-' + ev.card + '"></span>';
+    icon = '<span class="card-ico card-' + (ev.sig ? cardKindFromSig(ev.sig) : ev.card) + '"></span>';
     name = ev.player; subline = ev.text;
   } else if (ev.k === 'sub'){
     icon = TL_ICONS.sub;
@@ -699,7 +713,7 @@ function timelineEventHtml(ev){
 }
 
 function matchHasDetail(m){
-  return !!(m && m.detail && m.detail.v >= 2 && m.detail.events);
+  return !!(m && m.detail && m.detail.v >= 3 && m.detail.events);
 }
 
 function matchDetailHtml(m){

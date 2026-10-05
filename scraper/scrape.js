@@ -212,7 +212,7 @@ function parseMatches(lines) {
 }
 
 // Verzia schémy detailu zápasu — zvýš, ak sa zmení parser, aby sa staré zápasy stiahli nanovo.
-const DETAIL_VERSION = 2;
+const DETAIL_VERSION = 3;
 
 // Priebeh zápasu sa číta z DOM-u, nie z textu: v texte sa nedá určiť strana (domáci/hostia)
 // a poradie minúty vs. mena je pri domácich a hosťoch opačné. Sportnet kreslí riadok ako
@@ -242,7 +242,11 @@ async function extractTimeline(page) {
       let side = null;
       if (minEl) side = (minEl.compareDocumentPosition(svg) & Node.DOCUMENT_POSITION_FOLLOWING) ? 'away' : 'home';
       const links = Array.from(top.querySelectorAll('a')).map((a) => a.textContent.trim());
+      const html = svg.outerHTML;
+      const colors = Array.from(new Set((html.match(/#[0-9a-fA-F]{3,6}\b|rgba?\([^)]*\)/g) || []).map((c) => c.toLowerCase())));
+      const vb = svg.getAttribute('viewBox') || '';
       return {
+        sig: vb + '|' + colors.join(',') + '|' + html.length,
         icon: titleEl ? titleEl.textContent.trim() : '',
         minute: minEl ? minEl.textContent.trim() : '',
         side,
@@ -263,15 +267,13 @@ function classifyTimelineRow(r) {
     return { k: 'sub', side: r.side, minute: r.minute, playerOut: r.links[0] || l0, playerIn: r.links[1] || sub.replace(/^Striedajúci hráč:\s*/, '') };
   }
   const text = l1 || '';
-  if (/kart/i.test(text)) {
-    const card = /červen/i.test(text) ? 'red' : /druh/i.test(text) ? 'yellow2' : 'yellow';
-    return { k: 'card', card, side: r.side, minute: r.minute, player: r.links[0] || l0, text };
-  }
-  if (/gól|kop/i.test(text)) {
+  const GOAL_TEXTS = ['Gól z hry', 'Pokutový kop', 'Vlastný gól', 'Nepremenený pokutový kop', 'Gól zo štandardnej situácie', 'Gól'];
+  if (GOAL_TEXTS.indexOf(text) !== -1) {
     const variant = /nepremen/i.test(text) ? 'missed' : /vlastn/i.test(text) ? 'own' : /pokutov/i.test(text) ? 'penalty' : 'goal';
-    return { k: 'goal', variant, side: r.side, minute: r.minute, player: r.links[0] || l0, text };
+    return { k: 'goal', variant, side: r.side, minute: r.minute, player: r.links[0] || l0, text, sig: r.sig };
   }
-  return { k: 'other', side: r.side, minute: r.minute, player: l0 || '', text };
+  // všetko ostatné s hráčom a dôvodom je karta; farbu určuje ikona (sig), text je len dôvod
+  return { k: 'card', card: 'yellow', side: r.side, minute: r.minute, player: r.links[0] || l0, text, sig: r.sig };
 }
 
 function parseMatchDetail(lines, timelineRows) {
