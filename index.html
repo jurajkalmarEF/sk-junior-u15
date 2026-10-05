@@ -224,16 +224,34 @@
   .ticket .chevron.open{transform:translateY(-50%) rotate(-90deg);}
   .match-detail{
     display:none;background:var(--pitch);border:1px solid var(--pitch-line);border-top:none;
-    border-radius:0 0 6px 6px;margin:-10px 0 10px;padding:14px 18px 16px;
+    border-radius:0 0 6px 6px;margin:-10px 0 10px;padding:14px 8px 16px;
   }
   .match-detail.open{display:block;animation:fadein 0.2s ease;}
   .match-detail-empty{font-size:13px;color:var(--sage-dim);margin:0;}
   .match-detail-meta{font-size:12px;color:var(--sage-dim);margin:0 0 12px;line-height:1.6;}
-  .match-events{display:flex;flex-direction:column;gap:6px;}
-  .match-event{display:flex;align-items:baseline;gap:10px;font-size:13px;color:var(--chalk);}
-  .match-event .ev-min{font-family:'Bebas Neue', sans-serif;color:var(--gold);min-width:34px;flex-shrink:0;}
-  .match-event .ev-icon{flex-shrink:0;}
-  .match-event-sub .ev-text{color:var(--sage);}
+  .tl{position:relative;margin-top:4px;}
+  .tl::before{content:'';position:absolute;left:50%;top:0;bottom:0;border-left:2px dashed var(--pitch-line);transform:translateX(-1px);}
+  .tl-row{position:relative;display:flex;padding:6px 0;}
+  .tl-cell{width:50%;box-sizing:border-box;display:flex;align-items:flex-start;gap:4px;font-size:12.5px;line-height:1.25;color:var(--chalk);min-width:0;}
+  .tl-home .tl-cell{padding-right:8px;}
+  .tl-away{justify-content:flex-end;}
+  .tl-away .tl-cell{padding-left:8px;flex-direction:row-reverse;text-align:right;}
+  .tl-min{font-size:12px;color:var(--sage-dim);min-width:24px;flex-shrink:0;padding-top:2px;}
+  .tl-away .tl-min{text-align:left;min-width:24px;}
+  .tl-ico{flex-shrink:0;width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center;color:var(--chalk);}
+  .tl-ico svg{width:20px;height:20px;display:block;}
+  .tl-txt{min-width:0;overflow-wrap:break-word;hyphens:auto;}
+  .tl-txt b{display:block;font-weight:600;color:var(--chalk);}
+  .tl-txt small{display:block;font-size:11px;color:var(--sage-dim);margin-top:1px;}
+  .tl-period{justify-content:center;padding:8px 0;}
+  .tl-period-box{position:relative;z-index:1;background:var(--pitch);padding:2px 10px;display:inline-flex;align-items:center;gap:8px;text-align:left;}
+  .tl-period-box .tl-ico{color:var(--sage);}
+  .tl-period-box b{display:block;font-size:13px;font-weight:600;color:var(--chalk);}
+  .tl-period-box small{display:block;font-size:11px;color:var(--sage-dim);}
+  .card-ico{display:inline-block;width:11px;height:15px;border-radius:2px;}
+  .card-yellow{background:#F5C518;}
+  .card-red{background:#E02020;}
+  .card-yellow2{background:linear-gradient(135deg,#F5C518 50%,#E02020 50%);}
 
   .external-card{
     background:var(--card);border:1px dashed var(--pitch-line);border-radius:6px;
@@ -643,40 +661,58 @@ function syncFooterNote(){
 
 var CURRENT_ZAPASY_RESULTS = [];
 
-function matchEventIconAndLabel(ev){
-  if (ev.type === 'goal'){
-    var icon = ev.detail === 'Vlastný gól' ? '⚽️🔄' : '⚽';
-    return { icon: icon, text: ev.player + (ev.detail ? ' · ' + ev.detail : '') };
+var TL_ICONS = {
+  ball: '<svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" transform="translate(-671.917 -373.417)" d="M679.75,374.75a6.5,6.5,0,1,0,6.5,6.5A6.5,6.5,0,0,0,679.75,374.75Zm-2.094,1.422,1.794,1.311.3.219.3-.219,1.8-1.313a5.537,5.537,0,0,1,2.063,1.485l-.694,2.141-.109.344.3.2,1.813,1.328a5.506,5.506,0,0,1-.769,2.425h-2.637l-.109.344-.7,2.172a5.477,5.477,0,0,1-1.25.14,5.552,5.552,0,0,1-1.3-.156l-.688-2.141-.109-.344H675.05a5.472,5.472,0,0,1-.765-2.437l1.8-1.313.3-.2-.109-.344-.709-2.128A5.506,5.506,0,0,1,677.656,376.172Zm2.094,2.125-.3.219-2.281,1.657-.281.219.109.344.875,2.672.109.344h3.533l.109-.344.875-2.672.109-.344-.281-.219-2.281-1.657Z"/></svg>',
+  sub: '<svg viewBox="0 0 512 512" aria-hidden="true"><path fill="#FF0C00" d="M303.1,133.3L151,379.2L0,132.8h303.4L303.1,133.3z"/><path fill="#63C509" d="M208.9,378.7l152.1-246l151,246.5H208.6L208.9,378.7z"/></svg>',
+  clock: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M22 5.72l-4.6-3.86-1.29 1.53 4.6 3.86L22 5.72zM7.88 3.39L6.6 1.86 2 5.71l1.29 1.53 4.59-3.85zM12.5 8H11v6l4.75 2.85.75-1.23-4-2.37V8zM12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9c4.97 0 9-4.03 9-9s-4.03-9-9-9zm0 16c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"/></svg>'
+};
+
+function escHtml(s){
+  return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function timelineEventHtml(ev){
+  if (ev.k === 'period'){
+    return '<div class="tl-row tl-period"><div class="tl-period-box"><span class="tl-ico">' + TL_ICONS.clock + '</span><div><b>' +
+      escHtml(ev.label) + '</b>' + (ev.time ? '<small>' + escHtml(ev.time) + '</small>' : '') + '</div></div></div>';
   }
-  if (ev.type === 'card'){
-    var cardIcon = ev.detail === 'Červená karta' ? '🟥' : '🟨';
-    return { icon: cardIcon, text: ev.player + (ev.detail ? ' · ' + ev.detail : '') };
+  var icon = '', name = '', subline = '';
+  if (ev.k === 'goal'){
+    var st = ev.variant === 'own' ? ' style="color:#FF0C00"' : (ev.variant === 'missed' ? ' style="opacity:.45"' : '');
+    icon = '<span' + st + '>' + TL_ICONS.ball + '</span>';
+    name = ev.player; subline = ev.text;
+  } else if (ev.k === 'card'){
+    icon = '<span class="card-ico card-' + ev.card + '"></span>';
+    name = ev.player; subline = ev.text;
+  } else if (ev.k === 'sub'){
+    icon = TL_ICONS.sub;
+    name = ev.playerOut; subline = 'Striedajúci hráč: ' + ev.playerIn;
+  } else {
+    name = ev.player; subline = ev.text;
   }
-  if (ev.type === 'sub'){
-    return { icon: '🔄', text: ev.playerOut + ' → ' + ev.playerIn };
-  }
-  return { icon: '', text: '' };
+  var side = ev.side === 'away' ? 'away' : 'home';
+  return '<div class="tl-row tl-' + side + '"><div class="tl-cell">' +
+    '<span class="tl-min">' + escHtml(ev.minute) + '</span>' +
+    '<span class="tl-ico">' + icon + '</span>' +
+    '<div class="tl-txt"><b>' + escHtml(name) + '</b>' + (subline ? '<small>' + escHtml(subline) + '</small>' : '') + '</div>' +
+  '</div></div>';
+}
+
+function matchHasDetail(m){
+  return !!(m && m.detail && m.detail.v >= 2 && m.detail.events);
 }
 
 function matchDetailHtml(m){
   var d = m.detail;
-  if (!d || !d.events || !d.events.length){
+  if (!matchHasDetail(m) || !d.events.length){
     return '<p class="match-detail-empty">Pre tento zápas nemám zaznamenaný priebeh.</p>';
   }
-  var eventsHtml = d.events.map(function(ev){
-    var e = matchEventIconAndLabel(ev);
-    return '<div class="match-event match-event-' + ev.type + '">' +
-      '<span class="ev-min">' + (ev.minute || '').replace(/</g,'&lt;') + '</span>' +
-      '<span class="ev-icon">' + e.icon + '</span>' +
-      '<span class="ev-text">' + e.text.replace(/</g,'&lt;') + '</span>' +
-    '</div>';
-  }).join('');
   var metaBits = [];
-  if (d.stadiumName) metaBits.push('🏟️ ' + d.stadiumName.replace(/</g,'&lt;'));
+  if (d.stadiumName) metaBits.push('🏟️ ' + escHtml(d.stadiumName));
   if (d.attendance !== null && d.attendance !== undefined) metaBits.push('👥 ' + d.attendance + ' divákov');
-  if (d.referee) metaBits.push('🟨 rozhodca: ' + d.referee.replace(/</g,'&lt;'));
+  if (d.referee) metaBits.push('rozhodca: ' + escHtml(d.referee));
   var metaHtml = metaBits.length ? '<p class="match-detail-meta">' + metaBits.join(' · ') + '</p>' : '';
-  return metaHtml + '<div class="match-events">' + eventsHtml + '</div>';
+  return metaHtml + '<div class="tl">' + d.events.map(timelineEventHtml).join('') + '</div>';
 }
 
 function toggleMatchDetail(idx){
@@ -716,7 +752,7 @@ function renderZapasy(team){
       var homeIsUs = m.home && m.home.indexOf(team.name.split(' ').slice(-2).join(' ')) !== -1 || (m.home || '').toLowerCase().indexOf(team.slug.split('-')[0]) !== -1;
       var score = (m.scoreHome !== null && m.scoreHome !== undefined) ? (m.scoreHome + '\u00a0:\u00a0' + m.scoreAway) : '—';
       var status = m.status ? '<span class="ticket-status">' + m.status.replace(/</g,'&lt;') + '</span>' : '';
-      var hasDetail = !!(m.detail && m.detail.events);
+      var hasDetail = matchHasDetail(m);
       var ticket = '<div class="ticket' + (hasDetail ? ' ticket-clickable' : '') + '"' + (hasDetail ? ' onclick="toggleMatchDetail(' + idx + ')"' : '') + '>' +
         '<div class="round">' + (m.round || '').replace(/</g,'&lt;') + '</div>' +
         '<div class="match">' +

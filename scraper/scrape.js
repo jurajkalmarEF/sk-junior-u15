@@ -68,9 +68,6 @@ const KNOWN_STATUS = ['Koniec', 'Nezačalo', 'Prebieha', 'Naživo', 'Odložené'
 const NAME_RE = /^\p{Lu}\p{Ll}+(\s\p{Lu}\p{Ll}+)+$/u;
 const ROUND_RE = /(\d+)\.\s*kolo\s*$/;
 const DATETIME_RE = /^(\d{2}\.\d{2})\.\s*(\d{2}:\d{2})$/;
-const MINUTE_RE = /^(\d+)'(\+\d+')?$/;
-const GOAL_EVENT_TYPES = ['Gól z hry', 'Pokutový kop', 'Vlastný gól', 'Nepremenený pokutový kop', 'Gól'];
-const CARD_EVENT_TYPES = ['Žltá karta', 'Druhá žltá karta', 'Červená karta'];
 
 // Tím, pre ktorý ideme naviac scrapovať aj detail každého hráča (fotka, veková
 // kategória, zápasy/minúty/góly/karty). Pre ostatné tímy len odkaz na profil,
@@ -214,60 +211,72 @@ function parseMatches(lines) {
   return matches;
 }
 
-function parseMatchEvents(lines) {
-  // Priebeh zápasu (.../futbalnet/z/.../zapas/<id>/) je tiež čistý text, vzor:
-  //   Začiatok - 1. polčas / 10:00
-  //   3'
-  //   Michal Hladký
-  //   Gól z hry
-  //   36'
-  //   Juraj Bašťovanský
-  //   Striedajúci hráč: Lukáš Raučina
-  //   Marcel Hlisník              <- druhé striedanie v tej istej minúte,
-  //   Striedajúci hráč: ...          bez opakovania minúty
-  //   Koniec - 2. polčas / 11:25
-  //   Štatistika                  <- koniec užitočnej časti priebehu
-  const events = [];
-  let lastMinute = null;
-  for (let i = 0; i < lines.length; i++) {
-    const l = lines[i];
-    if (l === 'Štatistika') break;
+// Verzia schémy detailu zápasu — zvýš, ak sa zmení parser, aby sa staré zápasy stiahli nanovo.
+const DETAIL_VERSION = 2;
+const DETAIL_REFRESH_MS = 3 * 24 * 3600 * 1000; // čerstvé zápasy sťahujeme opakovane (rozhodca vie opraviť zápis)
 
-    const minuteMatch = l.match(MINUTE_RE);
-    if (minuteMatch) {
-      lastMinute = l;
-      const a = lines[i + 1];
-      const b = lines[i + 2];
-      if (a && GOAL_EVENT_TYPES.indexOf(b) !== -1) {
-        events.push({ minute: lastMinute, type: 'goal', player: a, detail: b });
-        i += 2;
-        continue;
-      }
-      if (a && CARD_EVENT_TYPES.indexOf(b) !== -1) {
-        events.push({ minute: lastMinute, type: 'card', player: a, detail: b });
-        i += 2;
-        continue;
-      }
-      if (a && b && b.indexOf('Striedajúci hráč:') === 0) {
-        events.push({ minute: lastMinute, type: 'sub', playerOut: a, playerIn: b.replace('Striedajúci hráč:', '').trim() });
-        i += 2;
-        continue;
-      }
-      continue;
-    }
-
-    // druhé striedanie v tej istej minúte, bez vlastného riadku s minútou
-    if (lastMinute && lines[i + 1] && lines[i + 1].indexOf('Striedajúci hráč:') === 0) {
-      events.push({ minute: lastMinute, type: 'sub', playerOut: l, playerIn: lines[i + 1].replace('Striedajúci hráč:', '').trim() });
-      i += 1;
-      continue;
-    }
-  }
-  return events;
+// Priebeh zápasu sa číta z DOM-u, nie z textu: v texte sa nedá určiť strana (domáci/hostia)
+// a poradie minúty vs. mena je pri domácich a hosťoch opačné. Sportnet kreslí riadok ako
+// [minúta][obsah] pre domácich (minúta je až za obsahom v DOM-e) a [minúta][obsah] pre hostí
+// (minúta pred obsahom) — strana sa teda určuje podľa poradia minúty a ikony v DOM-e.
+async function extractTimeline(page) {
+  return page.evaluate(() => {
+    const MIN = /^\d+'(\+\d+')?$/;
+    const all = Array.from(document.querySelectorAll('div,span'));
+    const markers = all.filter((el) => el.children.length === 0 && /^(Začiatok|Koniec)\s*-/.test((el.textContent || '').trim()));
+    if (!markers.length) return [];
+    let root = markers[0];
+    while (root && !root.contains(markers[markers.length - 1])) root = root.parentElement;
+    if (!root) return [];
+    const svgs = Array.from(root.querySelectorAll('svg'));
+    const rows = [];
+    svgs.forEach((svg) => {
+      let top = svg;
+      while (top.parentElement && top.parentElement !== root && top.parentElement.querySelectorAll('svg').length === 1) top = top.parentElement;
+      if (rows.some((r) => r.top === top)) return;
+      rows.push({ top, svg });
+    });
+    return rows.map(({ top, svg }) => {
+      const titleEl = svg.querySelector('title');
+      const minEl = Array.from(top.querySelectorAll('div,span')).find((el) => el.children.length === 0 && MIN.test((el.textContent || '').trim()));
+      const lines = (top.innerText || '').split('\n').map((s) => s.replace(/ /g, ' ').trim()).filter((s) => s && !MIN.test(s));
+      let side = null;
+      if (minEl) side = (minEl.compareDocumentPosition(svg) & Node.DOCUMENT_POSITION_FOLLOWING) ? 'away' : 'home';
+      const links = Array.from(top.querySelectorAll('a')).map((a) => a.textContent.trim());
+      return {
+        icon: titleEl ? titleEl.textContent.trim() : '',
+        minute: minEl ? minEl.textContent.trim() : '',
+        side,
+        lines,
+        links
+      };
+    });
+  }).catch(() => []);
 }
 
-function parseMatchDetail(lines) {
-  const events = parseMatchEvents(lines);
+function classifyTimelineRow(r) {
+  const [l0, l1] = r.lines;
+  if (/^(Začiatok|Koniec)\s*-/.test(l0 || '')) {
+    return { k: 'period', label: l0, time: l1 || '', minute: r.minute || '' };
+  }
+  const sub = r.lines.find((s) => s.indexOf('Striedajúci hráč') === 0);
+  if (sub) {
+    return { k: 'sub', side: r.side, minute: r.minute, playerOut: r.links[0] || l0, playerIn: r.links[1] || sub.replace(/^Striedajúci hráč:\s*/, '') };
+  }
+  const text = l1 || '';
+  if (/kart/i.test(text)) {
+    const card = /červen/i.test(text) ? 'red' : /druh/i.test(text) ? 'yellow2' : 'yellow';
+    return { k: 'card', card, side: r.side, minute: r.minute, player: r.links[0] || l0, text };
+  }
+  if (/gól|kop/i.test(text)) {
+    const variant = /nepremen/i.test(text) ? 'missed' : /vlastn/i.test(text) ? 'own' : /pokutov/i.test(text) ? 'penalty' : 'goal';
+    return { k: 'goal', variant, side: r.side, minute: r.minute, player: r.links[0] || l0, text };
+  }
+  return { k: 'other', side: r.side, minute: r.minute, player: l0 || '', text };
+}
+
+function parseMatchDetail(lines, timelineRows) {
+  const events = (timelineRows || []).map(classifyTimelineRow);
 
   let attendance = null;
   let referee = null;
@@ -290,8 +299,17 @@ function parseMatchDetail(lines) {
     }
   }
 
-  return { events, attendance, referee, stadiumName, stadiumAddress };
+  return { v: DETAIL_VERSION, events, attendance, referee, stadiumName, stadiumAddress };
 }
+
+async function scrapeMatchDetail(page, url) {
+  const text = await getBodyText(page, url);
+  const rows = await extractTimeline(page);
+  const detail = parseMatchDetail(usefulLines(text), rows);
+  detail.fetchedAt = new Date().toISOString();
+  return detail;
+}
+
 
 async function extractMatchLinks(page) {
   try {
@@ -405,25 +423,13 @@ async function scrapeTeam(page, team) {
   writeDebug(`${team.slug}-vysledky.txt`, `URL: ${resultsUrl}\n\n${resultsText}`);
   const results = parseMatches(usefulLines(resultsText));
 
-  // Priebeh zápasu (góly, striedania, rozhodca, štadión) sťahujeme len pre odohrané
-  // zápasy Ivanky — pre ostatné tímy by to znamenalo desiatky requestov navyše denne.
-  if (team.slug === DETAIL_SQUAD_SLUG) {
-    const matchLinks = await extractMatchLinks(page); // page je stále na resultsUrl
-    if (matchLinks.length === results.length) {
-      for (let i = 0; i < results.length; i++) {
-        if (!results[i].played) continue;
-        try {
-          const detailText = await getBodyText(page, matchLinks[i]);
-          results[i].detailUrl = matchLinks[i];
-          results[i].detail = parseMatchDetail(usefulLines(detailText));
-        } catch (e) {
-          console.error(`  detail zápasu zlyhal (${matchLinks[i]}):`, e.message);
-        }
-        await page.waitForTimeout(400);
-      }
-    } else {
-      console.error(`  počet odkazov na zápasy (${matchLinks.length}) nesedí s počtom výsledkov (${results.length}), preskakujem priebeh zápasov`);
-    }
+  // Odkazy na stránky zápasov (1:1 s výsledkami, rovnaké poradie). Samotný priebeh sa
+  // sťahuje až v main() po prejdení všetkých tímov — každý zápas raz, aj keď ho majú dva tímy.
+  const matchLinks = await extractMatchLinks(page); // page je stále na resultsUrl
+  if (matchLinks.length === results.length) {
+    results.forEach((r, i) => { if (r.played) r.detailUrl = matchLinks[i]; });
+  } else {
+    console.error(`  počet odkazov na zápasy (${matchLinks.length}) nesedí s počtom výsledkov (${results.length}), preskakujem priebeh zápasov`);
   }
 
   const programUrl = `${BASE(team.slug)}/program/`;
@@ -434,8 +440,47 @@ async function scrapeTeam(page, team) {
   return { squad, staff, results, fixtures };
 }
 
+function loadDetailCache(previous) {
+  const cache = new Map();
+  if (!previous || !previous.teams) return cache;
+  Object.values(previous.teams).forEach((t) => (t.results || []).forEach((r) => {
+    if (r.detailUrl && r.detail && r.detail.v === DETAIL_VERSION && r.detail.events && r.detail.events.length) cache.set(r.detailUrl, r.detail);
+  }));
+  return cache;
+}
+
+async function attachMatchDetails(page, output, previous) {
+  const cache = loadDetailCache(previous);
+  const urls = new Set();
+  Object.values(output.teams).forEach((t) => t.results.forEach((r) => { if (r.detailUrl) urls.add(r.detailUrl); }));
+  console.log(`Priebeh zápasov: ${urls.size} odohraných zápasov, ${cache.size} v cache`);
+  const details = new Map();
+  let fetched = 0;
+  for (const url of urls) {
+    const cached = cache.get(url);
+    const settled = cached && cached.fetchedAt && (Date.now() - Date.parse(cached.fetchedAt) > DETAIL_REFRESH_MS);
+    if (cached && settled) { details.set(url, cached); continue; }
+    try {
+      const d = await scrapeMatchDetail(page, url);
+      if (cached && cached.fetchedAt) d.fetchedAt = cached.fetchedAt; // zachovaj pôvodný čas, nech sa "čerstvosť" nepredlžuje donekonečna
+      details.set(url, d);
+      fetched++;
+    } catch (e) {
+      console.error(`  detail zápasu zlyhal (${url}):`, e.message);
+      if (cached) details.set(url, cached);
+    }
+    await page.waitForTimeout(400);
+  }
+  Object.values(output.teams).forEach((t) => t.results.forEach((r) => {
+    if (r.detailUrl && details.has(r.detailUrl)) r.detail = details.get(r.detailUrl);
+  }));
+  console.log(`  -> stiahnutých ${fetched}, spolu s detailom ${details.size}`);
+}
+
 async function main() {
   ensureDirs();
+  let previous = null;
+  try { previous = JSON.parse(fs.readFileSync(path.join(OUT_DIR, 'teams.json'), 'utf8')); } catch (e) { /* prvý beh */ }
   const browser = await chromium.launch();
   const page = await browser.newPage({
     userAgent: 'Mozilla/5.0 (compatible; IvankaU15Bot/1.0; +informational, non-commercial fan app)',
@@ -475,6 +520,8 @@ async function main() {
     output.teams[team.slug] = { name: team.name, squad, staff, results, fixtures };
     await page.waitForTimeout(800); // buď slušný, neposielaj requesty na trhačku
   }
+
+  await attachMatchDetails(page, output, previous);
 
   await browser.close();
   fs.writeFileSync(path.join(OUT_DIR, 'teams.json'), JSON.stringify(output, null, 2), 'utf8');
