@@ -672,17 +672,12 @@ function escHtml(s){
 }
 
 function cardKindFromSig(sig){
-  var cols = String(sig || '').split('|')[1] || '';
-  var y = false, r = false;
-  cols.split(',').forEach(function(c){
-    var m = /^#([0-9a-f]{6})$/.exec(c) || /^#([0-9a-f]{3})$/.exec(c);
-    if (!m) return;
-    var h = m[1].length === 3 ? m[1].replace(/./g, function(x){ return x + x; }) : m[1];
-    var R = parseInt(h.substr(0,2),16), G = parseInt(h.substr(2,2),16), B = parseInt(h.substr(4,2),16);
-    if (R > 200 && G > 150 && B < 110) y = true;
-    else if (R > 170 && G < 100 && B < 100) r = true;
-  });
-  return y && r ? 'yellow2' : (r ? 'red' : 'yellow');
+  // podľa ikony na Sportnete: žltá = jedna #ffc600 karta (viewBox 16), druhá žltá = dve karty (viewBox 24 + #ffc600), červená = viewBox 24 bez #ffc600
+  var parts = String(sig || '').split('|');
+  var big = parts[0] === '0 0 24 24';
+  var yellow = (parts[1] || '').indexOf('#ffc600') !== -1;
+  if (big) return yellow ? 'yellow2' : 'red';
+  return 'yellow';
 }
 
 function timelineEventHtml(ev){
