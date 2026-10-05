@@ -313,6 +313,19 @@ async function scrapeTeam(page, team) {
   writeDebug(`${team.slug}-vysledky.txt`, `URL: ${resultsUrl}\n\n${resultsText}`);
   const results = parseMatches(usefulLines(resultsText));
 
+  // DOČASNÉ: zisťujeme formát odkazu na detail zápasu (priebeh/strelci), zapíšeme
+  // všetky odkazy na stránke výsledkov Ivanky do debug súboru na preskúmanie.
+  if (team.slug === DETAIL_SQUAD_SLUG) {
+    try {
+      const allLinks = await page.$$eval('a[href]', (els) =>
+        els.map((el) => ({ text: el.textContent.trim().replace(/\s+/g, ' '), href: el.href })).filter((l) => l.text)
+      );
+      writeDebug(`${team.slug}-vysledky-links.txt`, JSON.stringify(allLinks, null, 2));
+    } catch (e) {
+      writeDebug(`${team.slug}-vysledky-links.txt`, `ERROR: ${e.message}`);
+    }
+  }
+
   const programUrl = `${BASE(team.slug)}/program/`;
   const programText = await getBodyText(page, programUrl);
   writeDebug(`${team.slug}-program.txt`, `URL: ${programUrl}\n\n${programText}`);
