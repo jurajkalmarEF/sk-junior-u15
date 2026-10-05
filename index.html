@@ -212,6 +212,12 @@
   .prog-date{font-family:'Bebas Neue', sans-serif;font-size:20px;color:var(--chalk);line-height:1;}
   .prog-time{font-size:11px;color:var(--sage-dim);letter-spacing:0.5px;}
   .ticket .date{font-size:12px;color:var(--sage-dim);width:60px;text-align:right;flex-shrink:0;}
+  .comp-label{font-size:12px;color:var(--sage-dim);margin:-10px 0 14px;line-height:1.4;}
+  .ticket-status{
+    font-family:'Barlow Condensed', sans-serif;font-size:10px;font-weight:600;letter-spacing:0.5px;text-transform:uppercase;
+    color:var(--sage-dim);text-align:center;margin-top:4px;display:block;
+  }
+  .ticket-status.live{color:var(--loss);}
 
   .external-card{
     background:var(--card);border:1px dashed var(--pitch-line);border-radius:6px;
@@ -619,6 +625,12 @@ function syncFooterNote(){
   return 'Naposledy zosynchronizované: ' + d.toLocaleString('sk-SK');
 }
 
+function competitionLabel(matches){
+  var m = matches && matches.length ? matches[0] : null;
+  if (!m || !m.competition) return '';
+  return m.competition.replace(/\s*-\s*\d+\.\s*kolo\s*$/i, '');
+}
+
 function renderZapasy(team){
   var heading = document.getElementById('zapasy-heading');
   var content = document.getElementById('zapasy-content');
@@ -635,15 +647,18 @@ function renderZapasy(team){
   }
 
   if (results.length){
-    content.innerHTML = '<div class="results">' + results.map(function(m){
+    var compLabel = competitionLabel(results);
+    var compHtml = compLabel ? '<p class="comp-label">' + compLabel.replace(/</g,'&lt;') + '</p>' : '';
+    content.innerHTML = compHtml + '<div class="results">' + results.map(function(m){
       var homeIsUs = m.home && m.home.indexOf(team.name.split(' ').slice(-2).join(' ')) !== -1 || (m.home || '').toLowerCase().indexOf(team.slug.split('-')[0]) !== -1;
       var score = (m.scoreHome !== null && m.scoreHome !== undefined) ? (m.scoreHome + '\u00a0:\u00a0' + m.scoreAway) : '—';
+      var status = m.status ? '<span class="ticket-status">' + m.status.replace(/</g,'&lt;') + '</span>' : '';
       return '<div class="ticket">' +
         '<div class="round">' + (m.round || '').replace(/</g,'&lt;') + '</div>' +
         '<div class="match">' +
-          '<div class="team home-side">' + (m.home || '').replace(/</g,'&lt;') + '</div>' +
-          '<div class="score">' + score + '</div>' +
-          '<div class="team away-side">' + (m.away || '').replace(/</g,'&lt;') + '</div>' +
+          '<div class="team home-side' + (homeIsUs ? ' us' : '') + '">' + (m.home || '').replace(/</g,'&lt;') + '</div>' +
+          '<div class="score">' + score + status + '</div>' +
+          '<div class="team away-side' + (!homeIsUs ? ' us' : '') + '">' + (m.away || '').replace(/</g,'&lt;') + '</div>' +
         '</div>' +
         '<div class="date">' + (m.date || '').replace(/</g,'&lt;') + '</div>' +
       '</div>';
@@ -667,13 +682,17 @@ function renderProgram(team){
   var fixtures = teamData && teamData.fixtures ? teamData.fixtures : [];
 
   if (fixtures.length){
-    content.innerHTML = '<div class="results">' + fixtures.map(function(m){
+    var compLabel = competitionLabel(fixtures);
+    var compHtml = compLabel ? '<p class="comp-label">' + compLabel.replace(/</g,'&lt;') + '</p>' : '';
+    content.innerHTML = compHtml + '<div class="results">' + fixtures.map(function(m){
+      var homeIsUs = m.home && m.home.indexOf(team.name.split(' ').slice(-2).join(' ')) !== -1 || (m.home || '').toLowerCase().indexOf(team.slug.split('-')[0]) !== -1;
+      var status = m.status ? '<span class="ticket-status">' + m.status.replace(/</g,'&lt;') + '</span>' : '';
       return '<div class="ticket">' +
         '<div class="round">' + (m.round || '').replace(/</g,'&lt;') + '</div>' +
         '<div class="match">' +
-          '<div class="team home-side">' + (m.home || '').replace(/</g,'&lt;') + '</div>' +
-          '<div class="score program-score"><span class="prog-date">' + (m.date || '').replace(/</g,'&lt;') + '</span><span class="prog-time">' + (m.time || '').replace(/</g,'&lt;') + '</span></div>' +
-          '<div class="team away-side">' + (m.away || '').replace(/</g,'&lt;') + '</div>' +
+          '<div class="team home-side' + (homeIsUs ? ' us' : '') + '">' + (m.home || '').replace(/</g,'&lt;') + '</div>' +
+          '<div class="score program-score"><span class="prog-date">' + (m.date || '').replace(/</g,'&lt;') + '</span><span class="prog-time">' + (m.time || '').replace(/</g,'&lt;') + '</span>' + status + '</div>' +
+          '<div class="team away-side' + (!homeIsUs ? ' us' : '') + '">' + (m.away || '').replace(/</g,'&lt;') + '</div>' +
         '</div>' +
       '</div>';
     }).join('') + '</div>' +
