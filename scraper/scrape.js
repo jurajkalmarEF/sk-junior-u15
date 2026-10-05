@@ -213,7 +213,6 @@ function parseMatches(lines) {
 
 // Verzia schémy detailu zápasu — zvýš, ak sa zmení parser, aby sa staré zápasy stiahli nanovo.
 const DETAIL_VERSION = 2;
-const DETAIL_REFRESH_MS = 3 * 24 * 3600 * 1000; // čerstvé zápasy sťahujeme opakovane (rozhodca vie opraviť zápis)
 
 // Priebeh zápasu sa číta z DOM-u, nie z textu: v texte sa nedá určiť strana (domáci/hostia)
 // a poradie minúty vs. mena je pri domácich a hosťoch opačné. Sportnet kreslí riadok ako
@@ -458,11 +457,10 @@ async function attachMatchDetails(page, output, previous) {
   let fetched = 0;
   for (const url of urls) {
     const cached = cache.get(url);
-    const settled = cached && cached.fetchedAt && (Date.now() - Date.parse(cached.fetchedAt) > DETAIL_REFRESH_MS);
-    if (cached && settled) { details.set(url, cached); continue; }
+    // odohraný zápas sa už nemení — ak ho máme v cache, nesťahujeme ho znova
+    if (cached) { details.set(url, cached); continue; }
     try {
       const d = await scrapeMatchDetail(page, url);
-      if (cached && cached.fetchedAt) d.fetchedAt = cached.fetchedAt; // zachovaj pôvodný čas, nech sa "čerstvosť" nepredlžuje donekonečna
       details.set(url, d);
       fetched++;
     } catch (e) {
