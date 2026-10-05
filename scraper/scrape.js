@@ -68,6 +68,9 @@ const KNOWN_STATUS = ['Koniec', 'Nezačalo', 'Prebieha', 'Naživo', 'Odložené'
 const NAME_RE = /^\p{Lu}\p{Ll}+(\s\p{Lu}\p{Ll}+)+$/u;
 const ROUND_RE = /(\d+)\.\s*kolo\s*$/;
 const DATETIME_RE = /^(\d{2}\.\d{2})\.\s*(\d{2}:\d{2})$/;
+const MINUTE_RE = /^(\d+)'(\+\d+')?$/;
+const GOAL_EVENT_TYPES = ['Gól z hry', 'Pokutový kop', 'Vlastný gól', 'Nepremenený pokutový kop', 'Gól'];
+const CARD_EVENT_TYPES = ['Žltá karta', 'Druhá žltá karta', 'Červená karta'];
 
 // Tím, pre ktorý ideme naviac scrapovať aj detail každého hráča (fotka, veková
 // kategória, zápasy/minúty/góly/karty). Pre ostatné tímy len odkaz na profil,
@@ -211,6 +214,95 @@ function parseMatches(lines) {
   return matches;
 }
 
+function parseMatchEvents(lines) {
+  // Priebeh zápasu (.../futbalnet/z/.../zapas/<id>/) je tiež čistý text, vzor:
+  //   Začiatok - 1. polčas / 10:00
+  //   3'
+  //   Michal Hladký
+  //   Gól z hry
+  //   36'
+  //   Juraj Bašťovanský
+  //   Striedajúci hráč: Lukáš Raučina
+  //   Marcel Hlisník              <- druhé striedanie v tej istej minúte,
+  //   Striedajúci hráč: ...          bez opakovania minúty
+  //   Koniec - 2. polčas / 11:25
+  //   Štatistika                  <- koniec užitočnej časti priebehu
+  const events = [];
+  let lastMinute = null;
+  for (let i = 0; i < lines.length; i++) {
+    const l = lines[i];
+    if (l === 'Štatistika') break;
+
+    const minuteMatch = l.match(MINUTE_RE);
+    if (minuteMatch) {
+      lastMinute = l;
+      const a = lines[i + 1];
+      const b = lines[i + 2];
+      if (a && GOAL_EVENT_TYPES.indexOf(b) !== -1) {
+        events.push({ minute: lastMinute, type: 'goal', player: a, detail: b });
+        i += 2;
+        continue;
+      }
+      if (a && CARD_EVENT_TYPES.indexOf(b) !== -1) {
+        events.push({ minute: lastMinute, type: 'card', player: a, detail: b });
+        i += 2;
+        continue;
+      }
+      if (a && b && b.indexOf('Striedajúci hráč:') === 0) {
+        events.push({ minute: lastMinute, type: 'sub', playerOut: a, playerIn: b.replace('Striedajúci hráč:', '').trim() });
+        i += 2;
+        continue;
+      }
+      continue;
+    }
+
+    // druhé striedanie v tej istej minúte, bez vlastného riadku s minútou
+    if (lastMinute && lines[i + 1] && lines[i + 1].indexOf('Striedajúci hráč:') === 0) {
+      events.push({ minute: lastMinute, type: 'sub', playerOut: l, playerIn: lines[i + 1].replace('Striedajúci hráč:', '').trim() });
+      i += 1;
+      continue;
+    }
+  }
+  return events;
+}
+
+function parseMatchDetail(lines) {
+  const events = parseMatchEvents(lines);
+
+  let attendance = null;
+  let referee = null;
+  let stadiumName = null;
+  let stadiumAddress = null;
+
+  const stadiumIdx = lines.indexOf('Štadión');
+  const delegatedIdx = lines.indexOf('Delegované osoby');
+
+  for (let i = 0; i < lines.length; i++) {
+    const l = lines[i];
+    const att = l.match(/^(\d+)\s*divákov$/);
+    if (att) attendance = parseInt(att[1], 10);
+    if (delegatedIdx !== -1 && i > delegatedIdx && l.indexOf('Rozhodca	') === 0 && !referee) {
+      referee = l.split('	')[1] || null;
+    }
+    if (stadiumIdx !== -1 && i > stadiumIdx) {
+      if (l.indexOf('Názov	') === 0 && !stadiumName) stadiumName = l.split('	')[1] || null;
+      if (l.indexOf('Adresa	') === 0 && !stadiumAddress) stadiumAddress = l.split('	')[1] || null;
+    }
+  }
+
+  return { events, attendance, referee, stadiumName, stadiumAddress };
+}
+
+async function extractMatchLinks(page) {
+  try {
+    const hrefs = await page.$$eval('a[href*="/zapas/"]', (els) => els.map((el) => el.href));
+    const seen = new Set();
+    return hrefs.filter((h) => (seen.has(h) ? false : (seen.add(h), true)));
+  } catch (e) {
+    return [];
+  }
+}
+
 async function extractProfileLinks(page) {
   // Mená hráčov na súpiske sú (predpokladáme) odkazy na ich Sportnet profil
   // (.../futbalnet/clen/{id}/{meno}/). Vyťiahneme aj prípadnú fotku vedľa mena.
@@ -313,11 +405,25 @@ async function scrapeTeam(page, team) {
   writeDebug(`${team.slug}-vysledky.txt`, `URL: ${resultsUrl}\n\n${resultsText}`);
   const results = parseMatches(usefulLines(resultsText));
 
-  // DOČASNÉ: stiahni si obsah jednej stránky detailu zápasu, nech vidíme, čo tam je.
+  // Priebeh zápasu (góly, striedania, rozhodca, štadión) sťahujeme len pre odohrané
+  // zápasy Ivanky — pre ostatné tímy by to znamenalo desiatky requestov navyše denne.
   if (team.slug === DETAIL_SQUAD_SLUG) {
-    const sampleMatchUrl = 'https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd33f5b0f57d4f481a604/';
-    const sampleText = await getBodyText(page, sampleMatchUrl);
-    writeDebug('sample-match-detail.txt', `URL: ${sampleMatchUrl}\n\n${sampleText}`);
+    const matchLinks = await extractMatchLinks(page); // page je stále na resultsUrl
+    if (matchLinks.length === results.length) {
+      for (let i = 0; i < results.length; i++) {
+        if (!results[i].played) continue;
+        try {
+          const detailText = await getBodyText(page, matchLinks[i]);
+          results[i].detailUrl = matchLinks[i];
+          results[i].detail = parseMatchDetail(usefulLines(detailText));
+        } catch (e) {
+          console.error(`  detail zápasu zlyhal (${matchLinks[i]}):`, e.message);
+        }
+        await page.waitForTimeout(400);
+      }
+    } else {
+      console.error(`  počet odkazov na zápasy (${matchLinks.length}) nesedí s počtom výsledkov (${results.length}), preskakujem priebeh zápasov`);
+    }
   }
 
   const programUrl = `${BASE(team.slug)}/program/`;

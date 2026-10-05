@@ -218,6 +218,22 @@
     color:var(--sage-dim);text-align:center;margin-top:4px;display:block;
   }
   .ticket-status.live{color:var(--loss);}
+  .ticket-clickable{cursor:pointer;position:relative;padding-right:34px;}
+  .ticket-clickable:hover{border-color:var(--sage-dim);}
+  .ticket .chevron{position:absolute;right:14px;top:50%;transform:translateY(-50%) rotate(90deg);color:var(--sage-dim);font-size:16px;transition:transform 0.15s;}
+  .ticket .chevron.open{transform:translateY(-50%) rotate(-90deg);}
+  .match-detail{
+    display:none;background:var(--pitch);border:1px solid var(--pitch-line);border-top:none;
+    border-radius:0 0 6px 6px;margin:-10px 0 10px;padding:14px 18px 16px;
+  }
+  .match-detail.open{display:block;animation:fadein 0.2s ease;}
+  .match-detail-empty{font-size:13px;color:var(--sage-dim);margin:0;}
+  .match-detail-meta{font-size:12px;color:var(--sage-dim);margin:0 0 12px;line-height:1.6;}
+  .match-events{display:flex;flex-direction:column;gap:6px;}
+  .match-event{display:flex;align-items:baseline;gap:10px;font-size:13px;color:var(--chalk);}
+  .match-event .ev-min{font-family:'Bebas Neue', sans-serif;color:var(--gold);min-width:34px;flex-shrink:0;}
+  .match-event .ev-icon{flex-shrink:0;}
+  .match-event-sub .ev-text{color:var(--sage);}
 
   .external-card{
     background:var(--card);border:1px dashed var(--pitch-line);border-radius:6px;
@@ -625,6 +641,52 @@ function syncFooterNote(){
   return 'Naposledy zosynchronizované: ' + d.toLocaleString('sk-SK');
 }
 
+var CURRENT_ZAPASY_RESULTS = [];
+
+function matchEventIconAndLabel(ev){
+  if (ev.type === 'goal'){
+    var icon = ev.detail === 'Vlastný gól' ? '⚽️🔄' : '⚽';
+    return { icon: icon, text: ev.player + (ev.detail ? ' · ' + ev.detail : '') };
+  }
+  if (ev.type === 'card'){
+    var cardIcon = ev.detail === 'Červená karta' ? '🟥' : '🟨';
+    return { icon: cardIcon, text: ev.player + (ev.detail ? ' · ' + ev.detail : '') };
+  }
+  if (ev.type === 'sub'){
+    return { icon: '🔄', text: ev.playerOut + ' → ' + ev.playerIn };
+  }
+  return { icon: '', text: '' };
+}
+
+function matchDetailHtml(m){
+  var d = m.detail;
+  if (!d || !d.events || !d.events.length){
+    return '<p class="match-detail-empty">Pre tento zápas nemám zaznamenaný priebeh.</p>';
+  }
+  var eventsHtml = d.events.map(function(ev){
+    var e = matchEventIconAndLabel(ev);
+    return '<div class="match-event match-event-' + ev.type + '">' +
+      '<span class="ev-min">' + (ev.minute || '').replace(/</g,'&lt;') + '</span>' +
+      '<span class="ev-icon">' + e.icon + '</span>' +
+      '<span class="ev-text">' + e.text.replace(/</g,'&lt;') + '</span>' +
+    '</div>';
+  }).join('');
+  var metaBits = [];
+  if (d.stadiumName) metaBits.push('🏟️ ' + d.stadiumName.replace(/</g,'&lt;'));
+  if (d.attendance !== null && d.attendance !== undefined) metaBits.push('👥 ' + d.attendance + ' divákov');
+  if (d.referee) metaBits.push('🟨 rozhodca: ' + d.referee.replace(/</g,'&lt;'));
+  var metaHtml = metaBits.length ? '<p class="match-detail-meta">' + metaBits.join(' · ') + '</p>' : '';
+  return metaHtml + '<div class="match-events">' + eventsHtml + '</div>';
+}
+
+function toggleMatchDetail(idx){
+  var panel = document.getElementById('match-detail-' + idx);
+  var chevron = document.getElementById('zapas-chevron-' + idx);
+  if (!panel) return;
+  var open = panel.classList.toggle('open');
+  if (chevron) chevron.classList.toggle('open', open);
+}
+
 function competitionLabel(matches){
   var m = matches && matches.length ? matches[0] : null;
   if (!m || !m.competition) return '';
@@ -647,13 +709,15 @@ function renderZapasy(team){
   }
 
   if (results.length){
+    CURRENT_ZAPASY_RESULTS = results;
     var compLabel = competitionLabel(results);
     var compHtml = compLabel ? '<p class="comp-label">' + compLabel.replace(/</g,'&lt;') + '</p>' : '';
-    content.innerHTML = compHtml + '<div class="results">' + results.map(function(m){
+    content.innerHTML = compHtml + '<div class="results">' + results.map(function(m, idx){
       var homeIsUs = m.home && m.home.indexOf(team.name.split(' ').slice(-2).join(' ')) !== -1 || (m.home || '').toLowerCase().indexOf(team.slug.split('-')[0]) !== -1;
       var score = (m.scoreHome !== null && m.scoreHome !== undefined) ? (m.scoreHome + '\u00a0:\u00a0' + m.scoreAway) : '—';
       var status = m.status ? '<span class="ticket-status">' + m.status.replace(/</g,'&lt;') + '</span>' : '';
-      return '<div class="ticket">' +
+      var hasDetail = !!(m.detail && m.detail.events);
+      var ticket = '<div class="ticket' + (hasDetail ? ' ticket-clickable' : '') + '"' + (hasDetail ? ' onclick="toggleMatchDetail(' + idx + ')"' : '') + '>' +
         '<div class="round">' + (m.round || '').replace(/</g,'&lt;') + '</div>' +
         '<div class="match">' +
           '<div class="team home-side' + (homeIsUs ? ' us' : '') + '">' + (m.home || '').replace(/</g,'&lt;') + '</div>' +
@@ -661,7 +725,10 @@ function renderZapasy(team){
           '<div class="team away-side' + (!homeIsUs ? ' us' : '') + '">' + (m.away || '').replace(/</g,'&lt;') + '</div>' +
         '</div>' +
         '<div class="date">' + (m.date || '').replace(/</g,'&lt;') + '</div>' +
+        (hasDetail ? '<div class="chevron" id="zapas-chevron-' + idx + '">›</div>' : '') +
       '</div>';
+      var detailPanel = hasDetail ? '<div class="match-detail" id="match-detail-' + idx + '">' + matchDetailHtml(m) + '</div>' : '';
+      return ticket + detailPanel;
     }).join('') + '</div>' +
     '<p class="sync-note"><span>' + syncFooterNote() + '</span>' +
     '<a href="' + teamPageUrl(team, 'vysledky') + '" target="_blank" rel="noopener">Zdroj na Sportnete ↗</a></p>';
