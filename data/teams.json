@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T12:05:11.964Z",
+  "generatedAt": "2026-10-05T18:03:05.668Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -137,25 +137,41 @@
       ]
     },
     {
+      "slug": "fc-slovan-galanta",
+      "name": "FC Slovan Galanta",
+      "pos": 9,
+      "z": 9,
+      "v": 3,
+      "r": 2,
+      "p": 4,
+      "score": "20:24",
+      "pts": 11,
+      "forma": [
+        "V",
+        "V",
+        "R"
+      ]
+    },
+    {
       "slug": "fk-slovan-duslo-sala",
       "name": "FK Slovan Duslo Šaľa",
-      "pos": 9,
-      "z": 7,
+      "pos": 10,
+      "z": 8,
       "v": 3,
       "r": 1,
-      "p": 3,
-      "score": "14:11",
+      "p": 4,
+      "score": "14:13",
       "pts": 10,
       "forma": [
         "P",
-        "V",
+        "P",
         "V"
       ]
     },
     {
       "slug": "mso-sturovo",
       "name": "MŠO Štúrovo",
-      "pos": 10,
+      "pos": 11,
       "z": 8,
       "v": 2,
       "r": 3,
@@ -171,7 +187,7 @@
     {
       "slug": "futbalovy-klub-slovan-sahy",
       "name": "Futbalový klub Slovan Šahy",
-      "pos": 11,
+      "pos": 12,
       "z": 8,
       "v": 3,
       "r": 0,
@@ -181,22 +197,6 @@
       "forma": [
         "V",
         "P",
-        "P"
-      ]
-    },
-    {
-      "slug": "fc-slovan-galanta",
-      "name": "FC Slovan Galanta",
-      "pos": 12,
-      "z": 8,
-      "v": 2,
-      "r": 2,
-      "p": 4,
-      "score": "18:24",
-      "pts": 8,
-      "forma": [
-        "V",
-        "R",
         "P"
       ]
     },
@@ -2554,6 +2554,18 @@
       ],
       "results": [
         {
+          "round": "9. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 9. kolo",
+          "date": "05.10",
+          "time": "16:00",
+          "status": "Koniec",
+          "home": "FC Slovan Galanta",
+          "away": "FK Slovan Duslo Šaľa",
+          "scoreHome": 2,
+          "scoreAway": 0,
+          "played": true
+        },
+        {
           "round": "8. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 8. kolo",
           "date": "29.09",
@@ -2636,33 +2648,9 @@
           "scoreHome": 3,
           "scoreAway": 1,
           "played": true
-        },
-        {
-          "round": "1. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 1. kolo",
-          "date": "09.08",
-          "time": "10:00",
-          "status": "Koniec",
-          "home": "FC Slovan Galanta",
-          "away": "Futbalový klub Holice",
-          "scoreHome": 1,
-          "scoreAway": 1,
-          "played": true
         }
       ],
       "fixtures": [
-        {
-          "round": "9. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 9. kolo",
-          "date": "05.10",
-          "time": "16:00",
-          "status": "",
-          "home": "FC Slovan Galanta",
-          "away": "FK Slovan Duslo Šaľa",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "10. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 10. kolo",
@@ -2743,6 +2731,18 @@
           "status": "",
           "home": "Futbalový klub Holice",
           "away": "FC Slovan Galanta",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "17. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 17. kolo",
+          "date": "13.03",
+          "time": "10:00",
+          "status": "",
+          "home": "FC Slovan Galanta",
+          "away": "ŠK Šurany",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
@@ -4279,6 +4279,18 @@
       ],
       "results": [
         {
+          "round": "9. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 9. kolo",
+          "date": "05.10",
+          "time": "16:00",
+          "status": "Koniec",
+          "home": "FC Slovan Galanta",
+          "away": "FK Slovan Duslo Šaľa",
+          "scoreHome": 2,
+          "scoreAway": 0,
+          "played": true
+        },
+        {
           "round": "8. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 8. kolo",
           "date": "26.09",
@@ -4365,18 +4377,6 @@
       ],
       "fixtures": [
         {
-          "round": "9. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 9. kolo",
-          "date": "05.10",
-          "time": "16:00",
-          "status": "",
-          "home": "FC Slovan Galanta",
-          "away": "FK Slovan Duslo Šaľa",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
-        {
           "round": "10. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 10. kolo",
           "date": "10.10",
@@ -4456,6 +4456,18 @@
           "status": "",
           "home": "Malodvornícky FK Malé Dvorníky",
           "away": "FK Slovan Duslo Šaľa",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "17. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 17. kolo",
+          "date": "13.03",
+          "time": "10:00",
+          "status": "",
+          "home": "FK Slovan Duslo Šaľa",
+          "away": "FC Slovan Hlohovec",
           "scoreHome": null,
           "scoreAway": null,
           "played": false

@@ -13,10 +13,10 @@ KLUBY
 ČLENOVIA
 PRESTUPY
 PIKOŠKY
+Triaslo ma ako závislú, ktorá nedostala dávku. Z pekla mi pomohol šport, hovorí olympionička
 Je najrýchlejší Slovák a najväčší talent. Weiss však varuje: Vedia to aj Nemci
 Podozrenie z korupcie vo 4. lige Západ už rieši polícia, SFZ potvrdil vyšetrovanie
 Kde bol doteraz, pýtal sa tréner. Hlavaj v kempe zaujal, no v Toronte to nebude mať ľahké
-Bál sa, že bude vyzerať ako šašo. Brankár v čiapke s brmbolcom sa stal legendou
 Zásah v kauze Kajúcnik: Vyšetrovanie ukázalo, že prokurátorka klamala. Stíhanie však zastavili
 Kluby
 /
@@ -415,9 +415,52 @@ P
 
 9
 
-	FK Slovan Duslo Šaľa	
+	FC Slovan Galanta	
+
+9
+
+	
+
+3
+
+	
+
+2
+
+	
+
+4
+
+	
+
+20:24
+
+	
+
+11
+
+	
 
 7
+
+	
+
+-4
+
+	
+V
+V
+R
+P
+P
+
+
+
+10
+
+	FK Slovan Duslo Šaľa	
+
+8
 
 	
 
@@ -429,11 +472,11 @@ P
 
 	
 
-3
+4
 
 	
 
-14:11
+14:13
 
 	
 
@@ -441,7 +484,7 @@ P
 
 	
 
-7
+6
 
 	
 
@@ -449,14 +492,14 @@ P
 
 	
 P
+P
 V
 V
 P
-R
 
 
 
-10
+11
 
 	MŠO Štúrovo	
 
@@ -484,7 +527,7 @@ R
 
 	
 
-6
+5
 
 	
 
@@ -499,7 +542,7 @@ R
 
 
 
-11
+12
 
 	Futbalový klub Slovan Šahy	
 
@@ -527,7 +570,7 @@ R
 
 	
 
-5
+4
 
 	
 
@@ -536,49 +579,6 @@ R
 	
 V
 P
-P
-P
-P
-
-
-
-12
-
-	FC Slovan Galanta	
-
-8
-
-	
-
-2
-
-	
-
-2
-
-	
-
-4
-
-	
-
-18:24
-
-	
-
-8
-
-	
-
-4
-
-	
-
--4
-
-	
-V
-R
 P
 P
 P
@@ -725,6 +725,12 @@ Prehra
 
 Správy z Futbalnetu
 
+Oba góly domácich strelil Adrián Macejko.
+
+Šamorín nevyužil šancu dostať sa na prvé miesto. Na ihrisku súpera nedal ani jeden gól
+
+dnes 19:26
+
 Po štyroch kolách boli prví pred FC Nitra.
 
 Hrdá dedina sa vyhrieva na bedni s bývalými ligistami Nitrou a Púchovom. Tréner si dáva iba jeden cieľ
@@ -760,21 +766,11 @@ Podozrenie z korupcie vo 4. lige Západ už rieši polícia, SFZ potvrdil vyšet
 
 ne 13:15
 
-Rimavská Sobota podľahla doma Fiľakovu 0:1.
-
-Derby rozhodol gól v poslednej minúte. Striedajúci mladý hráč skóroval prvý raz medzi mužmi
-
-Titanilla Bőd
-
-∙
-
-so 23:15
-
 Sledujte s nami ONLINE prenos zo zápasu 11. kola MONACObet ligy: MFK Tatran Liptovský Mikuláš - FC ŠTK 1914 Šamorín.
 
 ONLINE: MFK Tatran Liptovský Mikuláš - FC ŠTK 1914 Šamorín dnes, MONACObet liga LIVE (II. liga, 11. kolo)
 
-teraz
+dnes 14:00
 
 25-ročný stredopoliar prišiel do klubu začiatkom roka 2025.
 
@@ -788,17 +784,21 @@ ONLINE: FC Petržalka - OFK Malženice dnes, MONACObet liga LIVE (II. liga, 11. 
 
 ne 07:30
 
+Rimavská Sobota podľahla doma Fiľakovu 0:1.
+
+Derby rozhodol gól v poslednej minúte. Striedajúci mladý hráč skóroval prvý raz medzi mužmi
+
+Titanilla Bőd
+
+∙
+
+so 23:15
+
 Zvolen prehral doma so Slovanom Bratislava B.
 
 Považská Bystrica vyhrala po obrate. Inter odvrátil prehru a Prešov po takmer mesiaci vyhral
 
 so 17:01
-
-Sledujte s nami ONLINE prenos zo zápasu 11. kola MONACObet ligy: FC Tatran Prešov - OFK Baník Lehota pod Vtáčnikom.
-
-ONLINE: FC Tatran Prešov - OFK Baník Lehota pod Vtáčnikom dnes, MONACObet liga LIVE (II. liga, 11. kolo)
-
-so 15:00
 
 Načítať ďalšie
 Najčítanejšie
@@ -808,31 +808,31 @@ Najnovšie
 7 dní
 1
 
-Je najrýchlejší Slovák a najväčší talent. Weiss však varuje: Vedia to aj Nemci
+Bavoráky a staré lady. Vraj najchudobnejšia krajina Európy, majú sa Slováci báť?
 
 2
 
-Čierne pásky, sklonené hlavy a provokácie. Zápasy Írsko - Izrael sprevádzala nevraživosť
+Slovensko čaká rozhodujúci zápas o baráž. Televízia ho neodvysiela, problém je na strane domácich
 
 3
 
-Triaslo ma ako závislú, ktorá nedostala dávku. Z pekla mi pomohol šport, hovorí olympionička
+VIDEO: Djokovič je v Pekingu naďalej bez prehry a zabojuje o titul. Rusa diskvalifikovali
 
 4
 
-Slovan sľubuje rozpočet Sparty či Třinca. Neprišli by sme hrať spodok tabuľky, tvrdí Havlíček
+Triaslo ma ako závislú, ktorá nedostala dávku. Z pekla mi pomohol šport, hovorí olympionička
 
 5
 
-Slovensko v Lige národov proti Moldavsku, dvadsaťjednotka bojuje o baráž či F1 v Singapure (TV tipy)
+Boj o zlato vyvolal rozruch. Prečo súper Evenepoela vyzerá, akoby mal detský bicykel?
 
 6
 
-Medzinárodný maratón mieru má nového víťaza, v Košiciach dominovali Afričania
+Je najrýchlejší Slovák a najväčší talent. Weiss však varuje: Vedia to aj Nemci
 
 7
 
-Hrdá dedina sa vyhrieva na bedni s bývalými ligistami Nitrou a Púchovom. Tréner si dáva iba jeden cieľ
+Kuriózna kontumácia v hokejovej lige. Banská Bystrica pochybila pri zápasovej súpiske
 
 Späť na vrch
 Redakcia a kontakty
@@ -856,20 +856,3 @@ Akčný plán
 Licencie
 |
 Žiadosť o opravu
-
-Cookies a obdobné nástroje
-
-Aby ste mali rovnaký zážitok z čítania nášho webu ako doteraz, podľa zákona potrebujeme váš súhlas na:
-Personalizovaná reklama a obsah, meranie reklamy a obsahu, prieskum cieľových skupín a vývoj služieb
-Uchovávanie alebo prístup k informáciám na zariadení
-Ďalšie informácie
-
-Vaše osobné údaje budú spracúvané a informácie z vášho zariadenia (súbory cookie, jedinečné identifikátory a ďalšie údaje o zariadení) môžu byť ukladané a používané 533 partnermi a môžu s nimi byť zdieľané alebo môžu byť využívané konkrétne týmito webovými stránkami. My a naši partneri môžeme používať presné údaje o geolokácii. Pozrite si zoznam partnerov.
-
-Niektorí dodávatelia môžu spracúvať vaše osobné údaje na základe oprávneného záujmu, proti ktorému môžete vzniesť námietku pomocou možností nižšie. Dole na tejto stránke alebo v ponuke webu nájdite odkaz, pomocou ktorého môžete spravovať alebo odvolať súhlas v nastaveniach ochrany súkromia a súborov cookie.
-
-Súhlasím
-
-Pokračovať s nevyhnutnými cookies →
-
-Nastavenia
