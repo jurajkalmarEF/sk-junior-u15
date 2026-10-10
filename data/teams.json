@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T10:58:50.958Z",
+  "generatedAt": "2026-10-10T17:01:12.765Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -262,8 +262,8 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "13 rokov (2012)",
-            "matches": 54,
-            "minutes": 2671,
+            "matches": 55,
+            "minutes": 2741,
             "goals": 0,
             "yellowCards": 0,
             "secondYellow": 0,
@@ -296,8 +296,8 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "14 rokov (2012)",
-            "matches": 102,
-            "minutes": 5550,
+            "matches": 103,
+            "minutes": 5620,
             "goals": 10,
             "yellowCards": 0,
             "secondYellow": 0,
@@ -347,8 +347,8 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "13 rokov (2013)",
-            "matches": 179,
-            "minutes": 9114,
+            "matches": 180,
+            "minutes": 9162,
             "goals": 21,
             "yellowCards": 0,
             "secondYellow": 0,
@@ -381,8 +381,8 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "14 rokov (2012)",
-            "matches": 51,
-            "minutes": 2735,
+            "matches": 52,
+            "minutes": 2771,
             "goals": 35,
             "yellowCards": 0,
             "secondYellow": 0,
@@ -415,8 +415,8 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "14 rokov (2012)",
-            "matches": 154,
-            "minutes": 8652,
+            "matches": 155,
+            "minutes": 8722,
             "goals": 146,
             "yellowCards": 0,
             "secondYellow": 0,
@@ -432,8 +432,8 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "13 rokov (2013)",
-            "matches": 108,
-            "minutes": 5640,
+            "matches": 109,
+            "minutes": 5674,
             "goals": 30,
             "yellowCards": 0,
             "secondYellow": 0,
@@ -551,7 +551,7 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "13 rokov (2013)",
-            "matches": 61,
+            "matches": 62,
             "minutes": 3244,
             "goals": 2,
             "yellowCards": 0,
@@ -4640,6 +4640,12 @@
           "position": "Útočník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/6274c18911cb17f9af4cfde5/sebastian-velebny/",
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/6274c18911cb17f9af4cfde5/formal-photo/dc32ba42-008e-4b96-ab1e-affd0bfb866c"
+        },
+        {
+          "name": "Ján Magyar",
+          "position": "Útočník",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/5f06d385608f152a521f7783/jan-magyar/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f06d385608f152a521f7783/formal-photo/e90c3e6a-188e-4633-8680-7a2ad9a70d38"
         }
       ],
       "staff": [
@@ -7410,6 +7416,12 @@
           "position": "Brankár",
           "href": "https://sportnet.sme.sk/futbalnet/clen/61335569d13b898689c93efb/nimrod-magyarics/",
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/61335569d13b898689c93efb/formal-photo/32ea36a5-7f11-45a1-ba87-2afae7d8e7f2"
+        },
+        {
+          "name": "Bence Csetényi",
+          "position": "Brankár",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/6628a3ffca6a08370a54690d/bence-csetenyi/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/6628a3ffca6a08370a54690d/formal-photo/9cd1a2ca-89a0-4d96-87c1-64055b4948b5"
         },
         {
           "name": "Zalán Bíró",
