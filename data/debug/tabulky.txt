@@ -13,11 +13,11 @@ KLUBY
 ČLENOVIA
 PRESTUPY
 PIKOŠKY
+Príklepy z NHL: Je sympatickejší Larkin či Hellebuyck? Najväčšie trápenie ligy je aj slovenské
+Chcem, aby Petra lyžovala ako muži, vraví Vlhovej nový tréner. V čom jej oponuje?
 Ľubomír Moravčík: Larsson dodnes nevie, či som bol ľavák alebo pravák (MVP Talkshow)
 Je tínedžer a vyhral takmer všetko. Ak udrží trend, bude najlepší v dejinách
-Keď dostal v Maďarsku červenú, bál sa, že už ho nezavolajú. Messi odtancoval posledné tango
-Weiss penil a kričal, bolo ho počuť cez stenu. Amatéri zažívajú túto jeseň spanilú jazdu
-Rusi majú problém na fronte, tak zabíjajú civilistov. Paríž poslal jadrový odkaz
+Incident na mítingu Hnutia Slovensko v Bytči. Seniora počas rozhovoru s Matovičom spacifikovala ochranka
 Kluby
 /
 ŠK Junior Ivanka pri Nitre
@@ -73,11 +73,11 @@ K
 
 	Futbalový klub Holice	
 
-8
+9
 
 	
 
-7
+8
 
 	
 
@@ -89,11 +89,11 @@ K
 
 	
 
-31:6
+34:7
 
 	
 
-22
+25
 
 	
 
@@ -101,7 +101,7 @@ K
 
 	
 
-10
+13
 
 	
 V
@@ -116,7 +116,7 @@ V
 
 	ŠK Junior Ivanka pri Nitre	
 
-8
+9
 
 	
 
@@ -128,11 +128,11 @@ V
 
 	
 
-1
+2
 
 	
 
-20:9
+22:12
 
 	
 
@@ -144,14 +144,14 @@ V
 
 	
 
-9
+6
 
 	
-V
-V
-V
-V
 P
+V
+V
+V
+V
 
 
 
@@ -200,9 +200,9 @@ V
 
 4
 
-	FK Kolárovo	
+	TJ Dynamo Nová Stráž	
 
-8
+10
 
 	
 
@@ -214,11 +214,11 @@ V
 
 	
 
-2
+4
 
 	
 
-39:20
+31:34
 
 	
 
@@ -234,14 +234,57 @@ V
 
 	
 V
+P
 V
 P
-P
-R
+V
 
 
 
 5
+
+	FK Kolárovo	
+
+9
+
+	
+
+5
+
+	
+
+1
+
+	
+
+3
+
+	
+
+42:27
+
+	
+
+16
+
+	
+
+11
+
+	
+
+1
+
+	
+P
+V
+V
+P
+P
+
+
+
+6
 
 	FC Slovan Hlohovec	
 
@@ -269,7 +312,7 @@ R
 
 	
 
-11
+10
 
 	
 
@@ -284,7 +327,50 @@ V
 
 
 
-6
+7
+
+	FC Slovan Galanta	
+
+10
+
+	
+
+4
+
+	
+
+2
+
+	
+
+4
+
+	
+
+23:26
+
+	
+
+14
+
+	
+
+9
+
+	
+
+-1
+
+	
+V
+V
+V
+R
+P
+
+
+
+8
 
 	SSC FÉNIX Nové Zámky	
 
@@ -312,65 +398,22 @@ V
 
 	
 
-10
-
-	
-
-1
-
-	
-V
-P
-P
-R
-V
-
-
-
-7
-
-	TJ Dynamo Nová Stráž	
-
-9
-
-	
-
-4
-
-	
-
-1
-
-	
-
-4
-
-	
-
-24:31
-
-	
-
-13
-
-	
-
-9
-
-	
-
-1
-
-	
-P
-V
-P
-V
-R
-
-
-
 8
+
+	
+
+1
+
+	
+V
+P
+P
+R
+V
+
+
+
+9
 
 	FK Veča	
 
@@ -398,7 +441,7 @@ R
 
 	
 
-8
+7
 
 	
 
@@ -408,49 +451,6 @@ R
 P
 V
 V
-P
-P
-
-
-
-9
-
-	FC Slovan Galanta	
-
-9
-
-	
-
-3
-
-	
-
-2
-
-	
-
-4
-
-	
-
-20:24
-
-	
-
-11
-
-	
-
-7
-
-	
-
--4
-
-	
-V
-V
-R
 P
 P
 
@@ -460,7 +460,7 @@ P
 
 	FK Slovan Duslo Šaľa	
 
-8
+9
 
 	
 
@@ -472,11 +472,11 @@ P
 
 	
 
-4
+5
 
 	
 
-14:13
+15:16
 
 	
 
@@ -488,18 +488,61 @@ P
 
 	
 
--2
+-5
 
 	
 P
 P
-V
-V
 P
+V
+V
 
 
 
 11
+
+	Malodvornícky FK Malé Dvorníky	
+
+10
+
+	
+
+2
+
+	
+
+3
+
+	
+
+5
+
+	
+
+15:22
+
+	
+
+9
+
+	
+
+4
+
+	
+
+-6
+
+	
+V
+P
+P
+R
+P
+
+
+
+12
 
 	MŠO Štúrovo	
 
@@ -542,11 +585,11 @@ R
 
 
 
-12
+13
 
 	Futbalový klub Slovan Šahy	
 
-8
+9
 
 	
 
@@ -558,11 +601,11 @@ R
 
 	
 
-5
+6
 
 	
 
-17:22
+18:26
 
 	
 
@@ -570,61 +613,18 @@ R
 
 	
 
-4
+3
 
 	
 
 -3
 
 	
+P
 V
 P
 P
 P
-P
-
-
-
-13
-
-	Malodvornícky FK Malé Dvorníky	
-
-9
-
-	
-
-1
-
-	
-
-3
-
-	
-
-5
-
-	
-
-11:21
-
-	
-
-6
-
-	
-
-3
-
-	
-
--6
-
-	
-P
-P
-R
-P
-R
 
 
 
@@ -725,6 +725,26 @@ Prehra
 
 Správy z Futbalnetu
 
+Tréneri sa tešia na konfrontáciu.
+
+Otvorená partia alebo taktický boj? Druhá liga má nečakaný šláger, Šamorín hostí Petržalku
+
+Titanilla Bőd
+
+∙
+
+dnes 07:00
+
+Málinec vedie VI. ligu D SsFZ.
+
+K záchrane im chýbal jeden gól. Káder doplnili mladíkmi a teraz kráčajú za postupom
+
+Titanilla Bőd
+
+∙
+
+pi 07:15
+
 Podpísal zmluvu do konca kalendárneho roka 2026.
 
 Získali Košice novú brankársku jednotku? Narodil sa v Anglicku, reprezentoval Ghanu
@@ -754,63 +774,35 @@ Titanilla Bőd
 
 st 22:30
 
-Svätý Jur privíta v šestnásťfinále pohára Nové Zámky.
+Sledujte s nami ONLINE prenos zo zápasu 10. kola Niké ligy: AS Trenčín - MFK Dukla Banská Bystrica.
 
-Weiss penil a kričal, bolo ho počuť cez stenu. Amatéri zažívajú túto jeseň spanilú jazdu
+ONLINE: AS Trenčín - MFK Dukla Banská Bystrica dnes, Niké liga LIVE (10. kolo)
 
-Titanilla Bőd
+dnes 12:30
 
-∙
+Sledujte s nami ONLINE prenos zo zápasu 10. kola Niké ligy: MFK Skalica - ŠK Slovan Bratislava.
 
-ut 18:00
+ONLINE: MFK Skalica - ŠK Slovan Bratislava dnes, Niké liga LIVE (10. kolo)
 
-Po štyroch kolách boli prví pred FC Nitra.
+dnes 12:30
 
-Hrdá dedina sa vyhrieva na bedni s bývalými ligistami Nitrou a Púchovom. Tréner si dáva iba jeden cieľ
+Sledujte s nami ONLINE prenos zo zápasu 10. kola Niké ligy: FC Košice - KFC Komárno.
 
-Marián Dragúň
+ONLINE: FC Košice - KFC Komárno dnes, Niké liga LIVE (10. kolo)
 
-∙
+dnes 12:30
 
-po 09:35
+Sledujte s nami ONLINE prenos zo zápasu 12. kola MONACObet ligy: OFK Baník Lehota pod Vtáčnikom - MFK Zvolen.
 
-Málinec vedie VI. ligu D SsFZ.
+ONLINE: OFK Baník Lehota pod Vtáčnikom - MFK Zvolen dnes, MONACObet liga LIVE (II. liga, 12. kolo)
 
-K záchrane im chýbal jeden gól. Káder doplnili mladíkmi a teraz kráčajú za postupom
+dnes 12:00
 
-Titanilla Bőd
+Sledujte s nami ONLINE prenos zo zápasu 12. kola MONACObet ligy: MŠK Považská Bystrica - FC Tatran Prešov.
 
-∙
+ONLINE: MŠK Považská Bystrica - FC Tatran Prešov dnes, MONACObet liga LIVE (II. liga, 12. kolo)
 
-dnes 07:15
-
-Oba góly domácich strelil Adrián Macejko.
-
-Šamorín nevyužil šancu dostať sa na prvé miesto. Na ihrisku súpera nedal ani jeden gól
-
-po 19:26
-
-Sledujte s nami ONLINE prenos zo zápasu 11. kola MONACObet ligy: MFK Tatran Liptovský Mikuláš - FC ŠTK 1914 Šamorín.
-
-ONLINE: MFK Tatran Liptovský Mikuláš - FC ŠTK 1914 Šamorín dnes, MONACObet liga LIVE (II. liga, 11. kolo)
-
-po 14:00
-
-25-ročný stredopoliar prišiel do klubu začiatkom roka 2025.
-
-Do tímu ho získať bolo náročné. Slovan teraz predĺžil so stredopoliarom zmluvu
-
-po 13:50
-
-Ciele nášho klubu sú dlhodobo vysoké, inak to asi ani nejde, hovorí politológ, bývalý futbalista, mládežnícky tréner a manažér Damián Čarný.
-
-Na východe chýbajú peniaze, nie potenciál. Naše mužstvo má na viac, hovorí manažér klubu
-
-Peter Cingel
-
-∙
-
-po 07:30
+dnes 12:00
 
 Načítať ďalšie
 Najčítanejšie
@@ -820,31 +812,31 @@ Najnovšie
 7 dní
 1
 
-Skrat esa obral Slovan o značný balík. Všetci naňho revali, Kmotrík ho vyhodil
+Nemci Slovan uštvali ako nikdy. Gól dal hráč, ktorého nechceli ani v Trnave
 
 2
 
-Majiteľ hokejového Slovana je miliardár. V rebríčku najbohatších sú aj bývalí športovci
+Zlatý chlapec je na dne. Vyhasnutá hviezda trénuje v desiatej lige a čaká na zázrak
 
 3
 
-Vlhová ohlásila nový začiatok. Chytila som život do vlastných rúk, tvrdí
+Formula 1 2026: Verstappen vyhral šprint v Singapure, Russell aj McLareny havarovali
 
 4
 
-Nemec zažíva v Calgary nočnú moru. V histórii NHL boli horší len dvaja hráči
+Otvorená partia alebo taktický boj? Druhá liga má nečakaný šláger, Šamorín hostí Petržalku
 
 5
 
-Mal vyzvať svetovú deviatku. Molčan odstúpil z turnaja v Šanghaji
+Skrat esa obral Slovan o značný balík. Všetci naňho revali, Kmotrík ho vyhodil
 
 6
 
-VIDEO: Tlačová konferencia Petry Vlhovej pred začiatkom sezóny Svetového pohára
+Majiteľ hokejového Slovana je miliardár. V rebríčku najbohatších sú aj bývalí športovci
 
 7
 
-Chladoňová sa hnevala, tréner ju musel krotiť. Súperky ju využívali, jedna dostala trest
+Chcem, aby Petra lyžovala ako muži, vraví Vlhovej nový tréner. V čom jej oponuje?
 
 Späť na vrch
 Redakcia a kontakty
