@@ -17,7 +17,7 @@ Príklepy z NHL: Je sympatickejší Larkin či Hellebuyck? Najväčšie trápeni
 Chcem, aby Petra lyžovala ako muži, vraví Vlhovej nový tréner. V čom jej oponuje?
 Ľubomír Moravčík: Larsson dodnes nevie, či som bol ľavák alebo pravák (MVP Talkshow)
 Je tínedžer a vyhral takmer všetko. Ak udrží trend, bude najlepší v dejinách
-Incident na mítingu Hnutia Slovensko v Bytči. Seniora počas rozhovoru s Matovičom spacifikovala ochranka
+Medzi domami vyrástlo obrie šrotovisko, susedom hynú stromy. Je to moja vášeň, hovorí majiteľ vrakov
 Kluby
 /
 ŠK Junior Ivanka pri Nitre
@@ -157,9 +157,9 @@ V
 
 3
 
-	ŠK Šurany	
+	FC Slovan Hlohovec	
 
-8
+9
 
 	
 
@@ -171,11 +171,11 @@ V
 
 	
 
-2
+3
 
 	
 
-23:15
+28:13
 
 	
 
@@ -187,18 +187,104 @@ V
 
 	
 
-6
+3
 
 	
 V
 P
-V
+P
 V
 V
 
 
 
 4
+
+	ŠK Šurany	
+
+9
+
+	
+
+6
+
+	
+
+0
+
+	
+
+3
+
+	
+
+23:20
+
+	
+
+18
+
+	
+
+12
+
+	
+
+6
+
+	
+P
+V
+P
+V
+V
+
+
+
+5
+
+	SSC FÉNIX Nové Zámky	
+
+9
+
+	
+
+5
+
+	
+
+1
+
+	
+
+3
+
+	
+
+37:13
+
+	
+
+16
+
+	
+
+11
+
+	
+
+1
+
+	
+V
+V
+P
+P
+R
+
+
+
+6
 
 	TJ Dynamo Nová Stráž	
 
@@ -226,7 +312,7 @@ V
 
 	
 
-12
+10
 
 	
 
@@ -241,7 +327,7 @@ V
 
 
 
-5
+7
 
 	FK Kolárovo	
 
@@ -269,7 +355,7 @@ V
 
 	
 
-11
+9
 
 	
 
@@ -284,50 +370,7 @@ P
 
 
 
-6
-
-	FC Slovan Hlohovec	
-
 8
-
-	
-
-5
-
-	
-
-0
-
-	
-
-3
-
-	
-
-23:13
-
-	
-
-15
-
-	
-
-10
-
-	
-
-3
-
-	
-P
-P
-V
-V
-V
-
-
-
-7
 
 	FC Slovan Galanta	
 
@@ -355,7 +398,7 @@ V
 
 	
 
-9
+8
 
 	
 
@@ -367,49 +410,6 @@ V
 V
 R
 P
-
-
-
-8
-
-	SSC FÉNIX Nové Zámky	
-
-8
-
-	
-
-4
-
-	
-
-1
-
-	
-
-3
-
-	
-
-30:13
-
-	
-
-13
-
-	
-
-8
-
-	
-
-1
-
-	
-V
-P
-P
-R
-V
 
 
 
@@ -458,6 +458,49 @@ P
 
 10
 
+	MŠO Štúrovo	
+
+9
+
+	
+
+3
+
+	
+
+3
+
+	
+
+3
+
+	
+
+18:21
+
+	
+
+12
+
+	
+
+6
+
+	
+
+-3
+
+	
+V
+V
+P
+P
+V
+
+
+
+11
+
 	FK Slovan Duslo Šaľa	
 
 9
@@ -484,7 +527,7 @@ P
 
 	
 
-6
+5
 
 	
 
@@ -499,7 +542,7 @@ V
 
 
 
-11
+12
 
 	Malodvornícky FK Malé Dvorníky	
 
@@ -539,49 +582,6 @@ P
 P
 R
 P
-
-
-
-12
-
-	MŠO Štúrovo	
-
-8
-
-	
-
-2
-
-	
-
-3
-
-	
-
-3
-
-	
-
-14:18
-
-	
-
-9
-
-	
-
-5
-
-	
-
--3
-
-	
-V
-P
-P
-V
-R
 
 
 
@@ -632,7 +632,7 @@ P
 
 	MŠK Želiezovce	
 
-9
+10
 
 	
 
@@ -644,11 +644,11 @@ P
 
 	
 
-7
+8
 
 	
 
-9:34
+9:41
 
 	
 
@@ -664,10 +664,10 @@ P
 
 	
 P
+P
 V
 P
 R
-P
 
 
 
@@ -675,7 +675,7 @@ P
 
 	C&P Stars Academy - ZM	
 
-9
+10
 
 	
 
@@ -687,11 +687,11 @@ P
 
 	
 
-8
+9
 
 	
 
-2:28
+5:32
 
 	
 
@@ -725,79 +725,87 @@ Prehra
 
 Správy z Futbalnetu
 
-Sledujte s nami ONLINE prenos zo zápasu 10. kola Niké ligy: MFK Zemplín Michalovce - FC DAC Dunajská Streda.
+Sledujte s nami ONLINE prenos zo zápasu 12. kola MONACObet ligy: OFK Malženice - FK Inter Bratislava.
 
-ONLINE: MFK Zemplín Michalovce - FC DAC Dunajská Streda dnes, Niké liga LIVE (10. kolo)
+ONLINE: OFK Malženice - FK Inter Bratislava dnes, MONACObet liga LIVE (II. liga, 12. kolo)
 
-dnes 15:00
+dnes 07:30
+
+Michalovce môžu ďakovať Jakubechovi, že dostali len tri góly.
+
+DAC začína vážne prehovárať do boja o titul. Na Zemplíne si urobil vlastnú šou
+
+Svjatoslav Dohovič
+
+∙
+
+dnes 09:58
+
+Strach z víťazstva sa prehlbuje, viedli, mali presilovku a opäť nevyhrali.
+
+Komárno delilo od prvej výhry osem sekúnd. Zľakli sme sa troch bodov, vravel asistent
+
+Svjatoslav Dohovič
+
+∙
+
+dnes 07:49
+
+Aj kapitán zlyhal.
+
+Frustrovaný tréner, Slovan zažil so Záhorákmi čosi nevídané. Čo sa deje?
+
+Pavol Spál
+
+∙
+
+so 19:00
+
+∙
+14
 
 Skalica získala so Slovanom historicky prvý bod.
 
 Slovan sa zobudil až po inkasovanom góle. O výhru ho pripravilo zlyhanie kapitána
 
-dnes 17:22
+so 17:22
 
 ∙
-1
+3
 
-Tatran prišiel o víťazstvo v závere.
+Sledujte s nami ONLINE prenos zo zápasu 10. kola Niké ligy: MFK Ružomberok - MŠK Žilina.
 
-Tatran Prešov na Považí doplatil na zahodenú penaltu, Bytča rozstrieľala Humenné
+ONLINE: MFK Ružomberok - MŠK Žilina dnes, Niké liga LIVE (10. kolo)
 
-dnes 16:57
+dnes 12:30
 
-Tréneri sa tešia na konfrontáciu.
+Sledujte s nami ONLINE prenos zo zápasu 12. kola MONACObet ligy: FC ŠTK 1914 Šamorín - FC Petržalka.
 
-Otvorená partia alebo taktický boj? Druhá liga má nečakaný šláger, Šamorín hostí Petržalku
+ONLINE: FC ŠTK 1914 Šamorín - FC Petržalka dnes, MONACObet liga LIVE (II. liga, 12. kolo)
 
-Titanilla Bőd
+dnes 12:00
 
-∙
+Mnohých jeho odchod prekvapil. O rok neskôr patrí medzi najlepších strelcov tretej ligy.
 
-dnes 07:00
+Robím z neho lepšieho trénera, on zo mňa lepšieho hráča, hovorí útočník, ktorý odmietol vyššiu súťaž
 
-Málinec vedie VI. ligu D SsFZ.
-
-K záchrane im chýbal jeden gól. Káder doplnili mladíkmi a teraz kráčajú za postupom
-
-Titanilla Bőd
+Peter Cingel
 
 ∙
 
-pi 07:15
+dnes 08:00
 
-Domáci hrali oslabení od 53. minúty.
+Z deviatich zápasov DAC nebodoval naplno len dvakrát.
 
-Košice nezlomila ani červená karta, s Komárnom zachránili bod v nadstavenom čase
+Dunajská Streda stále nenašla premožiteľa. Michalovce zdolala rozdielom triedy
 
-dnes 17:32
+so 19:54
 
 Trenčín utrpel štvrtú prehru v rade.
 
 Banskú Bystrica potešila macedónska posila, Trenčín padol na dno tabuľky
 
-dnes 17:39
-
-Sledujte s nami ONLINE prenos zo zápasu 10. kola Niké ligy: AS Trenčín - MFK Dukla Banská Bystrica.
-
-ONLINE: AS Trenčín - MFK Dukla Banská Bystrica dnes, Niké liga LIVE (10. kolo)
-
-dnes 12:30
-
-Sledujte s nami ONLINE prenos zo zápasu 10. kola Niké ligy: MFK Skalica - ŠK Slovan Bratislava.
-
-ONLINE: MFK Skalica - ŠK Slovan Bratislava dnes, Niké liga LIVE (10. kolo)
-
-dnes 12:30
-
-∙
-2
-
-Sledujte s nami ONLINE prenos zo zápasu 10. kola Niké ligy: FC Košice - KFC Komárno.
-
-ONLINE: FC Košice - KFC Komárno dnes, Niké liga LIVE (10. kolo)
-
-dnes 12:30
+so 17:39
 
 Načítať ďalšie
 Najčítanejšie
@@ -807,31 +815,31 @@ Najnovšie
 7 dní
 1
 
-Portugalská reprezentácia zakročila proti Ronaldovi. Suspendovala ho a začala disciplinárne konanie
+Lobotka vynikal, jeho krajan sa hneval. Komentátor opísal, že to nezacvaklo
 
 2
 
-Nemci Slovan uštvali ako nikdy. Gól dal hráč, ktorého nechceli ani v Trnave
+Útočník Realu ťahal súpera za vlasy a zúril, že jeho gól neplatil
 
 3
 
-ONLINE: MFK Skalica - ŠK Slovan Bratislava dnes, Niké liga LIVE (10. kolo)
+Portugalská reprezentácia zakročila proti Ronaldovi. Suspendovala ho a začala disciplinárne konanie
 
 4
 
-Slovan sa zobudil až po inkasovanom góle. O výhru ho pripravilo zlyhanie kapitána
+Frustrovaný tréner, Slovan zažil so Záhorákmi čosi nevídané. Čo sa deje?
 
 5
 
-Veľka cena Singapuru: Max Verstappen v kvalifikácii získal pole position
+Šramkovej cesta za titulom je dokonaná. Vo finále zmietla súperku a oslavuje
 
 6
 
-ONLINE: FC Košice - KFC Komárno dnes, Niké liga LIVE (10. kolo)
+ONLINE: OFK Malženice - FK Inter Bratislava dnes, MONACObet liga LIVE (II. liga, 12. kolo)
 
 7
 
-ONLINE: MŠK Považská Bystrica - FC Tatran Prešov dnes, MONACObet liga LIVE (II. liga, 12. kolo)
+Komárno delilo od prvej výhry osem sekúnd. Zľakli sme sa troch bodov, vravel asistent
 
 Späť na vrch
 Redakcia a kontakty
