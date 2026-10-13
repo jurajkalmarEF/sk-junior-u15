@@ -1,0 +1,29 @@
+name: Supabase keep-alive
+
+# Free Supabase projekty sa uspia po 7 dňoch bez aktivity.
+# Tento workflow každé 3 dni pošle malý dopyt do databázy galérie, aby projekt zostal aktívny.
+
+on:
+  schedule:
+    - cron: "23 5 */3 * *"   # každé 3 dni o 5:23 UTC
+  workflow_dispatch:         # možnosť spustiť ručne v záložke Actions
+
+permissions:
+  contents: read
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase
+        env:
+          SUPABASE_URL: https://apbafsazmfptvhgcgwlx.supabase.co
+          # Verejný publishable kľúč (rovnaký ako v index.html)
+          SUPABASE_KEY: sb_publishable_WcDKLkECgPSUmdkaRcQbKQ_7-nEBEj6
+        run: |
+          status=$(curl -sS -o response.json -w "%{http_code}" \
+            "$SUPABASE_URL/rest/v1/gallery_items?select=id&limit=1" \
+            -H "apikey: $SUPABASE_KEY")
+          echo "HTTP $status"
+          cat response.json
+          test "$status" = "200"
