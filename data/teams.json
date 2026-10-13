@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T11:16:04.447Z",
+  "generatedAt": "2026-10-13T12:29:40.195Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -3202,6 +3202,18 @@
           "played": false
         },
         {
+          "round": "13. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
+          "date": "20.10",
+          "time": "15:00",
+          "status": "",
+          "home": "FK Kolárovo",
+          "away": "FK Slovan Duslo Šaľa",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
           "round": "12. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
           "date": "25.10",
@@ -3209,18 +3221,6 @@
           "status": "",
           "home": "FC Slovan Hlohovec",
           "away": "FK Kolárovo",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
-        {
-          "round": "13. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
-          "date": "01.11",
-          "time": "09:00",
-          "status": "",
-          "home": "FK Kolárovo",
-          "away": "FK Slovan Duslo Šaľa",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
@@ -14733,12 +14733,6 @@
           "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
         },
         {
-          "name": "Botond Árendás",
-          "position": "Brankár",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/5ef083e71b04f230d146ee8f/botond-arendas/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5ef083e71b04f230d146ee8f/formal-photo/65988f51-8231-4f25-a525-5f71fef8e01a"
-        },
-        {
           "name": "Patrik Bábsky",
           "position": "Brankár",
           "href": "https://sportnet.sme.sk/futbalnet/clen/63076ec8677da94122a8f0a7/patrik-babsky/",
@@ -14767,6 +14761,12 @@
           "position": "Obranca",
           "href": "https://sportnet.sme.sk/futbalnet/clen/60bf385b03b6f15e3e04f0f9/bence-tarr/",
           "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
+        },
+        {
+          "name": "Botond Árendás",
+          "position": "Obranca",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/5ef083e71b04f230d146ee8f/botond-arendas/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5ef083e71b04f230d146ee8f/formal-photo/65988f51-8231-4f25-a525-5f71fef8e01a"
         },
         {
           "name": "Darian Tamáš",
@@ -17329,6 +17329,18 @@
           "played": false
         },
         {
+          "round": "13. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
+          "date": "20.10",
+          "time": "15:00",
+          "status": "",
+          "home": "FK Kolárovo",
+          "away": "FK Slovan Duslo Šaľa",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
           "round": "12. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
           "date": "24.10",
@@ -17336,18 +17348,6 @@
           "status": "",
           "home": "FK Slovan Duslo Šaľa",
           "away": "Futbalový klub Slovan Šahy",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
-        {
-          "round": "13. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
-          "date": "01.11",
-          "time": "09:00",
-          "status": "",
-          "home": "FK Kolárovo",
-          "away": "FK Slovan Duslo Šaľa",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
