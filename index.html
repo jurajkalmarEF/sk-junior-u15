@@ -404,6 +404,31 @@
     padding:8px 16px;font-family:'Barlow Condensed', sans-serif;font-weight:600;font-size:13px;cursor:pointer;
   }
 </style>
+<!-- GoatCounter — návštevnosť a používanie (bez cookies). Kód nastav v GC_CODE nižšie. -->
+<script>
+  var GC_CODE = 'GOATCOUNTER_KOD';
+  (function(){
+    if (!GC_CODE || GC_CODE === 'GOATCOUNTER_KOD') return;
+    var isApp = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+    window.goatcounter = {
+      // odlíši návštevy z nainštalovanej appky (PWA/APK) od prehliadača
+      path: function(p){ return isApp ? '/app' + p : p; }
+    };
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://gc.zgo.at/count.js';
+    s.setAttribute('data-goatcounter', 'https://' + GC_CODE + '.goatcounter.com/count');
+    document.head.appendChild(s);
+  })();
+  // Udalosť (klik na kartu, detail zápasu…) — bezpečné volať aj keď GoatCounter nie je načítaný
+  function track(name, title){
+    try {
+      if (window.goatcounter && window.goatcounter.count) {
+        window.goatcounter.count({ path: name, title: title || name, event: true });
+      }
+    } catch(e){}
+  }
+</script>
 </head>
 <body>
 <div class="wrap">
@@ -729,6 +754,7 @@ function toggleMatchDetail(idx){
   var chevron = document.getElementById('zapas-chevron-' + idx);
   if (!panel) return;
   var open = panel.classList.toggle('open');
+  if (open) track('zapas-detail', 'Detail zápasu');
   if (chevron) chevron.classList.toggle('open', open);
 }
 
@@ -853,7 +879,7 @@ function playerCardHtml(p, idx){
 function togglePlayerDetail(idx){
   var el = document.getElementById('player-detail-' + idx);
   var row = document.getElementById('player-row-' + idx);
-  if (el) el.classList.toggle('open');
+  if (el && el.classList.toggle('open')) track('hrac-detail', 'Detail hráča');
   if (row) row.classList.toggle('detail-open');
 }
 
@@ -914,6 +940,7 @@ function renderKlub(team){
 var currentSlug = 'sk-junior-ivanka-pri-nitre';
 
 function selectTeam(slug){
+  if (currentSlug && currentSlug !== slug) track('tim-' + slug, 'Výber tímu: ' + slug);
   currentSlug = slug;
   var team = teamBySlug(slug);
   renderHero(team);
@@ -944,6 +971,7 @@ var tabPanels = document.querySelectorAll('.tab-panel');
 tabBtns.forEach(function(btn){
   btn.addEventListener('click', function(){
     var target = btn.getAttribute('data-tab');
+    track('tab-' + target, 'Karta: ' + btn.textContent.trim());
     tabBtns.forEach(function(b){
       b.classList.toggle('active', b === btn);
       b.setAttribute('aria-selected', b === btn ? 'true' : 'false');
@@ -1229,6 +1257,7 @@ function renderLightboxMedia(box, index){
 }
 
 function openLightbox(index){
+  track('galeria-foto', 'Otvorená fotka v galérii');
   var box = document.createElement('div');
   box.className = 'gallery-lightbox';
   renderLightboxMedia(box, index);
