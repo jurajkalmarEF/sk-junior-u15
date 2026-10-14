@@ -142,50 +142,68 @@ COM
 LEI
 1
 Detail zápasu
+13.10.
 LEN
-13.10. 18:45
+0
+2. kolo
 SPO
-2. kolo
+2
 Detail zápasu
+13.10.
 SAB
-13.10. 18:45
+2
+2. kolo
 SLA
-2. kolo
+0
 Detail zápasu
+13.10.
 INT
-13.10. 21:00
+3
+2. kolo
 BRU
-2. kolo
+4
 Detail zápasu
+13.10.
 ARS
-13.10. 21:00
+3
+2. kolo
 LIL
-2. kolo
+0
 Detail zápasu
+13.10.
 ATM
-13.10. 21:00
+2
+2. kolo
 MUN
-2. kolo
+0
 Detail zápasu
+13.10.
 LEI
-13.10. 21:00
+1
+2. kolo
 PSV
-2. kolo
+0
 Detail zápasu
+13.10.
 VIL
-13.10. 21:00
+3
+2. kolo
 NAP
-2. kolo
+1
 Detail zápasu
+13.10.
 GAL
-13.10. 21:00
+1
+2. kolo
 BAR
-2. kolo
+4
 Detail zápasu
+13.10.
 VIK
-13.10. 21:00
-FCB
+3
 2. kolo
+FCB
+3
 Detail zápasu
 FEY
 14.10. 18:45
@@ -772,11 +790,11 @@ LSK
 POR
 8. kolo
 Detail zápasu
+Tituly City vyrástli na špinavých miliónoch. Zlatá éra sa môže skončiť vylúčením z ligy
+Slovenskí brankári ovládli ligu! Ktorý je najlepší? (Hokejový BOSS)
 Bez drog a lacného divadla. K úspechu vedie aj normálna cesta, vraví slovenská zápasníčka
 Chladoňová už chce od tímu viac, zatlačiť môžu jej agenti. Jeden zastupoval Sagana
-Príklepy z NHL: Je sympatickejší Larkin či Hellebuyck? Najväčšie trápenie ligy je aj slovenské
-Chcem, aby Petra lyžovala ako muži, vraví Vlhovej nový tréner. V čom jej oponuje?
-Zuzana v Kanade zarábala 23 dolárov na hodinu, aj tak sa vrátila do Bystrice: Tu som šťastná
+Čurilla: Nastúpim na okres. A keď definitívne vyhrám, ozvem sa riaditeľovi ÚBOK-u, že som nachystaný pracovať
 Kluby
 /
 ŠK Šurany
@@ -923,6 +941,36 @@ MŠK Želiezovce
 Načítať ďalšie
 Správy z Futbalnetu
 
+Čadca dosiahla historický výsledok.
+
+Ambiciózny treťoligista si žije pohárovú rozprávku. Tradičný klub ostal úplne v šoku
+
+Titanilla Bőd
+
+∙
+
+dnes 10:50
+
+Nové Zámky zvíťazili vo Svätom Jure 3:0.
+
+Piatoligista v pohári končí, no stále živí nádej na trofej. Hráč súpera zaznamenal hetrik
+
+Titanilla Bőd
+
+∙
+
+ut 19:46
+
+V utorok sa hrali v Slovnaft Cupe tri zápasy.
+
+Exligista z východu padol u nováčika tretej ligy, nedal ani gól (Slovnaft Cup, výsledky)
+
+Titanilla Bőd
+
+∙
+
+ut 16:51
+
 Základným cieľom klubu je záchrana v druhej lige.
 
 Po štyroch kolách mali na konte iba bod. Aktuálne sú najlepším nováčikom súťaže
@@ -931,13 +979,7 @@ Titanilla Bőd
 
 ∙
 
-dnes 08:00
-
-Zlaté Moravce nevyhrali už vo štvrtom zápase za sebou.
-
-ViOn nevyužil veľkú výhodu. Pohronie mu strelilo tri góly aj s desiatimi hráčmi
-
-po 19:10
+ut 08:00
 
 Hráme ako tím, navzájom si pomáhame a dúfam, že v tom budeme pokračovať aj ďalej, hovorí útočník Patrik Schmiedl.
 
@@ -947,70 +989,37 @@ Peter Cingel
 
 ∙
 
-dnes 10:15
+ut 10:15
 
-Vedenie B-tímu prebral Kleščík.
+Sledujte spolu s nami online prenos zo štvrtého kola Slovnaft Cupu: Spartak Myjava - MFK Ružomberok.
 
-Trenčín prezradil náhradu za odvolaného Holanďana. Zmeny nastanú aj v B-tíme
+ONLINE: Spartak Myjava - MFK Ružomberok dnes, Slovnaft Cup LIVE (4. kolo)
 
-po 14:38
+dnes 11:30
 
-∙
-1
+Sledujte spolu s nami online prenos zo štvrtého kola Slovnaft Cupu: FC Lokomotíva Košice - AS Trenčín.
 
-(Ne)tradičné zhrnutie kola futbalovej Niké ligy.
+ONLINE: FC Lokomotíva Košice - AS Trenčín dnes, Slovnaft Cup LIVE (4. kolo)
 
-DAC po šikane na Zemplíne stále bez ligovej prehry, Šporar zachránil troch rozhodcov (tréneroviny)
+dnes 11:30
 
-Richard Hanzlík
+Sledujte spolu s nami online prenos zo štvrtého kola Slovnaft Cupu: TJ Kostolné Kračany - MŠK Žilina.
 
-∙
+ONLINE: TJ Kostolné Kračany - MŠK Žilina dnes, Slovnaft Cup LIVE (4. kolo)
 
-po 07:00
+dnes 11:30
 
-∙
-3
+Sledovali ste spolu s nami online prenos zo štvrtého kola Slovnaft Cupu: OFK Baník Lehota pod Vtáčnikom - MFK Zemplín Michalovce.
 
-Mal rozhodca vylúčiť brankára a odpískať penaltu?
+Slovnaft Cup: Michalovce zvíťazili na pôde Lehoty pod Vtáčnikom a postúpili do osemfinále
 
-Hrali druhú ligu, teraz sa zachraňujú v predposlednej a podali protest
+ut 12:00
 
-Marián Dragúň
+Zlaté Moravce nevyhrali už vo štvrtom zápase za sebou.
 
-∙
+ViOn nevyužil veľkú výhodu. Pohronie mu strelilo tri góly aj s desiatimi hráčmi
 
-po 09:45
-
-Sledujte spolu s nami online prenos zo štvrtého kola Slovnaft Cupu: OFK Baník Lehota pod Vtáčnikom - MFK Zemplín Michalovce.
-
-ONLINE: OFK Baník Lehota pod Vtáčnikom - MFK Zemplín Michalovce dnes, Slovnaft Cup LIVE (4. kolo)
-
-dnes 12:00
-
-Sledujte s nami ONLINE prenos zo zápasu 12. kola MONACObet ligy: FC ViOn Zlaté Moravce - FK Pohronie.
-
-ONLINE: FC ViOn Zlaté Moravce - FK Pohronie dnes, MONACObet liga LIVE (II. liga, 12. kolo)
-
-po 14:00
-
-Majú najvyššie nároky.
-
-Najhorší štart Slovana v novej ére: Zlyhali sme, veľké meno nestačí, tvrdí Kmotrík
-
-Pavol Spál
-
-∙
-
-ne 22:30
-
-∙
-25
-
-Pozrite si sumár 10. kola Niké ligy.
-
-DAC ťaží z chýb rivalov a kraľuje lige. Trnava predbehla Žilinu, Slovan opäť stráca
-
-ne 21:21
+po 19:10
 
 Načítať ďalšie
 Najčítanejšie
@@ -1020,31 +1029,31 @@ Najnovšie
 7 dní
 1
 
-Slovan ho stratil ako chlapca, vracia sa ako nemecká hrozba za 15 miliónov
+Bezchybný Hancko dostal od Španielov hviezdičky. Má skalp ďalšej svetovej značky
 
 2
 
-Skúsený slovenský útočník končí v Liptovskom Mikuláši. Bude pokračovať v lige?
+VIDEO: Skvelý večer Slovákov. Víťazný gól Pospíšila, produktívny Slafkovský a bodoval aj Nemec
 
 3
 
-Bývalý kapitán Realu Madrid si našiel nový klub. Podpísal ročnú zmluvu
+Liga majstrov sa vracia na Tehelné pole. Kde sledovať zápas Slovan - Stuttgart? (TV program)
 
 4
 
-Domáci hráči, skvelá partia a plný bodový zisk. Mužstvo z malej obce valcuje konkurenciu
+Otázka ho naštartovala. Tréner Slovana reagoval dlho ako nikdy predtým
 
 5
 
-Prvýkrát od roku 1993 sa do Afriky vráti formula 1. Metropola hostila MS v cyklistike
+Inter a Neapol sú na dne, Sporting sa drží po boku gigantov. Pozrite si tabuľku Ligy majstrov
 
 6
 
-Keď bol zranený naposledy, cítil hnev aj úzkosť. Potom sa na život pozeráte inak, vraví Honzek
+Slovan chystá veľkú šou, no jedna vec je záhadou. Touré sa smial a chytal za tvár
 
 7
 
-Tituly City vyrástli na špinavých miliónoch. Zlatá éra sa môže skončiť vylúčením z ligy
+VIDEO: Slováci excelovali v záveroch. Boženík skóroval po príchode a gól dal aj Mesík
 
 Späť na vrch
 Redakcia a kontakty
