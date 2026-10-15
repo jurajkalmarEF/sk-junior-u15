@@ -205,50 +205,68 @@ VIK
 FCB
 3
 Detail zápasu
+14.10.
 FEY
-14.10. 18:45
+3
+2. kolo
 COM
-2. kolo
+2
 Detail zápasu
+14.10.
 LSK
-14.10. 18:45
+3
+2. kolo
 LIV
-2. kolo
+6
 Detail zápasu
+14.10.
 MCI
-14.10. 21:00
+2
+2. kolo
 PSG
-2. kolo
+4
 Detail zápasu
+14.10.
 ROM
-14.10. 21:00
+3
+2. kolo
 RMA
-2. kolo
+4
 Detail zápasu
+14.10.
 AVL
-14.10. 21:00
+6
+2. kolo
 FEN
-2. kolo
+0
 Detail zápasu
+14.10.
 BET
-14.10. 21:00
+3
+2. kolo
 POR
-2. kolo
+2
 Detail zápasu
+14.10.
 BOD
-14.10. 21:00
+1
+2. kolo
 BVB
-2. kolo
+0
 Detail zápasu
+14.10.
 SHK
-14.10. 21:00
+3
+2. kolo
 AEK
-2. kolo
+1
 Detail zápasu
+14.10.
 SLB
-14.10. 21:00
-STU
+0
 2. kolo
+STU
+3
 Detail zápasu
 FEN
 20.10. 18:45
@@ -790,11 +808,11 @@ LSK
 POR
 8. kolo
 Detail zápasu
+Jasečkova spoveď: Magická veta pre Demitru, banditi v Rusku a NHL iba na PlayStatione
 Tituly City vyrástli na špinavých miliónoch. Zlatá éra sa môže skončiť vylúčením z ligy
 Slovenskí brankári ovládli ligu! Ktorý je najlepší? (Hokejový BOSS)
 Bez drog a lacného divadla. K úspechu vedie aj normálna cesta, vraví slovenská zápasníčka
-Chladoňová už chce od tímu viac, zatlačiť môžu jej agenti. Jeden zastupoval Sagana
-Čurilla: Nastúpim na okres. A keď definitívne vyhrám, ozvem sa riaditeľovi ÚBOK-u, že som nachystaný pracovať
+Ešte pred pár dňami tam vodiči stáli v kolónach. Nové usporiadanie križovatky prinieslo viditeľnú zmenu
 Kluby
 /
 FC Slovan Galanta
@@ -874,6 +892,26 @@ Lekár
 Dominik Gašparík
 Správy z Futbalnetu
 
+Kostolné Kračany podľahli Žiline 0:5.
+
+My pôjdeme do práce a oni na masáž. Piatoligistu mrzela nevyužitá tutovka proti obhajcovi
+
+Titanilla Bőd
+
+∙
+
+st 19:15
+
+V stredu sa hralo deväť zápasov.
+
+Ďalší zázrak u treťoligistu sa nekonal, do osemfinále aj štvrtoligista (Slovnaft Cup, výsledky)
+
+Titanilla Bőd
+
+∙
+
+st 16:51
+
 Čadca dosiahla historický výsledok.
 
 Ambiciózny treťoligista si žije pohárovú rozprávku. Tradičný klub ostal úplne v šoku
@@ -882,7 +920,13 @@ Titanilla Bőd
 
 ∙
 
-dnes 10:50
+st 10:50
+
+Pre Tatran je z hľadiska dlhodobej stratégie dôležitá stabilizácia.
+
+Z najhoršieho sú vonku. Prešov splatil miliónové dlhy, no na kádri musí šetriť
+
+st 15:08
 
 Nové Zámky zvíťazili vo Svätom Jure 3:0.
 
@@ -894,6 +938,24 @@ Titanilla Bőd
 
 ut 19:46
 
+Sledovali ste spolu s nami online prenos zo štvrtého kola Slovnaft Cupu: Spartak Myjava - MFK Ružomberok.
+
+Slovnaft Cup: Ružomberok zvíťazil na pôde Spartaka Myjava a postúpil ďalej
+
+st 11:30
+
+Sledovali ste spolu s nami online prenos zo štvrtého kola Slovnaft Cupu: FC Lokomotíva Košice - AS Trenčín.
+
+Slovnaft Cup: Trenčín tesne zdolal treťoligistu Lokomotívu Košice
+
+st 11:30
+
+Sledovali ste spolu s nami online prenos zo štvrtého kola Slovnaft Cupu: TJ Kostolné Kračany - MŠK Žilina.
+
+Slovnaft Cup: Žilina suverénne zvíťazila u piatoligistu v Kostolných Kračanoch
+
+st 11:30
+
 V utorok sa hrali v Slovnaft Cupe tri zápasy.
 
 Exligista z východu padol u nováčika tretej ligy, nedal ani gól (Slovnaft Cup, výsledky)
@@ -904,55 +966,11 @@ Titanilla Bőd
 
 ut 16:51
 
-Základným cieľom klubu je záchrana v druhej lige.
-
-Po štyroch kolách mali na konte iba bod. Aktuálne sú najlepším nováčikom súťaže
-
-Titanilla Bőd
-
-∙
-
-ut 08:00
-
-Hráme ako tím, navzájom si pomáhame a dúfam, že v tom budeme pokračovať aj ďalej, hovorí útočník Patrik Schmiedl.
-
-Domáci hráči, skvelá partia a plný bodový zisk. Mužstvo z malej obce valcuje konkurenciu
-
-Peter Cingel
-
-∙
-
-ut 10:15
-
-Sledujte spolu s nami online prenos zo štvrtého kola Slovnaft Cupu: Spartak Myjava - MFK Ružomberok.
-
-ONLINE: Spartak Myjava - MFK Ružomberok dnes, Slovnaft Cup LIVE (4. kolo)
-
-dnes 11:30
-
-Sledujte spolu s nami online prenos zo štvrtého kola Slovnaft Cupu: FC Lokomotíva Košice - AS Trenčín.
-
-ONLINE: FC Lokomotíva Košice - AS Trenčín dnes, Slovnaft Cup LIVE (4. kolo)
-
-dnes 11:30
-
-Sledujte spolu s nami online prenos zo štvrtého kola Slovnaft Cupu: TJ Kostolné Kračany - MŠK Žilina.
-
-ONLINE: TJ Kostolné Kračany - MŠK Žilina dnes, Slovnaft Cup LIVE (4. kolo)
-
-dnes 11:30
-
 Sledovali ste spolu s nami online prenos zo štvrtého kola Slovnaft Cupu: OFK Baník Lehota pod Vtáčnikom - MFK Zemplín Michalovce.
 
 Slovnaft Cup: Michalovce zvíťazili na pôde Lehoty pod Vtáčnikom a postúpili do osemfinále
 
 ut 12:00
-
-Zlaté Moravce nevyhrali už vo štvrtom zápase za sebou.
-
-ViOn nevyužil veľkú výhodu. Pohronie mu strelilo tri góly aj s desiatimi hráčmi
-
-po 19:10
 
 Načítať ďalšie
 Najčítanejšie
@@ -962,31 +980,31 @@ Najnovšie
 7 dní
 1
 
-Bezchybný Hancko dostal od Španielov hviezdičky. Má skalp ďalšej svetovej značky
+Slovan je medzi vyvolenými na dne. Proti Nemcom plán plnili, ale zosypali sa
 
 2
 
-VIDEO: Skvelý večer Slovákov. Víťazný gól Pospíšila, produktívny Slafkovský a bodoval aj Nemec
+VIDEO: Po zrážke Slafkovského sa strhla bitka. Montreal utrpel tesnú prehru
 
 3
 
-Liga majstrov sa vracia na Tehelné pole. Kde sledovať zápas Slovan - Stuttgart? (TV program)
+Slovan je aj po druhom zápase na úplnom konci. Pozrite si tabuľku Ligy majstrov
 
 4
 
-Otázka ho naštartovala. Tréner Slovana reagoval dlho ako nikdy predtým
+Šéf Slovana nechápal rozhodcu. Vysvetľoval mi nové pravidlá, som rozčarovaný
 
 5
 
-Inter a Neapol sú na dne, Sporting sa drží po boku gigantov. Pozrite si tabuľku Ligy majstrov
+Liga majstrov: Slovan neuspel ani na domácej pôde. So Stuttgartom prehral rozdielom triedy
 
 6
 
-Slovan chystá veľkú šou, no jedna vec je záhadou. Touré sa smial a chytal za tvár
+Čakanie do poslednej chvíle. Český tím rozhodol o osude Nitry v Lige majstrov
 
 7
 
-VIDEO: Slováci excelovali v záveroch. Boženík skóroval po príchode a gól dal aj Mesík
+Zdeno Cíger: Keď ma Tortorella nechal na tribúne pred mamou, z NHL som odišiel (MVP Talkshow)
 
 Späť na vrch
 Redakcia a kontakty
