@@ -17,7 +17,7 @@ Jasečkova spoveď: Magická veta pre Demitru, banditi v Rusku a NHL iba na Play
 Tituly City vyrástli na špinavých miliónoch. Zlatá éra sa môže skončiť vylúčením z ligy
 Slovenskí brankári ovládli ligu! Ktorý je najlepší? (Hokejový BOSS)
 Bez drog a lacného divadla. K úspechu vedie aj normálna cesta, vraví slovenská zápasníčka
-Top manažér z Tesly: Slováci sú ultra inteligentní, no školy ich naučili nesnívať. Peniaze si vás nájdu samé
+Ukrajinci, Sýrčania aj Afganci musia z Nemecka odísť, hovorí šéfka AfD
 Kluby
 /
 ŠK Junior Ivanka pri Nitre
@@ -73,7 +73,7 @@ K
 
 	Futbalový klub Holice	
 
-9
+10
 
 	
 
@@ -81,7 +81,7 @@ K
 
 	
 
-1
+2
 
 	
 
@@ -89,11 +89,11 @@ K
 
 	
 
-34:7
+35:8
 
 	
 
-25
+26
 
 	
 
@@ -101,10 +101,10 @@ K
 
 	
 
-13
+11
 
 	
-V
+R
 V
 V
 V
@@ -116,7 +116,50 @@ V
 
 	ŠK Junior Ivanka pri Nitre	
 
-9
+10
+
+	
+
+7
+
+	
+
+1
+
+	
+
+2
+
+	
+
+23:13
+
+	
+
+22
+
+	
+
+14
+
+	
+
+7
+
+	
+R
+P
+V
+V
+V
+
+
+
+3
+
+	FC Slovan Hlohovec	
+
+10
 
 	
 
@@ -128,11 +171,11 @@ V
 
 	
 
-2
+3
 
 	
 
-22:12
+34:13
 
 	
 
@@ -140,60 +183,17 @@ V
 
 	
 
-14
-
-	
-
-6
-
-	
-P
-V
-V
-V
-V
-
-
-
-3
-
-	FC Slovan Hlohovec	
-
-9
-
-	
-
-6
-
-	
-
-0
-
-	
-
-3
-
-	
-
-28:13
-
-	
-
-18
-
-	
-
 13
 
 	
 
-3
+6
 
 	
 V
-P
-P
 V
+P
+P
 V
 
 
@@ -589,7 +589,7 @@ P
 
 	Futbalový klub Slovan Šahy	
 
-9
+10
 
 	
 
@@ -601,11 +601,11 @@ P
 
 	
 
-6
+7
 
 	
 
-18:26
+18:32
 
 	
 
@@ -617,12 +617,12 @@ P
 
 	
 
--3
+-6
 
 	
 P
-V
 P
+V
 P
 P
 
@@ -725,11 +725,40 @@ Prehra
 
 Správy z Futbalnetu
 
-Sledujte s nami minútu po minúte z konferencie Slovenského futbalového zväzu.
+Vyjadrenia zazneli v súvislosti s reakciami po konferencii SFZ.
 
-ONLINE: Konferencia SFZ: presadia oponenti hĺbkový audit? (minúta po minúte)
+Funkcionár sa ospravedlnil za kontroverzné výroky. SFZ sa zastal trénerov mládeže
 
-dnes 10:55
+Filip Lipták
+
+∙
+
+dnes 10:36
+
+Klub musí zaplatiť finančnú pokutu.
+
+Aktéri incidentu spoznali verdikt. Trest dostal hráč, asistent trénera aj usporiadateľ
+
+Titanilla Bőd
+
+∙
+
+pi 20:43
+
+V durhom zápase medzi Pohroním a Malženicami nepadol ani gól.
+
+Liptákom stačil jediný gól. Uspeli s tabuľkovým susedom z dediny
+
+pi 19:31
+
+Väčšina odmietla body o Kováčikovi, opozícia odišla.
+
+Konferencia SFZ sa predčasne skončila. Nespokojní delegáti opustili sálu a zasadnutie presunuli
+
+pi 13:36
+
+∙
+11
 
 Futbalové dianie v klube z východu priblížil mladý, iba 31-ročný tréner Erik Tomko.
 
@@ -739,7 +768,35 @@ Peter Cingel
 
 ∙
 
-dnes 08:30
+pi 08:30
+
+Sledujte s nami ONLINE prenos zo zápasu 13. kola MONACObet ligy: MFK Tatran Liptovský Mikuláš - OFK Baník Lehota pod Vtáčnikom.
+
+ONLINE: MFK Tatran Liptovský Mikuláš - OFK Baník Lehota pod Vtáčnikom dnes, MONACObet liga LIVE (II. liga, 13. kolo)
+
+pi 14:00
+
+Sledovali ste minútu po minúte z konferencie Slovenského futbalového zväzu.
+
+Konferencia SFZ sa skončila predčasne, o návrhoch oponentov sa ani nediskutovalo (minúta po minúte)
+
+pi 10:55
+
+∙
+1
+
+Slovan čakajú dva Rímy.
+
+Slovan vyradil svetovú značku, umlčal 50-tisíc. Novinári platili za čosi absurdné
+
+Pavol Spál
+
+∙
+
+pi 07:00
+
+∙
+3
 
 Boleráz vyradil v Slovnaft Cupe Námestovo.
 
@@ -761,58 +818,6 @@ Titanilla Bőd
 
 st 19:15
 
-V stredu sa hralo deväť zápasov.
-
-Ďalší zázrak u treťoligistu sa nekonal, do osemfinále aj štvrtoligista (Slovnaft Cup, výsledky)
-
-Titanilla Bőd
-
-∙
-
-st 16:51
-
-Čadca dosiahla historický výsledok.
-
-Ambiciózny treťoligista si žije pohárovú rozprávku. Tradičný klub ostal úplne v šoku
-
-Titanilla Bőd
-
-∙
-
-st 10:50
-
-Pre Tatran je z hľadiska dlhodobej stratégie dôležitá stabilizácia.
-
-Z najhoršieho sú vonku. Prešov splatil miliónové dlhy, no na kádri musí šetriť
-
-st 15:08
-
-Nové Zámky zvíťazili vo Svätom Jure 3:0.
-
-Piatoligista v pohári končí, no stále živí nádej na trofej. Hráč súpera zaznamenal hetrik
-
-Titanilla Bőd
-
-∙
-
-ut 19:46
-
-Slovan čakajú dva Rímy.
-
-Slovan vyradil svetovú značku, umlčal 50-tisíc. Novinári platili za čosi absurdné
-
-Pavol Spál
-
-∙
-
-dnes 07:00
-
-Sledovali ste spolu s nami online prenos zo štvrtého kola Slovnaft Cupu: Spartak Myjava - MFK Ružomberok.
-
-Slovnaft Cup: Ružomberok zvíťazil na pôde Spartaka Myjava a postúpil ďalej
-
-st 11:30
-
 Načítať ďalšie
 Najčítanejšie
 Najnovšie
@@ -821,31 +826,31 @@ Najnovšie
 7 dní
 1
 
-Cavendish veril Saganovi, ale popálil sa. Valach: Petrov uletený plán bol iba vtip
+Zdeno Cíger: Keď ma Tortorella nechal na tribúne pred mamou, z NHL som odišiel (MVP Talkshow)
 
 2
 
-Slovan vyradil svetovú značku, umlčal 50-tisíc. Novinári platili za čosi absurdné
+Aktéri incidentu spoznali verdikt. Trest dostal hráč, asistent trénera aj usporiadateľ
 
 3
 
-V Slovane som nebol ich človek, najkrajší kút je Liptov, tvrdí Američan s koreňmi v Ghane
+Vyhrali dva tituly a opäť vedú ligu. Hráči nedostávajú šancu, sme frustrovaní, vraví Handzuš
 
 4
 
-Koniec kariéry pre tenistu. Za stávkové podvody inkasoval obrovský trest
+VIDEO: Chladoňová spadla tesne pred cieľom. Napriek odreninám dokončila etapu
 
 5
 
-Chladoňová v časovke nesklamala, sedela v kresle líderky. Víťazstvo zostalo v tíme
+Slovan po prehre padol až na tretie miesto. Tipsport liga má opäť dvoch lídrov
 
 6
 
-Borbélyho ďalší úspech v pohárovej Európe. Ferencváros potiahol dvojgólový strelec
+Z vlasti ju vyštvali komunisti, rebelka Navrátilová víťazila v amerických farbách
 
 7
 
-Futbalová dedina sníva o veľkom úspechu. Postup zatiaľ neriešia, no majú veľké ambície
+Humburger nesplnil váhu, Kincl stratil trpezlivosť. Megazápas je zrušený
 
 Späť na vrch
 Redakcia a kontakty
@@ -869,20 +874,3 @@ Akčný plán
 Licencie
 |
 Žiadosť o opravu
-
-Cookies a obdobné nástroje
-
-Aby ste mali rovnaký zážitok z čítania nášho webu ako doteraz, podľa zákona potrebujeme váš súhlas na:
-Personalizovaná reklama a obsah, meranie reklamy a obsahu, prieskum cieľových skupín a vývoj služieb
-Uchovávanie alebo prístup k informáciám na zariadení
-Ďalšie informácie
-
-Vaše osobné údaje budú spracúvané a informácie z vášho zariadenia (súbory cookie, jedinečné identifikátory a ďalšie údaje o zariadení) môžu byť ukladané a používané 532 partnermi a môžu s nimi byť zdieľané alebo môžu byť využívané konkrétne týmito webovými stránkami. My a naši partneri môžeme používať presné údaje o geolokácii. Pozrite si zoznam partnerov.
-
-Niektorí dodávatelia môžu spracúvať vaše osobné údaje na základe oprávneného záujmu, proti ktorému môžete vzniesť námietku pomocou možností nižšie. Dole na tejto stránke alebo v ponuke webu nájdite odkaz, pomocou ktorého môžete spravovať alebo odvolať súhlas v nastaveniach ochrany súkromia a súborov cookie.
-
-Súhlasím
-
-Pokračovať s nevyhnutnými cookies →
-
-Nastavenia
