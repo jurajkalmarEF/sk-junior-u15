@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T08:51:14.002Z",
+  "generatedAt": "2026-10-17T09:02:47.464Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -262,8 +262,8 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "13 rokov (2012)",
-            "matches": 55,
-            "minutes": 2741,
+            "matches": 56,
+            "minutes": 2811,
             "goals": 0,
             "yellowCards": 0,
             "secondYellow": 0,
@@ -364,8 +364,8 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "13 rokov (2013)",
-            "matches": 207,
-            "minutes": 11470,
+            "matches": 208,
+            "minutes": 11540,
             "goals": 117,
             "yellowCards": 1,
             "secondYellow": 0,
@@ -500,10 +500,10 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "14 rokov (2012)",
-            "matches": 147,
-            "minutes": 8375,
+            "matches": 148,
+            "minutes": 8445,
             "goals": 20,
-            "yellowCards": 3,
+            "yellowCards": 4,
             "secondYellow": 0,
             "redCards": 1
           }
@@ -4695,6 +4695,142 @@
       ],
       "results": [
         {
+          "round": "11. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 11. kolo",
+          "date": "17.10",
+          "time": "09:00",
+          "status": "Koniec",
+          "home": "Futbalový klub Slovan Šahy",
+          "away": "FC Slovan Hlohovec",
+          "scoreHome": 0,
+          "scoreAway": 6,
+          "played": true,
+          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd3405b0f57d4f481a913/",
+          "detail": {
+            "v": 3,
+            "events": [
+              {
+                "k": "period",
+                "label": "Začiatok - 1. polčas",
+                "time": "09:00",
+                "minute": "0'"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "away",
+                "minute": "9'",
+                "player": "Róbert Dlhoš",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "away",
+                "minute": "32'",
+                "player": "Timotej Poláčik",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "period",
+                "label": "Koniec - 1. polčas",
+                "time": "09:35",
+                "minute": ""
+              },
+              {
+                "k": "period",
+                "label": "Začiatok - 2. polčas",
+                "time": "09:50",
+                "minute": "35'"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "away",
+                "minute": "36'",
+                "player": "Timotej Poláčik",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "sub",
+                "side": "away",
+                "minute": "46'",
+                "playerOut": "Filip Pos",
+                "playerIn": "Timotej Heriban"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "away",
+                "minute": "49'",
+                "player": "Timotej Heriban",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "sub",
+                "side": "away",
+                "minute": "53'",
+                "playerOut": "Timotej Poláčik",
+                "playerIn": "Alec Hauliš"
+              },
+              {
+                "k": "sub",
+                "side": "away",
+                "minute": "53'",
+                "playerOut": "Nikolaj Bartovič",
+                "playerIn": "Filip Pažitný"
+              },
+              {
+                "k": "sub",
+                "side": "away",
+                "minute": "59'",
+                "playerOut": "Tobias Riegel",
+                "playerIn": "Alex Cvecho"
+              },
+              {
+                "k": "sub",
+                "side": "away",
+                "minute": "59'",
+                "playerOut": "Jakub Adrián Kmetty",
+                "playerIn": "Lukáš Daniška"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "away",
+                "minute": "66'",
+                "player": "Róbert Dlhoš",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "away",
+                "minute": "68'",
+                "player": "Alec Hauliš",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "period",
+                "label": "Koniec - 2. polčas",
+                "time": "10:26",
+                "minute": ""
+              }
+            ],
+            "attendance": 48,
+            "referee": "Peter Bojda",
+            "stadiumName": "FK Slovan Šahy",
+            "stadiumAddress": "SNP, 93601 Šahy",
+            "fetchedAt": "2026-10-17T08:54:45.088Z"
+          }
+        },
+        {
           "round": "10. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 10. kolo",
           "date": "10.10",
@@ -5700,111 +5836,6 @@
             "stadiumName": "FC Slovan Galanta",
             "stadiumAddress": "kpt. Nálepku, 924 01 Galanta",
             "fetchedAt": "2026-10-05T21:01:48.919Z"
-          }
-        },
-        {
-          "round": "2. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 2. kolo",
-          "date": "15.08",
-          "time": "10:00",
-          "status": "Koniec",
-          "home": "Futbalový klub Slovan Šahy",
-          "away": "MŠK Želiezovce",
-          "scoreHome": 1,
-          "scoreAway": 0,
-          "played": true,
-          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd33e5b0f57d4f4819b0e/",
-          "detail": {
-            "v": 3,
-            "events": [
-              {
-                "k": "period",
-                "label": "Začiatok - 1. polčas",
-                "time": "10:00",
-                "minute": "0'"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "home",
-                "minute": "28'",
-                "player": "Ronald Galo",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "period",
-                "label": "Koniec - 1. polčas",
-                "time": "10:35",
-                "minute": ""
-              },
-              {
-                "k": "period",
-                "label": "Začiatok - 2. polčas",
-                "time": "10:50",
-                "minute": "35'"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "48'",
-                "playerOut": "Jaroslav Michal Szalai",
-                "playerIn": "Nándor Kotasz"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "48'",
-                "playerOut": "Róbert Gálik",
-                "playerIn": "Michal Brtka"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "56'",
-                "playerOut": "Adam Magyar",
-                "playerIn": "Nikolas Medveď"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "62'",
-                "playerOut": "Tomáš Brocký",
-                "playerIn": "Samuel Turček"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "62'",
-                "playerOut": "Marcel Hlisník",
-                "playerIn": "Tobias Filyó"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "66'",
-                "playerOut": "Tomáš Elek",
-                "playerIn": "Peter Klukon"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "66'",
-                "playerOut": "Ronald Galo",
-                "playerIn": "Ronald Zobek"
-              },
-              {
-                "k": "period",
-                "label": "Koniec - 2. polčas",
-                "time": "11:25",
-                "minute": ""
-              }
-            ],
-            "attendance": 35,
-            "referee": "Simon Galgoci",
-            "stadiumName": "FK Slovan Šahy",
-            "stadiumAddress": "SNP, 93601 Šahy",
-            "fetchedAt": "2026-10-05T21:01:51.752Z"
           }
         }
       ],

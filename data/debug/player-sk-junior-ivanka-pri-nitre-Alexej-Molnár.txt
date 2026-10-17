@@ -30,9 +30,9 @@ Muž
 Pohlavie
 13 rokov (2013)
 Vek
-207
+208
 Zápasy
-11470
+11540
 Minúty
 117
 Góly
@@ -65,19 +65,19 @@ P
 	
 	
 
-2026/2027	7	220	0	0	0	0
+2026/2027	8	290	0	0	0	0
 2025/2026	40	2400	14	1	0	0
 2024/2025	25	1550	10	0	0	0
 2023/2024	52	2760	27	0	0	0
 2022/2023	56	2950	36	0	0	0
 2021/2022	24	1440	29	0	0	0
 2020/2021	3	150	1	0	0	0
-Celkovo	207	11470	117	1	0	0
+Celkovo	208	11540	117	1	0	0
 Správy z Futbalnetu
 
 Vyjadrenia zazneli v súvislosti s reakciami po konferencii SFZ.
 
-Funkcionár sa ospravedlnil za kontroverzné výroky. SFZ sa zastal trénerov mládeže
+VIDEO: Funkcionár sa ospravedlnil za kontroverzné výroky. SFZ sa zastal trénerov mládeže
 
 Filip Lipták
 
