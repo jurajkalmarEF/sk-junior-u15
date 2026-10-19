@@ -13,11 +13,806 @@ KLUBY
 ČLENOVIA
 PRESTUPY
 PIKOŠKY
+Liga majstrov 2026/2027
+Program
+Výsledky
+08.09.
+BRU
+2
+1. kolo
+AVL
+3
+Detail zápasu
+08.09.
+AEK
+1
+1. kolo
+LSK
+0
+Detail zápasu
+08.09.
+RMA
+2
+1. kolo
+INT
+1
+Detail zápasu
+08.09.
+BVB
+3
+1. kolo
+VIL
+2
+Detail zápasu
+08.09.
+POR
+0
+1. kolo
+MCI
+2
+Detail zápasu
+08.09.
+LIL
+2
+1. kolo
+BET
+3
+Detail zápasu
+09.09.
+BAR
+5
+1. kolo
+FEY
+1
+Detail zápasu
+09.09.
+STU
+3
+1. kolo
+VIK
+1
+Detail zápasu
+09.09.
+PSG
+6
+1. kolo
+SLB
+1
+Detail zápasu
+09.09.
+LIV
+2
+1. kolo
+ATM
+1
+Detail zápasu
+09.09.
+SPO
+3
+1. kolo
+GAL
+1
+Detail zápasu
+09.09.
+NAP
+0
+1. kolo
+ARS
+1
+Detail zápasu
+10.09.
+PSV
+1
+1. kolo
+SHK
+1
+Detail zápasu
+10.09.
+FEN
+1
+1. kolo
+ROM
+1
+Detail zápasu
+10.09.
+FCB
+5
+1. kolo
+BOD
+0
+Detail zápasu
+10.09.
+MUN
+4
+1. kolo
+SAB
+0
+Detail zápasu
+10.09.
+SLA
+2
+1. kolo
+LEN
+3
+Detail zápasu
+10.09.
+COM
+4
+1. kolo
+LEI
+1
+Detail zápasu
+13.10.
+LEN
+0
+2. kolo
+SPO
+2
+Detail zápasu
+13.10.
+SAB
+2
+2. kolo
+SLA
+0
+Detail zápasu
+13.10.
+INT
+3
+2. kolo
+BRU
+4
+Detail zápasu
+13.10.
+ARS
+3
+2. kolo
+LIL
+0
+Detail zápasu
+13.10.
+ATM
+2
+2. kolo
+MUN
+0
+Detail zápasu
+13.10.
+LEI
+1
+2. kolo
+PSV
+0
+Detail zápasu
+13.10.
+VIL
+3
+2. kolo
+NAP
+1
+Detail zápasu
+13.10.
+GAL
+1
+2. kolo
+BAR
+4
+Detail zápasu
+13.10.
+VIK
+3
+2. kolo
+FCB
+3
+Detail zápasu
+14.10.
+FEY
+3
+2. kolo
+COM
+2
+Detail zápasu
+14.10.
+LSK
+3
+2. kolo
+LIV
+6
+Detail zápasu
+14.10.
+MCI
+2
+2. kolo
+PSG
+4
+Detail zápasu
+14.10.
+ROM
+3
+2. kolo
+RMA
+4
+Detail zápasu
+14.10.
+AVL
+6
+2. kolo
+FEN
+0
+Detail zápasu
+14.10.
+BET
+3
+2. kolo
+POR
+2
+Detail zápasu
+14.10.
+BOD
+1
+2. kolo
+BVB
+0
+Detail zápasu
+14.10.
+SHK
+3
+2. kolo
+AEK
+1
+Detail zápasu
+14.10.
+SLB
+0
+2. kolo
+STU
+3
+Detail zápasu
+FEN
+20.10. 18:45
+SLA
+3. kolo
+Detail zápasu
+SAB
+20.10. 18:45
+BVB
+3. kolo
+Detail zápasu
+PSG
+20.10. 21:00
+BAR
+3. kolo
+Detail zápasu
+LIV
+20.10. 21:00
+VIL
+3. kolo
+Detail zápasu
+MCI
+20.10. 21:00
+AEK
+3. kolo
+Detail zápasu
+ROM
+20.10. 21:00
+SLB
+3. kolo
+Detail zápasu
+POR
+20.10. 21:00
+PSV
+3. kolo
+Detail zápasu
+NAP
+20.10. 21:00
+BOD
+3. kolo
+Detail zápasu
+STU
+20.10. 21:00
+ATM
+3. kolo
+Detail zápasu
+LIL
+21.10. 18:45
+GAL
+3. kolo
+Detail zápasu
+COM
+21.10. 18:45
+MUN
+3. kolo
+Detail zápasu
+FCB
+21.10. 21:00
+ARS
+3. kolo
+Detail zápasu
+RMA
+21.10. 21:00
+LEI
+3. kolo
+Detail zápasu
+INT
+21.10. 21:00
+SHK
+3. kolo
+Detail zápasu
+SPO
+21.10. 21:00
+LSK
+3. kolo
+Detail zápasu
+AVL
+21.10. 21:00
+VIK
+3. kolo
+Detail zápasu
+BRU
+21.10. 21:00
+LEN
+3. kolo
+Detail zápasu
+BET
+21.10. 21:00
+FEY
+3. kolo
+Detail zápasu
+SHK
+03.11. 18:45
+SPO
+4. kolo
+Detail zápasu
+GAL
+03.11. 18:45
+STU
+4. kolo
+Detail zápasu
+BAR
+03.11. 21:00
+AVL
+4. kolo
+Detail zápasu
+ATM
+03.11. 21:00
+FCB
+4. kolo
+Detail zápasu
+MUN
+03.11. 21:00
+ROM
+4. kolo
+Detail zápasu
+FEY
+03.11. 21:00
+INT
+4. kolo
+Detail zápasu
+BOD
+03.11. 21:00
+LIL
+4. kolo
+Detail zápasu
+VIL
+03.11. 21:00
+PSG
+4. kolo
+Detail zápasu
+LSK
+03.11. 21:00
+SLB
+4. kolo
+Detail zápasu
+FEN
+04.11. 18:45
+LIV
+4. kolo
+Detail zápasu
+AEK
+04.11. 18:45
+RMA
+4. kolo
+Detail zápasu
+BVB
+04.11. 21:00
+BET
+4. kolo
+Detail zápasu
+POR
+04.11. 21:00
+NAP
+4. kolo
+Detail zápasu
+PSV
+04.11. 21:00
+BRU
+4. kolo
+Detail zápasu
+LEI
+04.11. 21:00
+MCI
+4. kolo
+Detail zápasu
+SLA
+04.11. 21:00
+ARS
+4. kolo
+Detail zápasu
+LEN
+04.11. 21:00
+COM
+4. kolo
+Detail zápasu
+VIK
+04.11. 21:00
+SAB
+4. kolo
+Detail zápasu
+BOD
+24.11. 18:45
+LSK
+5. kolo
+Detail zápasu
+GAL
+24.11. 18:45
+AVL
+5. kolo
+Detail zápasu
+RMA
+24.11. 21:00
+PSV
+5. kolo
+Detail zápasu
+MCI
+24.11. 21:00
+NAP
+5. kolo
+Detail zápasu
+ARS
+24.11. 21:00
+BVB
+5. kolo
+Detail zápasu
+FEY
+24.11. 21:00
+POR
+5. kolo
+Detail zápasu
+LEI
+24.11. 21:00
+LEN
+5. kolo
+Detail zápasu
+SLB
+24.11. 21:00
+BET
+5. kolo
+Detail zápasu
+COM
+24.11. 21:00
+AEK
+5. kolo
+Detail zápasu
+SLA
+25.11. 18:45
+VIL
+5. kolo
+Detail zápasu
+SAB
+25.11. 18:45
+BAR
+5. kolo
+Detail zápasu
+PSG
+25.11. 21:00
+ROM
+5. kolo
+Detail zápasu
+INT
+25.11. 21:00
+STU
+5. kolo
+Detail zápasu
+ATM
+25.11. 21:00
+VIK
+5. kolo
+Detail zápasu
+SPO
+25.11. 21:00
+MUN
+5. kolo
+Detail zápasu
+BRU
+25.11. 21:00
+LIV
+5. kolo
+Detail zápasu
+LIL
+25.11. 21:00
+FCB
+5. kolo
+Detail zápasu
+SHK
+25.11. 21:00
+FEN
+5. kolo
+Detail zápasu
+VIL
+08.12. 18:45
+SAB
+6. kolo
+Detail zápasu
+VIK
+08.12. 18:45
+FEY
+6. kolo
+Detail zápasu
+FCB
+08.12. 21:00
+SLA
+6. kolo
+Detail zápasu
+BAR
+08.12. 21:00
+MCI
+6. kolo
+Detail zápasu
+ROM
+08.12. 21:00
+SPO
+6. kolo
+Detail zápasu
+AVL
+08.12. 21:00
+PSG
+6. kolo
+Detail zápasu
+MUN
+08.12. 21:00
+LEI
+6. kolo
+Detail zápasu
+NAP
+08.12. 21:00
+BRU
+6. kolo
+Detail zápasu
+AEK
+08.12. 21:00
+GAL
+6. kolo
+Detail zápasu
+BET
+09.12. 18:45
+COM
+6. kolo
+Detail zápasu
+SLB
+09.12. 18:45
+SHK
+6. kolo
+Detail zápasu
+LIV
+09.12. 21:00
+POR
+6. kolo
+Detail zápasu
+ARS
+09.12. 21:00
+RMA
+6. kolo
+Detail zápasu
+BVB
+09.12. 21:00
+INT
+6. kolo
+Detail zápasu
+PSV
+09.12. 21:00
+ATM
+6. kolo
+Detail zápasu
+STU
+09.12. 21:00
+LIL
+6. kolo
+Detail zápasu
+LSK
+09.12. 21:00
+FEN
+6. kolo
+Detail zápasu
+LEN
+09.12. 21:00
+BOD
+6. kolo
+Detail zápasu
+BOD
+19.01. 18:45
+ATM
+7. kolo
+Detail zápasu
+GAL
+19.01. 18:45
+FEY
+7. kolo
+Detail zápasu
+RMA
+19.01. 21:00
+LSK
+7. kolo
+Detail zápasu
+INT
+19.01. 21:00
+LIV
+7. kolo
+Detail zápasu
+AVL
+19.01. 21:00
+BVB
+7. kolo
+Detail zápasu
+POR
+19.01. 21:00
+SLA
+7. kolo
+Detail zápasu
+LIL
+19.01. 21:00
+SLB
+7. kolo
+Detail zápasu
+STU
+19.01. 21:00
+BRU
+7. kolo
+Detail zápasu
+AEK
+19.01. 21:00
+ROM
+7. kolo
+Detail zápasu
+FEN
+20.01. 18:45
+VIL
+7. kolo
+Detail zápasu
+SAB
+20.01. 18:45
+NAP
+7. kolo
+Detail zápasu
+SPO
+20.01. 21:00
+BAR
+7. kolo
+Detail zápasu
+MUN
+20.01. 21:00
+FCB
+7. kolo
+Detail zápasu
+BET
+20.01. 21:00
+ARS
+7. kolo
+Detail zápasu
+LEI
+20.01. 21:00
+SHK
+7. kolo
+Detail zápasu
+COM
+20.01. 21:00
+PSG
+7. kolo
+Detail zápasu
+LEN
+20.01. 21:00
+MCI
+7. kolo
+Detail zápasu
+VIK
+20.01. 21:00
+PSV
+7. kolo
+Detail zápasu
+PSG
+27.01. 21:00
+GAL
+8. kolo
+Detail zápasu
+FCB
+27.01. 21:00
+BET
+8. kolo
+Detail zápasu
+LIV
+27.01. 21:00
+LEN
+8. kolo
+Detail zápasu
+MCI
+27.01. 21:00
+SPO
+8. kolo
+Detail zápasu
+ARS
+27.01. 21:00
+SAB
+8. kolo
+Detail zápasu
+BAR
+27.01. 21:00
+COM
+8. kolo
+Detail zápasu
+ATM
+27.01. 21:00
+FEN
+8. kolo
+Detail zápasu
+BVB
+27.01. 21:00
+AEK
+8. kolo
+Detail zápasu
+ROM
+27.01. 21:00
+LIL
+8. kolo
+Detail zápasu
+BRU
+27.01. 21:00
+BOD
+8. kolo
+Detail zápasu
+PSV
+27.01. 21:00
+STU
+8. kolo
+Detail zápasu
+FEY
+27.01. 21:00
+LEI
+8. kolo
+Detail zápasu
+NAP
+27.01. 21:00
+VIK
+8. kolo
+Detail zápasu
+VIL
+27.01. 21:00
+MUN
+8. kolo
+Detail zápasu
+SHK
+27.01. 21:00
+RMA
+8. kolo
+Detail zápasu
+SLA
+27.01. 21:00
+AVL
+8. kolo
+Detail zápasu
+SLB
+27.01. 21:00
+INT
+8. kolo
+Detail zápasu
+LSK
+27.01. 21:00
+POR
+8. kolo
+Detail zápasu
+Z vlasti ju vyštvali komunisti, rebelka Navrátilová víťazila v amerických farbách
+Príklepy z NHL: Bratia držia spolu, Rus hrá za 17 miliónov a bek schytal úder tam, kde sa to nepatrí
+Vyhrali dva tituly a opäť vedú ligu. Hráči nedostávajú šancu, sme frustrovaní, vraví Handzuš
 Jasečkova spoveď: Magická veta pre Demitru, banditi v Rusku a NHL iba na PlayStatione
-Tituly City vyrástli na špinavých miliónoch. Zlatá éra sa môže skončiť vylúčením z ligy
-Slovenskí brankári ovládli ligu! Ktorý je najlepší? (Hokejový BOSS)
-Bez drog a lacného divadla. K úspechu vedie aj normálna cesta, vraví slovenská zápasníčka
-V Bratislave sa konalo zhromaždenie zvolané opozíciou, prišli všetky strany
+Navážaš sa do mňa pre záchody, ale tvoje námestie je rovnaký hnoj, pustil sa Ráž do Valla v dueli a Markíze
 Kluby
 /
 FC Slovan Hlohovec
@@ -148,89 +943,81 @@ FC Slovan Hlohovec
 Načítať ďalšie
 Správy z Futbalnetu
 
-Sledujte s nami ONLINE prenos zo zápasu 13. kola MONACObet ligy: FC Petržalka - ŠK Slovan Bratislava B.
+Mužstvo figuruje po 11. kole na poslednej 12. priečke Niké ligy.
 
-ONLINE: FC Petržalka - ŠK Slovan Bratislava B dnes, MONACObet liga LIVE (II. liga, 13. kolo)
+VIDEO: Aj vo futbalovej súťaži končí prvý tréner. Komárno nikoho nezdolalo a reaguje
 
-dnes 07:30
+dnes 12:11
 
-Belasí zvíťazili v Trnave 3:0.
+(Ne)tradičné zhrnutie kola futbalovej Niké ligy.
 
-Slovan bol skoncentrovaný ako už dlho nie. Pred derby sa tábory zhodli v názoroch na SFZ
+Voda na Weissov mlyn a Komárno zatiaľ ako Rážov multinožík z Wishu (tréneroviny)
 
-Titanilla Bőd
-
-∙
-
-so 22:39
+Richard Hanzlík
 
 ∙
-7
 
-O triumfe „belasých“ rozhodli strelci ešte v prvom polčase.
+dnes 07:00
 
-Slovan ukázal svoju silu v správny moment. Derby v Trnave si podmanil už od úvodných minút
+Presný zásah pridal i aktuálne najlepší strelec Niké ligy Matej Trusa.
 
-so 19:52
+Žilina ľutovala šance. Tréner DAC priznal: Zápasu by viac svedčala remíza
 
-∙
-7
+dnes 08:14
 
-Skúsený obranca nechce zavesiť futbalové kopačky na klinec ani vo veku 42 rokov.
+V klube na východe Slovenska pôsobí posledných 9 rokov.
 
-Najradšej spomína na vypredané derby pražských S. Dnes chce oslavovať úspech na východe
+Takmer každý polrok nový káder. Bývalý hráč Interu pomenoval problém amatérskeho futbalu
 
 Peter Cingel
 
 ∙
 
-dnes 08:00
+dnes 08:30
 
-Pozrite si góly a najlepšie momenty zo zápasu FC Spartak Trnava - ŠK Slovan Bratislava v 11. kole najvyššej Niké ligy.
+Pozrite si sumár 11. kola Niké ligy.
 
-VIDEO: Pozrite si góly zo zápasu FC Spartak Trnava - ŠK Slovan Bratislava v Niké lige
+Slovan ovládol najslávnejšie derby proti Trnave, no Dunajská Streda si upevnila post lídra
 
-Matej Hank
+ne 21:40
 
-∙
+Čo povedali tréneri nováčikov z čela tabuľky?
 
-so 19:10
+Veľká rarita. Ťažkú súťaž vedú dvaja nováčikovia, jeden z krajského mesta, druhý z dediny
 
-Ružomberok si pripísal víťazstvo vďaka gólu ešte z úvodných minút.
-
-Súboj najhorších tímov rozhodol jediný gól. Komárno stále nikoho nezdolalo
-
-so 17:22
-
-Až tri zo štyroch zápasov sa skončili rovnakým výsledkom.
-
-Zvolen sa konečne dočkal prvého víťazstva. Šamorín nevyužil šancu ísť do čela
-
-so 17:41
-
-Trenčín rozhodol o víťazstve už v deviatej minúte.
-
-Skalica po zaskočení Slovana nevyužila fazónu. Od Trenčína dostala rýchle góly
-
-so 17:22
-
-Sledovali ste s nami ONLINE prenos zo zápasu 11. kola Niké ligy: FC Spartak Trnava - ŠK Slovan Bratislava.
-
-Niké liga: Slovan si poradil v derby s Trnavou, zdolal ju rozdielom triedy
-
-so 15:00
+Marián Dragúň
 
 ∙
-7
 
-Sledovali ste s nami ONLINE prenos zo zápasu 11. kola Niké ligy: MFK Skalica - AS Trenčín.
+dnes 09:45
 
-Niké liga: Skalica nezachytila úvod, doma prehrala s Trenčínom
+Banská Bystrica zdolala v Niké lige Podbrezovú.
 
-so 12:30
+Dráma do posledných minút. Strelec víťazného gólu sa netešil, aby prejavil rešpekt
+
+ne 22:50
+
+Víťazný gól Dunajskej Stredy strelil Ammar Ramadan.
+
+Gólové hody v šlágri kola. Žilinčania dvakrát vyrovnali, tretí gól DAC už bol zlomový
+
+ne 19:59
 
 ∙
-1
+6
+
+Michalovce nechali Košice vo vedení len štyri minúty.
+
+Východniarske derby víťaza nenašlo. Michalovce však hrali vyše hodiny v oslabení
+
+ne 17:26
+
+Bystričania udreli v závere riadnej hracej doby.
+
+Bystričania mali prehrávať, napokon oslavujú. V regionálnom derby im stačil gól
+
+ne 17:23
+
 Načítať ďalšie
 Najčítanejšie
 Najnovšie
@@ -239,31 +1026,31 @@ Najnovšie
 7 dní
 1
 
-VIDEO: Slafkovský ukázal prehľad a proti Buffalu bol opäť viacbodový. Dvorský hral málo
+Kde sledovať návrat Petry Vlhovej? Svetový pohár vysielajú dve stanice (rozpis a program)
 
 2
 
-Slovan bol skoncentrovaný ako už dlho nie. Pred derby sa tábory zhodli v názoroch na SFZ
+Vlhová sa vracia s novým trénerom, Shiffrinová skúša nové cesty. Čo prinesie lyžiarska zima?
 
 3
 
-Pre Chladoňovú sa sezóna skončila o deň skôr. Tím si pre ňu pripravil prekvapenie
+Voda na Weissov mlyn a Komárno zatiaľ ako Rážov multinožík z Wishu (tréneroviny)
 
 4
 
-VIDEO: Lopušanová potvrdzuje potenciál v NCAA. Bola pri takmer polovici zo 17 gólov tímu
+Ukrajinka oznámila koniec manželstva s Monfilsom: Musím nájsť cestu späť k sebe samej
 
 5
 
-NHL: Montreal opäť zdolal Buffalo, Slafkovský zaznamenal dve asistencie
+Petra Vlhová a jej kompletný program a výsledky v sezóne 2026/2027 (Svetový pohár + MS)
 
 6
 
-VIDEO: Messiho štvorminútová gólová kanonáda a Griezmannova asistencia na gól roka
+VIDEO: Nemec s Pospíšilom pomohli k cennému triumfu. Calgary uspelo nad šampiónmi NHL
 
 7
 
-Slovan ukázal svoju silu v správny moment. Derby v Trnave si podmanil už od úvodných minút
+Pohánková je novou slovenskou jednotkou. Väčší skok urobila len Britka, ktorá hrala finále
 
 Späť na vrch
 Redakcia a kontakty
