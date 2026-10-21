@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T09:50:01.537Z",
+  "generatedAt": "2026-10-21T09:51:54.190Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -60,16 +60,16 @@
       "slug": "fk-kolarovo",
       "name": "FK Kolárovo",
       "pos": 4,
-      "z": 10,
+      "z": 11,
       "v": 6,
       "r": 1,
-      "p": 3,
-      "score": "48:27",
+      "p": 4,
+      "score": "50:31",
       "pts": 19,
       "forma": [
-        "V",
         "P",
-        "V"
+        "V",
+        "P"
       ]
     },
     {
@@ -137,9 +137,25 @@
       ]
     },
     {
+      "slug": "fk-slovan-duslo-sala",
+      "name": "FK Slovan Duslo Šaľa",
+      "pos": 9,
+      "z": 11,
+      "v": 5,
+      "r": 1,
+      "p": 5,
+      "score": "24:21",
+      "pts": 16,
+      "forma": [
+        "V",
+        "V",
+        "P"
+      ]
+    },
+    {
       "slug": "fk-veca",
       "name": "FK Veča",
-      "pos": 9,
+      "pos": 10,
       "z": 10,
       "v": 4,
       "r": 2,
@@ -150,22 +166,6 @@
         "R",
         "P",
         "V"
-      ]
-    },
-    {
-      "slug": "fk-slovan-duslo-sala",
-      "name": "FK Slovan Duslo Šaľa",
-      "pos": 10,
-      "z": 10,
-      "v": 4,
-      "r": 1,
-      "p": 5,
-      "score": "20:19",
-      "pts": 13,
-      "forma": [
-        "V",
-        "P",
-        "P"
       ]
     },
     {
@@ -1692,12 +1692,6 @@
           "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
         },
         {
-          "name": "André Árgyusi",
-          "position": "Obranca",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/64db4c02f17aea9db51edc82/andre-argyusi/",
-          "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
-        },
-        {
           "name": "Áron Richard Kiss",
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/628491d3596aecfaf8571c6a/aronrichard-kiss/",
@@ -1732,6 +1726,12 @@
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5f23101dabfdd9549a0a09c1/denis-dobi/",
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f23101dabfdd9549a0a09c1/formal-photo/74a1bd00-7ffa-43b0-877c-9158d30a3592"
+        },
+        {
+          "name": "André Árgyusi",
+          "position": "Záložník",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/64db4c02f17aea9db51edc82/andre-argyusi/",
+          "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
         },
         {
           "name": "Štefan Döme",
@@ -1771,6 +1771,160 @@
         }
       ],
       "results": [
+        {
+          "round": "13. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
+          "date": "20.10",
+          "time": "15:00",
+          "status": "Koniec",
+          "home": "FK Kolárovo",
+          "away": "FK Slovan Duslo Šaľa",
+          "scoreHome": 2,
+          "scoreAway": 4,
+          "played": true,
+          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd3405b0f57d4f481a661/",
+          "detail": {
+            "v": 3,
+            "events": [
+              {
+                "k": "period",
+                "label": "Začiatok - 1. polčas",
+                "time": "15:00",
+                "minute": "0'"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "home",
+                "minute": "9'",
+                "player": "Rudolf Leczko",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "home",
+                "minute": "18'",
+                "player": "Rudolf Leczko",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "away",
+                "minute": "24'",
+                "player": "Maxím Mitrík",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "away",
+                "minute": "31'",
+                "player": "Martin Slamka",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "period",
+                "label": "Koniec - 1. polčas",
+                "time": "15:35",
+                "minute": ""
+              },
+              {
+                "k": "period",
+                "label": "Začiatok - 2. polčas",
+                "time": "15:50",
+                "minute": "35'"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "away",
+                "minute": "38'",
+                "player": "Viktor Szarka",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "sub",
+                "side": "home",
+                "minute": "47'",
+                "playerOut": "Hunor Samu",
+                "playerIn": "Áron Illés"
+              },
+              {
+                "k": "sub",
+                "side": "away",
+                "minute": "47'",
+                "playerOut": "Viktor Szarka",
+                "playerIn": "Kristián Szarka"
+              },
+              {
+                "k": "sub",
+                "side": "away",
+                "minute": "53'",
+                "playerOut": "Martin Slamka",
+                "playerIn": "Filip Siládi"
+              },
+              {
+                "k": "card",
+                "card": "yellow",
+                "side": "home",
+                "minute": "55'",
+                "player": "Gabriel Ollé",
+                "text": "NS-kopnutie súpera nohou riskantným spôsobom v súboji o loptu.",
+                "sig": "0 0 16 16|#ffc600,#fff|762"
+              },
+              {
+                "k": "card",
+                "card": "yellow",
+                "side": "away",
+                "minute": "59'",
+                "player": "Theo Vími",
+                "text": "NS-kopnutie súpera nohou riskantným spôsobom v súboji o loptu.",
+                "sig": "0 0 16 16|#ffc600,#fff|762"
+              },
+              {
+                "k": "sub",
+                "side": "away",
+                "minute": "60'",
+                "playerOut": "Theo Vími",
+                "playerIn": "Matúš Puskás"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "away",
+                "minute": "61'",
+                "player": "Maxím Mitrík",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "sub",
+                "side": "home",
+                "minute": "67'",
+                "playerOut": "Áron Richard Kiss",
+                "playerIn": "André Árgyusi"
+              },
+              {
+                "k": "period",
+                "label": "Koniec - 2. polčas",
+                "time": "16:25",
+                "minute": ""
+              }
+            ],
+            "attendance": 35,
+            "referee": "Zoltán Strečko",
+            "stadiumName": "Štadion Kolomana Gőgha",
+            "stadiumAddress": "športová, 946 03 Kolárovo",
+            "fetchedAt": "2026-10-21T09:55:12.588Z"
+          }
+        },
         {
           "round": "11. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 11. kolo",
@@ -2938,188 +3092,9 @@
             "stadiumAddress": "Športová, 943 01 Štúrovo",
             "fetchedAt": "2026-10-05T21:01:04.151Z"
           }
-        },
-        {
-          "round": "4. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 4. kolo",
-          "date": "30.08",
-          "time": "10:00",
-          "status": "Koniec",
-          "home": "FK Kolárovo",
-          "away": "FC Slovan Galanta",
-          "scoreHome": 6,
-          "scoreAway": 2,
-          "played": true,
-          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd33e5b0f57d4f4819e03/",
-          "detail": {
-            "v": 3,
-            "events": [
-              {
-                "k": "period",
-                "label": "Začiatok - 1. polčas",
-                "time": "10:00",
-                "minute": "0'"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "home",
-                "minute": "5'",
-                "player": "Rudolf Leczko",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "away",
-                "minute": "18'",
-                "player": "Tomáš Adamkó",
-                "text": "Gól zo štandardnej situácie",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "goal",
-                "variant": "missed",
-                "side": "home",
-                "minute": "28'",
-                "player": "Dominik Kliment",
-                "text": "Nepremenený pokutový kop",
-                "sig": "0 0 24 24||220"
-              },
-              {
-                "k": "period",
-                "label": "Koniec - 1. polčas",
-                "time": "10:35",
-                "minute": ""
-              },
-              {
-                "k": "period",
-                "label": "Začiatok - 2. polčas",
-                "time": "10:50",
-                "minute": "35'"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "36'",
-                "playerOut": "Viktor Laczkó",
-                "playerIn": "Timotej Szolga"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "home",
-                "minute": "37'",
-                "player": "Rudolf Leczko",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "away",
-                "minute": "38'",
-                "player": "Tomáš Adamkó",
-                "text": "Gól zo štandardnej situácie",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "home",
-                "minute": "39'",
-                "player": "Dávid Jancsó",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "card",
-                "card": "yellow",
-                "side": "home",
-                "minute": "46'",
-                "player": "Damian Jordanov",
-                "text": "NS-Kopnutie súpera riskantným spôsobom v súboji o loptu",
-                "sig": "0 0 16 16|#ffc600,#fff|762"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "home",
-                "minute": "50'",
-                "player": "Áron Bagita",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "50'",
-                "playerOut": "Alex Guldan",
-                "playerIn": "Benjamín Daniel"
-              },
-              {
-                "k": "card",
-                "card": "yellow",
-                "side": "away",
-                "minute": "51'",
-                "player": "Norbert Horváth",
-                "text": "Ťahaním súpera prejavil nedostatok rešpektu voči hre",
-                "sig": "0 0 16 16|#ffc600,#fff|762"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "home",
-                "minute": "53'",
-                "player": "Dávid Jancsó",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "58'",
-                "playerOut": "Hunor Samu",
-                "playerIn": "Áron Illés"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "home",
-                "minute": "64'",
-                "player": "Rudolf Leczko",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "period",
-                "label": "Koniec - 2. polčas",
-                "time": "11:25",
-                "minute": ""
-              }
-            ],
-            "attendance": 50,
-            "referee": "Adam Sádovský",
-            "stadiumName": "Štadion Kolomana Gőgha",
-            "stadiumAddress": "športová, 946 03 Kolárovo",
-            "fetchedAt": "2026-10-05T21:01:07.065Z"
-          }
         }
       ],
       "fixtures": [
-        {
-          "round": "13. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
-          "date": "20.10",
-          "time": "15:00",
-          "status": "",
-          "home": "FK Kolárovo",
-          "away": "FK Slovan Duslo Šaľa",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "12. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
@@ -3200,6 +3175,18 @@
           "status": "",
           "home": "FC Slovan Galanta",
           "away": "FK Kolárovo",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "20. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 20. kolo",
+          "date": "03.04",
+          "time": "10:00",
+          "status": "",
+          "home": "FK Kolárovo",
+          "away": "Futbalový klub Holice",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
@@ -15840,12 +15827,6 @@
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/61444cc4ebf3a384471affb3/formal-photo/e81fbf29-7aa6-41fd-a090-4293408b5c3c"
         },
         {
-          "name": "Kristián Szarka",
-          "position": "Obranca",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/5f058024608f152a521f376d/kristian-szarka/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f058024608f152a521f376d/formal-photo/1099361d-8246-402e-bdbe-5a5a0b2aaf8a"
-        },
-        {
           "name": "Samuel Lacko",
           "position": "Obranca",
           "href": "https://sportnet.sme.sk/futbalnet/clen/65ded577ca3808052ecd505a/samuel-lacko/",
@@ -15868,6 +15849,12 @@
           "position": "Obranca",
           "href": "https://sportnet.sme.sk/futbalnet/clen/659eedea4362c0dd3baeb8e4/zoltan-toth/",
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/659eedea4362c0dd3baeb8e4/formal-photo/e0e4a69e-13e1-4116-8808-93e8a690bf79"
+        },
+        {
+          "name": "Kristián Szarka",
+          "position": "Záložník",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/5f058024608f152a521f376d/kristian-szarka/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f058024608f152a521f376d/formal-photo/1099361d-8246-402e-bdbe-5a5a0b2aaf8a"
         },
         {
           "name": "Viktor Szarka",
@@ -15973,6 +15960,160 @@
         }
       ],
       "results": [
+        {
+          "round": "13. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
+          "date": "20.10",
+          "time": "15:00",
+          "status": "Koniec",
+          "home": "FK Kolárovo",
+          "away": "FK Slovan Duslo Šaľa",
+          "scoreHome": 2,
+          "scoreAway": 4,
+          "played": true,
+          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd3405b0f57d4f481a661/",
+          "detail": {
+            "v": 3,
+            "events": [
+              {
+                "k": "period",
+                "label": "Začiatok - 1. polčas",
+                "time": "15:00",
+                "minute": "0'"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "home",
+                "minute": "9'",
+                "player": "Rudolf Leczko",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "home",
+                "minute": "18'",
+                "player": "Rudolf Leczko",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "away",
+                "minute": "24'",
+                "player": "Maxím Mitrík",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "away",
+                "minute": "31'",
+                "player": "Martin Slamka",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "period",
+                "label": "Koniec - 1. polčas",
+                "time": "15:35",
+                "minute": ""
+              },
+              {
+                "k": "period",
+                "label": "Začiatok - 2. polčas",
+                "time": "15:50",
+                "minute": "35'"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "away",
+                "minute": "38'",
+                "player": "Viktor Szarka",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "sub",
+                "side": "home",
+                "minute": "47'",
+                "playerOut": "Hunor Samu",
+                "playerIn": "Áron Illés"
+              },
+              {
+                "k": "sub",
+                "side": "away",
+                "minute": "47'",
+                "playerOut": "Viktor Szarka",
+                "playerIn": "Kristián Szarka"
+              },
+              {
+                "k": "sub",
+                "side": "away",
+                "minute": "53'",
+                "playerOut": "Martin Slamka",
+                "playerIn": "Filip Siládi"
+              },
+              {
+                "k": "card",
+                "card": "yellow",
+                "side": "home",
+                "minute": "55'",
+                "player": "Gabriel Ollé",
+                "text": "NS-kopnutie súpera nohou riskantným spôsobom v súboji o loptu.",
+                "sig": "0 0 16 16|#ffc600,#fff|762"
+              },
+              {
+                "k": "card",
+                "card": "yellow",
+                "side": "away",
+                "minute": "59'",
+                "player": "Theo Vími",
+                "text": "NS-kopnutie súpera nohou riskantným spôsobom v súboji o loptu.",
+                "sig": "0 0 16 16|#ffc600,#fff|762"
+              },
+              {
+                "k": "sub",
+                "side": "away",
+                "minute": "60'",
+                "playerOut": "Theo Vími",
+                "playerIn": "Matúš Puskás"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "away",
+                "minute": "61'",
+                "player": "Maxím Mitrík",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "sub",
+                "side": "home",
+                "minute": "67'",
+                "playerOut": "Áron Richard Kiss",
+                "playerIn": "André Árgyusi"
+              },
+              {
+                "k": "period",
+                "label": "Koniec - 2. polčas",
+                "time": "16:25",
+                "minute": ""
+              }
+            ],
+            "attendance": 35,
+            "referee": "Zoltán Strečko",
+            "stadiumName": "Štadion Kolomana Gőgha",
+            "stadiumAddress": "športová, 946 03 Kolárovo",
+            "fetchedAt": "2026-10-21T09:55:12.588Z"
+          }
+        },
         {
           "round": "11. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 11. kolo",
@@ -16979,155 +17120,9 @@
             "stadiumAddress": "Nitrianska, 92705 Šaľa",
             "fetchedAt": "2026-10-05T21:03:15.875Z"
           }
-        },
-        {
-          "round": "5. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
-          "date": "06.09",
-          "time": "10:00",
-          "status": "Koniec",
-          "home": "SSC FÉNIX Nové Zámky",
-          "away": "FK Slovan Duslo Šaľa",
-          "scoreHome": 2,
-          "scoreAway": 2,
-          "played": true,
-          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd3405b0f57d4f481a904/",
-          "detail": {
-            "v": 3,
-            "events": [
-              {
-                "k": "period",
-                "label": "Začiatok - 1. polčas",
-                "time": "10:00",
-                "minute": "0'"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "away",
-                "minute": "3'",
-                "player": "Oliver Borkovič",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "away",
-                "minute": "5'",
-                "player": "Maxím Mitrík",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "period",
-                "label": "Koniec - 1. polčas",
-                "time": "10:35",
-                "minute": ""
-              },
-              {
-                "k": "period",
-                "label": "Začiatok - 2. polčas",
-                "time": "10:50",
-                "minute": "35'"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "36'",
-                "playerOut": "Martin Veselka",
-                "playerIn": "Dominik Tóth"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "home",
-                "minute": "36'",
-                "player": "Dominik Tóth",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "37'",
-                "playerOut": "Kristián Szarka",
-                "playerIn": "Marek Péter"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "home",
-                "minute": "53'",
-                "player": "Lukáš Letko",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "card",
-                "card": "yellow",
-                "side": "away",
-                "minute": "57'",
-                "player": "Emil Bartovic",
-                "text": "NS - Podrazenie súpera nohou riskantným spôsobom v súboji o loptu",
-                "sig": "0 0 16 16|#ffc600,#fff|762"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "58'",
-                "playerOut": "Theo Vími",
-                "playerIn": "Ján Likó"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "66'",
-                "playerOut": "Lukáš Duša",
-                "playerIn": "Marcus Molnár"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "67'",
-                "playerOut": "Oliver Borkovič",
-                "playerIn": "Matúš Puskás"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "67'",
-                "playerOut": "Viktor Szarka",
-                "playerIn": "Christopher Chrupka"
-              },
-              {
-                "k": "period",
-                "label": "Koniec - 2. polčas",
-                "time": "11:25",
-                "minute": ""
-              }
-            ],
-            "attendance": 46,
-            "referee": "Dominik Slovák",
-            "stadiumName": "Futbalový štadión Bánov",
-            "stadiumAddress": "Mlynská, 941 01 Bánov",
-            "fetchedAt": "2026-10-05T21:01:22.278Z"
-          }
         }
       ],
       "fixtures": [
-        {
-          "round": "13. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
-          "date": "20.10",
-          "time": "15:00",
-          "status": "",
-          "home": "FK Kolárovo",
-          "away": "FK Slovan Duslo Šaľa",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "12. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
@@ -17208,6 +17203,18 @@
           "status": "",
           "home": "ŠK Junior Ivanka pri Nitre",
           "away": "FK Slovan Duslo Šaľa",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "20. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 20. kolo",
+          "date": "03.04",
+          "time": "10:00",
+          "status": "",
+          "home": "FK Slovan Duslo Šaľa",
+          "away": "SSC FÉNIX Nové Zámky",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
