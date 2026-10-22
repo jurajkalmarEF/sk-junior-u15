@@ -331,50 +331,68 @@ STU
 ATM
 1
 Detail zápasu
+21.10.
 LIL
-21.10. 18:45
+2
+3. kolo
 GAL
-3. kolo
+4
 Detail zápasu
+21.10.
 COM
-21.10. 18:45
+4
+3. kolo
 MUN
-3. kolo
+1
 Detail zápasu
+21.10.
 FCB
-21.10. 21:00
+2
+3. kolo
 ARS
-3. kolo
+2
 Detail zápasu
+21.10.
 RMA
-21.10. 21:00
+4
+3. kolo
 LEI
-3. kolo
+1
 Detail zápasu
+21.10.
 INT
-21.10. 21:00
+1
+3. kolo
 SHK
-3. kolo
+0
 Detail zápasu
+21.10.
 SPO
-21.10. 21:00
+2
+3. kolo
 LSK
-3. kolo
+3
 Detail zápasu
+21.10.
 AVL
-21.10. 21:00
+3
+3. kolo
 VIK
-3. kolo
+1
 Detail zápasu
+21.10.
 BRU
-21.10. 21:00
+3
+3. kolo
 LEN
-3. kolo
+0
 Detail zápasu
+21.10.
 BET
-21.10. 21:00
-FEY
+1
 3. kolo
+FEY
+0
 Detail zápasu
 SHK
 03.11. 18:45
@@ -826,11 +844,11 @@ LSK
 POR
 8. kolo
 Detail zápasu
+Vlhovej pomohla výnimka v pravidlách. Štartové číslo si môže opäť vytiahnuť sama
 Chára bol zviera a Ružička mal potenciál. Kanaďana zo Žiliny prekvapili slovenské potraviny
 Wembley sa zmenilo, aby ochutnalo Ameriku. Šach s chladničkami si nenechali ujsť ani Slováci
 Branko o víziach Trenčína, teatrálny Tapper + je to tu, Neni Týždňa (Hokejový BOSS)
-Z vlasti ju vyštvali komunisti, rebelka Navrátilová víťazila v amerických farbách
-Mnohí čakali v Rusku recesiu, tá nikdy neprišla. Mzdy Rusov rastú veľmi rýchlo (rozhovor)
+Biznis so sexom na Slovensku? Trh ovládla firma s extrémnymi maržami, majitelia nechcú pozornosť
 Kluby
 /
 FK Veča
@@ -977,6 +995,25 @@ FK Veča
 Načítať ďalšie
 Správy z Futbalnetu
 
+V minulosti pôsobil aj pri mládežníckych futbalových aj hokejových reprezentáciách.
+
+Je športovým psychológom aj futbalistom. Góly neriešiť? Útočníci podľa neho klamú
+
+Peter Cingel
+
+∙
+
+dnes 08:00
+
+Zlaté Moravce si vďaka triumfu vybojovali postup do osemfinále.
+
+Premiéra trénera Komárna dopadla neúspešne. Druholigista uspel v rozstrele
+
+st 19:36
+
+∙
+1
+
 Skalica si vďaka výhre vybojovala postup do osemfinále.
 
 Skaličania sa s druholigistom natrápili. Postúpili až po rozstrele
@@ -995,27 +1032,17 @@ Prešovské trápenie pokračuje aj ďalej. Proti béčku Žiliny zachraňoval r
 
 po 19:19
 
-Mužstvo figuruje po 11. kole na poslednej 12. priečke Niké ligy.
+Sledujte spolu s nami žreb osemfinále Slovnaft Cupu 2026/2027 online cez LIVE stream.
 
-VIDEO: Vo futbalovej súťaži končí ďalší tréner. Komárno nikoho nezdolalo a reaguje
+LIVE STREAM: Žreb osemfinále Slovnaft Cupu 2026/2027
 
-po 12:11
+dnes 10:30
 
-∙
-1
+Sledovali ste spolu s nami online prenos zo štvrtého kola Slovnaft Cupu: FC ViOn Zlaté Moravce-Vráble - KFC Komárno.
 
-(Ne)tradičné zhrnutie kola futbalovej Niké ligy.
+Slovnaft Cup: Komárno vypadlo so Zlatými Moravcami po neúspešnom rozstrele
 
-Voda na Weissov mlyn a Komárno zatiaľ ako Rážov multinožík z Wishu (tréneroviny)
-
-Richard Hanzlík
-
-∙
-
-po 07:00
-
-∙
-1
+st 14:30
 
 Sledovali ste spolu s nami online prenos zo štvrtého kola Slovnaft Cupu: MFK Tatran Liptovský Mikuláš - MFK Skalica.
 
@@ -1029,35 +1056,14 @@ ONLINE: FC Tatran Prešov - MŠK Žilina B dnes, MONACObet liga LIVE (II. liga, 
 
 po 14:00
 
-Čo povedali tréneri nováčikov z čela tabuľky?
+Mužstvo figuruje po 11. kole na poslednej 12. priečke Niké ligy.
 
-Veľká rarita. Ťažkú súťaž vedú dvaja nováčikovia, jeden z krajského mesta, druhý z dediny
+VIDEO: Vo futbalovej súťaži končí ďalší tréner. Komárno nikoho nezdolalo a reaguje
 
-Marián Dragúň
-
-∙
-
-po 09:45
+po 12:11
 
 ∙
 1
-
-V klube na východe Slovenska pôsobí posledných 9 rokov.
-
-Takmer každý polrok nový káder. Bývalý hráč Interu pomenoval problém amatérskeho futbalu
-
-Peter Cingel
-
-∙
-
-po 08:30
-
-Presný zásah pridal i aktuálne najlepší strelec Niké ligy Matej Trusa.
-
-Žilina ľutovala šance. Tréner DAC priznal: Zápasu by viac svedčala remíza
-
-po 08:14
-
 Načítať ďalšie
 Najčítanejšie
 Najnovšie
@@ -1066,31 +1072,31 @@ Najnovšie
 7 dní
 1
 
-Slovan majú v Lige majstrov za votrelca. Barseghjan hral hrozne a diváci vyvádzali
+Nováčik ponížil miliardovú značku. Akoby hrali deti proti dospelým, tvrdí kanonier
 
 2
 
-Lepší gól už neuvidíte, rozplýval sa expert. Slafkovský sa po zápase hneval, Montreal má problém
+Vlhovej pomohla výnimka v pravidlách. Štartové číslo si môže opäť vytiahnuť sama
 
 3
 
-VIDEO: Slafkovský strelil úžasný gól. Vycvičil skúseného obrancu a zakončil blafákom
+Trikrát po sebe tretia, potom tri roky ticho. Ako sa v minulosti darilo Vlhovej v Söldene?
 
 4
 
-Vlhovej pomohla výnimka v pravidlách. Štartové číslo si môže opäť vytiahnuť sama
+Posledný Slovan má hrozivé skóre, päť klubov ešte nezaváhalo. Pozrite si tabuľku Ligy majstrov
 
 5
 
-Slovan nedostal ani šancu na strelu na bránu. Z Ríma odchádza po hanebnom výkone
+Najbližší súper Slovana sa vytiahol. Odpískali proti nám každú hlúposť, tvrdil útočník Linzu
 
 6
 
-VIDEO: O tomto sa bude dlho hovoriť. Pozrite si ešte raz gól Juraja Slafkovského
+Le Magnifique! Slafkovský a gól roka?! McDavid nazbiera 200 bodov (Hokejový BOSS NHL)
 
 7
 
-Dokonalá séria Barcelony je preč. PSG vyrovnal vlastný rekord, ale prišiel o troch hráčov
+Komisia preveruje vulgárne gesto útočníka Slavie. Potrestaný hráč žiada o okamžitý koniec
 
 Späť na vrch
 Redakcia a kontakty
