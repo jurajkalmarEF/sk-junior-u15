@@ -13,11 +13,11 @@ KLUBY
 ČLENOVIA
 PRESTUPY
 PIKOŠKY
-Vlhovej pomohla výnimka v pravidlách. Štartové číslo si môže opäť vytiahnuť sama
-Chára bol zviera a Ružička mal potenciál. Kanaďana zo Žiliny prekvapili slovenské potraviny
-Wembley sa zmenilo, aby ochutnalo Ameriku. Šach s chladničkami si nenechali ujsť ani Slováci
-Branko o víziach Trenčína, teatrálny Tapper + je to tu, Neni Týždňa (Hokejový BOSS)
-Najväčšia banková lúpež na svete? Ako architekt orbánomiky skončil s putami na rukách
+Expert z Montrealu: So Slafkovským nikdy nestrácate čas. Je vždy úprimný a nám sa to páči
+Príklepy z NHL: Nie Gretzky, najlepší je McDavid. Rozpadne sa Montreal bez Suzukiho?
+Trofeje zapadli prachom. Pýcha anglického futbalu zažíva rozpad
+Weiss o Slovane: Môžeme tam sedieť spolu ja, Yaya, Mourinho a Ancelotti a nič nezmôžeme
+Jozef Banáš vydal knihu rozhovorov s Milanom Lasicom. Môjho otca strhol do bahna, reaguje Lasicová
 Kluby
 /
 ŠK Junior Ivanka pri Nitre
@@ -73,7 +73,7 @@ K
 
 	Futbalový klub Holice	
 
-10
+11
 
 	
 
@@ -85,11 +85,11 @@ K
 
 	
 
-0
+1
 
 	
 
-35:8
+35:9
 
 	
 
@@ -104,8 +104,8 @@ K
 11
 
 	
+P
 R
-V
 V
 V
 V
@@ -116,15 +116,11 @@ V
 
 	ŠK Junior Ivanka pri Nitre	
 
-10
+11
 
 	
 
 7
-
-	
-
-1
 
 	
 
@@ -132,11 +128,15 @@ V
 
 	
 
-23:13
+2
 
 	
 
-22
+25:15
+
+	
+
+23
 
 	
 
@@ -144,12 +144,12 @@ V
 
 	
 
-7
+5
 
 	
 R
+R
 P
-V
 V
 V
 
@@ -200,6 +200,135 @@ V
 
 4
 
+	FK Slovan Duslo Šaľa	
+
+12
+
+	
+
+6
+
+	
+
+1
+
+	
+
+5
+
+	
+
+30:21
+
+	
+
+19
+
+	
+
+11
+
+	
+
+1
+
+	
+V
+V
+V
+P
+P
+
+
+
+5
+
+	ŠK Šurany	
+
+11
+
+	
+
+6
+
+	
+
+1
+
+	
+
+4
+
+	
+
+28:27
+
+	
+
+19
+
+	
+
+10
+
+	
+
+4
+
+	
+R
+P
+P
+V
+P
+
+
+
+6
+
+	SSC FÉNIX Nové Zámky	
+
+11
+
+	
+
+6
+
+	
+
+1
+
+	
+
+4
+
+	
+
+38:14
+
+	
+
+19
+
+	
+
+12
+
+	
+
+1
+
+	
+V
+P
+V
+V
+P
+
+
+
+7
+
 	FK Kolárovo	
 
 11
@@ -226,7 +355,7 @@ V
 
 	
 
-12
+9
 
 	
 
@@ -241,50 +370,7 @@ V
 
 
 
-5
-
-	ŠK Šurany	
-
-10
-
-	
-
-6
-
-	
-
-0
-
-	
-
-4
-
-	
-
-26:25
-
-	
-
-18
-
-	
-
-11
-
-	
-
-3
-
-	
-P
-P
-V
-P
-V
-
-
-
-6
+8
 
 	TJ Dynamo Nová Stráž	
 
@@ -312,7 +398,7 @@ V
 
 	
 
-10
+8
 
 	
 
@@ -327,7 +413,7 @@ P
 
 
 
-7
+9
 
 	FC Slovan Galanta	
 
@@ -355,7 +441,7 @@ P
 
 	
 
-9
+7
 
 	
 
@@ -370,97 +456,11 @@ R
 
 
 
-8
-
-	SSC FÉNIX Nové Zámky	
-
-10
-
-	
-
-5
-
-	
-
-1
-
-	
-
-4
-
-	
-
-37:14
-
-	
-
-16
-
-	
-
-8
-
-	
-
-1
-
-	
-P
-V
-V
-P
-P
-
-
-
-9
-
-	FK Slovan Duslo Šaľa	
-
-11
-
-	
-
-5
-
-	
-
-1
-
-	
-
-5
-
-	
-
-24:21
-
-	
-
-16
-
-	
-
-7
-
-	
-
-1
-
-	
-V
-V
-P
-P
-P
-
-
-
 10
 
 	FK Veča	
 
-10
+11
 
 	
 
@@ -472,11 +472,11 @@ P
 
 	
 
-4
+5
 
 	
 
-28:38
+29:40
 
 	
 
@@ -491,11 +491,11 @@ P
 -1
 
 	
+P
 R
 P
 V
 V
-P
 
 
 
@@ -546,11 +546,11 @@ P
 
 	Malodvornícky FK Malé Dvorníky	
 
-11
+12
 
 	
 
-2
+3
 
 	
 
@@ -562,11 +562,11 @@ P
 
 	
 
-15:28
+17:29
 
 	
 
-9
+12
 
 	
 
@@ -577,11 +577,11 @@ P
 -6
 
 	
+V
 P
 V
 P
 P
-R
 
 
 
@@ -589,7 +589,7 @@ R
 
 	Futbalový klub Slovan Šahy	
 
-10
+11
 
 	
 
@@ -601,11 +601,11 @@ R
 
 	
 
-7
+8
 
 	
 
-18:32
+18:38
 
 	
 
@@ -622,8 +622,8 @@ R
 	
 P
 P
-V
 P
+V
 P
 
 
@@ -632,7 +632,7 @@ P
 
 	MŠK Želiezovce	
 
-11
+12
 
 	
 
@@ -644,11 +644,11 @@ P
 
 	
 
-8
+9
 
 	
 
-11:42
+12:45
 
 	
 
@@ -663,11 +663,11 @@ P
 -8
 
 	
-V
-P
 P
 V
 P
+P
+V
 
 
 
@@ -675,11 +675,11 @@ P
 
 	C&P Stars Academy - ZM	
 
-10
+11
 
 	
 
-0
+1
 
 	
 
@@ -691,11 +691,11 @@ P
 
 	
 
-5:32
+8:33
 
 	
 
-1
+4
 
 	
 
@@ -706,7 +706,7 @@ P
 -14
 
 	
-P
+V
 P
 P
 P
@@ -725,11 +725,43 @@ Prehra
 
 Správy z Futbalnetu
 
+V lige zdolali lídra vysoko 5:1.
+
+Štvrtoligista v pohári takmer zaskočil Trnavu. Pred súbojom s ďalším ligistom si verí
+
+Titanilla Bőd
+
+∙
+
+dnes 07:30
+
+O ambíciách DAC hovorí výkonný riaditeľ Jan Van Daele.
+
+Konečne titul? Dunajská Streda si chce udržať najväčšie eso a osloviť aj slovenských fanúšikov
+
+Titanilla Bőd
+
+∙
+
+pi 15:00
+
+∙
+9
+
+Fanúšikovia oboch tímov boli vulgárni a transparentmi útočili na SFZ.
+
+Disciplinárka po derby rozdala tresty. Slovan dostal väčšiu pokutu než Trnava
+
+pi 14:41
+
+∙
+3
+
 Mužstvo dočasne povedie asistent.
 
 Koniec po dvoch rokoch. Podbrezová prepustila trénera, ktorého si vybral aj Weiss
 
-dnes 10:08
+pi 10:08
 
 Hnúšťa zažila krásny futbalový deň.
 
@@ -739,7 +771,7 @@ Titanilla Bőd
 
 ∙
 
-dnes 10:50
+pi 10:50
 
 Finále sa v roku 2027 uskutoční v Košickej futbalovej aréne.
 
@@ -757,33 +789,6 @@ Peter Cingel
 
 št 08:00
 
-Zlaté Moravce si vďaka triumfu vybojovali postup do osemfinále.
-
-Premiéra trénera Komárna dopadla neúspešne. Druholigista uspel v rozstrele
-
-st 19:36
-
-∙
-1
-
-Dočasne viedol aj A-tím Šamorína.
-
-Komárno predstavilo nového trénera. Začínal v Petržalke a pôsobil aj v Sparte Praha
-
-ut 14:38
-
-Skalica si vďaka výhre vybojovala postup do osemfinále.
-
-Skaličania sa s druholigistom natrápili. Postúpili až po rozstrele
-
-ut 19:06
-
-Žilinská rezerva viedli v zápase takmer päťdesiat minút.
-
-Prešovské trápenie pokračuje aj ďalej. Proti béčku Žiliny zachraňoval remízu
-
-po 19:19
-
 Pri otázke o výplatách sa len usmial.
 
 Weiss o Slovane: Môžeme tam sedieť spolu ja, Yaya, Mourinho a Ancelotti a nič nezmôžeme
@@ -795,7 +800,7 @@ Titanilla Bőd
 št 16:55
 
 ∙
-6
+8
 
 Sledovali ste spolu s nami žreb osemfinále Slovnaft Cupu 2026/2027 online cez LIVE stream.
 
@@ -803,6 +808,14 @@ ZÁZNAM: Žreb osemfinále Slovnaft Cupu 2026/2027
 
 št 10:30
 
+Zlaté Moravce si vďaka triumfu vybojovali postup do osemfinále.
+
+Premiéra trénera Komárna dopadla neúspešne. Druholigista uspel v rozstrele
+
+st 19:36
+
+∙
+1
 Načítať ďalšie
 Najčítanejšie
 Najnovšie
@@ -811,31 +824,31 @@ Najnovšie
 7 dní
 1
 
-Ako sa zmenili Vlhovej súperky? Koniec kariéry, nový tréner aj Shiffrinovej strach
+Nečakané problémy v Söldene. Vlhová vyrazí na trať neskôr, štart pretekov posunuli
 
 2
 
-Weiss o Slovane: Môžeme tam sedieť spolu ja, Yaya, Mourinho a Ancelotti a nič nezmôžeme
+ONLINE: Petra Vlhová dnes ide obrovský slalom v Söldene, Svetový pohár LIVE (1. kolo)
 
 3
 
-Expert z Montrealu: So Slafkovským nikdy nestrácate čas. Je vždy úprimný a nám sa to páči
+VIDEO: Montreal zvíťazil aj bez kapitána. Slafkovský odohral najmenej minút v sezóne
 
 4
 
-VIDEO: Pospíšil zbúral súpera, no rozhodca ho vylúčil. Calgary sa odrazilo z dna
+Vlhová sa vracia po viac ako tisíc dňoch. Kde sledovať obrovský slalom v Söldene?
 
 5
 
-VIDEO: Slafkovský nedokončil tréning Montrealu, zasiahol ho puk z hokejky spoluhráča
+NHL: Montreal hladko vyhral v Chicagu, Slafkovský v prvom útoku nebodoval
 
 6
 
-Gašparík sa spája s pozíciou reprezentačného trénera. Nie však na Slovensku
+Vlhová cíti stres, no zároveň sa už nevie dočkať. V Söldene spoznala štartové číslo
 
 7
 
-Koniec po dvoch rokoch. Podbrezová prepustila trénera, ktorého si vybral aj Weiss
+Ronaldinho sa po 11 rokoch vracia do profesionálneho futbalu. Hrať bude v európskom klube
 
 Späť na vrch
 Redakcia a kontakty
