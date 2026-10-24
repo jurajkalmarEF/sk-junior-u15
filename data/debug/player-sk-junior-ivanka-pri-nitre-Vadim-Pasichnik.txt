@@ -30,7 +30,7 @@ Muž
 Pohlavie
 12 rokov (2013)
 Vek
-90
+91
 Zápasy
 4677
 Minúty
@@ -65,11 +65,11 @@ P
 	
 	
 
-2026/2027	7	57	0	0	0	0
+2026/2027	8	57	0	0	0	0
 2025/2026	25	1500	3	0	0	0
 2024/2025	22	1320	8	0	0	0
 2023/2024	36	1800	11	0	0	0
-Celkovo	90	4677	22	0	0	0
+Celkovo	91	4677	22	0	0	0
 Správy z Futbalnetu
 
 V lige zdolali lídra vysoko 5:1.
