@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T15:27:21.277Z",
+  "generatedAt": "2026-10-25T09:36:23.681Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -121,9 +121,26 @@
       ]
     },
     {
+      "slug": "fc-slovan-galanta",
+      "name": "FC Slovan Galanta",
+      "pos": 8,
+      "z": 12,
+      "v": 5,
+      "r": 3,
+      "p": 4,
+      "score": "26:28",
+      "pts": 18,
+      "forma": [
+        "R",
+        "V",
+        "V",
+        "V"
+      ]
+    },
+    {
       "slug": "tj-dynamo-nova-straz",
       "name": "TJ Dynamo Nová Stráž",
-      "pos": 8,
+      "pos": 9,
       "z": 11,
       "v": 5,
       "r": 2,
@@ -134,22 +151,6 @@
         "R",
         "V",
         "P"
-      ]
-    },
-    {
-      "slug": "fc-slovan-galanta",
-      "name": "FC Slovan Galanta",
-      "pos": 9,
-      "z": 11,
-      "v": 5,
-      "r": 2,
-      "p": 4,
-      "score": "24:26",
-      "pts": 17,
-      "forma": [
-        "V",
-        "V",
-        "V"
       ]
     },
     {
@@ -172,15 +173,15 @@
       "slug": "mso-sturovo",
       "name": "MŠO Štúrovo",
       "pos": 11,
-      "z": 10,
+      "z": 11,
       "v": 3,
-      "r": 3,
+      "r": 4,
       "p": 4,
-      "score": "19:23",
-      "pts": 12,
+      "score": "21:25",
+      "pts": 13,
       "forma": [
+        "R",
         "P",
-        "V",
         "V"
       ]
     },
@@ -3022,12 +3023,12 @@
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
           "date": "25.10",
           "time": "09:00",
-          "status": "",
+          "status": "Prebieha",
           "home": "FC Slovan Hlohovec",
           "away": "FK Kolárovo",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
+          "scoreHome": 0,
+          "scoreAway": 0,
+          "played": true
         },
         {
           "round": "14. kolo",
@@ -9786,18 +9787,6 @@
       ],
       "fixtures": [
         {
-          "round": "12. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
-          "date": "25.10",
-          "time": "09:00",
-          "status": "",
-          "home": "MŠO Štúrovo",
-          "away": "FC Slovan Galanta",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
-        {
           "round": "13. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
           "date": "01.11",
@@ -9877,6 +9866,18 @@
           "status": "",
           "home": "FC Slovan Galanta",
           "away": "FK Kolárovo",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "20. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 20. kolo",
+          "date": "03.04",
+          "time": "10:00",
+          "status": "",
+          "home": "FK Veča",
+          "away": "FC Slovan Galanta",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
@@ -11203,12 +11204,12 @@
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
           "date": "25.10",
           "time": "09:00",
-          "status": "",
+          "status": "Prebieha",
           "home": "FC Slovan Hlohovec",
           "away": "FK Kolárovo",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
+          "scoreHome": 5,
+          "scoreAway": 0,
+          "played": true
         },
         {
           "round": "13. kolo",
@@ -14342,6 +14343,119 @@
       ],
       "results": [
         {
+          "round": "12. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
+          "date": "25.10",
+          "time": "09:00",
+          "status": "Koniec",
+          "home": "MŠO Štúrovo",
+          "away": "FC Slovan Galanta",
+          "scoreHome": 2,
+          "scoreAway": 2,
+          "played": true,
+          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd3405b0f57d4f481a912/",
+          "detail": {
+            "v": 3,
+            "events": [
+              {
+                "k": "period",
+                "label": "Začiatok - 1. polčas",
+                "time": "09:00",
+                "minute": "0'"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "away",
+                "minute": "10'",
+                "player": "Timotej Valent",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "away",
+                "minute": "12'",
+                "player": "Filip Dubnička",
+                "text": "Gól zo štandardnej situácie",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "home",
+                "minute": "25'",
+                "player": "Zalán Tóth",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "period",
+                "label": "Koniec - 1. polčas",
+                "time": "09:35",
+                "minute": ""
+              },
+              {
+                "k": "period",
+                "label": "Začiatok - 2. polčas",
+                "time": "09:50",
+                "minute": "35'"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "home",
+                "minute": "44'",
+                "player": "Noel Horňák",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "sub",
+                "side": "home",
+                "minute": "48'",
+                "playerOut": "Zalán Tóth",
+                "playerIn": "Marco Nagy"
+              },
+              {
+                "k": "sub",
+                "side": "home",
+                "minute": "48'",
+                "playerOut": "Donat Smidt",
+                "playerIn": "Matej Matuška"
+              },
+              {
+                "k": "sub",
+                "side": "away",
+                "minute": "56'",
+                "playerOut": "Filip Józsa",
+                "playerIn": "Alex Guldan"
+              },
+              {
+                "k": "goal",
+                "variant": "missed",
+                "side": "away",
+                "minute": "64'",
+                "player": "Filip Dubnička",
+                "text": "Nepremenený pokutový kop",
+                "sig": "0 0 24 24||220"
+              },
+              {
+                "k": "period",
+                "label": "Koniec - 2. polčas",
+                "time": "10:25",
+                "minute": ""
+              }
+            ],
+            "attendance": 50,
+            "referee": "Gergely Ferenc",
+            "stadiumName": "MŠO Štúrovo",
+            "stadiumAddress": "Športová, 943 01 Štúrovo",
+            "fetchedAt": "2026-10-25T09:39:51.777Z"
+          }
+        },
+        {
           "round": "11. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 11. kolo",
           "date": "18.10",
@@ -15304,165 +15418,9 @@
             "stadiumAddress": "Športová, 943 01 Štúrovo",
             "fetchedAt": "2026-10-05T21:03:18.867Z"
           }
-        },
-        {
-          "round": "5. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 5. kolo",
-          "date": "05.09",
-          "time": "10:00",
-          "status": "Koniec",
-          "home": "MŠO Štúrovo",
-          "away": "FC Slovan Hlohovec",
-          "scoreHome": 0,
-          "scoreAway": 3,
-          "played": true,
-          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd33f5b0f57d4f481a23c/",
-          "detail": {
-            "v": 3,
-            "events": [
-              {
-                "k": "period",
-                "label": "Začiatok - 1. polčas",
-                "time": "10:00",
-                "minute": "0'"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "away",
-                "minute": "10'",
-                "player": "Alec Hauliš",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "period",
-                "label": "Koniec - 1. polčas",
-                "time": "10:35",
-                "minute": ""
-              },
-              {
-                "k": "period",
-                "label": "Začiatok - 2. polčas",
-                "time": "10:50",
-                "minute": "35'"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "36'",
-                "playerOut": "Matej Matuška",
-                "playerIn": "Leon Nagy"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "36'",
-                "playerOut": "Máté Pohori",
-                "playerIn": "Tomáš Jablonický"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "45'",
-                "playerOut": "Alec Hauliš",
-                "playerIn": "Timotej Poláčik"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "45'",
-                "playerOut": "Nikolas Kuzma",
-                "playerIn": "Šimon Marcinka"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "away",
-                "minute": "50'",
-                "player": "Tobias Riegel",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "52'",
-                "playerOut": "Bence Tarr",
-                "playerIn": "Marco Nagy"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "52'",
-                "playerOut": "Donat Smidt",
-                "playerIn": "Patrik Balla"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "55'",
-                "playerOut": "Nikolaj Bartovič",
-                "playerIn": "Filip Pažitný"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "55'",
-                "playerOut": "Tomáš Malec",
-                "playerIn": "Samuel Kralič"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "62'",
-                "playerOut": "Tobias Riegel",
-                "playerIn": "Alex Cvecho"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "62'",
-                "playerOut": "Marcel Rýdzi",
-                "playerIn": "Matúš Kosík"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "away",
-                "minute": "63'",
-                "player": "Šimon Marcinka",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "period",
-                "label": "Koniec - 2. polčas",
-                "time": "11:25",
-                "minute": ""
-              }
-            ],
-            "attendance": 40,
-            "referee": "František Bircsák",
-            "stadiumName": "štadión TJ Salka",
-            "stadiumAddress": "Cintorínska, 943 61 Salka",
-            "fetchedAt": "2026-10-05T21:02:52.254Z"
-          }
         }
       ],
       "fixtures": [
-        {
-          "round": "12. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
-          "date": "25.10",
-          "time": "09:00",
-          "status": "",
-          "home": "MŠO Štúrovo",
-          "away": "FC Slovan Galanta",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "13. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
@@ -15543,6 +15501,18 @@
           "status": "",
           "home": "MŠO Štúrovo",
           "away": "Malodvornícky FK Malé Dvorníky",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "20. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 20. kolo",
+          "date": "03.04",
+          "time": "10:00",
+          "status": "",
+          "home": "FC Slovan Hlohovec",
+          "away": "MŠO Štúrovo",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
@@ -19858,18 +19828,6 @@
       ],
       "fixtures": [
         {
-          "round": "12. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
-          "date": "24.10",
-          "time": "10:00",
-          "status": "",
-          "home": "Nez. družstvo",
-          "away": "TJ Dynamo Nová Stráž",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
-        {
           "round": "13. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
           "date": "31.10",
@@ -19949,6 +19907,18 @@
           "status": "",
           "home": "C&P Stars Academy - ZM",
           "away": "TJ Dynamo Nová Stráž",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "20. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 20. kolo",
+          "date": "03.04",
+          "time": "10:00",
+          "status": "",
+          "home": "TJ Dynamo Nová Stráž",
+          "away": "MŠK Želiezovce",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
