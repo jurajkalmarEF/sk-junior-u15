@@ -35,7 +35,8 @@ function gh(path, init = {}) {
   return fetch('https://api.github.com/repos/' + REPO + path, {
     ...init,
     headers: {
-      Authorization: 'Bearer ' + process.env.GH_TOKEN,
+      // trim — pri kopírovaní tokenu sa ľahko pridá medzera alebo nový riadok
+      Authorization: 'Bearer ' + String(process.env.GH_TOKEN).trim().replace(/^["']|["']$/g, ''),
       Accept: 'application/vnd.github+json',
       'X-GitHub-Api-Version': '2022-11-28',
       'User-Agent': 'ivanka-u15-sync',
