@@ -403,6 +403,25 @@
     position:absolute;top:18px;left:20px;color:#fff;background:var(--loss);border:none;border-radius:20px;
     padding:8px 16px;font-family:'Barlow Condensed', sans-serif;font-weight:600;font-size:13px;cursor:pointer;
   }
+
+  /* ===== Ručná synchronizácia ===== */
+  .sync-bar{margin:10px 24px 18px;padding:12px 14px;background:var(--card);border:1px solid var(--pitch-line);border-radius:8px;}
+  .sync-bar[hidden]{display:none;}
+  .sync-row{display:flex;align-items:center;justify-content:space-between;gap:12px;}
+  .sync-text{font-size:13px;color:var(--sage);line-height:1.35;min-width:0;}
+  .sync-text b{color:var(--chalk);font-weight:600;white-space:nowrap;}
+  .sync-btn{flex:none;display:inline-flex;align-items:center;gap:6px;background:transparent;color:var(--gold);border:1px solid var(--gold);border-radius:6px;padding:7px 12px;font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;}
+  .sync-btn:hover:not(:disabled){background:var(--gold);color:var(--pitch-dark);}
+  .sync-btn:disabled{color:var(--sage-dim);border-color:var(--pitch-line);cursor:default;}
+  .sync-btn .sync-ico{display:inline-block;}
+  .sync-bar.is-busy .sync-ico{animation:syncspin 1s linear infinite;}
+  @keyframes syncspin{to{transform:rotate(360deg);}}
+  .sync-progress{margin-top:10px;height:6px;background:var(--pitch-line);border-radius:3px;overflow:hidden;}
+  .sync-progress[hidden]{display:none;}
+  .sync-progress-fill{height:100%;width:0;background:var(--gold);border-radius:3px;transition:width .9s linear;}
+  .sync-bar.is-done .sync-progress-fill{background:var(--win);}
+  .sync-bar.is-error .sync-progress-fill{background:var(--loss);}
+  @media (prefers-reduced-motion: reduce){.sync-bar.is-busy .sync-ico{animation:none;}.sync-progress-fill{transition:none;}}
 </style>
 <!-- GoatCounter — návštevnosť a používanie (bez cookies). Kód nastav v GC_CODE nižšie. -->
 <script>
@@ -442,6 +461,14 @@
   <div class="team-switch-wrap">
     <p class="team-switch-label">Zobraziť tím</p>
     <select id="team-select" aria-label="Vyber tím zo skupiny"></select>
+  </div>
+
+  <div class="sync-bar" id="sync-bar" hidden>
+    <div class="sync-row">
+      <div class="sync-text" id="sync-text">Zisťujem stav synchronizácie…</div>
+      <button type="button" class="sync-btn" id="sync-btn" disabled><span class="sync-ico" aria-hidden="true">↻</span><span id="sync-btn-label">Aktualizovať</span></button>
+    </div>
+    <div class="sync-progress" id="sync-progress" hidden role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-label="Priebeh synchronizácie"><div class="sync-progress-fill" id="sync-progress-fill"></div></div>
   </div>
 
   <nav class="tabbar" role="tablist" aria-label="Štatistiky tímu">
@@ -957,11 +984,16 @@ document.getElementById('team-select').addEventListener('change', function(e){
   selectTeam(e.target.value);
 });
 
-fetchSyncData().then(function(){
+function refreshFromSyncData(){
   renderSelect();
   document.getElementById('team-select').value = currentSlug;
   selectTeam(currentSlug);
   document.getElementById('footer-sync-note').textContent = syncFooterNote();
+}
+
+fetchSyncData().then(function(){
+  refreshFromSyncData();
+  ManualSync.init();
 });
 // render immediately with fallback data too, so UI isn't blank while fetch is in flight
 selectTeam(currentSlug);
@@ -988,6 +1020,227 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js').catch(function(){});
   });
 }
+
+/* ===================== RUČNÁ SYNCHRONIZÁCIA ===================== */
+// Tlačidlo volá Netlify funkciu /api/sync, ktorá spustí GitHub Actions workflow
+// (token je len na serveri). Odhad trvania = priemer posledných úspešných behov
+// + čas, kým Netlify nasadí nový commit. Ak funkcia nie je nastavená (chýba
+// GH_TOKEN) alebo nie je dostupná, lišta sa vôbec nezobrazí.
+var ManualSync = (function(){
+  var API = '/api/sync';
+  var DEPLOY_EST = 60;       // s — Netlify deploy po commite dát
+  var DEPLOY_MAX = 240;      // s — potom to vzdáme a necháme na reload
+  var POLL_RUN = 8000, POLL_DEPLOY = 5000;
+
+  var bar, txt, btn, btnLabel, prog, fill;
+  var st = null;             // posledný stav zo servera
+  var clockSkew = 0;         // serverNow - clientNow
+  var phase = 'idle';        // idle | dispatching | queued | running | deploying | done | error
+  var avg = 240, runId = null, runStart = null, dispatchedAt = null, deployStart = null, baseGenerated = null;
+  var pollTimer = null, tickTimer = null;
+
+  function now(){ return Date.now() + clockSkew; }
+  function fmtDur(sec){
+    sec = Math.max(0, Math.round(sec));
+    if (sec < 60) return sec + ' s';
+    var m = Math.floor(sec / 60), s = sec % 60;
+    return s ? m + ' min ' + s + ' s' : m + ' min';
+  }
+  function fmtMin(sec){ var m = Math.max(1, Math.round(sec / 60)); return m + ' min'; }
+  function fmtTime(iso){ return new Date(iso).toLocaleString('sk-SK', {day:'numeric', month:'numeric', hour:'2-digit', minute:'2-digit'}); }
+
+  function setState(cls, text, busy){
+    bar.className = 'sync-bar' + (cls ? ' is-' + cls : '') + (busy ? ' is-busy' : '');
+    txt.innerHTML = text;
+  }
+  function setProgress(pct){
+    if (pct === null){ prog.hidden = true; return; }
+    prog.hidden = false;
+    pct = Math.max(0, Math.min(100, pct));
+    fill.style.width = pct + '%';
+    prog.setAttribute('aria-valuenow', String(Math.round(pct)));
+  }
+  function setButton(label, enabled){ btnLabel.textContent = label; btn.disabled = !enabled; }
+
+  function api(method){
+    return fetch(API, { method: method, cache: 'no-store' }).then(function(r){
+      return r.json().catch(function(){ return {}; }).then(function(body){ body._status = r.status; return body; });
+    });
+  }
+  function absorb(s){
+    st = s;
+    if (s.now) clockSkew = Date.parse(s.now) - Date.now();
+    if (s.avgSeconds) avg = s.avgSeconds;
+  }
+
+  function stopTimers(){ clearTimeout(pollTimer); clearInterval(tickTimer); pollTimer = tickTimer = null; }
+
+  function renderIdle(){
+    phase = 'idle'; stopTimers(); setProgress(null);
+    var lastTxt = SYNC_GENERATED_AT ? 'Aktualizované: <b>' + fmtTime(SYNC_GENERATED_AT) + '</b>' : 'Dáta zo Sportnetu ešte neboli stiahnuté.';
+    var cd = st && st.cooldownSeconds ? st.cooldownSeconds : 0;
+    if (cd > 0){
+      setState('', lastTxt + '<br>Ďalšia ručná aktualizácia o ' + fmtMin(cd) + '.', false);
+      setButton('Aktualizovať', false);
+      pollTimer = setTimeout(refreshStatus, Math.min(cd, 60) * 1000);
+    } else {
+      setState('', lastTxt + '<br>Aktualizácia trvá cca ' + fmtMin(avg + DEPLOY_EST) + '.', false);
+      setButton('Aktualizovať', true);
+    }
+  }
+
+  function tick(){
+    var total = avg + DEPLOY_EST;
+    if (phase === 'queued' || phase === 'dispatching'){
+      setProgress(2);
+      setState('', 'Spúšťam synchronizáciu… odhad cca <b>' + fmtMin(total) + '</b>.', true);
+      return;
+    }
+    if (phase === 'running'){
+      var el = (now() - runStart) / 1000;
+      var left = total - el;
+      setProgress(el / total * 100 * 0.97);
+      setState('', left > DEPLOY_EST
+        ? 'Sťahujem dáta zo Sportnetu… zostáva cca <b>' + fmtDur(left) + '</b>'
+        : 'Sťahovanie trvá dlhšie ako zvyčajne (priemer ' + fmtDur(avg) + '), ešte chvíľu…', true);
+      return;
+    }
+    if (phase === 'deploying'){
+      var del = (now() - deployStart) / 1000;
+      var runPart = avg / total * 100;
+      setProgress(runPart + Math.min(1, del / DEPLOY_EST) * (100 - runPart) * 0.97);
+      setState('', 'Dáta stiahnuté, nasadzujem novú verziu… ' + (del < DEPLOY_EST ? 'zostáva cca <b>' + fmtDur(DEPLOY_EST - del) + '</b>' : 'ešte chvíľu'), true);
+    }
+  }
+
+  function startTicking(){ clearInterval(tickTimer); tick(); tickTimer = setInterval(tick, 1000); }
+
+  // Sledujeme konkrétny beh (aj plánovaný, ak práve beží — vidno ho všetkým).
+  function trackActive(active){
+    runId = active.id;
+    runStart = Date.parse(active.startedAt || active.createdAt);
+    phase = 'running';
+    setButton('Prebieha', false);
+    startTicking();
+  }
+
+  function refreshStatus(){
+    clearTimeout(pollTimer);
+    api('GET').then(function(s){
+      if (!s || s.configured !== true){ bar.hidden = true; stopTimers(); return; }
+      absorb(s);
+      bar.hidden = false;
+
+      if (phase === 'queued'){
+        if (s.active && Date.parse(s.active.createdAt) >= dispatchedAt - 10000){ trackActive(s.active); }
+        else if (s.last && Date.parse(s.last.createdAt) >= dispatchedAt - 10000){ onRunFinished(s.last); return; }
+        else if (now() - dispatchedAt > 120000){ fail('GitHub beh nenaštartoval. Skús to o chvíľu znova.'); return; }
+        pollTimer = setTimeout(refreshStatus, 4000);
+        return;
+      }
+      if (phase === 'running'){
+        if (s.active && s.active.id === runId){ pollTimer = setTimeout(refreshStatus, POLL_RUN); return; }
+        if (s.last && s.last.id === runId){ onRunFinished(s.last); return; }
+        if (s.active){ trackActive(s.active); pollTimer = setTimeout(refreshStatus, POLL_RUN); return; }
+        pollTimer = setTimeout(refreshStatus, POLL_RUN);
+        return;
+      }
+      // idle / done / error
+      if (s.active){
+        if (phase === 'idle' || phase === 'done' || phase === 'error'){ baseGenerated = SYNC_GENERATED_AT; trackActive(s.active); }
+        pollTimer = setTimeout(refreshStatus, POLL_RUN);
+        return;
+      }
+      if (phase === 'idle') renderIdle();
+    }).catch(function(){
+      if (phase === 'idle'){ bar.hidden = true; return; }
+      pollTimer = setTimeout(refreshStatus, POLL_RUN);   // dočasný výpadok počas sledovania
+    });
+  }
+
+  function onRunFinished(last){
+    if (last.conclusion !== 'success'){ fail('Synchronizácia na GitHube skončila chybou (' + (last.conclusion || 'neznáme') + ').'); return; }
+    phase = 'deploying';
+    deployStart = now();
+    startTicking();
+    waitForDeploy();
+  }
+
+  // Netlify nasadí nový commit s dátami — čakáme, kým teams.json bude mať novší generatedAt.
+  function waitForDeploy(){
+    clearTimeout(pollTimer);
+    fetch('/data/teams.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(function(r){ return r.json(); })
+      .then(function(d){
+        if (d && d.generatedAt && d.generatedAt !== baseGenerated){ finish(); return; }
+        retryDeploy();
+      })
+      .catch(retryDeploy);
+  }
+  function retryDeploy(){
+    if ((now() - deployStart) / 1000 > DEPLOY_MAX){
+      stopTimers(); phase = 'error'; setProgress(100);
+      setState('error', 'Dáta sú stiahnuté, ale nasadenie trvá dlhšie. Obnov stránku o pár minút.', false);
+      setButton('Aktualizovať', false);
+      return;
+    }
+    pollTimer = setTimeout(waitForDeploy, POLL_DEPLOY);
+  }
+
+  function finish(){
+    stopTimers();
+    fetchSyncData().then(function(){
+      refreshFromSyncData();
+      phase = 'done';
+      setProgress(100);
+      setState('done', '✓ Dáta aktualizované: <b>' + fmtTime(SYNC_GENERATED_AT) + '</b>', false);
+      setButton('Hotovo', false);
+      setTimeout(function(){ if (phase === 'done'){ phase = 'idle'; refreshStatus(); } }, 8000);
+    });
+  }
+
+  function fail(msg){
+    stopTimers(); phase = 'error'; setProgress(100);
+    setState('error', msg, false);
+    setButton('Skúsiť znova', true);
+  }
+
+  function start(){
+    if (phase !== 'idle' && phase !== 'error') return;
+    track('sync-manual', 'Ručná synchronizácia');
+    phase = 'dispatching';
+    baseGenerated = SYNC_GENERATED_AT;
+    setButton('Spúšťam', false);
+    startTicking();
+    api('POST').then(function(r){
+      absorb(r);
+      if (r._status === 202){
+        dispatchedAt = now();
+        phase = 'queued';
+        pollTimer = setTimeout(refreshStatus, 4000);
+        return;
+      }
+      if (r._status === 409 && r.active){ trackActive(r.active); pollTimer = setTimeout(refreshStatus, POLL_RUN); return; }
+      stopTimers();
+      if (r._status === 429){ phase = 'idle'; renderIdle(); return; }
+      fail('Synchronizáciu sa nepodarilo spustiť. Skús to o chvíľu znova.');
+    }).catch(function(){ fail('Server nie je dostupný. Skús to o chvíľu znova.'); });
+  }
+
+  function init(){
+    bar = document.getElementById('sync-bar');
+    if (!bar) return;
+    txt = document.getElementById('sync-text');
+    btn = document.getElementById('sync-btn');
+    btnLabel = document.getElementById('sync-btn-label');
+    prog = document.getElementById('sync-progress');
+    fill = document.getElementById('sync-progress-fill');
+    btn.addEventListener('click', start);
+    refreshStatus();
+  }
+
+  return { init: init };
+})();
 
 /* ===================== GALÉRIA ===================== */
 // Vlastné Supabase údaje — treba doplniť podľa svojho projektu (Project Settings → API).
