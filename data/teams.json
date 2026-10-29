@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T11:14:06.198Z",
+  "generatedAt": "2026-10-29T11:19:52.898Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -15477,18 +15477,6 @@
       ],
       "fixtures": [
         {
-          "round": "13. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
-          "date": "29.10",
-          "time": "10:00",
-          "status": "Prebieha",
-          "home": "Futbalový klub Holice",
-          "away": "MŠO Štúrovo",
-          "scoreHome": 0,
-          "scoreAway": 0,
-          "played": true
-        },
-        {
           "round": "14. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 14. kolo",
           "date": "08.11",
@@ -15568,6 +15556,18 @@
           "status": "",
           "home": "FC Slovan Hlohovec",
           "away": "MŠO Štúrovo",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "21. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 21. kolo",
+          "date": "10.04",
+          "time": "10:00",
+          "status": "",
+          "home": "MŠO Štúrovo",
+          "away": "FK Slovan Duslo Šaľa",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
