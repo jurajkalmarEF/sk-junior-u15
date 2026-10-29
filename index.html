@@ -422,6 +422,11 @@
   .sync-bar.is-done .sync-progress-fill{background:var(--win);}
   .sync-bar.is-error .sync-progress-fill{background:var(--loss);}
   @media (prefers-reduced-motion: reduce){.sync-bar.is-busy .sync-ico{animation:none;}.sync-progress-fill{transition:none;}}
+
+  /* ===== Skrytý prepínač štatistík (5× ťuknúť na logo) ===== */
+  .gc-toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);max-width:calc(100% - 32px);background:var(--card);color:var(--chalk);border:1px solid var(--gold);border-radius:8px;padding:12px 16px;font-size:14px;text-align:center;box-shadow:0 6px 24px rgba(0,0,0,.5);opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:1000;}
+  .gc-toast.show{opacity:1;transform:translate(-50%,0);}
+  header img{-webkit-tap-highlight-color:transparent;user-select:none;}
 </style>
 <!-- GoatCounter — návštevnosť a používanie (bez cookies). Kód nastav v GC_CODE nižšie. -->
 <script>
@@ -442,6 +447,7 @@
   // Udalosť (klik na kartu, detail zápasu…) — bezpečné volať aj keď GoatCounter nie je načítaný
   function track(name, title){
     try {
+      if (localStorage.getItem('skipgc') === 't') return;
       if (window.goatcounter && window.goatcounter.count) {
         window.goatcounter.count({ path: name, title: title || name, event: true });
       }
@@ -1020,6 +1026,36 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js').catch(function(){});
   });
 }
+
+/* ===================== SKRYTÝ PREPÍNAČ ŠTATISTÍK ===================== */
+// 5× rýchlo ťuknúť na logo → návštevy z tohto zariadenia/prehliadača sa prestanú
+// rátať v GoatCounteri (rovnaký príznak 'skipgc' ako #toggle-goatcounter).
+// Ďalších 5 ťuknutí to vráti späť. Funguje aj v nainštalovanej appke.
+(function(){
+  var logo = document.querySelector('header img');
+  if (!logo) return;
+  var taps = 0, timer = null, toastTimer = null;
+  function toast(msg){
+    var t = document.getElementById('gc-toast');
+    if (!t){ t = document.createElement('div'); t.id = 'gc-toast'; t.className = 'gc-toast'; t.setAttribute('role','status'); document.body.appendChild(t); }
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ t.classList.remove('show'); }, 3500);
+  }
+  logo.addEventListener('click', function(){
+    taps++;
+    clearTimeout(timer);
+    timer = setTimeout(function(){ taps = 0; }, 2000);
+    if (taps < 5) return;
+    taps = 0;
+    try {
+      var off = localStorage.getItem('skipgc') === 't';
+      if (off){ localStorage.removeItem('skipgc'); toast('📊 Štatistiky zapnuté — tvoje návštevy sa opäť rátajú.'); }
+      else { localStorage.setItem('skipgc', 't'); toast('🙈 Tvoje návštevy z tohto zariadenia sa odteraz nerátajú.'); }
+    } catch(e){ toast('Toto zariadenie nepovoľuje ukladanie nastavení.'); }
+  });
+})();
 
 /* ===================== RUČNÁ SYNCHRONIZÁCIA ===================== */
 // Tlačidlo volá Netlify funkciu /api/sync, ktorá spustí GitHub Actions workflow
