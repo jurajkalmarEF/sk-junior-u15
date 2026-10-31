@@ -30,7 +30,7 @@ Muž
 Pohlavie
 13 rokov (2013)
 Vek
-63
+64
 Zápasy
 3244
 Minúty
@@ -63,10 +63,10 @@ P
 	
 	
 
-2026/2027	10	34	0	0	0	0
+2026/2027	11	34	0	0	0	0
 2025/2026	27	1620	1	0	0	0
 2024/2025	26	1590	1	0	0	0
-Celkovo	63	3244	2	0	0	0
+Celkovo	64	3244	2	0	0	0
 Správy z Futbalnetu
 
 Slovan uhral remízu s Pohroním.
