@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T10:45:05.697Z",
+  "generatedAt": "2026-10-31T11:58:44.905Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -297,8 +297,8 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "13 rokov (2013)",
-            "matches": 189,
-            "minutes": 10689,
+            "matches": 190,
+            "minutes": 10759,
             "goals": 161,
             "yellowCards": 6,
             "secondYellow": 0,
@@ -467,7 +467,7 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "13 rokov (2013)",
-            "matches": 110,
+            "matches": 111,
             "minutes": 5674,
             "goals": 30,
             "yellowCards": 0,
@@ -552,8 +552,8 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "13 rokov (2013)",
-            "matches": 165,
-            "minutes": 9112,
+            "matches": 166,
+            "minutes": 9182,
             "goals": 49,
             "yellowCards": 0,
             "secondYellow": 0,
