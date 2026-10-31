@@ -17,7 +17,7 @@ Cibulková opísala najťažšie minúty svojej kariéry. Bola to výhra nad str
 Budú hrať ruskí hokejisti už v Kanade? Na ich návrat môžu doplatiť Ukrajinci aj Slováci
 Posadil Lobotku, hrá sa na génia. Chýrny Talian zúril pre Slováka: Je to hanba
 Najmladší v NHL chytá ako najlepší. Poznal každého útočníka, ukradol Dobešovi pozíciu jednotky?
-Dohady sa potvrdili. Tesco definitívne opúšťa Slovensko, nový majiteľ hovorí o atraktívnom trhu
+Fico odletel do Splitu súkromným lietadlom. Na tejto trase opakovane lietalo aj počas jeho dovolenky
 Kluby
 /
 ŠK Junior Ivanka pri Nitre
@@ -114,6 +114,49 @@ V
 
 2
 
+	ŠK Junior Ivanka pri Nitre	
+
+12
+
+	
+
+8
+
+	
+
+2
+
+	
+
+2
+
+	
+
+27:15
+
+	
+
+26
+
+	
+
+14
+
+	
+
+8
+
+	
+V
+R
+R
+P
+V
+
+
+
+3
+
 	FC Slovan Hlohovec	
 
 11
@@ -140,7 +183,7 @@ V
 
 	
 
-14
+13
 
 	
 
@@ -155,50 +198,50 @@ P
 
 
 
-3
+4
 
-	ŠK Junior Ivanka pri Nitre	
+	TJ Dynamo Nová Stráž	
 
-11
-
-	
-
-7
+12
 
 	
 
-2
+6
 
 	
 
 2
 
 	
-
-25:15
-
-	
-
-23
-
-	
-
-13
-
-	
-
-5
-
-	
-R
-R
-P
-V
-V
-
-
 
 4
+
+	
+
+43:41
+
+	
+
+20
+
+	
+
+12
+
+	
+
+2
+
+	
+V
+R
+V
+P
+V
+
+
+
+5
 
 	FK Slovan Duslo Šaľa	
 
@@ -226,7 +269,7 @@ V
 
 	
 
-11
+10
 
 	
 
@@ -241,7 +284,7 @@ P
 
 
 
-5
+6
 
 	ŠK Šurany	
 
@@ -269,7 +312,7 @@ P
 
 	
 
-10
+9
 
 	
 
@@ -284,7 +327,7 @@ P
 
 
 
-6
+7
 
 	SSC FÉNIX Nové Zámky	
 
@@ -312,7 +355,7 @@ P
 
 	
 
-12
+11
 
 	
 
@@ -327,7 +370,7 @@ P
 
 
 
-7
+8
 
 	FK Kolárovo	
 
@@ -355,7 +398,7 @@ P
 
 	
 
-9
+8
 
 	
 
@@ -370,7 +413,7 @@ V
 
 
 
-8
+9
 
 	FC Slovan Galanta	
 
@@ -398,59 +441,16 @@ V
 
 	
 
-8
-
-	
-
-	
-R
-V
-V
-V
-V
-
-
-
-9
-
-	TJ Dynamo Nová Stráž	
-
-11
-
-	
-
-5
-
-	
-
-2
-
-	
-
-4
-
-	
-
-37:40
-
-	
-
-17
-
-	
-
 7
 
 	
 
-2
-
 	
 R
 V
-P
 V
-P
+V
+V
 
 
 
@@ -544,7 +544,7 @@ V
 
 	Malodvornícky FK Malé Dvorníky	
 
-12
+13
 
 	
 
@@ -556,11 +556,11 @@ V
 
 	
 
-6
+7
 
 	
 
-17:29
+18:35
 
 	
 
@@ -575,10 +575,10 @@ V
 -6
 
 	
-V
 P
 V
 P
+V
 P
 
 
@@ -587,7 +587,7 @@ P
 
 	Futbalový klub Slovan Šahy	
 
-11
+12
 
 	
 
@@ -599,11 +599,11 @@ P
 
 	
 
-8
+9
 
 	
 
-18:38
+18:40
 
 	
 
@@ -615,14 +615,14 @@ P
 
 	
 
--6
+-9
 
 	
 P
 P
 P
-V
 P
+V
 
 
 
@@ -770,6 +770,12 @@ Slovan napravil domáce zaváhanie. V Trenčíne rozhodol počas druhého polča
 
 st 19:49
 
+Sledujte s nami ONLINE prenos zo zápasu 15. kola MONACObet ligy: FK Inter Bratislava - OFK Baník Lehota pod Vtáčnikom.
+
+ONLINE: FK Inter Bratislava - OFK Baník Lehota pod Vtáčnikom dnes, MONACObet liga LIVE (II. liga, 15. kolo)
+
+dnes 10:00
+
 Sledujte s nami ONLINE prenos zo zápasu 15. kola MONACObet ligy: FK Pohronie - ŠK Slovan Bratislava B.
 
 ONLINE: FK Pohronie - ŠK Slovan Bratislava B dnes, MONACObet liga LIVE (II. liga, 15. kolo)
@@ -796,12 +802,6 @@ Futbalistky Spartaka Myjava neuspeli doma proti švédskemu tímu. Favorit udrel
 
 st 20:14
 
-V tejto sezóne ligy je stále bez prehry.
-
-Dunajská Streda dobyla aj Košice a natiahla sériu. Pred Slovanom má stále výrazný náskok
-
-st 19:52
-
 Načítať ďalšie
 Najčítanejšie
 Najnovšie
@@ -818,23 +818,23 @@ WTA Tokio: Pohánková prehrala proti Ruske v semifinále
 
 3
 
-Myslel som si, že je to prvý apríl. Boli sme v šoku, vraví česká legenda na návrat Rusov
+Prehra, ktorá chutí ako úspech. Pohánková nestačila na Rusku a s Tokiom sa lúči
 
 4
 
-Príklepy z NHL: Jeden brankár si vytrucoval nový tím, ďalší si číta s králikom a Montreal má problém
+Dvorského posielajú na farmu. Je New Jersey favoritom na Stanley Cup? Corski & Fenski #1
 
 5
 
-Prehra, ktorá chutí ako úspech. Pohánková nestačila na Rusku a s Tokiom sa lúči
+Myslel som si, že je to prvý apríl. Boli sme v šoku, vraví česká legenda na návrat Rusov
 
 6
 
-V tejto forme môže vyhrať celý turnaj. Pohánková má prvky, ktoré deptajú súperky
+Pištole v šatni, pravnuk diktátora v obrane a bojkot. Lazio nikdy nebolo obyčajný klub
 
 7
 
-Dvorského posielajú na farmu. Je New Jersey favoritom na Stanley Cup? Corski & Fenski #1
+Pohánková je tenisová kométa, ktorá nezhasla. Miluje Harryho, zábavu a svoju posteľ
 
 Späť na vrch
 Redakcia a kontakty

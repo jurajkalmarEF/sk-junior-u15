@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T08:05:00.310Z",
+  "generatedAt": "2026-10-31T09:49:12.195Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -25,9 +25,25 @@
       ]
     },
     {
+      "slug": "sk-junior-ivanka-pri-nitre",
+      "name": "ŠK Junior Ivanka pri Nitre",
+      "pos": 2,
+      "z": 12,
+      "v": 8,
+      "r": 2,
+      "p": 2,
+      "score": "27:15",
+      "pts": 26,
+      "forma": [
+        "V",
+        "R",
+        "R"
+      ]
+    },
+    {
       "slug": "fc-slovan-hlohovec",
       "name": "FC Slovan Hlohovec",
-      "pos": 2,
+      "pos": 3,
       "z": 11,
       "v": 8,
       "r": 0,
@@ -41,25 +57,25 @@
       ]
     },
     {
-      "slug": "sk-junior-ivanka-pri-nitre",
-      "name": "ŠK Junior Ivanka pri Nitre",
-      "pos": 3,
-      "z": 11,
-      "v": 7,
+      "slug": "tj-dynamo-nova-straz",
+      "name": "TJ Dynamo Nová Stráž",
+      "pos": 4,
+      "z": 12,
+      "v": 6,
       "r": 2,
-      "p": 2,
-      "score": "25:15",
-      "pts": 23,
+      "p": 4,
+      "score": "43:41",
+      "pts": 20,
       "forma": [
+        "V",
         "R",
-        "R",
-        "P"
+        "V"
       ]
     },
     {
       "slug": "fk-slovan-duslo-sala",
       "name": "FK Slovan Duslo Šaľa",
-      "pos": 4,
+      "pos": 5,
       "z": 12,
       "v": 6,
       "r": 1,
@@ -75,7 +91,7 @@
     {
       "slug": "sk-surany",
       "name": "ŠK Šurany",
-      "pos": 5,
+      "pos": 6,
       "z": 11,
       "v": 6,
       "r": 1,
@@ -91,7 +107,7 @@
     {
       "slug": "ssc-fenix-nove-zamky",
       "name": "SSC FÉNIX Nové Zámky",
-      "pos": 6,
+      "pos": 7,
       "z": 11,
       "v": 6,
       "r": 1,
@@ -107,7 +123,7 @@
     {
       "slug": "fk-kolarovo",
       "name": "FK Kolárovo",
-      "pos": 7,
+      "pos": 8,
       "z": 12,
       "v": 6,
       "r": 1,
@@ -123,7 +139,7 @@
     {
       "slug": "fc-slovan-galanta",
       "name": "FC Slovan Galanta",
-      "pos": 8,
+      "pos": 9,
       "z": 12,
       "v": 5,
       "r": 3,
@@ -135,22 +151,6 @@
         "V",
         "V",
         "V"
-      ]
-    },
-    {
-      "slug": "tj-dynamo-nova-straz",
-      "name": "TJ Dynamo Nová Stráž",
-      "pos": 9,
-      "z": 11,
-      "v": 5,
-      "r": 2,
-      "p": 4,
-      "score": "37:40",
-      "pts": 17,
-      "forma": [
-        "R",
-        "V",
-        "P"
       ]
     },
     {
@@ -189,27 +189,27 @@
       "slug": "malodvornicky-fk-male-dvorniky",
       "name": "Malodvornícky FK Malé Dvorníky",
       "pos": 12,
-      "z": 12,
+      "z": 13,
       "v": 3,
       "r": 3,
-      "p": 6,
-      "score": "17:29",
+      "p": 7,
+      "score": "18:35",
       "pts": 12,
       "forma": [
-        "V",
         "P",
-        "V"
+        "V",
+        "P"
       ]
     },
     {
       "slug": "futbalovy-klub-slovan-sahy",
       "name": "Futbalový klub Slovan Šahy",
       "pos": 13,
-      "z": 11,
+      "z": 12,
       "v": 3,
       "r": 0,
-      "p": 8,
-      "score": "18:38",
+      "p": 9,
+      "score": "18:40",
       "pts": 9,
       "forma": [
         "P",
@@ -272,6 +272,23 @@
           }
         },
         {
+          "name": "Matej Morvai",
+          "position": "Brankár",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/6686def348cfa44322f4a9ad/matej-morvai/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/6686def348cfa44322f4a9ad/formal-photo/a1f7fb05-43e9-426c-bcb7-06b48f528b09",
+          "profile": {
+            "country": "Slovensko",
+            "gender": "Muž",
+            "age": "13 rokov (2013)",
+            "matches": 63,
+            "minutes": 3244,
+            "goals": 2,
+            "yellowCards": 0,
+            "secondYellow": 0,
+            "redCards": 0
+          }
+        },
+        {
           "name": "Miroslav Bakša",
           "position": "Obranca",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5f44d7c7c996a45b399f9609/miroslav-baksa/",
@@ -280,8 +297,8 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "13 rokov (2013)",
-            "matches": 189,
-            "minutes": 10689,
+            "matches": 190,
+            "minutes": 10759,
             "goals": 161,
             "yellowCards": 6,
             "secondYellow": 0,
@@ -297,9 +314,9 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "14 rokov (2012)",
-            "matches": 105,
-            "minutes": 5760,
-            "goals": 10,
+            "matches": 106,
+            "minutes": 5830,
+            "goals": 11,
             "yellowCards": 0,
             "secondYellow": 0,
             "redCards": 0
@@ -518,8 +535,8 @@
             "country": "Slovensko",
             "gender": "Muž",
             "age": "14 rokov (2012)",
-            "matches": 149,
-            "minutes": 8515,
+            "matches": 150,
+            "minutes": 8585,
             "goals": 21,
             "yellowCards": 4,
             "secondYellow": 0,
@@ -542,23 +559,6 @@
             "secondYellow": 0,
             "redCards": 0
           }
-        },
-        {
-          "name": "Matej Morvai",
-          "position": "Útočník",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/6686def348cfa44322f4a9ad/matej-morvai/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/6686def348cfa44322f4a9ad/formal-photo/a1f7fb05-43e9-426c-bcb7-06b48f528b09",
-          "profile": {
-            "country": "Slovensko",
-            "gender": "Muž",
-            "age": "13 rokov (2013)",
-            "matches": 63,
-            "minutes": 3244,
-            "goals": 2,
-            "yellowCards": 0,
-            "secondYellow": 0,
-            "redCards": 0
-          }
         }
       ],
       "staff": [
@@ -576,6 +576,28 @@
         }
       ],
       "results": [
+        {
+          "round": "13. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
+          "date": "31.10",
+          "time": "09:00",
+          "status": "Koniec",
+          "home": "Futbalový klub Slovan Šahy",
+          "away": "ŠK Junior Ivanka pri Nitre",
+          "scoreHome": 0,
+          "scoreAway": 2,
+          "played": true,
+          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd3405b0f57d4f481aae3/",
+          "detail": {
+            "v": 3,
+            "events": [],
+            "attendance": null,
+            "referee": "Samuel Tóth",
+            "stadiumName": "FK Slovan Šahy",
+            "stadiumAddress": "SNP, 93601 Šahy",
+            "fetchedAt": "2026-10-31T09:52:18.728Z"
+          }
+        },
         {
           "round": "12. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
@@ -1308,169 +1330,9 @@
             "stadiumAddress": "Novozámocká, 95112 Ivanka pri Nitre",
             "fetchedAt": "2026-10-05T21:00:36.552Z"
           }
-        },
-        {
-          "round": "4. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 4. kolo",
-          "date": "29.08",
-          "time": "10:00",
-          "status": "Koniec",
-          "home": "FK Slovan Duslo Šaľa",
-          "away": "ŠK Junior Ivanka pri Nitre",
-          "scoreHome": 4,
-          "scoreAway": 1,
-          "played": true,
-          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd3405b0f57d4f481a89d/",
-          "detail": {
-            "v": 3,
-            "events": [
-              {
-                "k": "period",
-                "label": "Začiatok - 1. polčas",
-                "time": "10:00",
-                "minute": "0'"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "home",
-                "minute": "3'",
-                "player": "Oliver Borkovič",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "home",
-                "minute": "16'",
-                "player": "Martin Slamka",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "home",
-                "minute": "20'",
-                "player": "Martin Slamka",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "28'",
-                "playerOut": "Tomáš Gabaš",
-                "playerIn": "Milan Deglovič"
-              },
-              {
-                "k": "period",
-                "label": "Koniec - 1. polčas",
-                "time": "10:35",
-                "minute": ""
-              },
-              {
-                "k": "period",
-                "label": "Začiatok - 2. polčas",
-                "time": "10:50",
-                "minute": "35'"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "36'",
-                "playerOut": "Oliver Palubjak",
-                "playerIn": "Marek Péter"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "36'",
-                "playerOut": "Lukáš Raučina",
-                "playerIn": "Juraj Bašťovanský"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "36'",
-                "playerOut": "Marko Ježík",
-                "playerIn": "Alexej Molnár"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "home",
-                "minute": "49'",
-                "player": "Maxím Mitrík",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "51'",
-                "playerOut": "Zoltán Tóth",
-                "playerIn": "Filip Siládi"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "51'",
-                "playerOut": "Theo Vími",
-                "playerIn": "Samuel Lacko"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "57'",
-                "playerOut": "Oliver Borkovič",
-                "playerIn": "Ján Likó"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "63'",
-                "playerOut": "Maxím Mitrík",
-                "playerIn": "Matúš Puskás"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "away",
-                "minute": "70'",
-                "player": "Milan Deglovič",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "period",
-                "label": "Koniec - 2. polčas",
-                "time": "11:25",
-                "minute": ""
-              }
-            ],
-            "attendance": 50,
-            "referee": "Jozef Krigovský",
-            "stadiumName": "FK Slovan Duslo Šaľa, PT plocha č.1",
-            "stadiumAddress": "Nitrianska, 92705 Šaľa",
-            "fetchedAt": "2026-10-05T21:00:39.559Z"
-          }
         }
       ],
       "fixtures": [
-        {
-          "round": "13. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
-          "date": "31.10",
-          "time": "09:00",
-          "status": "",
-          "home": "Futbalový klub Slovan Šahy",
-          "away": "ŠK Junior Ivanka pri Nitre",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "14. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 14. kolo",
@@ -1550,6 +1412,18 @@
           "time": "10:00",
           "status": "",
           "home": "Nez. družstvo",
+          "away": "ŠK Junior Ivanka pri Nitre",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "21. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 21. kolo",
+          "date": "10.04",
+          "time": "10:00",
+          "status": "",
+          "home": "SSC FÉNIX Nové Zámky",
           "away": "ŠK Junior Ivanka pri Nitre",
           "scoreHome": null,
           "scoreAway": null,
@@ -4411,13 +4285,13 @@
           "name": "Markus Maczkó",
           "position": "Obranca",
           "href": "https://sportnet.sme.sk/futbalnet/clen/6358db6c870cb157748c7f6f/markus-maczko/",
-          "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/6358db6c870cb157748c7f6f/formal-photo/d0430ebe-6a7c-466f-ab0f-09104cd0eca0"
         },
         {
           "name": "Filip Maczkó",
           "position": "Obranca",
           "href": "https://sportnet.sme.sk/futbalnet/clen/6358db50870cb157748c7f6b/filip-maczko/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/6358db50870cb157748c7f6b/formal-photo/4803f762-58cb-4902-97c2-ce9666bd07d1"
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/6358db50870cb157748c7f6b/formal-photo/8ff75104-c01c-4104-b436-87a94fb2376f"
         },
         {
           "name": "Samuel Maslík",
@@ -4525,6 +4399,28 @@
         }
       ],
       "results": [
+        {
+          "round": "13. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
+          "date": "31.10",
+          "time": "09:00",
+          "status": "Koniec",
+          "home": "Futbalový klub Slovan Šahy",
+          "away": "ŠK Junior Ivanka pri Nitre",
+          "scoreHome": 0,
+          "scoreAway": 2,
+          "played": true,
+          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd3405b0f57d4f481aae3/",
+          "detail": {
+            "v": 3,
+            "events": [],
+            "attendance": null,
+            "referee": "Samuel Tóth",
+            "stadiumName": "FK Slovan Šahy",
+            "stadiumAddress": "SNP, 93601 Šahy",
+            "fetchedAt": "2026-10-31T09:52:18.728Z"
+          }
+        },
         {
           "round": "12. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
@@ -5489,164 +5385,9 @@
             "stadiumAddress": "Cintrorínska, 942 01 Šurany",
             "fetchedAt": "2026-10-05T21:01:42.851Z"
           }
-        },
-        {
-          "round": "4. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 4. kolo",
-          "date": "29.08",
-          "time": "10:00",
-          "status": "Koniec",
-          "home": "Futbalový klub Slovan Šahy",
-          "away": "Futbalový klub Holice",
-          "scoreHome": 1,
-          "scoreAway": 4,
-          "played": true,
-          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd33e5b0f57d4f4819da9/",
-          "detail": {
-            "v": 3,
-            "events": [
-              {
-                "k": "period",
-                "label": "Začiatok - 1. polčas",
-                "time": "10:00",
-                "minute": "0'"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "away",
-                "minute": "8'",
-                "player": "Ádám Szabó",
-                "text": "Gól zo štandardnej situácie",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "away",
-                "minute": "32'",
-                "player": "Ondrej Nagy",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "period",
-                "label": "Koniec - 1. polčas",
-                "time": "10:35",
-                "minute": ""
-              },
-              {
-                "k": "period",
-                "label": "Začiatok - 2. polčas",
-                "time": "10:50",
-                "minute": "35'"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "36'",
-                "playerOut": "Arnold Dániel",
-                "playerIn": "Tamás Horváth"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "36'",
-                "playerOut": "Alex Varga",
-                "playerIn": "Filip Bíró"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "36'",
-                "playerOut": "Félix Szűcs",
-                "playerIn": "Márk Levente Németh"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "36'",
-                "playerOut": "Dániel Hodosi",
-                "playerIn": "Brandon Jakóczi"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "46'",
-                "playerOut": "Atilla Német",
-                "playerIn": "Markus Maczkó"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "home",
-                "minute": "50'",
-                "player": "Filip Maczkó",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "52'",
-                "playerOut": "Oliver Bíró",
-                "playerIn": "Dominik Katona"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "away",
-                "minute": "55'",
-                "player": "Filip Bíró",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "away",
-                "minute": "63'",
-                "player": "Kristóf Igari",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "card",
-                "card": "yellow",
-                "side": "away",
-                "minute": "67'",
-                "player": "Viktor Mayer",
-                "text": "NS - držanie súpera za dres v súboji o loptu čím bola zmarená sľubne sa rozvíjajúca útočná akcia",
-                "sig": "0 0 16 16|#ffc600,#fff|762"
-              },
-              {
-                "k": "period",
-                "label": "Koniec - 2. polčas",
-                "time": "11:25",
-                "minute": ""
-              }
-            ],
-            "attendance": 50,
-            "referee": "Ľubomír Foltán",
-            "stadiumName": "FK Slovan Šahy",
-            "stadiumAddress": "SNP, 93601 Šahy",
-            "fetchedAt": "2026-10-05T21:01:45.953Z"
-          }
         }
       ],
       "fixtures": [
-        {
-          "round": "13. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
-          "date": "31.10",
-          "time": "09:00",
-          "status": "",
-          "home": "Futbalový klub Slovan Šahy",
-          "away": "ŠK Junior Ivanka pri Nitre",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "14. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 14. kolo",
@@ -5727,6 +5468,18 @@
           "status": "",
           "home": "Futbalový klub Slovan Šahy",
           "away": "ŠK Šurany",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "21. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 21. kolo",
+          "date": "10.04",
+          "time": "10:00",
+          "status": "",
+          "home": "Nez. družstvo",
+          "away": "Futbalový klub Slovan Šahy",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
@@ -17098,6 +16851,12 @@
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5d65917586dc8b7238347b6b/formal-photo/1fc367cd-5200-4562-8bca-a5d0ef765b99"
         },
         {
+          "name": "Dominik Csiba",
+          "position": "Záložník",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/5d65997286dc8b7238357c51/dominik-csiba/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5d65997286dc8b7238357c51/formal-photo/7ec2592a-caf8-4660-8274-39602cdaa342"
+        },
+        {
           "name": "Simon Lády",
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/60bf507b492a2f63497494a4/simon-lady/",
@@ -17114,12 +16873,6 @@
           "position": "Útočník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5f4cd8e3d2e2d501b528b9a2/dominik-kantor/",
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f4cd8e3d2e2d501b528b9a2/formal-photo/f44f7b28-b0ce-4d0b-8a67-1d19deece734"
-        },
-        {
-          "name": "Dominik Csiba",
-          "position": "Útočník",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/5d65997286dc8b7238357c51/dominik-csiba/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5d65997286dc8b7238357c51/formal-photo/7ec2592a-caf8-4660-8274-39602cdaa342"
         }
       ],
       "staff": [
@@ -17137,6 +16890,151 @@
         }
       ],
       "results": [
+        {
+          "round": "13. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
+          "date": "31.10",
+          "time": "09:00",
+          "status": "Koniec",
+          "home": "TJ Dynamo Nová Stráž",
+          "away": "Malodvornícky FK Malé Dvorníky",
+          "scoreHome": 6,
+          "scoreAway": 1,
+          "played": true,
+          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd3405b0f57d4f481a884/",
+          "detail": {
+            "v": 3,
+            "events": [
+              {
+                "k": "period",
+                "label": "Začiatok - 1. polčas",
+                "time": "09:00",
+                "minute": "0'"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "home",
+                "minute": "21'",
+                "player": "Gabriel Šmíd",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "home",
+                "minute": "23'",
+                "player": "Patrik Cseresna",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "home",
+                "minute": "25'",
+                "player": "Milo Kovač",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "away",
+                "minute": "34'",
+                "player": "Máté Zsemlye",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "period",
+                "label": "Koniec - 1. polčas",
+                "time": "09:35",
+                "minute": ""
+              },
+              {
+                "k": "period",
+                "label": "Začiatok - 2. polčas",
+                "time": "09:50",
+                "minute": "35'"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "home",
+                "minute": "41'",
+                "player": "Koloman Téglás",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "sub",
+                "side": "away",
+                "minute": "58'",
+                "playerOut": "Gergő Fehér",
+                "playerIn": "Filip Szekács"
+              },
+              {
+                "k": "sub",
+                "side": "away",
+                "minute": "58'",
+                "playerOut": "Tibor Kocsis",
+                "playerIn": "Dávid Mišák"
+              },
+              {
+                "k": "sub",
+                "side": "away",
+                "minute": "58'",
+                "playerOut": "Dominik Csiba",
+                "playerIn": "Marcel Chromek"
+              },
+              {
+                "k": "sub",
+                "side": "home",
+                "minute": "58'",
+                "playerOut": "Koloman Téglás",
+                "playerIn": "Ladislav Szuri"
+              },
+              {
+                "k": "sub",
+                "side": "home",
+                "minute": "58'",
+                "playerOut": "Erik Milán Tavaszi",
+                "playerIn": "Timothy Sebastián Tóth"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "home",
+                "minute": "60'",
+                "player": "Patrik Cseresna",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "goal",
+                "variant": "goal",
+                "side": "home",
+                "minute": "65'",
+                "player": "Patrik Cseresna",
+                "text": "Gól z hry",
+                "sig": "0 0 16 16|#fff|2461"
+              },
+              {
+                "k": "period",
+                "label": "Koniec - 2. polčas",
+                "time": "10:25",
+                "minute": ""
+              }
+            ],
+            "attendance": 50,
+            "referee": "František Bircsák",
+            "stadiumName": "Futbalový štadión TJ Dynamo Nová Stráž",
+            "stadiumAddress": "Hlavná, 94504 Nová Stráž",
+            "fetchedAt": "2026-10-31T09:52:21.500Z"
+          }
+        },
         {
           "round": "12. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 12. kolo",
@@ -18197,139 +18095,9 @@
             "stadiumAddress": "Nitrianska, 92705 Šaľa",
             "fetchedAt": "2026-10-05T21:03:27.784Z"
           }
-        },
-        {
-          "round": "6. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 6. kolo",
-          "date": "12.09",
-          "time": "10:00",
-          "status": "Koniec",
-          "home": "Malodvornícky FK Malé Dvorníky",
-          "away": "MŠK Želiezovce",
-          "scoreHome": 2,
-          "scoreAway": 2,
-          "played": true,
-          "detailUrl": "https://sportnet.sme.sk/futbalnet/z/zsfz/zapas/6a4bd3405b0f57d4f481a856/",
-          "detail": {
-            "v": 3,
-            "events": [
-              {
-                "k": "period",
-                "label": "Začiatok - 1. polčas",
-                "time": "10:00",
-                "minute": "0'"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "home",
-                "minute": "17'",
-                "player": "Máté Zsemlye",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "away",
-                "minute": "20'",
-                "player": "Samuel Dulai",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "period",
-                "label": "Koniec - 1. polčas",
-                "time": "10:35",
-                "minute": ""
-              },
-              {
-                "k": "period",
-                "label": "Začiatok - 2. polčas",
-                "time": "10:50",
-                "minute": "35'"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "36'",
-                "playerOut": "Dávid Mišák",
-                "playerIn": "Dominik Csiba"
-              },
-              {
-                "k": "sub",
-                "side": "away",
-                "minute": "50'",
-                "playerOut": "Adam Magyar",
-                "playerIn": "Maxim Kmeťo"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "home",
-                "minute": "53'",
-                "player": "Dominik Csiba",
-                "text": "Gól z hry",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "54'",
-                "playerOut": "Máté Zsemlye",
-                "playerIn": "Attila Kürthy"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "59'",
-                "playerOut": "Krisztián Klempa",
-                "playerIn": "Dominik Kántor"
-              },
-              {
-                "k": "sub",
-                "side": "home",
-                "minute": "59'",
-                "playerOut": "Simon Lády",
-                "playerIn": "Alex Bognár"
-              },
-              {
-                "k": "goal",
-                "variant": "goal",
-                "side": "away",
-                "minute": "69'",
-                "player": "Patrik Čunka",
-                "text": "Gól zo štandardnej situácie",
-                "sig": "0 0 16 16|#fff|2461"
-              },
-              {
-                "k": "period",
-                "label": "Koniec - 2. polčas",
-                "time": "11:25",
-                "minute": ""
-              }
-            ],
-            "attendance": 25,
-            "referee": "Andrea Šáteková",
-            "stadiumName": "Štadión MFK M. Dvorníky",
-            "stadiumAddress": "Športová, 929 01 Malé Dvorníky",
-            "fetchedAt": "2026-10-05T21:03:30.731Z"
-          }
         }
       ],
       "fixtures": [
-        {
-          "round": "13. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
-          "date": "31.10",
-          "time": "09:00",
-          "status": "",
-          "home": "TJ Dynamo Nová Stráž",
-          "away": "Malodvornícky FK Malé Dvorníky",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
         {
           "round": "14. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 14. kolo",
@@ -18410,6 +18178,18 @@
           "status": "",
           "home": "Malodvornícky FK Malé Dvorníky",
           "away": "C&P Stars Academy - ZM",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "21. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 21. kolo",
+          "date": "10.04",
+          "time": "10:00",
+          "status": "",
+          "home": "MŠK Želiezovce",
+          "away": "Malodvornícky FK Malé Dvorníky",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
@@ -19887,12 +19667,12 @@
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 13. kolo",
           "date": "31.10",
           "time": "09:00",
-          "status": "",
+          "status": "Prebieha",
           "home": "TJ Dynamo Nová Stráž",
           "away": "Malodvornícky FK Malé Dvorníky",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
+          "scoreHome": 0,
+          "scoreAway": 0,
+          "played": true
         },
         {
           "round": "14. kolo",

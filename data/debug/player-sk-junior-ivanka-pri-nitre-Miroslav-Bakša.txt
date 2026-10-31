@@ -17,7 +17,7 @@ Cibulková opísala najťažšie minúty svojej kariéry. Bola to výhra nad str
 Budú hrať ruskí hokejisti už v Kanade? Na ich návrat môžu doplatiť Ukrajinci aj Slováci
 Posadil Lobotku, hrá sa na génia. Chýrny Talian zúril pre Slováka: Je to hanba
 Najmladší v NHL chytá ako najlepší. Poznal každého útočníka, ukradol Dobešovi pozíciu jednotky?
-Dohady sa potvrdili. Tesco definitívne opúšťa Slovensko, nový majiteľ hovorí o atraktívnom trhu
+Fico odletel do Splitu súkromným lietadlom. Na tejto trase opakovane lietalo aj počas jeho dovolenky
 Členovia
 /
 Miroslav Bakša
@@ -30,9 +30,9 @@ Muž
 Pohlavie
 13 rokov (2013)
 Vek
-189
+190
 Zápasy
-10689
+10759
 Minúty
 161
 Góly
@@ -65,14 +65,14 @@ P
 	
 	
 
-2026/2027	8	560	0	4	0	0
+2026/2027	9	630	0	4	0	0
 2025/2026	25	1539	1	2	0	0
 2024/2025	39	2170	20	0	0	0
 2023/2024	48	2580	52	0	0	0
 2022/2023	30	1500	35	0	0	0
 2021/2022	19	1140	36	0	0	0
 2020/2021	20	1200	17	0	0	0
-Celkovo	189	10689	161	6	0	0
+Celkovo	190	10759	161	6	0	0
 Správy z Futbalnetu
 
 Slovan uhral remízu s Pohroním.
@@ -122,6 +122,12 @@ Slovan napravil domáce zaváhanie. V Trenčíne rozhodol počas druhého polča
 
 st 19:49
 
+Sledujte s nami ONLINE prenos zo zápasu 15. kola MONACObet ligy: FK Inter Bratislava - OFK Baník Lehota pod Vtáčnikom.
+
+ONLINE: FK Inter Bratislava - OFK Baník Lehota pod Vtáčnikom dnes, MONACObet liga LIVE (II. liga, 15. kolo)
+
+dnes 10:00
+
 Sledujte s nami ONLINE prenos zo zápasu 15. kola MONACObet ligy: FK Pohronie - ŠK Slovan Bratislava B.
 
 ONLINE: FK Pohronie - ŠK Slovan Bratislava B dnes, MONACObet liga LIVE (II. liga, 15. kolo)
@@ -147,12 +153,6 @@ Odveta je na programe 11. novembra v Štokholme.
 Futbalistky Spartaka Myjava neuspeli doma proti švédskemu tímu. Favorit udrel v závere
 
 st 20:14
-
-V tejto sezóne ligy je stále bez prehry.
-
-Dunajská Streda dobyla aj Košice a natiahla sériu. Pred Slovanom má stále výrazný náskok
-
-st 19:52
 
 Načítať ďalšie
 Späť na vrch
