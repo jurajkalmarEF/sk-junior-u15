@@ -404,6 +404,46 @@
     padding:8px 16px;font-family:'Barlow Condensed', sans-serif;font-weight:600;font-size:13px;cursor:pointer;
   }
 
+  /* ===== LIVE prenos ===== */
+  .tab-live{display:inline-flex;align-items:center;gap:6px;}
+  .live-dot{width:8px;height:8px;border-radius:50%;background:var(--sage-dim);flex-shrink:0;}
+  .tab-live.is-live .live-dot{background:var(--loss);box-shadow:0 0 0 0 rgba(217,72,63,0.7);animation:livepulse 1.6s infinite;}
+  .tab-live.is-live:not(.active){color:var(--chalk);border-color:var(--loss);}
+  @keyframes livepulse{0%{box-shadow:0 0 0 0 rgba(217,72,63,0.7);}70%{box-shadow:0 0 0 7px rgba(217,72,63,0);}100%{box-shadow:0 0 0 0 rgba(217,72,63,0);}}
+  .live-player{position:relative;width:100%;aspect-ratio:16/9;background:#000;border:1px solid var(--pitch-line);border-radius:6px;overflow:hidden;}
+  .live-player iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+  .live-badge{display:inline-flex;align-items:center;gap:6px;font-family:'Barlow Condensed', sans-serif;font-weight:700;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#fff;background:var(--loss);border-radius:4px;padding:3px 8px;}
+  .live-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 12px;font-size:14px;color:var(--chalk);}
+  .live-meta .live-updated{font-size:12px;color:var(--sage-dim);}
+  .live-off{background:var(--card);border:1px solid var(--pitch-line);border-radius:6px;padding:24px;text-align:center;}
+  .live-off p{font-size:14px;color:var(--sage);margin:0 0 6px;line-height:1.5;}
+  .live-off .live-next{color:var(--chalk);font-weight:600;}
+  .live-ext{margin-top:12px;}
+  .live-admin{margin-top:18px;display:flex;flex-direction:column;align-items:flex-end;gap:10px;}
+  .live-admin-form{width:100%;background:var(--card);border:1px solid var(--pitch-line);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:10px;}
+  .live-admin-btns{display:flex;gap:10px;flex-wrap:wrap;}
+  .gallery-upload-btn.live-stop-btn{background:transparent;color:var(--loss);border:1px solid var(--loss);}
+
+  /* ===== Videá k zápasu ===== */
+  .vid-badge{display:block;font-size:11px;color:var(--gold);margin-top:3px;white-space:nowrap;}
+  .vid-badge:empty{display:none;}
+  .match-videos{margin-top:14px;padding:12px 6px 0;border-top:1px dashed var(--pitch-line);}
+  .match-videos-title{font-family:'Barlow Condensed', sans-serif;font-weight:600;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--sage);margin:0 0 8px;}
+  .vid-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;}
+  .vid-item{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--pitch-line);border-radius:6px;padding:9px 12px;}
+  .vid-item a{flex:1;min-width:0;color:var(--chalk);text-decoration:none;font-size:14px;display:flex;align-items:center;gap:10px;}
+  .vid-item a:hover .vid-name{color:var(--gold);}
+  .vid-ico{font-size:16px;flex-shrink:0;}
+  .vid-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .vid-src{font-size:11px;color:var(--sage-dim);flex-shrink:0;}
+  .vid-del{background:none;border:1px solid var(--loss);color:var(--loss);border-radius:50%;width:24px;height:24px;cursor:pointer;flex-shrink:0;line-height:1;}
+  .vid-empty{font-size:13px;color:var(--sage-dim);margin:0;}
+  .vid-add-toggle{margin-top:10px;}
+  .vid-add-form{display:none;flex-direction:column;gap:8px;margin-top:10px;}
+  .vid-add-form.open{display:flex;}
+  .vid-lightbox{position:fixed;inset:0;background:rgba(10,8,10,0.94);z-index:100;display:flex;align-items:center;justify-content:center;padding:16px;}
+  .vid-lightbox .live-player{max-width:1100px;}
+
   /* ===== Ručná synchronizácia ===== */
   .sync-bar{margin:10px 24px 18px;padding:12px 14px;background:var(--card);border:1px solid var(--pitch-line);border-radius:8px;}
   .sync-bar[hidden]{display:none;}
@@ -479,6 +519,7 @@
 
   <nav class="tabbar" role="tablist" aria-label="Štatistiky tímu">
     <button class="tab-btn active" data-tab="prehlad" role="tab" aria-selected="true">Prehľad</button>
+    <button class="tab-btn tab-live" id="tab-btn-live" data-tab="live" role="tab" aria-selected="false"><span class="live-dot" aria-hidden="true"></span>Live</button>
     <button class="tab-btn" data-tab="tabulka" role="tab" aria-selected="false">Tabuľka</button>
     <button class="tab-btn" data-tab="zapasy" role="tab" aria-selected="false">Zápasy</button>
     <button class="tab-btn" data-tab="program" role="tab" aria-selected="false">Program</button>
@@ -489,6 +530,24 @@
 
   <section id="tab-prehlad" class="tab-panel active">
     <div class="hero" id="hero-box"></div>
+  </section>
+
+  <section id="tab-live" class="tab-panel">
+    <div class="section-head"><h2 id="live-heading">Live prenos</h2><div class="rule"></div></div>
+    <div id="live-content"><p class="match-detail-empty">Načítavam…</p></div>
+    <div class="live-admin">
+      <button id="live-admin-toggle" class="gallery-admin-toggle" type="button">⚙️ Nastaviť prenos</button>
+      <form id="live-admin-form" class="live-admin-form" style="display:none;">
+        <input type="password" id="live-admin-password" class="gallery-input" placeholder="Admin heslo" autocomplete="current-password">
+        <input type="url" id="live-url" class="gallery-input" placeholder="Odkaz na prenos (YouTube live, Facebook…)">
+        <input type="text" id="live-title" class="gallery-input" placeholder="Popis (nepovinné) — napr. Ivanka – Šurany" maxlength="120">
+        <div class="live-admin-btns">
+          <button type="submit" class="btn-external gallery-upload-btn">Spustiť / uložiť</button>
+          <button type="button" id="live-stop" class="btn-external gallery-upload-btn live-stop-btn">Ukončiť prenos</button>
+        </div>
+        <p id="live-admin-status" class="gallery-upload-status"></p>
+      </form>
+    </div>
   </section>
 
   <section id="tab-tabulka" class="tab-panel">
@@ -820,7 +879,9 @@ function renderZapasy(team){
       var homeIsUs = m.home && m.home.indexOf(team.name.split(' ').slice(-2).join(' ')) !== -1 || (m.home || '').toLowerCase().indexOf(team.slug.split('-')[0]) !== -1;
       var score = (m.scoreHome !== null && m.scoreHome !== undefined) ? (m.scoreHome + '\u00a0:\u00a0' + m.scoreAway) : '—';
       var status = m.status ? '<span class="ticket-status">' + m.status.replace(/</g,'&lt;') + '</span>' : '';
-      var hasDetail = matchHasDetail(m);
+      // každý zápas sa dá rozkliknúť — aj bez priebehu zo Sportnetu sú tam videá
+      var hasDetail = true;
+      var vKey = matchVideoKey(m);
       var ticket = '<div class="ticket' + (hasDetail ? ' ticket-clickable' : '') + '"' + (hasDetail ? ' onclick="toggleMatchDetail(' + idx + ')"' : '') + '>' +
         '<div class="round">' + (m.round || '').replace(/</g,'&lt;') + '</div>' +
         '<div class="match">' +
@@ -828,14 +889,17 @@ function renderZapasy(team){
           '<div class="score">' + score + status + '</div>' +
           '<div class="team away-side' + (!homeIsUs ? ' us' : '') + '">' + (m.away || '').replace(/</g,'&lt;') + '</div>' +
         '</div>' +
-        '<div class="date">' + (m.date || '').replace(/</g,'&lt;') + '</div>' +
+        '<div class="date">' + (m.date || '').replace(/</g,'&lt;') + '<span class="vid-badge" data-vkey="' + escapeHtml(vKey) + '"></span></div>' +
         (hasDetail ? '<div class="chevron" id="zapas-chevron-' + idx + '">›</div>' : '') +
       '</div>';
-      var detailPanel = hasDetail ? '<div class="match-detail" id="match-detail-' + idx + '">' + matchDetailHtml(m) + '</div>' : '';
+      var detailPanel = '<div class="match-detail" id="match-detail-' + idx + '">' + matchDetailHtml(m) +
+        '<div class="match-videos" data-vkey="' + escapeHtml(vKey) + '" data-vlabel="' + escapeHtml((m.home || '') + ' – ' + (m.away || '')) + '"></div>' +
+      '</div>';
       return ticket + detailPanel;
     }).join('') + '</div>' +
     '<p class="sync-note"><span>' + syncFooterNote() + '</span>' +
     '<a href="' + teamPageUrl(team, 'vysledky') + '" target="_blank" rel="noopener">Zdroj na Sportnete ↗</a></p>';
+    fillMatchVideos();
   } else {
     content.innerHTML = '<div class="empty-state">Pre <b>' + team.name + '</b> zatiaľ nemám zosynchronizované žiadne zápasy. ' +
       'Skontroluj, či scraper (GitHub Actions) už prebehol, prípadne pozri debug výstup v <code>data/debug/</code>.</div>' +
@@ -1017,6 +1081,7 @@ tabBtns.forEach(function(btn){
     tabPanels.forEach(function(p){
       p.classList.toggle('active', p.id === 'tab-' + target);
     });
+    onLiveTabChange(target === 'live');
     window.scrollTo({top: 0, behavior: 'smooth'});
   });
 });
@@ -1327,6 +1392,9 @@ function setAdminUnlocked(on){
   toggleBtn.textContent = on ? '🔓 Admin (zapnuté)' : '🔒 Admin';
   form.style.display = 'none';
   loadGalleryItems();
+  // admin platí aj pre videá k zápasom a nastavenie live prenosu
+  fillMatchVideos();
+  syncAdminFields();
 }
 
 function initGallery(){
@@ -1588,7 +1656,353 @@ function openLightbox(index){
   document.body.appendChild(box);
 }
 
+/* ===================== LIVE PRENOS + VIDEÁ K ZÁPASOM ===================== */
+// Údaje sú v Supabase (rovnaký projekt ako galéria) — tabuľky app_settings a match_videos,
+// nastavenie viď VIDEO-LIVE-SETUP.md. Zapisovať (spustiť prenos, pridať/zmazať video)
+// môže len ten, kto pozná ADMIN_PASSWORD (to isté heslo ako na mazanie v galérii).
+var SETTINGS_TABLE = 'app_settings';
+var VIDEOS_TABLE = 'match_videos';
+// Voliteľné: ID YouTube kanála (začína „UC…“). Ak je vyplnené a prenos je zapnutý bez
+// konkrétneho odkazu, appka ukáže to, čo na kanáli práve beží naživo (len pre verejné prenosy).
+var LIVE_YOUTUBE_CHANNEL_ID = '';
+var IVANKA_SLUG = 'sk-junior-ivanka-pri-nitre';
+
+var LIVE_STATE = null;      // {active, url, title, updated_at}
+var LIVE_TAB_OPEN = false;
+var LIVE_RENDERED_URL = null;
+
+function youtubeId(url){
+  var m = String(url).match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?(?:.*&)?v=|live\/|embed\/|shorts\/))([A-Za-z0-9_-]{11})/);
+  return m ? m[1] : null;
+}
+
+// Z bežného odkazu urobí adresu prehrávača, ktorý sa dá vložiť do appky.
+// Vracia {kind:'iframe', src} | {kind:'hls', src} | null (nedá sa vložiť → len odkaz von)
+function embedFor(url, autoplay){
+  if (!url) return null;
+  var ap = autoplay ? 1 : 0;
+  var yt = youtubeId(url);
+  if (yt) return {kind:'iframe', src:'https://www.youtube.com/embed/' + yt + '?autoplay=' + ap + '&playsinline=1&rel=0'};
+  var vm = String(url).match(/vimeo\.com\/(?:video\/)?(\d+)/);
+  if (vm) return {kind:'iframe', src:'https://player.vimeo.com/video/' + vm[1] + '?autoplay=' + ap};
+  if (/facebook\.com|fb\.watch/.test(url)) return {kind:'iframe', src:'https://www.facebook.com/plugins/video.php?show_text=false&autoplay=' + (autoplay ? 'true' : 'false') + '&href=' + encodeURIComponent(url)};
+  var tw = String(url).match(/twitch\.tv\/([A-Za-z0-9_]+)/);
+  if (tw) return {kind:'iframe', src:'https://player.twitch.tv/?channel=' + tw[1] + '&parent=' + location.hostname + '&autoplay=' + (autoplay ? 'true' : 'false')};
+  if (/\.m3u8(\?|$)/i.test(url)) return {kind:'hls', src:url};
+  return null;
+}
+
+function playerHtml(emb){
+  if (emb.kind === 'hls') return '<div class="live-player"><video id="hls-video" controls autoplay muted playsinline style="width:100%;height:100%;position:absolute;inset:0;"></video></div>';
+  return '<div class="live-player"><iframe src="' + escapeHtml(emb.src) + '" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>';
+}
+
+// HLS (.m3u8) — napr. z vlastného servera MediaMTX, ktorý prijíma RTMP/RTSP z kamery.
+// Safari vie HLS natívne, ostatné prehliadače cez hls.js (načíta sa len keď treba).
+function attachHls(src){
+  var v = document.getElementById('hls-video');
+  if (!v) return;
+  if (v.canPlayType('application/vnd.apple.mpegurl')){ v.src = src; return; }
+  function go(){ var h = new window.Hls(); h.loadSource(src); h.attachMedia(v); }
+  if (window.Hls) return go();
+  var s = document.createElement('script');
+  s.src = 'https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.5.13/hls.min.js';
+  s.onload = go;
+  document.head.appendChild(s);
+}
+
+function hostLabel(url){
+  try {
+    var h = new URL(url).hostname.replace(/^www\./, '');
+    if (/youtu/.test(h)) return 'YouTube';
+    if (/xbotgo/.test(h)) return 'XbotGo';
+    if (/drive\.google|docs\.google/.test(h)) return 'Google Drive';
+    if (/facebook|fb\.watch/.test(h)) return 'Facebook';
+    if (/vimeo/.test(h)) return 'Vimeo';
+    if (/veo\.co/.test(h)) return 'Veo';
+    return h;
+  } catch(e){ return ''; }
+}
+
+function hostIcon(url){
+  var l = hostLabel(url);
+  return l === 'YouTube' ? '▶️' : l === 'XbotGo' ? '🎥' : l === 'Google Drive' ? '📁' : l === 'Facebook' ? '📘' : '🔗';
+}
+
+function isHttpUrl(u){ return /^https?:\/\/\S+$/i.test(String(u || '').trim()); }
+
+function nextIvankaMatchText(){
+  var d = SYNC_DATA && SYNC_DATA[IVANKA_SLUG];
+  var f = d && d.fixtures && d.fixtures[0];
+  if (!f) return '';
+  return f.date + (f.time ? ' o ' + f.time : '') + ' · ' + f.home + ' – ' + f.away;
+}
+
+function renderLive(){
+  var box = document.getElementById('live-content');
+  var btn = document.getElementById('tab-btn-live');
+  var s = LIVE_STATE;
+  var active = !!(s && s.active);
+  btn.classList.toggle('is-live', active);
+  if (!LIVE_TAB_OPEN){
+    // mimo karty Live prehrávač nedržíme načítaný (šetrí dáta a nehrá na pozadí)
+    if (LIVE_RENDERED_URL !== null){ box.innerHTML = ''; LIVE_RENDERED_URL = null; }
+    return;
+  }
+  var url = active ? (s.url || '') : '';
+  var emb = url ? embedFor(url, true)
+    : (active && LIVE_YOUTUBE_CHANNEL_ID ? {kind:'iframe', src:'https://www.youtube.com/embed/live_stream?channel=' + encodeURIComponent(LIVE_YOUTUBE_CHANNEL_ID) + '&autoplay=1&playsinline=1'} : null);
+  var renderKey = (active ? '1' : '0') + '|' + url + '|' + (s && s.title || '');
+  if (renderKey === LIVE_RENDERED_URL) return; // nič sa nezmenilo → neprerušuj prehrávanie
+  LIVE_RENDERED_URL = renderKey;
+
+  if (!active){
+    var next = nextIvankaMatchText();
+    box.innerHTML = '<div class="live-off">' +
+      '<p>📴 Momentálne neprebieha žiadny živý prenos.</p>' +
+      (next ? '<p>Najbližší zápas: <span class="live-next">' + escapeHtml(next) + '</span></p>' : '') +
+      '<p style="font-size:12px;color:var(--sage-dim);margin-top:10px;">Keď sa prenos spustí, karta <b>Live</b> začne blikať na červeno.</p>' +
+    '</div>';
+    return;
+  }
+  var meta = '<div class="live-meta"><span class="live-badge">● Naživo</span>' +
+    (s.title ? '<span>' + escapeHtml(s.title) + '</span>' : '') + '</div>';
+  if (emb){
+    box.innerHTML = meta + playerHtml(emb) +
+      (url ? '<div class="live-ext"><a class="btn-external" href="' + escapeHtml(url) + '" target="_blank" rel="noopener">Otvoriť v ' + escapeHtml(hostLabel(url) || 'prehliadači') + ' ↗</a></div>' : '');
+    if (emb.kind === 'hls') attachHls(emb.src);
+  } else if (url){
+    box.innerHTML = meta + '<div class="live-off"><p>Tento prenos sa nedá prehrať priamo v appke.</p>' +
+      '<p><a class="btn-external" href="' + escapeHtml(url) + '" target="_blank" rel="noopener">Pozerať prenos ↗</a></p></div>';
+  } else {
+    box.innerHTML = meta + '<div class="live-off"><p>Prenos je zapnutý, ale chýba odkaz.</p></div>';
+  }
+}
+
+function loadLiveState(){
+  var client = getSupabase();
+  if (!client) return Promise.resolve();
+  return client.from(SETTINGS_TABLE).select('value, updated_at').eq('key', 'live').maybeSingle()
+    .then(function(res){
+      if (res.error) return;
+      LIVE_STATE = res.data ? Object.assign({}, res.data.value || {}, {updated_at: res.data.updated_at}) : {active:false};
+      renderLive();
+    });
+}
+
+function saveLiveState(value){
+  var client = getSupabase();
+  if (!client) return Promise.reject(new Error('Supabase nie je nastavený'));
+  return client.from(SETTINGS_TABLE).upsert({key:'live', value:value, updated_at:new Date().toISOString()})
+    .then(function(res){ if (res.error) throw res.error; return loadLiveState(); });
+}
+
+function onLiveTabChange(open){
+  LIVE_TAB_OPEN = open;
+  if (open){ track('live-open', 'Otvorený live prenos'); loadLiveState(); }
+  renderLive();
+}
+
+// Overí admin heslo z poľa (ak admin ešte nie je odomknutý). Vracia true/false.
+function ensureAdmin(pwInput, statusEl){
+  if (adminIsUnlocked()) return true;
+  if (pwInput && pwInput.value === ADMIN_PASSWORD){
+    pwInput.value = '';
+    setAdminUnlocked(true);
+    return true;
+  }
+  if (statusEl) statusEl.textContent = 'Nesprávne admin heslo.';
+  return false;
+}
+
+function syncAdminFields(){
+  var on = adminIsUnlocked();
+  var lp = document.getElementById('live-admin-password');
+  if (lp) lp.style.display = on ? 'none' : '';
+  document.querySelectorAll('.vid-pw').forEach(function(el){ el.style.display = on ? 'none' : ''; });
+}
+
+function initLive(){
+  var toggle = document.getElementById('live-admin-toggle');
+  var form = document.getElementById('live-admin-form');
+  var status = document.getElementById('live-admin-status');
+  toggle.addEventListener('click', function(){
+    var open = form.style.display === 'none';
+    form.style.display = open ? 'flex' : 'none';
+    if (open){
+      syncAdminFields();
+      if (LIVE_STATE){
+        document.getElementById('live-url').value = LIVE_STATE.url || '';
+        document.getElementById('live-title').value = LIVE_STATE.title || '';
+      }
+      if (!document.getElementById('live-title').value){
+        var next = nextIvankaMatchText();
+        if (next) document.getElementById('live-title').value = next.split(' · ').pop();
+      }
+    }
+  });
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    if (!ensureAdmin(document.getElementById('live-admin-password'), status)) return;
+    var url = document.getElementById('live-url').value.trim();
+    if (url && !isHttpUrl(url)){ status.textContent = 'Odkaz musí začínať https://'; return; }
+    if (!url && !LIVE_YOUTUBE_CHANNEL_ID){ status.textContent = 'Vlož odkaz na prenos.'; return; }
+    status.textContent = 'Ukladám…';
+    saveLiveState({active:true, url:url, title:document.getElementById('live-title').value.trim()})
+      .then(function(){ status.textContent = '✅ Prenos je zapnutý — všetci ho uvidia v karte Live.'; syncAdminFields(); })
+      .catch(function(err){ status.textContent = 'Nepodarilo sa uložiť: ' + (err.message || err); });
+  });
+  document.getElementById('live-stop').addEventListener('click', function(){
+    if (!ensureAdmin(document.getElementById('live-admin-password'), status)) return;
+    status.textContent = 'Ukladám…';
+    saveLiveState({active:false, url:'', title:''})
+      .then(function(){ status.textContent = 'Prenos ukončený.'; syncAdminFields(); document.getElementById('live-url').value = ''; document.getElementById('live-title').value = ''; })
+      .catch(function(err){ status.textContent = 'Nepodarilo sa uložiť: ' + (err.message || err); });
+  });
+
+  loadLiveState();
+  // stav prenosu sa kontroluje každú minútu (len keď je appka na obrazovke) — kvôli blikajúcej karte
+  setInterval(function(){ if (document.visibilityState === 'visible') loadLiveState(); }, 60000);
+  document.addEventListener('visibilitychange', function(){ if (document.visibilityState === 'visible') loadLiveState(); });
+}
+
+/* ----- Videá k zápasom ----- */
+var MATCH_VIDEOS = {};       // match_key → [{id, url, title}]
+var MATCH_VIDEOS_LOADED = false;
+
+// Kľúč zápasu: ID zápasu zo Sportnetu (rovnaké pre oba tímy), inak dátum + tímy.
+function matchVideoKey(m){
+  var mm = String(m.detailUrl || '').match(/\/zapas\/([A-Za-z0-9]+)/);
+  if (mm) return 'sn:' + mm[1];
+  return 'm:' + [m.date || '', m.home || '', m.away || ''].join('|').toLowerCase();
+}
+
+function loadMatchVideos(){
+  var client = getSupabase();
+  if (!client) return Promise.resolve();
+  return client.from(VIDEOS_TABLE).select('id, match_key, url, title, created_at').order('created_at', {ascending:true}).limit(1000)
+    .then(function(res){
+      if (res.error){ console.warn('match_videos:', res.error.message); MATCH_VIDEOS_LOADED = true; fillMatchVideos(); return; }
+      var map = {};
+      (res.data || []).forEach(function(v){ (map[v.match_key] = map[v.match_key] || []).push(v); });
+      MATCH_VIDEOS = map;
+      MATCH_VIDEOS_LOADED = true;
+      fillMatchVideos();
+    });
+}
+
+function fillMatchVideos(){
+  // volá sa aj z renderZapasy() pri štarte, ešte pred načítaním videí
+  if (!MATCH_VIDEOS) MATCH_VIDEOS = {};
+  document.querySelectorAll('.vid-badge').forEach(function(el){
+    var n = (MATCH_VIDEOS[el.dataset.vkey] || []).length;
+    el.textContent = n ? '🎬 ' + n : '';
+    el.title = n ? n + (n === 1 ? ' video' : n < 5 ? ' videá' : ' videí') : '';
+  });
+  var isAdmin = adminIsUnlocked();
+  document.querySelectorAll('.match-videos').forEach(function(box){
+    var key = box.dataset.vkey;
+    var list = MATCH_VIDEOS[key] || [];
+    var formWasOpen = !!box.querySelector('.vid-add-form.open');
+    var items = list.length ? '<ul class="vid-list">' + list.map(function(v, i){
+      var name = v.title || ('Video ' + (i + 1));
+      return '<li class="vid-item">' +
+        '<a href="' + escapeHtml(v.url) + '" target="_blank" rel="noopener" class="vid-open" data-url="' + escapeHtml(v.url) + '" data-title="' + escapeHtml(name) + '">' +
+          '<span class="vid-ico">' + hostIcon(v.url) + '</span><span class="vid-name">' + escapeHtml(name) + '</span>' +
+        '</a>' +
+        '<span class="vid-src">' + escapeHtml(hostLabel(v.url)) + '</span>' +
+        (isAdmin ? '<button type="button" class="vid-del" data-id="' + escapeHtml(v.id) + '" title="Odstrániť video">✕</button>' : '') +
+      '</li>';
+    }).join('') + '</ul>'
+      : '<p class="vid-empty">' + (MATCH_VIDEOS_LOADED ? 'K tomuto zápasu zatiaľ nie je žiadne video.' : 'Načítavam videá…') + '</p>';
+    box.innerHTML = '<p class="match-videos-title">🎬 Videá zo zápasu</p>' + items +
+      '<button type="button" class="gallery-admin-toggle vid-add-toggle">＋ Pridať video</button>' +
+      '<form class="vid-add-form' + (formWasOpen ? ' open' : '') + '">' +
+        '<input type="url" class="gallery-input vid-url" placeholder="Odkaz na video (XbotGo, YouTube, Google Drive…)" required>' +
+        '<input type="text" class="gallery-input vid-title" placeholder="Názov — napr. 1. polčas, Zostrih gólov" maxlength="100">' +
+        '<input type="password" class="gallery-input vid-pw" placeholder="Admin heslo" autocomplete="current-password"' + (isAdmin ? ' style="display:none;"' : '') + '>' +
+        '<button type="submit" class="btn-external gallery-upload-btn">Uložiť video</button>' +
+        '<p class="gallery-upload-status vid-status"></p>' +
+      '</form>';
+  });
+}
+
+function openVideoLightbox(url, title){
+  var emb = embedFor(url, true);
+  if (!emb) return false;
+  var box = document.createElement('div');
+  box.className = 'vid-lightbox';
+  box.innerHTML = '<div style="width:100%;max-width:1100px;">' +
+    '<p class="live-meta">' + escapeHtml(title || '') + '</p>' + playerHtml(emb) +
+    '<div class="live-ext"><a class="btn-external" href="' + escapeHtml(url) + '" target="_blank" rel="noopener">Otvoriť v ' + escapeHtml(hostLabel(url)) + ' ↗</a></div></div>' +
+    '<button class="gallery-lightbox-close" aria-label="Zavrieť">×</button>';
+  function close(){ box.remove(); document.removeEventListener('keydown', onKey); }
+  function onKey(e){ if (e.key === 'Escape') close(); }
+  box.addEventListener('click', function(e){
+    if (e.target === box || e.target.classList.contains('gallery-lightbox-close')) close();
+  });
+  document.addEventListener('keydown', onKey);
+  document.body.appendChild(box);
+  if (emb.kind === 'hls') attachHls(emb.src);
+  return true;
+}
+
+function initMatchVideos(){
+  var root = document.getElementById('zapasy-content');
+  root.addEventListener('click', function(e){
+    var t = e.target;
+    var open = t.closest('.vid-open');
+    if (open){
+      track('zapas-video', 'Video zo zápasu');
+      if (openVideoLightbox(open.dataset.url, open.dataset.title)) e.preventDefault();
+      return; // inak sa odkaz otvorí normálne v novej karte
+    }
+    if (t.closest('.vid-add-toggle')){
+      var form = t.closest('.match-videos').querySelector('.vid-add-form');
+      form.classList.toggle('open');
+      syncAdminFields();
+      if (form.classList.contains('open')) form.querySelector('.vid-url').focus();
+      return;
+    }
+    var del = t.closest('.vid-del');
+    if (del){
+      if (!confirm('Odstrániť toto video zo zápasu? (Samotné video na XbotGo/YouTube zostane.)')) return;
+      getSupabase().from(VIDEOS_TABLE).delete().eq('id', del.dataset.id)
+        .then(function(res){ if (res.error) alert('Nepodarilo sa odstrániť: ' + res.error.message); return loadMatchVideos(); });
+    }
+  });
+  root.addEventListener('submit', function(e){
+    var form = e.target.closest('.vid-add-form');
+    if (!form) return;
+    e.preventDefault();
+    // hodnoty si vezmeme hneď — odomknutie admina formulár prekreslí
+    var box = form.closest('.match-videos');
+    var row = {
+      match_key: box.dataset.vkey,
+      match_label: box.dataset.vlabel,
+      url: form.querySelector('.vid-url').value.trim(),
+      title: form.querySelector('.vid-title').value.trim() || null
+    };
+    var status = form.querySelector('.vid-status');
+    if (!isHttpUrl(row.url)){ status.textContent = 'Odkaz musí začínať https://'; return; }
+    if (!ensureAdmin(form.querySelector('.vid-pw'), status)) return;
+    var client = getSupabase();
+    // po odomknutí je v boxe nový formulár — status píšeme tam
+    status = box.querySelector('.vid-status') || status;
+    if (!client){ status.textContent = 'Supabase nie je nastavený.'; return; }
+    status.textContent = 'Ukladám…';
+    client.from(VIDEOS_TABLE).insert(row).then(function(res){
+      if (res.error){ status.textContent = 'Nepodarilo sa uložiť: ' + res.error.message; return; }
+      track('zapas-video-add', 'Pridané video k zápasu');
+      return loadMatchVideos();
+    });
+  });
+  loadMatchVideos();
+}
+
 initGallery();
+initLive();
+initMatchVideos();
 </script>
 </body>
 </html>
