@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T11:42:42.788Z",
+  "generatedAt": "2026-11-02T13:10:11.543Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -5602,6 +5602,18 @@
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5d6596d986dc8b7238352cda/formal-photo/a8b64ce9-cf59-496e-bc5e-acbddb078484"
         },
         {
+          "name": "Dušan Pisár",
+          "position": "Obranca",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/5d658fe086dc8b72383435ea/dusan-pisar/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5d658fe086dc8b72383435ea/formal-photo/a39ad1b2-1ef0-4907-a3d9-76969006e29c"
+        },
+        {
+          "name": "Juraj Hozlár",
+          "position": "Obranca",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/5f47914ad2e2d501b5274a69/juraj-hozlar/",
+          "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
+        },
+        {
           "name": "Sebastián Jahnátek",
           "position": "Obranca",
           "href": "https://sportnet.sme.sk/futbalnet/clen/65376d52ce98c35fd28a1b30/sebastian-jahnatek/",
@@ -5620,22 +5632,16 @@
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5ef2f8221b04f230d146f85a/formal-photo/b525ba64-6722-456e-83e9-e38d7e20abee"
         },
         {
-          "name": "Dušan Pisár",
+          "name": "Róbert Fűri",
           "position": "Záložník",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/5d658fe086dc8b72383435ea/dusan-pisar/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5d658fe086dc8b72383435ea/formal-photo/a39ad1b2-1ef0-4907-a3d9-76969006e29c"
+          "href": "https://sportnet.sme.sk/futbalnet/clen/5d65977e86dc8b7238354405/robert-fri/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5d65977e86dc8b7238354405/formal-photo/06cf494b-76d0-4bfe-8922-16a2e558c1b6"
         },
         {
           "name": "Fabián Farkaš",
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5f48c5f2d2e2d501b527b303/fabian-farkas/",
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5f48c5f2d2e2d501b527b303/formal-photo/db019034-d290-4249-b38c-05a1219241d0"
-        },
-        {
-          "name": "Juraj Hozlár",
-          "position": "Záložník",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/5f47914ad2e2d501b5274a69/juraj-hozlar/",
-          "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
         },
         {
           "name": "Samuel Špacír",
@@ -5660,12 +5666,6 @@
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5e14d87e7ad8b85a6baf0d62/timotej-petik/",
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5e14d87e7ad8b85a6baf0d62/formal-photo/5b645f6a-1303-4fc4-89ad-651bd54e82fa"
-        },
-        {
-          "name": "Róbert Fűri",
-          "position": "Útočník",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/5d65977e86dc8b7238354405/robert-fri/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5d65977e86dc8b7238354405/formal-photo/06cf494b-76d0-4bfe-8922-16a2e558c1b6"
         },
         {
           "name": "Kristián Hatala",
@@ -11185,10 +11185,10 @@
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/64adb06a76d0d348cd169161/formal-photo/a8b4b8d5-b169-4fe7-8944-50de969c6252"
         },
         {
-          "name": "Simon Kálazi",
+          "name": "Jakub Árendás",
           "position": "Obranca",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/66518dac9f17f7950db822b8/simon-kalazi/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/66518dac9f17f7950db822b8/formal-photo/03263ae7-65b8-4277-84f6-4754981cd978"
+          "href": "https://sportnet.sme.sk/futbalnet/clen/60811f51500c0e6a8d2e4338/jakub-arendas/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/60811f51500c0e6a8d2e4338/formal-photo/b2173a91-f2fd-4c87-b7b8-bd5e8ddf5ee2"
         },
         {
           "name": "David Braník",
@@ -11221,16 +11221,16 @@
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5d65967a86dc8b72383520de/formal-photo/93205763-486c-40f9-ac3a-c45ed40a3624"
         },
         {
+          "name": "Simon Kálazi",
+          "position": "Záložník",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/66518dac9f17f7950db822b8/simon-kalazi/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/66518dac9f17f7950db822b8/formal-photo/03263ae7-65b8-4277-84f6-4754981cd978"
+        },
+        {
           "name": "Richard Kováč",
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/64b59a2f97e3f35974aaba4e/richard-kovac/",
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/64b59a2f97e3f35974aaba4e/formal-photo/42c74632-e72b-4e02-964a-dd244bfda46d"
-        },
-        {
-          "name": "Jakub Árendás",
-          "position": "Záložník",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/60811f51500c0e6a8d2e4338/jakub-arendas/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/60811f51500c0e6a8d2e4338/formal-photo/b2173a91-f2fd-4c87-b7b8-bd5e8ddf5ee2"
         },
         {
           "name": "Peter Hamar",

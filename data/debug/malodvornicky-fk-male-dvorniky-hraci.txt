@@ -13,11 +13,842 @@ KLUBY
 ČLENOVIA
 PRESTUPY
 PIKOŠKY
+Liga majstrov 2026/2027
+Program
+Výsledky
+08.09.
+BRU
+2
+1. kolo
+AVL
+3
+Detail zápasu
+08.09.
+AEK
+1
+1. kolo
+LSK
+0
+Detail zápasu
+08.09.
+RMA
+2
+1. kolo
+INT
+1
+Detail zápasu
+08.09.
+BVB
+3
+1. kolo
+VIL
+2
+Detail zápasu
+08.09.
+POR
+0
+1. kolo
+MCI
+2
+Detail zápasu
+08.09.
+LIL
+2
+1. kolo
+BET
+3
+Detail zápasu
+09.09.
+BAR
+5
+1. kolo
+FEY
+1
+Detail zápasu
+09.09.
+STU
+3
+1. kolo
+VIK
+1
+Detail zápasu
+09.09.
+PSG
+6
+1. kolo
+SLB
+1
+Detail zápasu
+09.09.
+LIV
+2
+1. kolo
+ATM
+1
+Detail zápasu
+09.09.
+SPO
+3
+1. kolo
+GAL
+1
+Detail zápasu
+09.09.
+NAP
+0
+1. kolo
+ARS
+1
+Detail zápasu
+10.09.
+PSV
+1
+1. kolo
+SHK
+1
+Detail zápasu
+10.09.
+FEN
+1
+1. kolo
+ROM
+1
+Detail zápasu
+10.09.
+FCB
+5
+1. kolo
+BOD
+0
+Detail zápasu
+10.09.
+MUN
+4
+1. kolo
+SAB
+0
+Detail zápasu
+10.09.
+SLA
+2
+1. kolo
+LEN
+3
+Detail zápasu
+10.09.
+COM
+4
+1. kolo
+LEI
+1
+Detail zápasu
+13.10.
+LEN
+0
+2. kolo
+SPO
+2
+Detail zápasu
+13.10.
+SAB
+2
+2. kolo
+SLA
+0
+Detail zápasu
+13.10.
+INT
+3
+2. kolo
+BRU
+4
+Detail zápasu
+13.10.
+ARS
+3
+2. kolo
+LIL
+0
+Detail zápasu
+13.10.
+ATM
+2
+2. kolo
+MUN
+0
+Detail zápasu
+13.10.
+LEI
+1
+2. kolo
+PSV
+0
+Detail zápasu
+13.10.
+VIL
+3
+2. kolo
+NAP
+1
+Detail zápasu
+13.10.
+GAL
+1
+2. kolo
+BAR
+4
+Detail zápasu
+13.10.
+VIK
+3
+2. kolo
+FCB
+3
+Detail zápasu
+14.10.
+FEY
+3
+2. kolo
+COM
+2
+Detail zápasu
+14.10.
+LSK
+3
+2. kolo
+LIV
+6
+Detail zápasu
+14.10.
+MCI
+2
+2. kolo
+PSG
+4
+Detail zápasu
+14.10.
+ROM
+3
+2. kolo
+RMA
+4
+Detail zápasu
+14.10.
+AVL
+6
+2. kolo
+FEN
+0
+Detail zápasu
+14.10.
+BET
+3
+2. kolo
+POR
+2
+Detail zápasu
+14.10.
+BOD
+1
+2. kolo
+BVB
+0
+Detail zápasu
+14.10.
+SHK
+3
+2. kolo
+AEK
+1
+Detail zápasu
+14.10.
+SLB
+0
+2. kolo
+STU
+3
+Detail zápasu
+20.10.
+FEN
+2
+3. kolo
+SLA
+2
+Detail zápasu
+20.10.
+SAB
+1
+3. kolo
+BVB
+2
+Detail zápasu
+20.10.
+PSG
+4
+3. kolo
+BAR
+2
+Detail zápasu
+20.10.
+LIV
+4
+3. kolo
+VIL
+3
+Detail zápasu
+20.10.
+MCI
+5
+3. kolo
+AEK
+1
+Detail zápasu
+20.10.
+ROM
+4
+3. kolo
+SLB
+0
+Detail zápasu
+20.10.
+POR
+0
+3. kolo
+PSV
+1
+Detail zápasu
+20.10.
+NAP
+4
+3. kolo
+BOD
+3
+Detail zápasu
+20.10.
+STU
+1
+3. kolo
+ATM
+1
+Detail zápasu
+21.10.
+LIL
+2
+3. kolo
+GAL
+4
+Detail zápasu
+21.10.
+COM
+4
+3. kolo
+MUN
+1
+Detail zápasu
+21.10.
+FCB
+2
+3. kolo
+ARS
+2
+Detail zápasu
+21.10.
+RMA
+4
+3. kolo
+LEI
+1
+Detail zápasu
+21.10.
+INT
+1
+3. kolo
+SHK
+0
+Detail zápasu
+21.10.
+SPO
+2
+3. kolo
+LSK
+3
+Detail zápasu
+21.10.
+AVL
+3
+3. kolo
+VIK
+1
+Detail zápasu
+21.10.
+BRU
+3
+3. kolo
+LEN
+0
+Detail zápasu
+21.10.
+BET
+1
+3. kolo
+FEY
+0
+Detail zápasu
+SHK
+03.11. 18:45
+SPO
+4. kolo
+Detail zápasu
+GAL
+03.11. 18:45
+STU
+4. kolo
+Detail zápasu
+BAR
+03.11. 21:00
+AVL
+4. kolo
+Detail zápasu
+ATM
+03.11. 21:00
+FCB
+4. kolo
+Detail zápasu
+MUN
+03.11. 21:00
+ROM
+4. kolo
+Detail zápasu
+FEY
+03.11. 21:00
+INT
+4. kolo
+Detail zápasu
+BOD
+03.11. 21:00
+LIL
+4. kolo
+Detail zápasu
+VIL
+03.11. 21:00
+PSG
+4. kolo
+Detail zápasu
+LSK
+03.11. 21:00
+SLB
+4. kolo
+Detail zápasu
+FEN
+04.11. 18:45
+LIV
+4. kolo
+Detail zápasu
+AEK
+04.11. 18:45
+RMA
+4. kolo
+Detail zápasu
+BVB
+04.11. 21:00
+BET
+4. kolo
+Detail zápasu
+POR
+04.11. 21:00
+NAP
+4. kolo
+Detail zápasu
+PSV
+04.11. 21:00
+BRU
+4. kolo
+Detail zápasu
+LEI
+04.11. 21:00
+MCI
+4. kolo
+Detail zápasu
+SLA
+04.11. 21:00
+ARS
+4. kolo
+Detail zápasu
+LEN
+04.11. 21:00
+COM
+4. kolo
+Detail zápasu
+VIK
+04.11. 21:00
+SAB
+4. kolo
+Detail zápasu
+BOD
+24.11. 18:45
+LSK
+5. kolo
+Detail zápasu
+GAL
+24.11. 18:45
+AVL
+5. kolo
+Detail zápasu
+RMA
+24.11. 21:00
+PSV
+5. kolo
+Detail zápasu
+MCI
+24.11. 21:00
+NAP
+5. kolo
+Detail zápasu
+ARS
+24.11. 21:00
+BVB
+5. kolo
+Detail zápasu
+FEY
+24.11. 21:00
+POR
+5. kolo
+Detail zápasu
+LEI
+24.11. 21:00
+LEN
+5. kolo
+Detail zápasu
+SLB
+24.11. 21:00
+BET
+5. kolo
+Detail zápasu
+COM
+24.11. 21:00
+AEK
+5. kolo
+Detail zápasu
+SLA
+25.11. 18:45
+VIL
+5. kolo
+Detail zápasu
+SAB
+25.11. 18:45
+BAR
+5. kolo
+Detail zápasu
+PSG
+25.11. 21:00
+ROM
+5. kolo
+Detail zápasu
+INT
+25.11. 21:00
+STU
+5. kolo
+Detail zápasu
+ATM
+25.11. 21:00
+VIK
+5. kolo
+Detail zápasu
+SPO
+25.11. 21:00
+MUN
+5. kolo
+Detail zápasu
+BRU
+25.11. 21:00
+LIV
+5. kolo
+Detail zápasu
+LIL
+25.11. 21:00
+FCB
+5. kolo
+Detail zápasu
+SHK
+25.11. 21:00
+FEN
+5. kolo
+Detail zápasu
+VIL
+08.12. 18:45
+SAB
+6. kolo
+Detail zápasu
+VIK
+08.12. 18:45
+FEY
+6. kolo
+Detail zápasu
+FCB
+08.12. 21:00
+SLA
+6. kolo
+Detail zápasu
+BAR
+08.12. 21:00
+MCI
+6. kolo
+Detail zápasu
+ROM
+08.12. 21:00
+SPO
+6. kolo
+Detail zápasu
+AVL
+08.12. 21:00
+PSG
+6. kolo
+Detail zápasu
+MUN
+08.12. 21:00
+LEI
+6. kolo
+Detail zápasu
+NAP
+08.12. 21:00
+BRU
+6. kolo
+Detail zápasu
+AEK
+08.12. 21:00
+GAL
+6. kolo
+Detail zápasu
+BET
+09.12. 18:45
+COM
+6. kolo
+Detail zápasu
+SLB
+09.12. 18:45
+SHK
+6. kolo
+Detail zápasu
+LIV
+09.12. 21:00
+POR
+6. kolo
+Detail zápasu
+ARS
+09.12. 21:00
+RMA
+6. kolo
+Detail zápasu
+BVB
+09.12. 21:00
+INT
+6. kolo
+Detail zápasu
+PSV
+09.12. 21:00
+ATM
+6. kolo
+Detail zápasu
+STU
+09.12. 21:00
+LIL
+6. kolo
+Detail zápasu
+LSK
+09.12. 21:00
+FEN
+6. kolo
+Detail zápasu
+LEN
+09.12. 21:00
+BOD
+6. kolo
+Detail zápasu
+BOD
+19.01. 18:45
+ATM
+7. kolo
+Detail zápasu
+GAL
+19.01. 18:45
+FEY
+7. kolo
+Detail zápasu
+RMA
+19.01. 21:00
+LSK
+7. kolo
+Detail zápasu
+INT
+19.01. 21:00
+LIV
+7. kolo
+Detail zápasu
+AVL
+19.01. 21:00
+BVB
+7. kolo
+Detail zápasu
+POR
+19.01. 21:00
+SLA
+7. kolo
+Detail zápasu
+LIL
+19.01. 21:00
+SLB
+7. kolo
+Detail zápasu
+STU
+19.01. 21:00
+BRU
+7. kolo
+Detail zápasu
+AEK
+19.01. 21:00
+ROM
+7. kolo
+Detail zápasu
+FEN
+20.01. 18:45
+VIL
+7. kolo
+Detail zápasu
+SAB
+20.01. 18:45
+NAP
+7. kolo
+Detail zápasu
+SPO
+20.01. 21:00
+BAR
+7. kolo
+Detail zápasu
+MUN
+20.01. 21:00
+FCB
+7. kolo
+Detail zápasu
+BET
+20.01. 21:00
+ARS
+7. kolo
+Detail zápasu
+LEI
+20.01. 21:00
+SHK
+7. kolo
+Detail zápasu
+COM
+20.01. 21:00
+PSG
+7. kolo
+Detail zápasu
+LEN
+20.01. 21:00
+MCI
+7. kolo
+Detail zápasu
+VIK
+20.01. 21:00
+PSV
+7. kolo
+Detail zápasu
+PSG
+27.01. 21:00
+GAL
+8. kolo
+Detail zápasu
+FCB
+27.01. 21:00
+BET
+8. kolo
+Detail zápasu
+LIV
+27.01. 21:00
+LEN
+8. kolo
+Detail zápasu
+MCI
+27.01. 21:00
+SPO
+8. kolo
+Detail zápasu
+ARS
+27.01. 21:00
+SAB
+8. kolo
+Detail zápasu
+BAR
+27.01. 21:00
+COM
+8. kolo
+Detail zápasu
+ATM
+27.01. 21:00
+FEN
+8. kolo
+Detail zápasu
+BVB
+27.01. 21:00
+AEK
+8. kolo
+Detail zápasu
+ROM
+27.01. 21:00
+LIL
+8. kolo
+Detail zápasu
+BRU
+27.01. 21:00
+BOD
+8. kolo
+Detail zápasu
+PSV
+27.01. 21:00
+STU
+8. kolo
+Detail zápasu
+FEY
+27.01. 21:00
+LEI
+8. kolo
+Detail zápasu
+NAP
+27.01. 21:00
+VIK
+8. kolo
+Detail zápasu
+VIL
+27.01. 21:00
+MUN
+8. kolo
+Detail zápasu
+SHK
+27.01. 21:00
+RMA
+8. kolo
+Detail zápasu
+SLA
+27.01. 21:00
+AVL
+8. kolo
+Detail zápasu
+SLB
+27.01. 21:00
+INT
+8. kolo
+Detail zápasu
+LSK
+27.01. 21:00
+POR
+8. kolo
+Detail zápasu
+Je mixom Sennu a Prosta. Šampión F1 bol pre Ferrari mladý, Mercedes minul milióny
 Dvorského posielajú na farmu. Je New Jersey favoritom na Stanley Cup? Corski & Fenski #1
 Pohánková je tenisová kométa, ktorá nezhasla. Miluje Harryho, zábavu a svoju posteľ
 Pištole v šatni, pravnuk diktátora v obrane a bojkot. Lazio nikdy nebolo obyčajný klub
-Cibulková dobyla svet. Zlom nastal, keď už na kurte nestálo ustráchané dievčatko
-Zažíva Poľsko pokus o puč? Čo sa deje okolo ústavného súdu a kto v ňom má pravdu
+Jeden z najkrajších hradov Slovenska je na predaj. Ukrýva kaplnku aj luxusné apartmány
 Kluby
 /
 Malodvornícky FK Malé Dvorníky
@@ -96,9 +927,63 @@ Lekár
 Tímea Bazsóová
 Správy z Futbalnetu
 
+(Ne)tradičné zhrnutie kola futbalovej Niké ligy.
+
+Trnava má šťastie, že skončiť v spodnej šestke je tento rok umenie (tréneroviny)
+
+Richard Hanzlík
+
+∙
+
+dnes 07:00
+
+∙
+1
+
+Nový tréner tímu spod Zobora má smelý plán.
+
+Nedávno hrali tretiu ligu. Prišli o trénera i pracovité dvojičky, no lanária kouča z Niké ligy
+
+Marián Dragúň
+
+∙
+
+dnes 10:10
+
+Pozrite si sumár 13. kola Niké ligy.
+
+Slovan sa dostáva na víťaznú vlnu, no DAC má pohodlný náskok. Prvý triumf oslávilo Komárno
+
+ne 21:30
+
+O triumfe DAC rozhodol stopér Klemen Nemanic.
+
+Víťazné ťaženie Dunajskej Stredy pokračuje. Banská Bystrica však trápila lídra ligy až do konca
+
+ne 19:53
+
+∙
+1
+
+Jediný presný zásah duelu padol v nadstavenom čase prvého polčasu.
+
+Ružomberok si v tabuľke výrazne polepšil. Streleckú nemohúcnosť zlomil gólom z penalty
+
+ne 17:22
+
+V tabuľke sa tak na treťom mieste priblížili práve k tomuto súperovi, na ktorého im chýba už len bod.
+
+Petržalka nezvládla súboj. Namiesto vyrovnania sa lídrovi sa strachuje o druhé miesto
+
+ne 13:26
+
 Čo sa stalo v Trnave?
 
 Trnavčanov vypískali vlastní fanúšikovia, hráči ignorovali médiá. Hovoril iba šéf
+
+Pavol Spál
+
+∙
 
 so 21:25
 
@@ -108,63 +993,18 @@ Slovan v Podbrezovej nedopustil stratu bodov. K výhre ho nasmeroval Barseghjan
 
 so 19:56
 
-Trnava nedokázala zvíťaziť už v treťom zápase v rade.
+Dunajská Streda neinkasovala gól v treťom zápase za sebou.
 
-Prekvapenie v Trnave. Komárno udrelo v poslednej minúte a oslavuje prvú výhru
+Dobre hrá obrana, funguje celý tím. DAC víťazí na nulu a chce v tom pokračovať
 
-so 17:49
+dnes 08:25
 
-∙
-6
+Sledovali ste s nami ONLINE prenos zo zápasu 13. kola Niké ligy: MFK Dukla Banská Bystrica - FC DAC Dunajská Streda.
 
-Košice viedli o dva góly už po piatich minútach zápasu.
+Niké liga: Dunajská Streda zvíťazila na pôde nováčika z Banskej Bystrice
 
-Výprask pred vlastnými fanúšikmi. Košice ponížili Trenčín piatimi gólmi
+ne 15:00
 
-so 17:30
-
-Humenné uhralo s Malženicami remízu 2:2 napriek červenej karte, no po 15. kole zostáva v pásme zostupu.
-
-Zvolen na domácom ihrisku znemožnil Bytču. Inter doma trestuhodne stratil náskok
-
-so 14:52
-
-Sledujte s nami ONLINE prenos zo zápasu 13. kola Niké ligy: MFK Ružomberok - MFK Skalica.
-
-ONLINE: MFK Ružomberok - MFK Skalica dnes, Niké liga LIVE (13. kolo)
-
-dnes 12:30
-
-Ambíciu vrátiť tradičnú značku do druhej ligy už neskrývajú.
-
-Po smole prišlo šťastie. Košice v jubilejnom roku oslavujú titul jesenného majstra
-
-Svjatoslav Dohovič
-
-∙
-
-dnes 08:58
-
-Sledujte s nami ONLINE prenos zo zápasu 13. kola MONACObet ligy: FC Petržalka - MŠK Považská Bystrica.
-
-ONLINE: FC Petržalka - MŠK Považská Bystrica dnes, MONACObet liga LIVE (II. liga, 15. kolo)
-
-dnes 07:30
-
-Triumf Žiliny režíroval dvojgólový Faško.
-
-Žilina podala na domácej pôde dominantný výkon. Michalovce schytali tvrdú facku
-
-so 17:24
-
-Sledovali ste s nami ONLINE prenos zo zápasu 13. kola Niké ligy: FK Železiarne Podbrezová - ŠK Slovan Bratislava.
-
-Niké liga: Slovan uspel v Podbrezovej a zvíťazil druhýkrát v rade
-
-so 15:00
-
-∙
-4
 Načítať ďalšie
 Najčítanejšie
 Najnovšie
@@ -173,31 +1013,31 @@ Najnovšie
 7 dní
 1
 
-Rekordný zápis Lopušanovej. V jednom zápase strelila päť gólov, v bodovaní je najlepšia
+Taký drahý nebol žiaden hráč Slovana. Kmotrík ho platí, expert tvrdí, že premárnil talent
 
 2
 
-Rusi oslavujú. Bastardi ako Česi nám budú vkladať palice do kolies, tvrdí olympijský víťaz
+Kariéru odložili na druhú koľaj. Schmiedlová a Klein prezradili, čo ich čaká ďalej
 
 3
 
-Trnavčanov vypískali vlastní fanúšikovia, hráči ignorovali médiá. Hovoril iba šéf
+Kanada nechce Rusov na juniorských MS. Vláda plánuje ďalšie kroky, v hre sú obmedzenia
 
 4
 
-Do NHL mu pomohli dobrá strela aj zranenia spoluhráčov. Chromiak nestihol byť ani nervózny
+Šampionát s Rusmi nepodporíme, varuje jeden zo sponzorov MS v hokeji
 
 5
 
-Premožiteľka Pohánkovej zvládla veľkú drámu. V Tokiu dokráčala k titulu
+Je mixom Sennu a Prosta. Šampión F1 bol pre Ferrari mladý, Mercedes minul milióny
 
 6
 
-ONLINE: FC Petržalka - MŠK Považská Bystrica dnes, MONACObet liga LIVE (II. liga, 15. kolo)
+Nemecko priostrilo vo vyjadreniach. Ak Rusi budú môcť hrať na MS, organizácie sa vzdajú
 
 7
 
-Chýba mu už len malý detail. Čo potrebuje Antonelli k zisku historického titulu?
+Nedávno hrali tretiu ligu. Prišli o trénera i pracovité dvojičky, no lanária kouča z Niké ligy
 
 Späť na vrch
 Redakcia a kontakty
