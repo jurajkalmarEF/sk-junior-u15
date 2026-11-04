@@ -394,50 +394,68 @@ BET
 FEY
 0
 Detail zápasu
+03.11.
 SHK
-03.11. 18:45
+0
+4. kolo
 SPO
-4. kolo
+1
 Detail zápasu
+03.11.
 GAL
-03.11. 18:45
+2
+4. kolo
 STU
-4. kolo
+0
 Detail zápasu
+03.11.
 BAR
-03.11. 21:00
+3
+4. kolo
 AVL
-4. kolo
+0
 Detail zápasu
+03.11.
 ATM
-03.11. 21:00
+0
+4. kolo
 FCB
-4. kolo
+2
 Detail zápasu
+03.11.
 MUN
-03.11. 21:00
+3
+4. kolo
 ROM
-4. kolo
+2
 Detail zápasu
+03.11.
 FEY
-03.11. 21:00
+0
+4. kolo
 INT
-4. kolo
+3
 Detail zápasu
+03.11.
 BOD
-03.11. 21:00
+0
+4. kolo
 LIL
-4. kolo
+0
 Detail zápasu
+03.11.
 VIL
-03.11. 21:00
+0
+4. kolo
 PSG
-4. kolo
+6
 Detail zápasu
+03.11.
 LSK
-03.11. 21:00
-SLB
+4
 4. kolo
+SLB
+0
 Detail zápasu
 FEN
 04.11. 18:45
@@ -844,11 +862,11 @@ LSK
 POR
 8. kolo
 Detail zápasu
-Patria Rusi na MS? Poprad chce (konečne) titul! (Hokejový BOSS)
+Už žiaden Talian, zaprisahal sa šéf Ferrari. Vatikán písal o požieraní vlastných detí
+Rusi majú hrať, ale (takmer) nikto ich nechce. Prečo je ich návrat problém? (otázky a odpovede)
 Je mixom Sennu a Prosta. Šampión F1 bol pre Ferrari mladý, Mercedes minul milióny
-Dvorského posielajú na farmu. Je New Jersey favoritom na Stanley Cup? Corski & Fenski #1
-Pohánková je tenisová kométa, ktorá nezhasla. Miluje Harryho, zábavu a svoju posteľ
-Progresívne Slovensko si vypýtalo facku a dostalo ju (píše Samo Marec)
+Patria Rusi na MS? Poprad chce (konečne) titul! (Hokejový BOSS)
+Odmietnutie Trumpa, modrá väčšina a historické víťazstvá. Čo priniesli americké voľby
 Členovia
 /
 Maroš Buchala
@@ -905,6 +923,28 @@ P
 Celkovo	153	8721	73	1	0	0
 Správy z Futbalnetu
 
+Sledujte spolu s nami online prenos z osemfinále Slovnaft Cupu: TJ Slavoj Boleráz - MFK Skalica.
+
+ONLINE: TJ Slavoj Boleráz - MFK Skalica dnes, Slovnaft Cup LIVE (osemfinále)
+
+dnes 10:00
+
+Ešte v júli delegáti hlasovaním audit zamietli.
+
+Po mesiacoch odporu cúvol. Slovenský futbalový zväz súhlasí s hĺbkovým auditom
+
+dnes 13:11
+
+Námietka voči dvom rozhodcom, čo na to komisia?
+
+Prijali dodatočnú ponuku na postup a dve noci nespal. Po výsledkovej bombe dvíha ruky
+
+Marián Dragúň
+
+∙
+
+dnes 09:45
+
 (Ne)tradičné zhrnutie kola futbalovej Niké ligy.
 
 Trnava má šťastie, že skončiť v spodnej šestke je tento rok umenie (tréneroviny)
@@ -934,6 +974,24 @@ Slovan sa dostáva na víťaznú vlnu, no DAC má pohodlný náskok. Prvý trium
 
 ne 21:30
 
+Pôsobil aj v štruktúrach klubu FC Petržalka.
+
+Pracoval v rozhlase aj televízii. Zomrel bývalý hovorca Slovenského futbalového zväzu
+
+dnes 10:44
+
+Doterajší vedúci oddelenia odchádza do zahraničia.
+
+Zmeny v realizačnom tíme Ružomberka. Analytické oddelenie povedie nový odborník
+
+ut 14:38
+
+Dunajská Streda neinkasovala gól v treťom zápase za sebou.
+
+Dobre hrá obrana, funguje celý tím. DAC víťazí na nulu a chce v tom pokračovať
+
+po 08:25
+
 O triumfe DAC rozhodol stopér Klemen Nemanic.
 
 Víťazné ťaženie Dunajskej Stredy pokračuje. Banská Bystrica však trápila lídra ligy až do konca
@@ -942,47 +1000,6 @@ ne 19:53
 
 ∙
 1
-
-Jediný presný zásah duelu padol v nadstavenom čase prvého polčasu.
-
-Ružomberok si v tabuľke výrazne polepšil. Streleckú nemohúcnosť zlomil gólom z penalty
-
-ne 17:22
-
-V tabuľke sa tak na treťom mieste priblížili práve k tomuto súperovi, na ktorého im chýba už len bod.
-
-Petržalka nezvládla súboj. Namiesto vyrovnania sa lídrovi sa strachuje o druhé miesto
-
-ne 13:26
-
-Čo sa stalo v Trnave?
-
-Trnavčanov vypískali vlastní fanúšikovia, hráči ignorovali médiá. Hovoril iba šéf
-
-Pavol Spál
-
-∙
-
-so 21:25
-
-Bratislava triumfovala v druhom zápase za sebou.
-
-Slovan v Podbrezovej nedopustil stratu bodov. K výhre ho nasmeroval Barseghjan
-
-so 19:56
-
-Dunajská Streda neinkasovala gól v treťom zápase za sebou.
-
-Dobre hrá obrana, funguje celý tím. DAC víťazí na nulu a chce v tom pokračovať
-
-po 08:25
-
-Sledovali ste s nami ONLINE prenos zo zápasu 13. kola Niké ligy: MFK Dukla Banská Bystrica - FC DAC Dunajská Streda.
-
-Niké liga: Dunajská Streda zvíťazila na pôde nováčika z Banskej Bystrice
-
-ne 15:00
-
 Načítať ďalšie
 Späť na vrch
 Redakcia a kontakty
