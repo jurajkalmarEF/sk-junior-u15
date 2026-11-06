@@ -13,878 +13,11 @@ KLUBY
 ČLENOVIA
 PRESTUPY
 PIKOŠKY
-Liga majstrov 2026/2027
-Program
-Výsledky
-08.09.
-BRU
-2
-1. kolo
-AVL
-3
-Detail zápasu
-08.09.
-AEK
-1
-1. kolo
-LSK
-0
-Detail zápasu
-08.09.
-RMA
-2
-1. kolo
-INT
-1
-Detail zápasu
-08.09.
-BVB
-3
-1. kolo
-VIL
-2
-Detail zápasu
-08.09.
-POR
-0
-1. kolo
-MCI
-2
-Detail zápasu
-08.09.
-LIL
-2
-1. kolo
-BET
-3
-Detail zápasu
-09.09.
-BAR
-5
-1. kolo
-FEY
-1
-Detail zápasu
-09.09.
-STU
-3
-1. kolo
-VIK
-1
-Detail zápasu
-09.09.
-PSG
-6
-1. kolo
-SLB
-1
-Detail zápasu
-09.09.
-LIV
-2
-1. kolo
-ATM
-1
-Detail zápasu
-09.09.
-SPO
-3
-1. kolo
-GAL
-1
-Detail zápasu
-09.09.
-NAP
-0
-1. kolo
-ARS
-1
-Detail zápasu
-10.09.
-PSV
-1
-1. kolo
-SHK
-1
-Detail zápasu
-10.09.
-FEN
-1
-1. kolo
-ROM
-1
-Detail zápasu
-10.09.
-FCB
-5
-1. kolo
-BOD
-0
-Detail zápasu
-10.09.
-MUN
-4
-1. kolo
-SAB
-0
-Detail zápasu
-10.09.
-SLA
-2
-1. kolo
-LEN
-3
-Detail zápasu
-10.09.
-COM
-4
-1. kolo
-LEI
-1
-Detail zápasu
-13.10.
-LEN
-0
-2. kolo
-SPO
-2
-Detail zápasu
-13.10.
-SAB
-2
-2. kolo
-SLA
-0
-Detail zápasu
-13.10.
-INT
-3
-2. kolo
-BRU
-4
-Detail zápasu
-13.10.
-ARS
-3
-2. kolo
-LIL
-0
-Detail zápasu
-13.10.
-ATM
-2
-2. kolo
-MUN
-0
-Detail zápasu
-13.10.
-LEI
-1
-2. kolo
-PSV
-0
-Detail zápasu
-13.10.
-VIL
-3
-2. kolo
-NAP
-1
-Detail zápasu
-13.10.
-GAL
-1
-2. kolo
-BAR
-4
-Detail zápasu
-13.10.
-VIK
-3
-2. kolo
-FCB
-3
-Detail zápasu
-14.10.
-FEY
-3
-2. kolo
-COM
-2
-Detail zápasu
-14.10.
-LSK
-3
-2. kolo
-LIV
-6
-Detail zápasu
-14.10.
-MCI
-2
-2. kolo
-PSG
-4
-Detail zápasu
-14.10.
-ROM
-3
-2. kolo
-RMA
-4
-Detail zápasu
-14.10.
-AVL
-6
-2. kolo
-FEN
-0
-Detail zápasu
-14.10.
-BET
-3
-2. kolo
-POR
-2
-Detail zápasu
-14.10.
-BOD
-1
-2. kolo
-BVB
-0
-Detail zápasu
-14.10.
-SHK
-3
-2. kolo
-AEK
-1
-Detail zápasu
-14.10.
-SLB
-0
-2. kolo
-STU
-3
-Detail zápasu
-20.10.
-FEN
-2
-3. kolo
-SLA
-2
-Detail zápasu
-20.10.
-SAB
-1
-3. kolo
-BVB
-2
-Detail zápasu
-20.10.
-PSG
-4
-3. kolo
-BAR
-2
-Detail zápasu
-20.10.
-LIV
-4
-3. kolo
-VIL
-3
-Detail zápasu
-20.10.
-MCI
-5
-3. kolo
-AEK
-1
-Detail zápasu
-20.10.
-ROM
-4
-3. kolo
-SLB
-0
-Detail zápasu
-20.10.
-POR
-0
-3. kolo
-PSV
-1
-Detail zápasu
-20.10.
-NAP
-4
-3. kolo
-BOD
-3
-Detail zápasu
-20.10.
-STU
-1
-3. kolo
-ATM
-1
-Detail zápasu
-21.10.
-LIL
-2
-3. kolo
-GAL
-4
-Detail zápasu
-21.10.
-COM
-4
-3. kolo
-MUN
-1
-Detail zápasu
-21.10.
-FCB
-2
-3. kolo
-ARS
-2
-Detail zápasu
-21.10.
-RMA
-4
-3. kolo
-LEI
-1
-Detail zápasu
-21.10.
-INT
-1
-3. kolo
-SHK
-0
-Detail zápasu
-21.10.
-SPO
-2
-3. kolo
-LSK
-3
-Detail zápasu
-21.10.
-AVL
-3
-3. kolo
-VIK
-1
-Detail zápasu
-21.10.
-BRU
-3
-3. kolo
-LEN
-0
-Detail zápasu
-21.10.
-BET
-1
-3. kolo
-FEY
-0
-Detail zápasu
-03.11.
-SHK
-0
-4. kolo
-SPO
-1
-Detail zápasu
-03.11.
-GAL
-2
-4. kolo
-STU
-0
-Detail zápasu
-03.11.
-BAR
-3
-4. kolo
-AVL
-0
-Detail zápasu
-03.11.
-ATM
-0
-4. kolo
-FCB
-2
-Detail zápasu
-03.11.
-MUN
-3
-4. kolo
-ROM
-2
-Detail zápasu
-03.11.
-FEY
-0
-4. kolo
-INT
-3
-Detail zápasu
-03.11.
-BOD
-0
-4. kolo
-LIL
-0
-Detail zápasu
-03.11.
-VIL
-0
-4. kolo
-PSG
-6
-Detail zápasu
-03.11.
-LSK
-4
-4. kolo
-SLB
-0
-Detail zápasu
-04.11.
-FEN
-3
-4. kolo
-LIV
-2
-Detail zápasu
-04.11.
-AEK
-2
-4. kolo
-RMA
-3
-Detail zápasu
-04.11.
-BVB
-2
-4. kolo
-BET
-1
-Detail zápasu
-04.11.
-POR
-4
-4. kolo
-NAP
-1
-Detail zápasu
-04.11.
-PSV
-1
-4. kolo
-BRU
-2
-Detail zápasu
-04.11.
-LEI
-2
-4. kolo
-MCI
-3
-Detail zápasu
-04.11.
-SLA
-1
-4. kolo
-ARS
-2
-Detail zápasu
-04.11.
-LEN
-1
-4. kolo
-COM
-9
-Detail zápasu
-04.11.
-VIK
-4
-4. kolo
-SAB
-1
-Detail zápasu
-BOD
-24.11. 18:45
-LSK
-5. kolo
-Detail zápasu
-GAL
-24.11. 18:45
-AVL
-5. kolo
-Detail zápasu
-RMA
-24.11. 21:00
-PSV
-5. kolo
-Detail zápasu
-MCI
-24.11. 21:00
-NAP
-5. kolo
-Detail zápasu
-ARS
-24.11. 21:00
-BVB
-5. kolo
-Detail zápasu
-FEY
-24.11. 21:00
-POR
-5. kolo
-Detail zápasu
-LEI
-24.11. 21:00
-LEN
-5. kolo
-Detail zápasu
-SLB
-24.11. 21:00
-BET
-5. kolo
-Detail zápasu
-COM
-24.11. 21:00
-AEK
-5. kolo
-Detail zápasu
-SLA
-25.11. 18:45
-VIL
-5. kolo
-Detail zápasu
-SAB
-25.11. 18:45
-BAR
-5. kolo
-Detail zápasu
-PSG
-25.11. 21:00
-ROM
-5. kolo
-Detail zápasu
-INT
-25.11. 21:00
-STU
-5. kolo
-Detail zápasu
-ATM
-25.11. 21:00
-VIK
-5. kolo
-Detail zápasu
-SPO
-25.11. 21:00
-MUN
-5. kolo
-Detail zápasu
-BRU
-25.11. 21:00
-LIV
-5. kolo
-Detail zápasu
-LIL
-25.11. 21:00
-FCB
-5. kolo
-Detail zápasu
-SHK
-25.11. 21:00
-FEN
-5. kolo
-Detail zápasu
-VIL
-08.12. 18:45
-SAB
-6. kolo
-Detail zápasu
-VIK
-08.12. 18:45
-FEY
-6. kolo
-Detail zápasu
-FCB
-08.12. 21:00
-SLA
-6. kolo
-Detail zápasu
-BAR
-08.12. 21:00
-MCI
-6. kolo
-Detail zápasu
-ROM
-08.12. 21:00
-SPO
-6. kolo
-Detail zápasu
-AVL
-08.12. 21:00
-PSG
-6. kolo
-Detail zápasu
-MUN
-08.12. 21:00
-LEI
-6. kolo
-Detail zápasu
-NAP
-08.12. 21:00
-BRU
-6. kolo
-Detail zápasu
-AEK
-08.12. 21:00
-GAL
-6. kolo
-Detail zápasu
-BET
-09.12. 18:45
-COM
-6. kolo
-Detail zápasu
-SLB
-09.12. 18:45
-SHK
-6. kolo
-Detail zápasu
-LIV
-09.12. 21:00
-POR
-6. kolo
-Detail zápasu
-ARS
-09.12. 21:00
-RMA
-6. kolo
-Detail zápasu
-BVB
-09.12. 21:00
-INT
-6. kolo
-Detail zápasu
-PSV
-09.12. 21:00
-ATM
-6. kolo
-Detail zápasu
-STU
-09.12. 21:00
-LIL
-6. kolo
-Detail zápasu
-LSK
-09.12. 21:00
-FEN
-6. kolo
-Detail zápasu
-LEN
-09.12. 21:00
-BOD
-6. kolo
-Detail zápasu
-BOD
-19.01. 18:45
-ATM
-7. kolo
-Detail zápasu
-GAL
-19.01. 18:45
-FEY
-7. kolo
-Detail zápasu
-RMA
-19.01. 21:00
-LSK
-7. kolo
-Detail zápasu
-INT
-19.01. 21:00
-LIV
-7. kolo
-Detail zápasu
-AVL
-19.01. 21:00
-BVB
-7. kolo
-Detail zápasu
-POR
-19.01. 21:00
-SLA
-7. kolo
-Detail zápasu
-LIL
-19.01. 21:00
-SLB
-7. kolo
-Detail zápasu
-STU
-19.01. 21:00
-BRU
-7. kolo
-Detail zápasu
-AEK
-19.01. 21:00
-ROM
-7. kolo
-Detail zápasu
-FEN
-20.01. 18:45
-VIL
-7. kolo
-Detail zápasu
-SAB
-20.01. 18:45
-NAP
-7. kolo
-Detail zápasu
-SPO
-20.01. 21:00
-BAR
-7. kolo
-Detail zápasu
-MUN
-20.01. 21:00
-FCB
-7. kolo
-Detail zápasu
-BET
-20.01. 21:00
-ARS
-7. kolo
-Detail zápasu
-LEI
-20.01. 21:00
-SHK
-7. kolo
-Detail zápasu
-COM
-20.01. 21:00
-PSG
-7. kolo
-Detail zápasu
-LEN
-20.01. 21:00
-MCI
-7. kolo
-Detail zápasu
-VIK
-20.01. 21:00
-PSV
-7. kolo
-Detail zápasu
-PSG
-27.01. 21:00
-GAL
-8. kolo
-Detail zápasu
-FCB
-27.01. 21:00
-BET
-8. kolo
-Detail zápasu
-LIV
-27.01. 21:00
-LEN
-8. kolo
-Detail zápasu
-MCI
-27.01. 21:00
-SPO
-8. kolo
-Detail zápasu
-ARS
-27.01. 21:00
-SAB
-8. kolo
-Detail zápasu
-BAR
-27.01. 21:00
-COM
-8. kolo
-Detail zápasu
-ATM
-27.01. 21:00
-FEN
-8. kolo
-Detail zápasu
-BVB
-27.01. 21:00
-AEK
-8. kolo
-Detail zápasu
-ROM
-27.01. 21:00
-LIL
-8. kolo
-Detail zápasu
-BRU
-27.01. 21:00
-BOD
-8. kolo
-Detail zápasu
-PSV
-27.01. 21:00
-STU
-8. kolo
-Detail zápasu
-FEY
-27.01. 21:00
-LEI
-8. kolo
-Detail zápasu
-NAP
-27.01. 21:00
-VIK
-8. kolo
-Detail zápasu
-VIL
-27.01. 21:00
-MUN
-8. kolo
-Detail zápasu
-SHK
-27.01. 21:00
-RMA
-8. kolo
-Detail zápasu
-SLA
-27.01. 21:00
-AVL
-8. kolo
-Detail zápasu
-SLB
-27.01. 21:00
-INT
-8. kolo
-Detail zápasu
-LSK
-27.01. 21:00
-POR
-8. kolo
-Detail zápasu
+Weiss utajil veľký ťah. Povolal hráča, ktorého si Barcelona istila na 100 miliónov
+Napodobní Hašeka? Halák by chcel ísť do Česka. Väčšiu šancu by mal v nižšej súťaži, myslí si Staňa
 Už žiaden Talian, zaprisahal sa šéf Ferrari. Vatikán písal o požieraní vlastných detí
 Rusi majú hrať, ale (takmer) nikto ich nechce. Prečo je ich návrat problém? (otázky a odpovede)
-Je mixom Sennu a Prosta. Šampión F1 bol pre Ferrari mladý, Mercedes minul milióny
-Patria Rusi na MS? Poprad chce (konečne) titul! (Hokejový BOSS)
-Na jachtách chceli prevážať tony kokaínu. Polícia vyšetruje známeho slovenského finančníka
+Ján na Islande zarobí 4200 eur v čistom: Väčšina ľudí by moju prácu nerobila za žiadne peniaze
 Kluby
 /
 FK Kolárovo
@@ -965,6 +98,28 @@ Masér
 Tomáš Ollé
 Správy z Futbalnetu
 
+Delegáti schválili aj spôsob a kritériá prerozdelenia časti príspevku uznanému športu podľa zákona o športe.
+
+Takmer jednohlasné schválenie aj odchod delegátov. Konferencia SFZ mala opäť napätý priebeh
+
+dnes 12:56
+
+∙
+1
+
+Opakovaná konferencia sa koná v piatok v Bratislave.
+
+O čom budú hlasovať delegáti konferencie SFZ? Môže prísť Kováčik o funkciu? (Otázky a odpovede)
+
+Titanilla Bőd
+
+∙
+
+št 19:30
+
+∙
+3
+
 Zápas šiestej ligy sa zmenil na drámu.
 
 Hrdinský čin na trávniku. Kapitán pohotovou reakciou zachránil spoluhráčovi život
@@ -993,7 +148,26 @@ Peter Cingel
 
 ∙
 
+št 08:00
+
+Sledujte s nami minútu po minúte z konferencie Slovenského futbalového zväzu.
+
+ONLINE: Časť delegátov znovu opustila konferenciu SFZ, ostatní všetko bleskovo schválili (minúta po minúte)
+
 dnes 08:00
+
+Gostič má šesťdesiat.
+
+Legendu Slovana kedysi živili bicykle, preslávil sa ikonickým trikom. V čom sa našiel?
+
+Pavol Spál
+
+∙
+
+št 11:31
+
+∙
+5
 
 Boleráz podľahol Skalici 1:3.
 
@@ -1011,42 +185,11 @@ Outsider získal Move Trophy a odmenu 3-tisíc eur.
 
 st 15:02
 
-Ešte v júli delegáti hlasovaním audit zamietli.
-
-Po mesiacoch odporu cúvol. Slovenský futbalový zväz súhlasí s hĺbkovým auditom
-
-st 13:11
-
-Gostič má šesťdesiat.
-
-Legendu Slovana kedysi živili bicykle, preslávil sa ikonickým trikom. V čom sa našiel?
-
-Pavol Spál
-
-∙
-
-dnes 11:31
-
-∙
-1
-
 Sledujte spolu s nami online prenos z osemfinále Slovnaft Cupu: MFK Dukla Banská Bystrica - AS Trenčín.
 
 ONLINE: MFK Dukla Banská Bystrica - AS Trenčín dnes, Slovnaft Cup LIVE (osemfinále)
 
 st 14:00
-
-Pôsobil aj v štruktúrach klubu FC Petržalka.
-
-Pracoval v rozhlase aj televízii. Zomrel bývalý hovorca Slovenského futbalového zväzu
-
-st 10:44
-
-Sledovali ste spolu s nami online prenos z osemfinále Slovnaft Cupu: TJ Slavoj Boleráz - MFK Skalica.
-
-Slovnaft Cup: Skalica postúpila do štvrťfinále po trápení so štvrtoligistom
-
-st 10:00
 
 Načítať ďalšie
 Najčítanejšie
@@ -1056,31 +199,31 @@ Najnovšie
 7 dní
 1
 
-Weiss utajil veľký ťah. Povolal hráča, ktorého si Barcelona istila na 100 miliónov
+Hráč povedal nahlas to, čo sa v Slovane tutlalo. Šéfov čakajú nepríjemné otázky
 
 2
 
-Zdolali sme Liverpool aj rozhodcu, píšu Turci. Škriniar opäť zaujal, je nenahraditeľný
+ONLINE: Časť delegátov znovu opustila konferenciu SFZ, ostatní všetko bleskovo schválili (minúta po minúte)
 
 3
 
-Politika sa v NHL riešiť nebude. Vy nechcete, aby sme sa vrátili, pýtal sa Rus novinára
+Podľa trénera odohral Slafkovský najlepší zápas v sezóne. Očaril aj spoluhráča: Je to zviera
 
 4
 
-Ronaldo pozdravil národ a prečítal dôležitú správu. Bola to cesta, ktorá mu zmenila život
+Borbély v Európe zatiaľ nemal zlý ťah. Je to najväčšie víťazstvo, vravel po senzácii na San Sire
 
 5
 
-Historická potupa. Ponížený Lens tromfol aj Žilinu, fanúšikovia posielali hráčov do bane
+VIDEO: Oklamal protihráčov. Slafkovský predviedol ukážkovú asistenciu, Dvorský skóroval
 
 6
 
-Majster sveta F1, ktorý sa nebál smrti, ale o peniaze. Zomrel vo veku 80 rokov
+Netušila, že je zapnutý mikrofón. Domáca hviezda kritizovala Rusku, chýba jej pokora
 
 7
 
-Nemecký pohár sa začína. Kde sledovať zápas Slovensko - Lotyšsko?
+Takmer jednohlasné schválenie aj odchod delegátov. Konferencia SFZ mala opäť napätý priebeh
 
 Späť na vrch
 Redakcia a kontakty
