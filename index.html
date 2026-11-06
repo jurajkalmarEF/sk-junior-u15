@@ -755,9 +755,20 @@ function applyStandings(standings){
   TEAMS.sort(function(a,b){ return (a.pos || 99) - (b.pos || 99); });
 }
 
+// Dáta čítame priamo z GitHubu (repo je verejné) — po synchronizácii sú hneď k dispozícii
+// a Netlify nemusí kvôli nim nič nasadzovať (každé nasadenie míňa kredity, free plán ich má
+// len na ~20 nasadení mesačne). Ak GitHub neodpovie, použije sa kópia na Netlify.
+var DATA_URL_GITHUB = 'https://raw.githubusercontent.com/jurajkalmarEF/sk-junior-u15/main/data/teams.json';
+function fetchTeamsJson(){
+  return fetch(DATA_URL_GITHUB + '?t=' + Date.now(), { cache: 'no-store' })
+    .then(function(r){ if (!r.ok) throw new Error(r.status); return r.json(); })
+    .catch(function(){
+      return fetch('/data/teams.json?t=' + Date.now(), { cache: 'no-store' }).then(function(r){ return r.json(); });
+    });
+}
+
 function fetchSyncData(){
-  return fetch('/data/teams.json', { cache: 'no-store' })
-    .then(function(r){ return r.json(); })
+  return fetchTeamsJson()
     .then(function(data){
       SYNC_DATA = data.teams || {};
       SYNC_GENERATED_AT = data.generatedAt;
@@ -1267,11 +1278,10 @@ var ManualSync = (function(){
     waitForDeploy();
   }
 
-  // Netlify nasadí nový commit s dátami — čakáme, kým teams.json bude mať novší generatedAt.
+  // GitHub Actions uloží nový commit s dátami — čakáme, kým teams.json na GitHube bude mať novší generatedAt.
   function waitForDeploy(){
     clearTimeout(pollTimer);
-    fetch('/data/teams.json?t=' + Date.now(), { cache: 'no-store' })
-      .then(function(r){ return r.json(); })
+    fetchTeamsJson()
       .then(function(d){
         if (d && d.generatedAt && d.generatedAt !== baseGenerated){ finish(); return; }
         retryDeploy();

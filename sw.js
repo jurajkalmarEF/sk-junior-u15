@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ivanka-u15-v2';
+const CACHE_NAME = 'ivanka-u15-v3';
 const ASSETS = [
   '/',
   '/index.html',

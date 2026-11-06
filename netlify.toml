@@ -1,0 +1,6 @@
+# Netlify (free plán) má kredity len na ~20 produkčných nasadení mesačne.
+# Denná synchronizácia zo Sportnetu mení len priečinok data/ a appka si dáta číta
+# priamo z GitHubu — takéto commity preto nenasadzujeme (build sa preskočí, nestojí kredity).
+# Exit 0 = preskočiť build, 1 = nasadiť.
+[build]
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)data'"
