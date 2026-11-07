@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T13:41:57.025Z",
+  "generatedAt": "2026-11-07T07:51:57.563Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -15301,7 +15301,7 @@
           "name": "Peter Kvasnovský",
           "position": "Brankár",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5efda7b31b04f230d15085b0/peter-kvasnovsky/",
-          "photo": "https://sportnet.sme.sk/futbalnet/img/avatar.svg"
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/5efda7b31b04f230d15085b0/formal-photo/72b9a3e5-bd51-4da1-9b82-c0e0cb794268"
         },
         {
           "name": "Christopher Chrupka",
