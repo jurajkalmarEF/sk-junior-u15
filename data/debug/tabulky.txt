@@ -71,6 +71,92 @@ K
 
 1
 
+	ŠK Junior Ivanka pri Nitre	
+
+13
+
+	
+
+9
+
+	
+
+2
+
+	
+
+2
+
+	
+
+30:15
+
+	
+
+29
+
+	
+
+15
+
+	
+
+8
+
+	
+V
+V
+R
+R
+P
+
+
+
+2
+
+	Futbalový klub Holice	
+
+13
+
+	
+
+8
+
+	
+
+3
+
+	
+
+2
+
+	
+
+36:13
+
+	
+
+27
+
+	
+
+14
+
+	
+
+9
+
+	
+R
+P
+P
+R
+V
+
+
+
+3
+
 	FC Slovan Hlohovec	
 
 12
@@ -97,7 +183,7 @@ K
 
 	
 
-15
+13
 
 	
 
@@ -109,92 +195,6 @@ V
 V
 V
 P
-
-
-
-2
-
-	Futbalový klub Holice	
-
-12
-
-	
-
-8
-
-	
-
-2
-
-	
-
-2
-
-	
-
-35:12
-
-	
-
-26
-
-	
-
-14
-
-	
-
-8
-
-	
-P
-P
-R
-V
-V
-
-
-
-3
-
-	ŠK Junior Ivanka pri Nitre	
-
-12
-
-	
-
-8
-
-	
-
-2
-
-	
-
-2
-
-	
-
-27:15
-
-	
-
-26
-
-	
-
-13
-
-	
-
-8
-
-	
-V
-R
-R
-P
-V
 
 
 
@@ -243,6 +243,90 @@ V
 
 5
 
+	FC Slovan Galanta	
+
+14
+
+	
+
+6
+
+	
+
+3
+
+	
+
+5
+
+	
+
+31:30
+
+	
+
+21
+
+	
+
+11
+
+	
+
+	
+V
+P
+R
+V
+V
+
+
+
+6
+
+	FK Slovan Duslo Šaľa	
+
+13
+
+	
+
+6
+
+	
+
+2
+
+	
+
+5
+
+	
+
+33:24
+
+	
+
+20
+
+	
+
+10
+
+	
+
+-1
+
+	
+R
+V
+V
+V
+P
+
+
+
+7
+
 	TJ Dynamo Nová Stráž	
 
 12
@@ -269,7 +353,7 @@ V
 
 	
 
-11
+9
 
 	
 
@@ -284,50 +368,7 @@ V
 
 
 
-6
-
-	FK Slovan Duslo Šaľa	
-
-12
-
-	
-
-6
-
-	
-
-1
-
-	
-
-5
-
-	
-
-30:21
-
-	
-
-19
-
-	
-
-9
-
-	
-
-1
-
-	
-V
-V
-V
-P
-P
-
-
-
-7
+8
 
 	SSC FÉNIX Nové Zámky	
 
@@ -355,7 +396,7 @@ P
 
 	
 
-10
+8
 
 	
 
@@ -370,11 +411,11 @@ V
 
 
 
-8
+9
 
 	FK Kolárovo	
 
-12
+13
 
 	
 
@@ -386,11 +427,11 @@ V
 
 	
 
-5
+6
 
 	
 
-52:38
+52:41
 
 	
 
@@ -398,7 +439,7 @@ V
 
 	
 
-8
+7
 
 	
 
@@ -407,52 +448,9 @@ V
 	
 P
 P
-V
 P
 V
-
-
-
-9
-
-	FC Slovan Galanta	
-
-13
-
-	
-
-5
-
-	
-
-3
-
-	
-
-5
-
-	
-
-26:29
-
-	
-
-18
-
-	
-
-7
-
-	
-
--3
-
-	
 P
-R
-V
-V
-V
 
 
 
@@ -503,7 +501,7 @@ V
 
 	FK Veča	
 
-12
+13
 
 	
 
@@ -511,7 +509,7 @@ V
 
 	
 
-2
+3
 
 	
 
@@ -519,11 +517,11 @@ V
 
 	
 
-29:42
+32:45
 
 	
 
-14
+15
 
 	
 
@@ -531,14 +529,14 @@ V
 
 	
 
--4
+-3
 
 	
+R
 P
 P
 R
 P
-V
 
 
 
@@ -632,7 +630,7 @@ V
 
 	C&P Stars Academy - ZM	
 
-12
+13
 
 	
 
@@ -640,7 +638,7 @@ V
 
 	
 
-1
+2
 
 	
 
@@ -648,11 +646,11 @@ V
 
 	
 
-9:33
+10:34
 
 	
 
-7
+8
 
 	
 
@@ -660,12 +658,12 @@ V
 
 	
 
--11
+-13
 
 	
+R
 V
 V
-P
 P
 P
 
@@ -675,7 +673,7 @@ P
 
 	MŠK Želiezovce	
 
-12
+13
 
 	
 
@@ -687,11 +685,11 @@ P
 
 	
 
-9
+10
 
 	
 
-12:45
+13:50
 
 	
 
@@ -703,14 +701,14 @@ P
 
 	
 
--8
+-11
 
 	
 P
+P
 V
 P
 P
-V
 V
 
 Výhra
@@ -773,6 +771,12 @@ pi 12:56
 ∙
 3
 
+Sledujte s nami ONLINE prenos zo zápasu 16. kola MONACObet ligy: FK Inter Bratislava - MŠK Považská Bystrica.
+
+ONLINE: FK Inter Bratislava - MŠK Považská Bystrica dnes, MONACObet liga LIVE (II. liga, 16. kolo)
+
+dnes 10:00
+
 Sledujte s nami ONLINE prenos zo zápasu 16. kola MONACObet ligy: OFK Malženice - FC ŠTK 1914 Šamorín.
 
 ONLINE: OFK Malženice - FC ŠTK 1914 Šamorín dnes, MONACObet liga LIVE (II. liga, 16. kolo)
@@ -803,19 +807,6 @@ Titanilla Bőd
 
 ∙
 3
-
-Gostič má šesťdesiat.
-
-Legendu Slovana kedysi živili bicykle, preslávil sa ikonickým trikom. V čom sa našiel?
-
-Pavol Spál
-
-∙
-
-št 11:31
-
-∙
-5
 Načítať ďalšie
 Najčítanejšie
 Najnovšie
@@ -836,11 +827,11 @@ Starosta zažil prémie zabalené v novinách, aj okná zamrznuté zvnútra. Det
 
 4
 
-Handzuš sa vyjadril k návratu Rusov, nespokojnosť a kritiku vníma ako jasný signál
+Petra Vlhová a kompletný program a výsledky v sezóne 2026/2027 (Svetový pohár + MS)
 
 5
 
-Petra Vlhová a kompletný program a výsledky v sezóne 2026/2027 (Svetový pohár + MS)
+Handzuš sa vyjadril k návratu Rusov, nespokojnosť a kritiku vníma ako jasný signál
 
 6
 
