@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T08:55:33.107Z",
+  "generatedAt": "2026-11-07T09:25:29.274Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -3030,12 +3030,12 @@
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 14. kolo",
           "date": "07.11",
           "time": "09:00",
-          "status": "",
+          "status": "Prebieha",
           "home": "ŠK Junior Ivanka pri Nitre",
           "away": "FK Kolárovo",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
+          "scoreHome": 0,
+          "scoreAway": 0,
+          "played": true
         },
         {
           "round": "15. kolo",
@@ -9527,8 +9527,8 @@
           "status": "Prebieha",
           "home": "MŠK Želiezovce",
           "away": "FC Slovan Galanta",
-          "scoreHome": 0,
-          "scoreAway": 0,
+          "scoreHome": 1,
+          "scoreAway": 5,
           "played": true
         },
         {
@@ -13879,12 +13879,12 @@
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 14. kolo",
           "date": "07.11",
           "time": "09:00",
-          "status": "",
+          "status": "Prebieha",
           "home": "C&P Stars Academy - ZM",
           "away": "Futbalový klub Holice",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
+          "scoreHome": 0,
+          "scoreAway": 0,
+          "played": true
         },
         {
           "round": "15. kolo",
@@ -21027,7 +21027,7 @@
           "home": "MŠK Želiezovce",
           "away": "FC Slovan Galanta",
           "scoreHome": 0,
-          "scoreAway": 0,
+          "scoreAway": 4,
           "played": true
         },
         {
