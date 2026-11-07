@@ -30,9 +30,9 @@ Muž
 Pohlavie
 13 rokov (2013)
 Vek
-190
+191
 Zápasy
-10759
+10829
 Minúty
 161
 Góly
@@ -65,15 +65,21 @@ P
 	
 	
 
-2026/2027	9	630	0	4	0	0
+2026/2027	10	700	0	4	0	0
 2025/2026	25	1539	1	2	0	0
 2024/2025	39	2170	20	0	0	0
 2023/2024	48	2580	52	0	0	0
 2022/2023	30	1500	35	0	0	0
 2021/2022	19	1140	36	0	0	0
 2020/2021	20	1200	17	0	0	0
-Celkovo	190	10759	161	6	0	0
+Celkovo	191	10829	161	6	0	0
 Správy z Futbalnetu
+
+Sledujte s nami ONLINE prenos zo zápasu 16. kola MONACObet ligy: OFK Malženice - FC ŠTK 1914 Šamorín.
+
+ONLINE: OFK Malženice - FC ŠTK 1914 Šamorín dnes, MONACObet liga LIVE (II. liga, 16. kolo)
+
+dnes 08:00
 
 Top zostavu ovládli hráči lídra.
 
@@ -128,12 +134,6 @@ Sledujte s nami ONLINE prenos zo zápasu 16. kola MONACObet ligy: FK Inter Brati
 ONLINE: FK Inter Bratislava - MŠK Považská Bystrica dnes, MONACObet liga LIVE (II. liga, 16. kolo)
 
 dnes 10:00
-
-Sledujte s nami ONLINE prenos zo zápasu 16. kola MONACObet ligy: OFK Malženice - FC ŠTK 1914 Šamorín.
-
-ONLINE: OFK Malženice - FC ŠTK 1914 Šamorín dnes, MONACObet liga LIVE (II. liga, 16. kolo)
-
-dnes 08:00
 
 Sledujte s nami ONLINE prenos zo zápasu 16. kola MONACObet ligy: FK Pohronie - OFK Baník Lehota pod Vtáčnikom.
 
