@@ -71,6 +71,49 @@ K
 
 1
 
+	FC Slovan Hlohovec	
+
+13
+
+	
+
+10
+
+	
+
+0
+
+	
+
+3
+
+	
+
+50:15
+
+	
+
+30
+
+	
+
+15
+
+	
+
+9
+
+	
+V
+V
+V
+V
+V
+
+
+
+2
+
 	ŠK Junior Ivanka pri Nitre	
 
 13
@@ -97,7 +140,7 @@ K
 
 	
 
-15
+14
 
 	
 
@@ -112,7 +155,7 @@ P
 
 
 
-2
+3
 
 	Futbalový klub Holice	
 
@@ -140,49 +183,6 @@ P
 
 	
 
-14
-
-	
-
-9
-
-	
-R
-P
-P
-R
-V
-
-
-
-3
-
-	FC Slovan Hlohovec	
-
-12
-
-	
-
-9
-
-	
-
-0
-
-	
-
-3
-
-	
-
-43:15
-
-	
-
-27
-
-	
-
 13
 
 	
@@ -190,11 +190,11 @@ V
 9
 
 	
-V
-V
-V
-V
+R
 P
+P
+R
+V
 
 
 
@@ -202,7 +202,7 @@ P
 
 	ŠK Šurany	
 
-12
+13
 
 	
 
@@ -214,11 +214,11 @@ P
 
 	
 
-4
+5
 
 	
 
-33:29
+34:31
 
 	
 
@@ -233,15 +233,58 @@ P
 4
 
 	
+P
 V
 R
 P
 P
-V
 
 
 
 5
+
+	SSC FÉNIX Nové Zámky	
+
+13
+
+	
+
+7
+
+	
+
+1
+
+	
+
+5
+
+	
+
+47:19
+
+	
+
+22
+
+	
+
+11
+
+	
+
+1
+
+	
+V
+P
+V
+P
+V
+
+
+
+6
 
 	FC Slovan Galanta	
 
@@ -269,7 +312,7 @@ V
 
 	
 
-11
+10
 
 	
 
@@ -282,7 +325,7 @@ V
 
 
 
-6
+7
 
 	FK Slovan Duslo Šaľa	
 
@@ -310,7 +353,7 @@ V
 
 	
 
-10
+9
 
 	
 
@@ -325,11 +368,11 @@ P
 
 
 
-7
+8
 
 	TJ Dynamo Nová Stráž	
 
-12
+13
 
 	
 
@@ -338,49 +381,6 @@ P
 	
 
 2
-
-	
-
-4
-
-	
-
-43:41
-
-	
-
-20
-
-	
-
-9
-
-	
-
-2
-
-	
-V
-R
-V
-P
-V
-
-
-
-8
-
-	SSC FÉNIX Nové Zámky	
-
-12
-
-	
-
-6
-
-	
-
-1
 
 	
 
@@ -388,11 +388,11 @@ V
 
 	
 
-40:19
+43:48
 
 	
 
-19
+20
 
 	
 
@@ -400,14 +400,14 @@ V
 
 	
 
-1
+2
 
 	
 P
 V
+R
+V
 P
-V
-V
 
 
 
@@ -458,7 +458,11 @@ P
 
 	MŠO Štúrovo	
 
-12
+13
+
+	
+
+5
 
 	
 
@@ -470,15 +474,11 @@ P
 
 	
 
-4
+26:26
 
 	
 
-24:25
-
-	
-
-16
+19
 
 	
 
@@ -490,9 +490,9 @@ P
 
 	
 V
+V
 R
 P
-V
 V
 
 
@@ -587,7 +587,7 @@ P
 
 	Futbalový klub Slovan Šahy	
 
-12
+13
 
 	
 
@@ -599,11 +599,11 @@ P
 
 	
 
-9
+10
 
 	
 
-18:40
+18:47
 
 	
 
@@ -622,7 +622,7 @@ P
 P
 P
 P
-V
+P
 
 
 
@@ -723,6 +723,12 @@ Prehra
 
 Správy z Futbalnetu
 
+Sledujte s nami ONLINE prenos zo zápasu 16. kola MONACObet ligy: FC Petržalka - Žilina B.
+
+ONLINE: FC Petržalka - MŠK Žilina B dnes, MONACObet liga LIVE (II. liga, 16. kolo)
+
+dnes 07:30
+
 Dunajská Streda má na čele už 10-bodový náskok.
 
 Výsledok Slovana poznal v Dunajskej Strede iba tréner. Kašlem na ligovú tabuľku, usmieval sa
@@ -747,7 +753,7 @@ Pavol Spál
 so 19:25
 
 ∙
-43
+50
 
 Prešovčanom čaká v poslednom kole jesene ďalší domáci zápas, s trápiacim Zvolenom.
 
@@ -775,13 +781,7 @@ Utrápený Slovan znovu sklamal. Na Tehelnom poli nedokázal zdolať posledný T
 so 17:22
 
 ∙
-29
-
-Sledujte s nami ONLINE prenos zo zápasu 16. kola MONACObet ligy: FC Petržalka - Žilina B.
-
-ONLINE: FC Petržalka - MŠK Žilina B dnes, MONACObet liga LIVE (II. liga, 16. kolo)
-
-dnes 07:30
+30
 
 DAC zvíťazil v Niké lige v šiestom zápase v rade.
 
@@ -824,27 +824,27 @@ Odmietla medailu, lebo cíti, že ju rozhodcovia okradli. Nenecháme to tak, tvr
 
 2
 
-Slovan zlyhal proti poslednému. Fanúšikovia odišli, kapitán priznal hanbu
+Nemecký pohár má na programe záverečný deň. Kde sledovať zápas Slovensko - Nemecko?
 
 3
 
-Výsledok Slovana poznal v Dunajskej Strede iba tréner. Kašlem na ligovú tabuľku, usmieval sa
+Slovan zlyhal proti poslednému. Fanúšikovia odišli, kapitán priznal hanbu
 
 4
 
-Rusi sa vrátia, ale súpera nenájdu. MS v hokeji nebude možné usporiadať, tvrdia Fíni
+Výsledok Slovana poznal v Dunajskej Strede iba tréner. Kašlem na ligovú tabuľku, usmieval sa
 
 5
 
-NHL: Montreal uspel v kanadskom derby na ľade Toronta, Slafkovský si nevylepšil štatistiky
+VIDEO: Slafkovský s Montrealom vyhrali kanadské derby. Tešili sa aj dvaja slovenskí obrancovia
 
 6
 
-VIDEO: Slafkovský s Montrealom vyhrali kanadské derby. Tešili sa aj dvaja slovenskí obrancovia
+Program, výsledky a tabuľka - Slovensko na turnaji Nemecký pohár 2026
 
 7
 
-Nemecký pohár má na programe záverečný deň. Kde sledovať zápas Slovensko - Nemecko?
+Prešov sa natrápil, víťaznú sériu zachránil až v závere. Tréner súpera neskrýval pocit krivdy
 
 Späť na vrch
 Redakcia a kontakty
