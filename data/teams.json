@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T06:05:34.048Z",
+  "generatedAt": "2026-11-08T09:02:36.544Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -3209,8 +3209,8 @@
           "name": "Branislav Ruženský"
         },
         {
-          "role": "Lekár",
-          "name": "Klaudia Samuhelová"
+          "role": "Adrián Selčík",
+          "name": "Lekár"
         }
       ],
       "results": [
@@ -4167,12 +4167,12 @@
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 14. kolo",
           "date": "08.11",
           "time": "09:00",
-          "status": "",
+          "status": "Prebieha",
           "home": "SSC FÉNIX Nové Zámky",
           "away": "Futbalový klub Slovan Šahy",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
+          "scoreHome": 0,
+          "scoreAway": 0,
+          "played": true
         },
         {
           "round": "15. kolo",
@@ -5445,12 +5445,12 @@
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 14. kolo",
           "date": "08.11",
           "time": "09:00",
-          "status": "",
+          "status": "Prebieha",
           "home": "SSC FÉNIX Nové Zámky",
           "away": "Futbalový klub Slovan Šahy",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
+          "scoreHome": 0,
+          "scoreAway": 0,
+          "played": true
         },
         {
           "round": "15. kolo",
@@ -6893,12 +6893,12 @@
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 14. kolo",
           "date": "08.11",
           "time": "09:00",
-          "status": "",
+          "status": "Prebieha",
           "home": "MŠO Štúrovo",
           "away": "ŠK Šurany",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
+          "scoreHome": 0,
+          "scoreAway": 0,
+          "played": true
         },
         {
           "round": "15. kolo",
@@ -10998,12 +10998,12 @@
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 14. kolo",
           "date": "08.11",
           "time": "09:00",
-          "status": "",
+          "status": "Prebieha",
           "home": "FC Slovan Hlohovec",
           "away": "TJ Dynamo Nová Stráž",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
+          "scoreHome": 0,
+          "scoreAway": 0,
+          "played": true
         },
         {
           "round": "15. kolo",
@@ -15189,12 +15189,12 @@
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 14. kolo",
           "date": "08.11",
           "time": "09:00",
-          "status": "",
+          "status": "Prebieha",
           "home": "MŠO Štúrovo",
           "away": "ŠK Šurany",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
+          "scoreHome": 0,
+          "scoreAway": 0,
+          "played": true
         },
         {
           "round": "15. kolo",
@@ -19643,12 +19643,12 @@
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 14. kolo",
           "date": "08.11",
           "time": "09:00",
-          "status": "",
+          "status": "Prebieha",
           "home": "FC Slovan Hlohovec",
           "away": "TJ Dynamo Nová Stráž",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
+          "scoreHome": 0,
+          "scoreAway": 0,
+          "played": true
         },
         {
           "round": "15. kolo",
