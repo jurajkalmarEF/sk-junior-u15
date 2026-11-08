@@ -1723,6 +1723,7 @@ function attachHls(src){
 
 function hostLabel(url){
   try {
+    if (/\/reporty\//.test(new URL(url, location.href).pathname)) return 'Analýza zápasu';
     var h = new URL(url).hostname.replace(/^www\./, '');
     if (/youtu/.test(h)) return 'YouTube';
     if (/xbotgo/.test(h)) return 'XbotGo';
@@ -1736,7 +1737,7 @@ function hostLabel(url){
 
 function hostIcon(url){
   var l = hostLabel(url);
-  return l === 'YouTube' ? '▶️' : l === 'XbotGo' ? '🎥' : l === 'Google Drive' ? '📁' : l === 'Facebook' ? '📘' : '🔗';
+  return l === 'Analýza zápasu' ? '📊' : l === 'YouTube' ? '▶️' : l === 'XbotGo' ? '🎥' : l === 'Google Drive' ? '📁' : l === 'Facebook' ? '📘' : '🔗';
 }
 
 function isHttpUrl(u){ return /^https?:\/\/\S+$/i.test(String(u || '').trim()); }
