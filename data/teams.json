@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T17:55:10.105Z",
+  "generatedAt": "2026-11-08T06:05:34.048Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -18114,18 +18114,6 @@
       ],
       "fixtures": [
         {
-          "round": "14. kolo",
-          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 14. kolo",
-          "date": "07.11",
-          "time": "10:00",
-          "status": "",
-          "home": "Nez. družstvo",
-          "away": "Malodvornícky FK Malé Dvorníky",
-          "scoreHome": null,
-          "scoreAway": null,
-          "played": false
-        },
-        {
           "round": "15. kolo",
           "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 15. kolo",
           "date": "14.11",
@@ -18205,6 +18193,18 @@
           "status": "",
           "home": "MŠK Želiezovce",
           "away": "Malodvornícky FK Malé Dvorníky",
+          "scoreHome": null,
+          "scoreAway": null,
+          "played": false
+        },
+        {
+          "round": "22. kolo",
+          "competition": "III. liga U15 Macron | yoursport ZsFZ - III. liga U15 skupina JV - 22. kolo",
+          "date": "17.04",
+          "time": "10:00",
+          "status": "",
+          "home": "Malodvornícky FK Malé Dvorníky",
+          "away": "FC Slovan Galanta",
           "scoreHome": null,
           "scoreAway": null,
           "played": false
