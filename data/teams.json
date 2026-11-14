@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T11:57:15.301Z",
+  "generatedAt": "2026-11-14T13:33:04.739Z",
   "standings": [
     {
       "slug": "sk-junior-ivanka-pri-nitre",
@@ -1546,12 +1546,6 @@
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/63076da7677da94122a8f03a/formal-photo/8b945c55-2f0a-4ec1-ba73-f0f02c6163d3"
         },
         {
-          "name": "Hunor Samu",
-          "position": "Obranca",
-          "href": "https://sportnet.sme.sk/futbalnet/clen/6308bc79677da94122a92572/hunor-samu/",
-          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/6308bc79677da94122a92572/formal-photo/aefaa1f5-709e-4a00-a6c3-ee39ef24eb20"
-        },
-        {
           "name": "Gabriel Ollé",
           "position": "Obranca",
           "href": "https://sportnet.sme.sk/futbalnet/clen/5f27e272abfdd9549a0e3c37/gabriel-olle/",
@@ -1592,6 +1586,12 @@
           "position": "Záložník",
           "href": "https://sportnet.sme.sk/futbalnet/clen/66d707f8792b1f6f9d7579d9/andras-kovacs/",
           "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/66d707f8792b1f6f9d7579d9/formal-photo/df6e317c-8240-43fe-b01e-d12b7ccacbfe"
+        },
+        {
+          "name": "Hunor Samu",
+          "position": "Záložník",
+          "href": "https://sportnet.sme.sk/futbalnet/clen/6308bc79677da94122a92572/hunor-samu/",
+          "photo": "https://api.sportnet.online/v1/ppo/futbalsfz.sk/users/6308bc79677da94122a92572/formal-photo/aefaa1f5-709e-4a00-a6c3-ee39ef24eb20"
         },
         {
           "name": "Áron Illés",
