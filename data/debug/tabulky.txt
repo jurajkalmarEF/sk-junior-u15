@@ -17,7 +17,7 @@ Najväčší talent Slovenska? Jeho kariéra naberá raketové tempo, cieľom je
 Podvodníčka, vypadni! Víťazku zasypali nechutnými nadávkami, lebo zdolala Rusku
 Český Caufield: Poprad sa s Fínskom nedá porovnať. Otec na ňom lámal hokejky, zažil cukor aj bič
 Valábik o návrate Rusov: Pri pohľade na ich dres mi je na zvracanie. Nenastúpil by som proti nim
-Vlhová sa v Levi nedá poraziť, hlásali médiá. Keď zdolala Shiffrinovú, Američanka s ňou odmietla trénovať
+Gašpar a Bödör sa dočkali výpovede, ktorá môže potopiť ich kauzu. Makó opäť prekvapil
 Kluby
 /
 ŠK Junior Ivanka pri Nitre
@@ -73,11 +73,11 @@ K
 
 	FC Slovan Hlohovec	
 
-13
+14
 
 	
 
-10
+11
 
 	
 
@@ -89,11 +89,11 @@ K
 
 	
 
-50:15
+51:15
 
 	
 
-30
+33
 
 	
 
@@ -101,7 +101,7 @@ K
 
 	
 
-9
+12
 
 	
 V
@@ -113,6 +113,49 @@ V
 
 
 2
+
+	Futbalový klub Holice	
+
+14
+
+	
+
+9
+
+	
+
+3
+
+	
+
+2
+
+	
+
+40:14
+
+	
+
+30
+
+	
+
+14
+
+	
+
+12
+
+	
+V
+R
+P
+P
+R
+
+
+
+3
 
 	ŠK Junior Ivanka pri Nitre	
 
@@ -140,25 +183,6 @@ V
 
 	
 
-14
-
-	
-
-8
-
-	
-V
-V
-R
-R
-P
-
-
-
-3
-
-	Futbalový klub Holice	
-
 13
 
 	
@@ -166,47 +190,23 @@ P
 8
 
 	
-
-3
-
-	
-
-2
-
-	
-
-36:13
-
-	
-
-27
-
-	
-
-13
-
-	
-
-9
-
-	
-R
-P
-P
-R
 V
+V
+R
+R
+P
 
 
 
 4
 
-	ŠK Šurany	
+	SSC FÉNIX Nové Zámky	
 
-13
+14
 
 	
 
-7
+8
 
 	
 
@@ -218,11 +218,11 @@ V
 
 	
 
-34:31
+51:19
 
 	
 
-22
+25
 
 	
 
@@ -233,19 +233,19 @@ V
 4
 
 	
+V
+V
 P
 V
-R
-P
 P
 
 
 
 5
 
-	SSC FÉNIX Nové Zámky	
+	FK Slovan Duslo Šaľa	
 
-13
+14
 
 	
 
@@ -253,7 +253,7 @@ P
 
 	
 
-1
+2
 
 	
 
@@ -261,11 +261,11 @@ P
 
 	
 
-47:19
+39:25
 
 	
 
-22
+23
 
 	
 
@@ -273,18 +273,104 @@ P
 
 	
 
-1
+2
 
 	
 V
-P
+R
 V
-P
+V
 V
 
 
 
 6
+
+	ŠK Šurany	
+
+14
+
+	
+
+7
+
+	
+
+2
+
+	
+
+5
+
+	
+
+35:32
+
+	
+
+23
+
+	
+
+10
+
+	
+
+2
+
+	
+R
+P
+V
+R
+P
+
+
+
+7
+
+	MŠO Štúrovo	
+
+14
+
+	
+
+6
+
+	
+
+4
+
+	
+
+4
+
+	
+
+30:26
+
+	
+
+22
+
+	
+
+9
+
+	
+
+1
+
+	
+V
+V
+V
+R
+P
+
+
+
+8
 
 	FC Slovan Galanta	
 
@@ -312,7 +398,7 @@ V
 
 	
 
-10
+8
 
 	
 
@@ -325,11 +411,11 @@ V
 
 
 
-7
+9
 
-	FK Slovan Duslo Šaľa	
+	TJ Dynamo Nová Stráž	
 
-13
+14
 
 	
 
@@ -341,11 +427,11 @@ V
 
 	
 
-5
+6
 
 	
 
-33:24
+44:54
 
 	
 
@@ -353,69 +439,26 @@ V
 
 	
 
-9
+7
 
 	
 
 -1
 
 	
-R
-V
-V
-V
 P
-
-
-
-8
-
-	TJ Dynamo Nová Stráž	
-
-13
-
-	
-
-6
-
-	
-
-2
-
-	
-
-5
-
-	
-
-43:48
-
-	
-
-20
-
-	
-
-8
-
-	
-
-2
-
-	
 P
 V
 R
 V
-P
 
 
 
-9
+10
 
 	FK Kolárovo	
 
-13
+14
 
 	
 
@@ -427,54 +470,11 @@ P
 
 	
 
-6
-
-	
-
-52:41
-
-	
-
-19
-
-	
-
 7
 
 	
 
--2
-
-	
-P
-P
-P
-V
-P
-
-
-
-10
-
-	MŠO Štúrovo	
-
-13
-
-	
-
-5
-
-	
-
-4
-
-	
-
-4
-
-	
-
-26:26
+52:45
 
 	
 
@@ -486,12 +486,12 @@ P
 
 	
 
--2
+-5
 
 	
-V
-V
-R
+P
+P
+P
 P
 V
 
@@ -544,7 +544,7 @@ P
 
 	Malodvornícky FK Malé Dvorníky	
 
-13
+14
 
 	
 
@@ -556,11 +556,11 @@ P
 
 	
 
-7
+8
 
 	
 
-18:35
+18:36
 
 	
 
@@ -572,14 +572,14 @@ P
 
 	
 
--6
+-9
 
 	
 P
-V
 P
 V
 P
+V
 
 
 
@@ -587,7 +587,7 @@ P
 
 	Futbalový klub Slovan Šahy	
 
-13
+14
 
 	
 
@@ -599,11 +599,11 @@ P
 
 	
 
-10
+11
 
 	
 
-18:47
+18:51
 
 	
 
@@ -615,7 +615,7 @@ P
 
 	
 
--9
+-12
 
 	
 P
@@ -630,7 +630,7 @@ P
 
 	C&P Stars Academy - ZM	
 
-13
+14
 
 	
 
@@ -638,7 +638,7 @@ P
 
 	
 
-2
+3
 
 	
 
@@ -646,11 +646,11 @@ P
 
 	
 
-10:34
+11:35
 
 	
 
-8
+9
 
 	
 
@@ -658,13 +658,13 @@ P
 
 	
 
--13
+-12
 
 	
 R
+R
 V
 V
-P
 P
 
 
@@ -673,7 +673,7 @@ P
 
 	MŠK Želiezovce	
 
-13
+14
 
 	
 
@@ -685,11 +685,11 @@ P
 
 	
 
-10
+11
 
 	
 
-13:50
+14:54
 
 	
 
@@ -701,13 +701,13 @@ P
 
 	
 
--11
+-14
 
 	
 P
 P
-V
 P
+V
 P
 V
 
@@ -723,6 +723,30 @@ Prehra
 
 Správy z Futbalnetu
 
+Sledujte spolu s nami online prenos z osemfinále Slovnaft Cupu: FK Čadca - Spartak Trnava.
+
+ONLINE: FK Čadca - Spartak Trnava dnes, Slovnaft Cup LIVE (osemfinále)
+
+dnes 10:00
+
+Sledujte s nami ONLINE prenos zo zápasu 17. kola MONACObet ligy: FK Humenné - FC ŠTK 1914 Šamorín.
+
+ONLINE: FK Humenné - FC ŠTK 1914 Šamorín dnes, MONACObet liga LIVE (II. liga, 17. kolo)
+
+dnes 10:00
+
+Sledujte s nami ONLINE prenos zo zápasu 17. kola MONACObet ligy: OFK Baník Lehota pod Vtáčnikom - FC ViOn Zlaté Moravce.
+
+ONLINE: OFK Baník Lehota pod Vtáčnikom - FC ViOn Zlaté Moravce dnes, MONACObet liga LIVE (II. liga, 17. kolo)
+
+dnes 10:00
+
+Sledujte s nami ONLINE prenos zo zápasu 17. kola MONACObet ligy: MŠK Považská Bystrica - FK Pohronie.
+
+ONLINE: MŠK Považská Bystrica - FK Pohronie dnes, MONACObet liga LIVE (II. liga, 17. kolo)
+
+dnes 10:00
+
 Čadca privíta v Slovnaft Cupe trnavský Spartak.
 
 Toľko divákov mali naposledy pred dvadsiatimi rokmi. Treťoligistu čaká historický zápas
@@ -731,7 +755,16 @@ Titanilla Bőd
 
 ∙
 
-dnes 07:30
+pi 07:30
+
+Úprimne poviem, že postup do Ligy majstrov bol nad očakávania, hovorí športový riaditeľ Slovana.
+
+Slovan o zmene trénera neuvažuje. Veríme v proces a víziu Tourého, hovorí Vittek
+
+pi 16:06
+
+∙
+2
 
 Minister hovorí, že peniaze neskončia v štátnom rozpočte, ale pôjdu do futbalového hnutia.
 
@@ -754,53 +787,18 @@ Pre klub je najlepšou možnosťou. Podbrezová predstavila nového trénera
 
 št 10:44
 
-Klub z východu Slovenska je po jesennej časti na štvrtom mieste.
+Tréner národného mužstva ďakoval aj košickým divákom.
 
-V 26 rokoch už vedie mužov. Bývalý reprezentant nútene ukončil kariéru, no dnes žiari ako tréner
+Nikdy som nerodil a nezažil som klinickú smrť. Weissovi risk vyšiel a bol spokojný sám so sebou
 
-Peter Cingel
-
-∙
-
-št 08:00
-
-Na lavičku zasadol tréner, ktorý má bohaté hráčske aj trénerské skúsenosti, a to aj z najvyšších súťaží.
-
-Bardejov odvolal trénera deň pred derby, odišlo aj päť hráčov. Náhradu našiel vo veľkom mene
-
-Peter Cingel
+Titanilla Bőd
 
 ∙
 
-st 10:12
+dnes 07:00
 
 ∙
-2
-
-Pričom doma predtým podľahli minuloročnému finalistovi tejto európskej súťaže 1:3.
-
-Futbalistky Spartaka Myjava neuspeli ani v odvete na švédsky tím. Rozhodol druhý polčas
-
-st 21:33
-
-Účastník druhej ligy vyradil v predošlom kole Komárno.
-
-Podbrezová na domácej pôde potvrdila pozíciu favorita. Rozhodla z penalty
-
-st 18:28
-
-S účastníkom Niké ligy sa dohodol na kontrakte do konca sezóny.
-
-Viem, čo treba spraviť. Nový kouč Ružomberka má za sebou prvý tréning, čaká ho Slovan
-
-st 17:17
-
-Zemplínčania strelili dva góly a postúpili do štvrťfinále.
-
-Michalovce zvládli úlohu favorita bez problémov. Treťoligista držal nádej hodinu
-
-st 15:02
-
+1
 Načítať ďalšie
 Najčítanejšie
 Najnovšie
@@ -809,31 +807,31 @@ Najnovšie
 7 dní
 1
 
-S Rusmi nespolupracujeme, tvrdí šéf NHL. Ak ich pustí na turnaj, Slováci hrať nebudú
+Svetový pohár: Vlhovej Levi chutí a po prvom kole je na 14. mieste
 
 2
 
-Kto je tajomný Slovák, ktorého si tak strážia? Ukázal, že vie, Weiss je nadšený
+Vlhová bola rýchla najmä v hornej časti trate. Na pódiové priečky nemá neriešiteľnú stratu
 
 3
 
-Slováci proti Faerským ostrovom, Vlhová ide slalom či finále Turnaja majsteriek (TV tipy na víkend)
+Piskot a blamáž na dosah. Weiss velebil hráča, od ktorého to nik nečakal
 
 4
 
-Vlhová je na špeciálnom mieste, cíti sa ako v obývačke. Oproti ZOH má lepšiu pozíciu
+Vlhovú čaká jej obľúbený svah. Kde sledovať slalom v Levi? (TV program)
 
 5
 
-Vlhová sa v tejto sezóne vráti na pódium, verí bývalá fínska lyžiarka. V Levi tipuje top desiatku
+Vlhová spoznala štartové číslo v slalome. Môže všetkých prekvapiť, hovorí expertka
 
 6
 
-Taliansko zlomilo vyše 60-ročnú kliatbu. Proti Francúzsku zažiarila nová hviezda
+ONLINE: Petra Vlhová dnes ide slalom v Levi, Svetový pohár LIVE (2. kolo)
 
 7
 
-VIDEO: Montreal so Slafkovským zastavil rozbehnutý Boston, z výhry sa tešil aj Dvorský
+Strelec mal súpera doraziť, nie ho vrátiť späť. Šatka horel, Rusnák sa utopil (hodnotenie)
 
 Späť na vrch
 Redakcia a kontakty
