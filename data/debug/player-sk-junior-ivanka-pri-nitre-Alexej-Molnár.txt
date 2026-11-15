@@ -17,7 +17,7 @@ Najväčší talent Slovenska? Jeho kariéra naberá raketové tempo, cieľom je
 Podvodníčka, vypadni! Víťazku zasypali nechutnými nadávkami, lebo zdolala Rusku
 Český Caufield: Poprad sa s Fínskom nedá porovnať. Otec na ňom lámal hokejky, zažil cukor aj bič
 Valábik o návrate Rusov: Pri pohľade na ich dres mi je na zvracanie. Nenastúpil by som proti nim
-Pred zbúraním ho zachránil nový majiteľ. Obnova starého domu trvala 13 rokov, teraz získal prestížnu cenu
+Zabudni na punč vo Viedni za sedem eur. Päť vianočných trhov, kde sú nižšie ceny a úžasné atrakcie
 Členovia
 /
 Alexej Molnár
@@ -30,9 +30,9 @@ Muž
 Pohlavie
 13 rokov (2013)
 Vek
-210
+211
 Zápasy
-11658
+11701
 Minúty
 117
 Góly
@@ -65,14 +65,14 @@ P
 	
 	
 
-2026/2027	10	408	0	0	0	0
+2026/2027	11	451	0	0	0	0
 2025/2026	40	2400	14	1	0	0
 2024/2025	25	1550	10	0	0	0
 2023/2024	52	2760	27	0	0	0
 2022/2023	56	2950	36	0	0	0
 2021/2022	24	1440	29	0	0	0
 2020/2021	3	150	1	0	0	0
-Celkovo	210	11658	117	1	0	0
+Celkovo	211	11701	117	1	0	0
 Správy z Futbalnetu
 
 Rezerva belasých zdolala Malženice 2:0 po góloch Jelínka a Kozyka a v tabuľke 2. ligy sa posunula na deviate miesto.
@@ -150,6 +150,9 @@ Pavol Spál
 ∙
 
 dnes 10:51
+
+∙
+1
 
 Plán B existuje vždy.
 

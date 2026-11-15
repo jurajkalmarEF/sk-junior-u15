@@ -17,7 +17,7 @@ Najväčší talent Slovenska? Jeho kariéra naberá raketové tempo, cieľom je
 Podvodníčka, vypadni! Víťazku zasypali nechutnými nadávkami, lebo zdolala Rusku
 Český Caufield: Poprad sa s Fínskom nedá porovnať. Otec na ňom lámal hokejky, zažil cukor aj bič
 Valábik o návrate Rusov: Pri pohľade na ich dres mi je na zvracanie. Nenastúpil by som proti nim
-Pred zbúraním ho zachránil nový majiteľ. Obnova starého domu trvala 13 rokov, teraz získal prestížnu cenu
+Zabudni na punč vo Viedni za sedem eur. Päť vianočných trhov, kde sú nižšie ceny a úžasné atrakcie
 Členovia
 /
 Matúš Lacina
@@ -30,9 +30,9 @@ Muž
 Pohlavie
 14 rokov (2012)
 Vek
-159
+160
 Zápasy
-9002
+9072
 Minúty
 146
 Góly
@@ -65,14 +65,14 @@ P
 	
 	
 
-2026/2027	13	910	2	0	0	0
+2026/2027	14	980	2	0	0	0
 2025/2026	27	1792	6	0	0	0
 2024/2025	28	1560	16	0	0	0
 2023/2024	19	1140	20	0	0	0
 2022/2023	38	1900	51	0	0	0
 2021/2022	25	1250	47	0	0	0
 2020/2021	9	450	4	0	0	0
-Celkovo	159	9002	146	0	0	0
+Celkovo	160	9072	146	0	0	0
 Správy z Futbalnetu
 
 Rezerva belasých zdolala Malženice 2:0 po góloch Jelínka a Kozyka a v tabuľke 2. ligy sa posunula na deviate miesto.
@@ -150,6 +150,9 @@ Pavol Spál
 ∙
 
 dnes 10:51
+
+∙
+1
 
 Plán B existuje vždy.
 

@@ -17,7 +17,7 @@ Najväčší talent Slovenska? Jeho kariéra naberá raketové tempo, cieľom je
 Podvodníčka, vypadni! Víťazku zasypali nechutnými nadávkami, lebo zdolala Rusku
 Český Caufield: Poprad sa s Fínskom nedá porovnať. Otec na ňom lámal hokejky, zažil cukor aj bič
 Valábik o návrate Rusov: Pri pohľade na ich dres mi je na zvracanie. Nenastúpil by som proti nim
-Pred zbúraním ho zachránil nový majiteľ. Obnova starého domu trvala 13 rokov, teraz získal prestížnu cenu
+Zabudni na punč vo Viedni za sedem eur. Päť vianočných trhov, kde sú nižšie ceny a úžasné atrakcie
 Členovia
 /
 Tomáš Raučina
@@ -30,9 +30,9 @@ Muž
 Pohlavie
 14 rokov (2012)
 Vek
-77
+78
 Zápasy
-3994
+4064
 Minúty
 60
 Góly
@@ -65,10 +65,10 @@ P
 	
 	
 
-2026/2027	11	770	5	0	0	0
+2026/2027	12	840	5	0	0	0
 2025/2026	44	1904	6	0	0	0
 2024/2025	22	1320	49	0	0	0
-Celkovo	77	3994	60	0	0	0
+Celkovo	78	4064	60	0	0	0
 Správy z Futbalnetu
 
 Rezerva belasých zdolala Malženice 2:0 po góloch Jelínka a Kozyka a v tabuľke 2. ligy sa posunula na deviate miesto.
@@ -146,6 +146,9 @@ Pavol Spál
 ∙
 
 dnes 10:51
+
+∙
+1
 
 Plán B existuje vždy.
 
