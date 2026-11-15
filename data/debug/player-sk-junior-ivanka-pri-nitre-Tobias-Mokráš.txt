@@ -17,7 +17,7 @@ Najväčší talent Slovenska? Jeho kariéra naberá raketové tempo, cieľom je
 Podvodníčka, vypadni! Víťazku zasypali nechutnými nadávkami, lebo zdolala Rusku
 Český Caufield: Poprad sa s Fínskom nedá porovnať. Otec na ňom lámal hokejky, zažil cukor aj bič
 Valábik o návrate Rusov: Pri pohľade na ich dres mi je na zvracanie. Nenastúpil by som proti nim
-Gašpar a Bödör sa dočkali výpovede, ktorá môže potopiť ich kauzu. Makó opäť prekvapil
+Pred zbúraním ho zachránil nový majiteľ. Obnova starého domu trvala 13 rokov, teraz získal prestížnu cenu
 Členovia
 /
 Tobias Mokráš
@@ -30,11 +30,11 @@ Muž
 Pohlavie
 14 rokov (2012)
 Vek
-151
+152
 Zápasy
-8655
+8725
 Minúty
-23
+24
 Góly
 4
 Žltá karta
@@ -67,21 +67,37 @@ P
 	
 	
 
-2026/2027	13	905	9	3	0	0
+2026/2027	14	975	10	3	0	0
 2025/2026	19	1050	5	1	0	1
 2024/2025	20	1400	1	0	0	0
 2023/2024	20	1200	4	0	0	0
 2022/2023	39	1950	0	0	0	0
 2021/2022	25	1250	4	0	0	0
 2018/2019	15	900	0	0	0	0
-Celkovo	151	8655	23	4	0	1
+Celkovo	152	8725	24	4	0	1
 Správy z Futbalnetu
+
+Sledujte s nami ONLINE prenos zo zápasu 17. kola MONACObet ligy: ŠK Slovan Bratislava B - OFK Malženice.
+
+ONLINE: ŠK Slovan Bratislava B - OFK Malženice dnes, MONACObet liga LIVE (II. liga, 17. kolo)
+
+dnes 07:30
+
+Klub z východu chce odčiniť minuloročné sklamanie.
+
+Líder jesennej časti nechce poľaviť. Mnohí si mysleli, že súťažou preletíme, hovorí opora
+
+Peter Cingel
+
+∙
+
+dnes 08:00
 
 Hostia viedli od 21. minúty po zásahu Kudličku.
 
 Pohárové prekvapenie sa nekonalo. Trnava v Čadci postúpila do štvrťfinále
 
-dnes 14:48
+so 14:48
 
 ∙
 2
@@ -90,7 +106,10 @@ Petržalka to s útokom na prvenstvo myslí vážne a z Bytče si priviezla cenn
 
 Šamorín drží tempo, Petržalka sa nevzdáva. Boj o čelo druhej ligy pokračuje
 
-dnes 15:45
+so 15:45
+
+∙
+1
 
 Tréner národného mužstva ďakoval aj košickým divákom.
 
@@ -100,10 +119,10 @@ Titanilla Bőd
 
 ∙
 
-dnes 07:00
+so 07:00
 
 ∙
-4
+9
 
 Čadca privíta v Slovnaft Cupe trnavský Spartak.
 
@@ -124,35 +143,34 @@ pi 16:06
 ∙
 2
 
+Kto je vzorový slovanista?
+
+Najdrahší káder v dejinách. Šéf Slovana reaguje, prečo neprišli zvučné posily
+
+Pavol Spál
+
+∙
+
+dnes 10:51
+
+Plán B existuje vždy.
+
+Zatratený hrdina? Najprv ho velebia, teraz ho hádžu pod zem. Šéf Slovana reaguje
+
+Pavol Spál
+
+∙
+
+dnes 10:41
+
+∙
+3
+
 Sledujte s nami ONLINE prenos zo zápasu 17. kola MONACObet ligy: FK Humenné - FC ŠTK 1914 Šamorín.
 
 ONLINE: FK Humenné - FC ŠTK 1914 Šamorín dnes, MONACObet liga LIVE (II. liga, 17. kolo)
 
-dnes 10:00
-
-Sledujte s nami ONLINE prenos zo zápasu 17. kola MONACObet ligy: OFK Baník Lehota pod Vtáčnikom - FC ViOn Zlaté Moravce.
-
-ONLINE: OFK Baník Lehota pod Vtáčnikom - FC ViOn Zlaté Moravce dnes, MONACObet liga LIVE (II. liga, 17. kolo)
-
-dnes 10:00
-
-Sledujte s nami ONLINE prenos zo zápasu 17. kola MONACObet ligy: MŠK Považská Bystrica - FK Pohronie.
-
-ONLINE: MŠK Považská Bystrica - FK Pohronie dnes, MONACObet liga LIVE (II. liga, 17. kolo)
-
-dnes 10:00
-
-Sledovali ste spolu s nami online prenos z osemfinále Slovnaft Cupu: FK Čadca - Spartak Trnava.
-
-Slovnaft cup: Trnava na pôde Čadce nezaváhala
-
-dnes 10:00
-
-Dunajská Streda ešte v tejto sezóne neprehrala v lige ani jeden zápas.
-
-Súboj lídrov rakúskej a slovenskej súťaže priniesol jednoznačnú záležitosť. DAC neskóroval
-
-št 17:59
+so 10:00
 
 Načítať ďalšie
 Späť na vrch
