@@ -520,50 +520,68 @@ VIK
 SAB
 1
 Detail zápasu
+24.11.
 BOD
-24.11. 18:45
+1
+5. kolo
 LSK
-5. kolo
+0
 Detail zápasu
+24.11.
 GAL
-24.11. 18:45
-AVL
+1
 5. kolo
+AVL
+0
 Detail zápasu
 RMA
-24.11. 21:00
+2. polčas
+3
 PSV
 5. kolo
+1
 Detail zápasu
 MCI
-24.11. 21:00
+2. polčas
+1
 NAP
 5. kolo
+1
 Detail zápasu
 ARS
-24.11. 21:00
+2. polčas
+1
 BVB
 5. kolo
+1
 Detail zápasu
 FEY
-24.11. 21:00
+2. polčas
+0
 POR
 5. kolo
+1
 Detail zápasu
 LEI
-24.11. 21:00
+2. polčas
+2
 LEN
 5. kolo
+1
 Detail zápasu
 SLB
-24.11. 21:00
+2. polčas
+0
 BET
 5. kolo
+2
 Detail zápasu
 COM
-24.11. 21:00
+2. polčas
+1
 AEK
 5. kolo
+0
 Detail zápasu
 SLA
 25.11. 18:45
@@ -880,10 +898,10 @@ LSK
 POR
 8. kolo
 Detail zápasu
+Nemci ho triafali do obličiek, močil krv. Legendárni bratia Pospíšilovci ladili formu v Tatrách
 Krádež Montrealu, tvrdia experti. Larkinov príchod znamená koniec prestavby Canadiens
 Český tréner Slovákov prišiel do neznáma: V slovenskom biatlone ma trápia medziľudské vzťahy
 Súper Slovana urobil najlepší kšeft Trnavy v dejinách. Platil veľkých Slovákov
-Mikuláš má formu na finále?! Andrej Kmeč je ako Gizka Oňová (Hokejový BOSS)
 Slovenský tanečný súbor urazil Japonsko. Za video v svätyni sa muselo ospravedlniť veľvyslanectvo
 Kluby
 /
@@ -964,6 +982,12 @@ Fyzioterapeut
 Peter Dohnanec
 Správy z Futbalnetu
 
+Postup Žiliny zariadil Chorvát Roginič.
+
+Žilina sa teší z postupu do štvrťfinále. Ružomberku zasadila úder v poslednej minúte
+
+dnes 18:51
+
 Zväz zdôraznil, že rešpektuje uznesenie súdu, ktorý zamietol návrh na priznanie odkladného účinku správnej žalobe.
 
 SFZ pokračuje v súdnom spore s ministerstvom. Varuje pred ohrozením mládežníckeho futbalu
@@ -1018,9 +1042,9 @@ po 09:00
 ∙
 1
 
-Sledujte spolu s nami online prenos z osemfinále Slovnaft Cupu: MŠK Žilina - MFK Ružomberok.
+Sledovali ste spolu s nami online prenos z osemfinále Slovnaft Cupu: MŠK Žilina - MFK Ružomberok.
 
-ONLINE: MŠK Žilina - MFK Ružomberok dnes, Slovnaft Cup LIVE (osemfinále)
+Slovnaft Cup: Žilina zdolala Ružomberok gólom v závere a postúpila do štvrťfinále
 
 dnes 14:00
 
@@ -1059,15 +1083,6 @@ ne 23:15
 
 ∙
 1
-
-Pozrite si súhrn 15. kola Niké ligy.
-
-Dunajská Streda s istotou prezimuje na tróne. Premiéry nových trénerov víťazné neboli
-
-ne 21:50
-
-∙
-2
 Načítať ďalšie
 Najčítanejšie
 Najnovšie
@@ -1076,31 +1091,31 @@ Najnovšie
 7 dní
 1
 
-Šťastný sa hanbí za postoj Slovenska. Ostro kritizoval Šatana, zastal sa Slafkovského
+ONLINE: ŠK Slovan Bratislava - Real Betis dnes, Liga majstrov LIVE (5. kolo)
 
 2
 
-Slovan stratil európsky objav. Hráči hasia konflikt, kapitán poslal odkaz
+VIDEO: Šťastný sa hanbí za postoj Slovenska. Ostro kritizoval Šatana, zastal sa Slafkovského
 
 3
 
-Prvá vzájomná konfrontácia. Kde sledovať zápas ŠK Slovan Bratislava - Real Betis? (TV program)
+Hokejisti Nitry potvrdili narastajúcu formu. Odpor Prešova zlomili v záverečnej časti
 
 4
 
-Svetový talent s cenovkou sto miliónov. Čo sa stane so Slovanom?
+Shiffrinovú mrzelo, že vystrašila fanúšikov. Namiesto osláv mala dieru v bruchu
 
 5
 
-VIDEO: Slafkovský nastúpil v útoku s novou hviezdou tímu. Nemec si predĺžil bodovú sériu
+Napinavý triler v Bratislave. Slovan zviedol s Mikulášom 11-gólovú prestrelku
 
 6
 
-Shiffrinovú mrzelo, že vystrašila fanúšikov. Namiesto osláv mala dieru v bruchu
+Víťazná séria hokejistov Košíc sa skončila. Na domácom ľade padli proti rivalovi z východu
 
 7
 
-Montreal prehral, no Larkin zažil elektrizujúci debut: Niečo také som ešte nezažil
+Prvá vzájomná konfrontácia. Kde sledovať zápas ŠK Slovan Bratislava - Real Betis? (TV program)
 
 Späť na vrch
 Redakcia a kontakty
