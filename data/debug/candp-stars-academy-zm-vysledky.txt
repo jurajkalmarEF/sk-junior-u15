@@ -534,53 +534,53 @@ GAL
 AVL
 0
 Detail zápasu
+24.11.
 RMA
-2. polčas
+5
+5. kolo
+PSV
+1
+Detail zápasu
+24.11.
+MCI
+2
+5. kolo
+NAP
+2
+Detail zápasu
+24.11.
+ARS
+1
+5. kolo
+BVB
+1
+Detail zápasu
+24.11.
+FEY
+0
+5. kolo
+POR
+1
+Detail zápasu
+24.11.
+LEI
 3
-PSV
 5. kolo
-1
-Detail zápasu
-MCI
-2. polčas
-1
-NAP
-5. kolo
-1
-Detail zápasu
-ARS
-2. polčas
-1
-BVB
-5. kolo
-1
-Detail zápasu
-FEY
-2. polčas
-0
-POR
-5. kolo
-1
-Detail zápasu
-LEI
-2. polčas
-2
 LEN
-5. kolo
 1
 Detail zápasu
+24.11.
 SLB
-2. polčas
 0
-BET
 5. kolo
+BET
 2
 Detail zápasu
+24.11.
 COM
-2. polčas
 1
-AEK
 5. kolo
+AEK
 0
 Detail zápasu
 SLA
@@ -898,11 +898,11 @@ LSK
 POR
 8. kolo
 Detail zápasu
+Hrá hokej aj Osadníkov z Katanu. Kanaďan zo Spišskej Novej Vsi má nezvyčajnú vášeň
 Nemci ho triafali do obličiek, močil krv. Legendárni bratia Pospíšilovci ladili formu v Tatrách
 Krádež Montrealu, tvrdia experti. Larkinov príchod znamená koniec prestavby Canadiens
 Český tréner Slovákov prišiel do neznáma: V slovenskom biatlone ma trápia medziľudské vzťahy
-Súper Slovana urobil najlepší kšeft Trnavy v dejinách. Platil veľkých Slovákov
-Slovenský tanečný súbor urazil Japonsko. Za video v svätyni sa muselo ospravedlniť veľvyslanectvo
+Sedemročná Elizabeth Gašparíková po európskom zlate vyhrala aj Svetový pohár
 Kluby
 /
 C&P Stars Academy - ZM
@@ -1049,17 +1049,27 @@ FK Slovan Duslo Šaľa
 Načítať ďalšie
 Správy z Futbalnetu
 
+Do top zostavy sa dostali hráči šiestich klubov.
+
+Najviac hlasov dostal najlepší strelec. Aká je najlepšia jedenástka jesene II. ligy?
+
+Titanilla Bőd
+
+∙
+
+dnes 11:35
+
 Postup Žiliny zariadil Chorvát Roginič.
 
 Žilina sa teší z postupu do štvrťfinále. Ružomberku zasadila úder v poslednej minúte
 
-dnes 18:51
+ut 18:51
 
 Zväz zdôraznil, že rešpektuje uznesenie súdu, ktorý zamietol návrh na priznanie odkladného účinku správnej žalobe.
 
 SFZ pokračuje v súdnom spore s ministerstvom. Varuje pred ohrozením mládežníckeho futbalu
 
-dnes 13:43
+ut 13:43
 
 ∙
 5
@@ -1086,6 +1096,12 @@ po 13:25
 ∙
 12
 
+Sledovali ste spolu s nami online prenos z osemfinále Slovnaft Cupu: MŠK Žilina - MFK Ružomberok.
+
+Slovnaft Cup: Žilina zdolala Ružomberok gólom v závere a postúpila do štvrťfinále
+
+ut 14:00
+
 Mužstvo zložili od základov a teraz útočia na postup.
 
 Malý futbalový zázrak na východe Slovenska. Klub získal za pár mesiacov až 23 hráčov
@@ -1094,26 +1110,7 @@ Peter Cingel
 
 ∙
 
-dnes 08:00
-
-(Ne)tradičné zhrnutie kola futbalovej Niké ligy.
-
-Aj na gadžovskej lavičke vie byť človek Ščasný, ale ščasnejší je jesenný majster (tréneroviny)
-
-Richard Hanzlík
-
-∙
-
-po 09:00
-
-∙
-1
-
-Sledovali ste spolu s nami online prenos z osemfinále Slovnaft Cupu: MŠK Žilina - MFK Ružomberok.
-
-Slovnaft Cup: Žilina zdolala Ružomberok gólom v závere a postúpila do štvrťfinále
-
-dnes 14:00
+ut 08:00
 
 Vlani bronz, teraz čaká Baník boj o záchranu.
 
@@ -1128,6 +1125,19 @@ po 09:50
 ∙
 16
 
+(Ne)tradičné zhrnutie kola futbalovej Niké ligy.
+
+Aj na gadžovskej lavičke vie byť človek Ščasný, ale ščasnejší je jesenný majster (tréneroviny)
+
+Richard Hanzlík
+
+∙
+
+po 09:00
+
+∙
+1
+
 Domáce trápenie Košičanov pokračuje, Skalica zviedla súboj so systémom.
 
 Systém svadba a pohreb. Tréner Skalice pomenoval slovenskú mentalitu: Ak vyhráte ste Guardiola
@@ -1138,18 +1148,6 @@ Svjatoslav Dohovič
 
 po 08:22
 
-Dunajská Streda zdolala Komárno 3:0.
-
-DAC je prvý raz v histórii jesenným majstrom. V derby ho nepribrzdili ani zranenia
-
-Titanilla Bőd
-
-∙
-
-ne 23:15
-
-∙
-1
 Načítať ďalšie
 Najčítanejšie
 Najnovšie
@@ -1158,31 +1156,31 @@ Najnovšie
 7 dní
 1
 
-ONLINE: ŠK Slovan Bratislava - Real Betis dnes, Liga majstrov LIVE (5. kolo)
+Vlhová napokon nemusí prísť o dva obrovské slalomy. V programe nastane vynútená zmena
 
 2
 
-VIDEO: Šťastný sa hanbí za postoj Slovenska. Ostro kritizoval Šatana, zastal sa Slafkovského
+Slovan uhral najlepší výsledok. Fanúšikovia vypískali svoje eso a kričali naň: Dovidenia
 
 3
 
-Hokejisti Nitry potvrdili narastajúcu formu. Odpor Prešova zlomili v záverečnej časti
+Všetko ide proti nám, neviem, čo sa deje. Zvláštna atmosféra, tvrdí tréner Slovana
 
 4
 
-Shiffrinovú mrzelo, že vystrašila fanúšikov. Namiesto osláv mala dieru v bruchu
+Kráľovské platy, veľké hviezdy. Hádzanársky Real Madrid má po Orbánovom páde problém
 
 5
 
-Napinavý triler v Bratislave. Slovan zviedol s Mikulášom 11-gólovú prestrelku
+Španieli hodnotia Slovan: Bol to ostrý kontrast. Neskôr sa ukázalo, prečo je posledný
 
 6
 
-Víťazná séria hokejistov Košíc sa skončila. Na domácom ľade padli proti rivalovi z východu
+Rusom povolili návrat na MS, IIHF však vytiahla vážnu námietku. Spor mieri pred súd
 
 7
 
-Prvá vzájomná konfrontácia. Kde sledovať zápas ŠK Slovan Bratislava - Real Betis? (TV program)
+V pätnástich ju prirovnávali k Shiffrinovej. Dnes je na čele Svetového pohára, Taliani môžu ľutovať
 
 Späť na vrch
 Redakcia a kontakty
