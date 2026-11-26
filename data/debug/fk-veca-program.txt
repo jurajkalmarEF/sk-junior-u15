@@ -583,50 +583,68 @@ COM
 AEK
 0
 Detail zápasu
+25.11.
 SLA
-25.11. 18:45
+0
+5. kolo
 VIL
-5. kolo
+1
 Detail zápasu
+25.11.
 SAB
-25.11. 18:45
+1
+5. kolo
 BAR
-5. kolo
+4
 Detail zápasu
+25.11.
 PSG
-25.11. 21:00
+2
+5. kolo
 ROM
-5. kolo
+2
 Detail zápasu
+25.11.
 INT
-25.11. 21:00
+2
+5. kolo
 STU
-5. kolo
+0
 Detail zápasu
+25.11.
 ATM
-25.11. 21:00
+2
+5. kolo
 VIK
-5. kolo
+0
 Detail zápasu
+25.11.
 SPO
-25.11. 21:00
+2
+5. kolo
 MUN
-5. kolo
+2
 Detail zápasu
+25.11.
 BRU
-25.11. 21:00
+0
+5. kolo
 LIV
-5. kolo
+3
 Detail zápasu
+25.11.
 LIL
-25.11. 21:00
+2
+5. kolo
 FCB
-5. kolo
+1
 Detail zápasu
+25.11.
 SHK
-25.11. 21:00
-FEN
+0
 5. kolo
+FEN
+1
 Detail zápasu
 VIL
 08.12. 18:45
@@ -898,10 +916,10 @@ LSK
 POR
 8. kolo
 Detail zápasu
+Biznis v NHL ho pripravil o detský sen. Montreal vymenil hráča, ktorý bol pre klub ako stvorený
 Hrá hokej aj Osadníkov z Katanu. Kanaďan zo Spišskej Novej Vsi má nezvyčajnú vášeň
 Nemci ho triafali do obličiek, močil krv. Legendárni bratia Pospíšilovci ladili formu v Tatrách
 Krádež Montrealu, tvrdia experti. Larkinov príchod znamená koniec prestavby Canadiens
-Český tréner Slovákov prišiel do neznáma: V slovenskom biatlone ma trápia medziľudské vzťahy
 Sedemročná Elizabeth Gašparíková po európskom zlate vyhrala aj Svetový pohár
 Kluby
 /
@@ -1033,6 +1051,16 @@ FK Veča
 Načítať ďalšie
 Správy z Futbalnetu
 
+Z 20 zápasov prehrali iba dva, v 3. kole a v pohári so Žilinou.
+
+Ak zostaneme prví, postup už neodmietneme, potvrdil šéf klubu. Posily musia selektovať
+
+Marián Dragúň
+
+∙
+
+dnes 09:25
+
 Do top zostavy sa dostali hráči šiestich klubov.
 
 Najviac hlasov dostal najlepší strelec. Aká je najlepšia jedenástka jesene II. ligy?
@@ -1041,7 +1069,7 @@ Titanilla Bőd
 
 ∙
 
-dnes 11:35
+st 11:35
 
 Postup Žiliny zariadil Chorvát Roginič.
 
@@ -1078,7 +1106,7 @@ Spor o milióny pokračuje. SFZ neuspel na súde, ministerstvo môže peniaze po
 po 13:25
 
 ∙
-12
+13
 
 Sledovali ste spolu s nami online prenos z osemfinále Slovnaft Cupu: MŠK Žilina - MFK Ružomberok.
 
@@ -1121,17 +1149,6 @@ po 09:00
 
 ∙
 1
-
-Domáce trápenie Košičanov pokračuje, Skalica zviedla súboj so systémom.
-
-Systém svadba a pohreb. Tréner Skalice pomenoval slovenskú mentalitu: Ak vyhráte ste Guardiola
-
-Svjatoslav Dohovič
-
-∙
-
-po 08:22
-
 Načítať ďalšie
 Najčítanejšie
 Najnovšie
@@ -1140,31 +1157,31 @@ Najnovšie
 7 dní
 1
 
-Vlhová napokon nemusí prísť o dva obrovské slalomy. V programe nastane vynútená zmena
+Ľudia sú blázni, začali ju atakovať. Slovák z Killingtonu vysvetlil, prečo Vlhová vynechá zámorie
 
 2
 
-Slovan uhral najlepší výsledok. Fanúšikovia vypískali svoje eso a kričali naň: Dovidenia
+Ak zostaneme prví, postup už neodmietneme, potvrdil šéf klubu. Posily musia selektovať
 
 3
 
-Všetko ide proti nám, neviem, čo sa deje. Zvláštna atmosféra, tvrdí tréner Slovana
+Španieli žasli nad jedným Slovákom, druhý prežil večer, na ktorý nezabudne
 
 4
 
-Kráľovské platy, veľké hviezdy. Hádzanársky Real Madrid má po Orbánovom páde problém
+Vlhová napokon nemusí prísť o dva obrovské slalomy. V programe nastane vynútená zmena
 
 5
 
-Španieli hodnotia Slovan: Bol to ostrý kontrast. Neskôr sa ukázalo, prečo je posledný
+Tréner chrápal na mítingu, no klub vyhodil legendu. Amerika rieši nevídanú kauzu
 
 6
 
-Rusom povolili návrat na MS, IIHF však vytiahla vážnu námietku. Spor mieri pred súd
+Biatlonová zima sa začína. Slovenskú trojicu čaká vo Fínsku dvadsať kilometrov
 
 7
 
-V pätnástich ju prirovnávali k Shiffrinovej. Dnes je na čele Svetového pohára, Taliani môžu ľutovať
+Viktória Chladoňová a jej program a výsledky v cyklokrosovej sezóne 2026/2027
 
 Späť na vrch
 Redakcia a kontakty
@@ -1188,3 +1205,20 @@ Akčný plán
 Licencie
 |
 Žiadosť o opravu
+
+Cookies a obdobné nástroje
+
+Aby ste mali rovnaký zážitok z čítania nášho webu ako doteraz, podľa zákona potrebujeme váš súhlas na:
+Personalizovaná reklama a obsah, meranie reklamy a obsahu, prieskum cieľových skupín a vývoj služieb
+Uchovávanie alebo prístup k informáciám na zariadení
+Ďalšie informácie
+
+Vaše osobné údaje budú spracúvané a informácie z vášho zariadenia (súbory cookie, jedinečné identifikátory a ďalšie údaje o zariadení) môžu byť ukladané a používané 530 partnermi a môžu s nimi byť zdieľané alebo môžu byť využívané konkrétne týmito webovými stránkami. My a naši partneri môžeme používať presné údaje o geolokácii. Pozrite si zoznam partnerov.
+
+Niektorí dodávatelia môžu spracúvať vaše osobné údaje na základe oprávneného záujmu, proti ktorému môžete vzniesť námietku pomocou možností nižšie. Dole na tejto stránke alebo v ponuke webu nájdite odkaz, pomocou ktorého môžete spravovať alebo odvolať súhlas v nastaveniach ochrany súkromia a súborov cookie.
+
+Súhlasím
+
+Pokračovať s nevyhnutnými cookies →
+
+Nastavenia
